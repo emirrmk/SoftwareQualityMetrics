@@ -4,143 +4,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Software Quality Metrics Dashboard</title>
+    <title>Software Quality Metrics - Visualizations</title>
     <style>
         :root {
             --bg: #0d1117;
             --card-bg: #161b22;
-            --text: #e6edf3;
+            --text: #c9d1d9;
+            --text-muted: #8b949e;
             --accent: #58a6ff;
             --border: #30363d;
         }
 
         body {
+            margin: 0;
+            padding: 0;
             background-color: var(--bg);
             color: var(--text);
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            margin: 0;
-            padding: 40px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: center;
             min-height: 100vh;
         }
 
-        header {
+        .container {
+            max-width: 800px;
+            width: 90%;
             text-align: center;
-            margin-bottom: 60px;
         }
 
         h1 {
-            color: var(--accent);
-            font-weight: 300;
-            margin-bottom: 15px;
-            letter-spacing: 1px;
             font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(120deg, #58a6ff, #bc85ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
         p.subtitle {
-            color: #8b949e;
+            color: var(--text-muted);
+            margin-bottom: 3rem;
             font-size: 1.1rem;
         }
 
-        .container {
+        .grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 30px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
             width: 100%;
-            max-width: 1000px;
         }
 
         .card {
             background: var(--card-bg);
             border: 1px solid var(--border);
             border-radius: 12px;
-            padding: 40px;
+            padding: 24px;
             text-decoration: none;
             color: inherit;
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
             position: relative;
             overflow: hidden;
-        }
-
-        .card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 4px;
-            background: var(--accent);
-            transform: scaleX(0);
-            transition: transform 0.3s ease;
-            transform-origin: left;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: left;
         }
 
         .card:hover {
-            transform: translateY(-10px);
+            transform: translateY(-5px);
             border-color: var(--accent);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-        }
-
-        .card:hover::before {
-            transform: scaleX(1);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
         }
 
         .card h2 {
-            margin: 0;
-            color: var(--text);
-            font-size: 1.8rem;
-            font-weight: 500;
+            margin: 0 0 10px 0;
+            font-size: 1.4rem;
+            color: var(--accent);
         }
 
         .card p {
             margin: 0;
-            color: #8b949e;
-            line-height: 1.6;
-            font-size: 1.05rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+            font-size: 0.95rem;
         }
 
         .card-icon {
-            font-size: 3rem;
-            margin-bottom: 10px;
+            font-size: 2rem;
+            margin-bottom: 15px;
         }
 
-        .footer {
-            margin-top: auto;
-            padding-top: 60px;
-            color: #484f58;
-            font-size: 0.9rem;
+        footer {
+            margin-top: 4rem;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        .badge {
+            background: rgba(88, 166, 255, 0.1);
+            color: var(--accent);
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 12px;
         }
     </style>
 </head>
 
 <body>
-    <header>
-        <h1>Microservice Quality Insights</h1>
-        <p class="subtitle">Interactive visualizations for software architecture analysis</p>
-    </header>
-
     <div class="container">
-        <a href="chord_diagram.html" class="card">
-            <div class="card-icon">🕸️</div>
-            <h2>Chord Diagram</h2>
-            <p>Explore method-level interaction patterns and cross-service dependencies in a rich, interactive circular
-                layout.</p>
-        </a>
-        <a href="microservice_sankey.html" class="card">
-            <div class="card-icon">📊</div>
-            <h2>Sankey Diagram</h2>
-            <p>Visualize the flow and volume of communication between services with a comprehensive structural overview.
-            </p>
-        </a>
-    </div>
+        <h1>Microservice Interaction Visualizations</h1>
+        <p class="subtitle">Interactive analysis of service dependencies and method calls</p>
 
-    <div class="footer">
-        Generated for Software Quality Metrics Project
+        <div class="grid">
+            <a href="chord_diagram.html" class="card">
+                <div class="badge">D3.js Visualization</div>
+                <div class="card-icon">⭕</div>
+                <h2>Chord Diagram</h2>
+                <p>A hierarchical visualization of method-level interactions grouped by service. Explore dependencies
+                    with interactive highlighting and tooltips.</p>
+            </a>
+
+            <a href="microservice_sankey.html" class="card">
+                <div class="badge">Plotly Visualization</div>
+                <div class="card-icon">🔀</div>
+                <h2>Sankey Diagram</h2>
+                <p>Flow-based visualization of service interactions. Trace the volume and direction of calls across the
+                    entire microservice ecosystem.</p>
+            </a>
+        </div>
+
+        <footer>
+            Software Quality Metric Project &copy; 2025
+        </footer>
     </div>
 </body>
 
