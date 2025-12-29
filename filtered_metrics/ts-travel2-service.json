@@ -1,0 +1,1857 @@
+{
+  "classes": {
+    "travel2.entity.Travel": {
+      "metrics": {
+        "cbo": "2",
+        "cboModified": "3",
+        "fanin": "1",
+        "fanout": "2",
+        "wmc": "1",
+        "dit": "1",
+        "lcom*": "1.0",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "4",
+        "privateFieldsQty": "4",
+        "loc": "8",
+        "variablesQty": "4",
+        "uniqueWordsQty": "9",
+        "modifiers": "1"
+      },
+      "methods": {
+        "Travel/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "1",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "travel2.config.SecurityConfig$Anonymous1": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "1",
+        "fanout": "1",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "6",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "loc": "5",
+        "stringLiteralsQty": "1",
+        "numbersQty": "1",
+        "uniqueWordsQty": "8",
+        "modifiers": "-1"
+      },
+      "methods": {
+        "addCorsMappings/1[travel2.config.CorsRegistry]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "1",
+            "numbersQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "registry": "1"
+          }
+        }
+      }
+    },
+    "travel2.entity.Trip": {
+      "metrics": {
+        "cbo": "12",
+        "cboModified": "18",
+        "fanin": "6",
+        "fanout": "12",
+        "wmc": "3",
+        "dit": "1",
+        "rfc": "1",
+        "lcom*": "0.2962963",
+        "tcc": "1.0",
+        "lcc": "1.0",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "3",
+        "visibleMethodsQty": "3",
+        "totalFieldsQty": "9",
+        "privateFieldsQty": "9",
+        "loc": "36",
+        "stringLiteralsQty": "13",
+        "numbersQty": "1",
+        "assignmentsQty": "19",
+        "variablesQty": "9",
+        "uniqueWordsQty": "18",
+        "modifiers": "1"
+      },
+      "methods": {
+        "Trip/3[travel2.entity.TripId,java.lang.String,java.lang.String]": {
+          "metrics": {
+            "constructor": "true",
+            "cbo": "1",
+            "wmc": "1",
+            "loc": "9",
+            "parametersQty": "3",
+            "stringLiteralsQty": "4",
+            "assignmentsQty": "7",
+            "uniqueWordsQty": "7",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "routeId": "3",
+            "terminalStationName": "1",
+            "tripId": "3",
+            "startTime": "1",
+            "endTime": "1",
+            "trainTypeName": "3",
+            "startStationName": "1"
+          },
+          "variable_usages": {
+            "routeId": "2",
+            "tripId": "2",
+            "trainTypeName": "2"
+          }
+        },
+        "Trip/7[edu.fudan.common.entity.TripId,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String]": {
+          "metrics": {
+            "constructor": "true",
+            "cbo": "1",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "9",
+            "parametersQty": "7",
+            "methodsInvokedQty": "1",
+            "assignmentsQty": "7",
+            "uniqueWordsQty": "12",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "terminalStationName": "3",
+            "stationsName": "3",
+            "tripId": "3",
+            "startTime": "3",
+            "endTime": "3",
+            "trainTypeName": "3",
+            "startStationName": "3"
+          },
+          "variable_usages": {
+            "terminalStationName": "2",
+            "stationsName": "2",
+            "tripId": "2",
+            "startTime": "2",
+            "endTime": "2",
+            "trainTypeName": "2",
+            "startStationName": "2"
+          }
+        },
+        "Trip/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "11",
+            "fanin": "11",
+            "wmc": "1",
+            "loc": "7",
+            "stringLiteralsQty": "5",
+            "assignmentsQty": "5",
+            "uniqueWordsQty": "1",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "terminalStationName": "1",
+            "startTime": "1",
+            "endTime": "1",
+            "trainTypeName": "1",
+            "startStationName": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "travel2.init.InitData": {
+      "metrics": {
+        "cbo": "5",
+        "cboModified": "5",
+        "fanout": "5",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "9",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "5",
+        "defaultFieldsQty": "5",
+        "loc": "55",
+        "stringLiteralsQty": "26",
+        "assignmentsQty": "5",
+        "variablesQty": "6",
+        "uniqueWordsQty": "33",
+        "modifiers": "1"
+      },
+      "methods": {
+        "run/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "9",
+            "loc": "48",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "9",
+            "stringLiteralsQty": "22",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "25",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "zhiDa": "3",
+            "nanjing": "5",
+            "service": "5",
+            "shanghai": "5",
+            "beijing": "5"
+          },
+          "variable_usages": {
+            "args": "0",
+            "info": "45"
+          }
+        }
+      }
+    },
+    "travel2.service.TravelServiceImpl$Anonymous4": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "travel2.service.TravelServiceImpl$Anonymous3": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "travel2.service.TravelServiceImpl$Anonymous2": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "travel2.service.TravelServiceImpl$Anonymous1": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "travel2.config.SecurityConfig": {
+      "metrics": {
+        "cbo": "13",
+        "cboModified": "13",
+        "fanout": "13",
+        "wmc": "3",
+        "dit": "2",
+        "rfc": "15",
+        "lcom": "3",
+        "lcom*": "0.6666667",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "2",
+        "protectedMethodsQty": "1",
+        "visibleMethodsQty": "3",
+        "totalFieldsQty": "2",
+        "defaultFieldsQty": "2",
+        "loc": "19",
+        "returnQty": "2",
+        "stringLiteralsQty": "9",
+        "assignmentsQty": "2",
+        "variablesQty": "2",
+        "anonymousClassesQty": "1",
+        "uniqueWordsQty": "67",
+        "modifiers": "1"
+      },
+      "methods": {
+        "passwordEncoder/0": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "7",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "configure/1[travel2.config.HttpSecurity]": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "rfc": "15",
+            "loc": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "15",
+            "stringLiteralsQty": "7",
+            "uniqueWordsQty": "19",
+            "modifiers": "4"
+          },
+          "field_usages": {
+            "trips": "3",
+            "admin": "3"
+          },
+          "variable_usages": {
+            "httpSecurity": "2"
+          }
+        },
+        "corsConfigurer/0": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "loc": "8",
+            "returnsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "43",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "travel2.entity.AdminTrip": {
+      "metrics": {
+        "cbo": "4",
+        "cboModified": "5",
+        "fanin": "1",
+        "fanout": "4",
+        "wmc": "1",
+        "dit": "1",
+        "lcom*": "1.0",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "3",
+        "privateFieldsQty": "3",
+        "loc": "7",
+        "variablesQty": "3",
+        "uniqueWordsQty": "9",
+        "modifiers": "1"
+      },
+      "methods": {
+        "AdminTrip/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "2",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "travel2.repository.TripRepository": {
+      "metrics": {
+        "cbo": "4",
+        "cboModified": "6",
+        "fanin": "2",
+        "fanout": "4",
+        "wmc": "4",
+        "dit": "1",
+        "lcom": "6",
+        "totalMethodsQty": "4",
+        "defaultMethodsQty": "4",
+        "visibleMethodsQty": "4",
+        "loc": "6",
+        "uniqueWordsQty": "11",
+        "modifiers": "1"
+      },
+      "methods": {
+        "deleteByTripId/1[travel2.repository.TripId]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "5"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "tripId": "0"
+          }
+        },
+        "findByTripId/1[travel2.repository.TripId]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "19",
+            "fanin": "19",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "5"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "tripId": "0"
+          }
+        },
+        "findByRouteId/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "5"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "routeId": "0"
+          }
+        },
+        "findAll/0": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "9",
+            "fanin": "9",
+            "wmc": "1",
+            "loc": "1",
+            "uniqueWordsQty": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "travel2.service.TravelServiceImpl": {
+      "metrics": {
+        "cbo": "30",
+        "cboModified": "32",
+        "fanin": "2",
+        "fanout": "30",
+        "wmc": "53",
+        "dit": "1",
+        "rfc": "103",
+        "lcom*": "0.6416667",
+        "tcc": "1.0",
+        "lcc": "1.0",
+        "totalMethodsQty": "20",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "12",
+        "privateMethodsQty": "8",
+        "visibleMethodsQty": "12",
+        "totalFieldsQty": "6",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "3",
+        "defaultFieldsQty": "3",
+        "finalFieldsQty": "1",
+        "nosi": "7",
+        "loc": "370",
+        "returnQty": "42",
+        "loopQty": "5",
+        "comparisonsQty": "20",
+        "tryCatchQty": "1",
+        "stringLiteralsQty": "66",
+        "numbersQty": "33",
+        "assignmentsQty": "89",
+        "mathOperationsQty": "20",
+        "variablesQty": "89",
+        "maxNestedBlocksQty": "3",
+        "anonymousClassesQty": "4",
+        "uniqueWordsQty": "147",
+        "modifiers": "1",
+        "logStatementsQty": "28"
+      },
+      "methods": {
+        "retrieve/2[java.lang.String,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "4",
+            "fanin": "2",
+            "fanout": "2",
+            "wmc": "2",
+            "rfc": "2",
+            "loc": "11",
+            "returnsQty": "2",
+            "variablesQty": "2",
+            "parametersQty": "2",
+            "methodsInvokedQty": "2",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "3",
+            "numbersQty": "2",
+            "assignmentsQty": "2",
+            "mathOperationsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "14",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "repository": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "trip": "2",
+            "ti": "1",
+            "tripId": "4"
+          }
+        },
+        "getRestTicketNumber/8[java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int,java.util.List<java.lang.String>,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "3",
+            "fanin": "1",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "13",
+            "loc": "18",
+            "returnsQty": "1",
+            "variablesQty": "4",
+            "parametersQty": "8",
+            "methodsInvokedQty": "13",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "4",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "33",
+            "modifiers": "2",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "seatType": "1",
+            "re": "2",
+            "endStationName": "1",
+            "travelDate": "1",
+            "totalNum": "1",
+            "stationList": "1",
+            "seatRequest": "9",
+            "trainNumber": "1",
+            "seat_service_url": "1",
+            "requestEntity": "1",
+            "startStationName": "1"
+          }
+        },
+        "delete/2[java.lang.String,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "5",
+            "fanin": "2",
+            "fanout": "3",
+            "wmc": "2",
+            "rfc": "3",
+            "loc": "11",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "5",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "mathOperationsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "9",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "repository": "2"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "ti": "2",
+            "tripId": "5"
+          }
+        },
+        "getRouteByTripId/2[java.lang.String,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "6",
+            "fanin": "2",
+            "fanout": "4",
+            "wmc": "3",
+            "rfc": "5",
+            "loc": "19",
+            "returnsQty": "3",
+            "variablesQty": "3",
+            "parametersQty": "2",
+            "methodsInvokedQty": "5",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "2",
+            "comparisonsQty": "2",
+            "stringLiteralsQty": "6",
+            "numbersQty": "3",
+            "assignmentsQty": "3",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "17",
+            "modifiers": "1",
+            "logStatementsQty": "3"
+          },
+          "field_usages": {
+            "repository": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "trip": "3",
+            "route": "2",
+            "tripId1": "1",
+            "tripId": "2"
+          }
+        },
+        "queryAll/1[travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "4",
+            "fanin": "2",
+            "fanout": "2",
+            "wmc": "3",
+            "rfc": "3",
+            "loc": "8",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "2",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "success": "1",
+            "noCnontent": "1",
+            "repository": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "tripList": "3"
+          }
+        },
+        "afterToday/1[java.lang.String]": {
+          "metrics": {
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "5",
+            "rfc": "4",
+            "loc": "24",
+            "returnsQty": "5",
+            "variablesQty": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "4",
+            "comparisonsQty": "2",
+            "assignmentsQty": "3",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "11",
+            "modifiers": "10"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "date": "1",
+            "today": "1",
+            "calDateA": "6",
+            "calDateB": "6"
+          }
+        },
+        "getRouteByRouteId/2[java.lang.String,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "6",
+            "fanin": "2",
+            "fanout": "4",
+            "wmc": "2",
+            "rfc": "9",
+            "loc": "15",
+            "returnsQty": "2",
+            "variablesQty": "4",
+            "parametersQty": "2",
+            "methodsInvokedQty": "9",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "5",
+            "numbersQty": "1",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "22",
+            "modifiers": "2",
+            "logStatementsQty": "3"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "result": "2",
+            "headers": "0",
+            "route_service_url": "1",
+            "routeId": "3",
+            "re": "1",
+            "requestEntity": "1"
+          }
+        },
+        "getTripByRoute/2[java.util.ArrayList<java.lang.String>,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "4",
+            "fanin": "2",
+            "fanout": "2",
+            "wmc": "4",
+            "rfc": "5",
+            "loc": "17",
+            "returnsQty": "2",
+            "variablesQty": "2",
+            "parametersQty": "2",
+            "methodsInvokedQty": "5",
+            "loopQty": "1",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "1",
+            "numbersQty": "2",
+            "assignmentsQty": "3",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "17",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "success": "1",
+            "noCnontent": "1",
+            "repository": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "routeId": "1",
+            "tempTripList": "3",
+            "tripList": "3",
+            "routeIds": "2"
+          }
+        },
+        "query/2[travel2.service.TripInfo,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "4",
+            "fanin": "1",
+            "fanout": "3",
+            "wmc": "4",
+            "rfc": "7",
+            "loc": "18",
+            "returnsQty": "1",
+            "variablesQty": "5",
+            "parametersQty": "2",
+            "methodsInvokedQty": "7",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "4",
+            "loopQty": "1",
+            "comparisonsQty": "2",
+            "stringLiteralsQty": "2",
+            "numbersQty": "1",
+            "assignmentsQty": "5",
+            "maxNestedBlocksQty": "3",
+            "uniqueWordsQty": "19",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "repository": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "allTripList": "2",
+            "response": "2",
+            "StartPlaceName": "2",
+            "tempTrip": "1",
+            "endPlaceName": "2",
+            "list": "2",
+            "info": "4"
+          }
+        },
+        "adminQueryAll/1[travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "7",
+            "fanin": "2",
+            "fanout": "5",
+            "wmc": "4",
+            "rfc": "11",
+            "loc": "20",
+            "returnsQty": "2",
+            "variablesQty": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "11",
+            "methodsInvokedLocalQty": "2",
+            "methodsInvokedIndirectLocalQty": "3",
+            "loopQty": "1",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "3",
+            "numbersQty": "2",
+            "assignmentsQty": "3",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "24",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "noCnontent": "1",
+            "repository": "1"
+          },
+          "variable_usages": {
+            "headers": "2",
+            "trip": "3",
+            "trips": "2",
+            "adminTrips": "3",
+            "adminTrip": "4"
+          }
+        },
+        "getTripAllDetailInfo/2[travel2.service.TripAllDetailInfo,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "10",
+            "cboModified": "7",
+            "fanin": "1",
+            "fanout": "6",
+            "wmc": "3",
+            "rfc": "12",
+            "loc": "27",
+            "returnsQty": "3",
+            "variablesQty": "5",
+            "parametersQty": "2",
+            "methodsInvokedQty": "12",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "4",
+            "comparisonsQty": "2",
+            "stringLiteralsQty": "5",
+            "numbersQty": "3",
+            "assignmentsQty": "5",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "18",
+            "modifiers": "1",
+            "logStatementsQty": "3"
+          },
+          "field_usages": {
+            "success": "1",
+            "repository": "2"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "tripResponse": "2",
+            "gtdi": "11",
+            "trip": "2",
+            "StartPlaceName": "0",
+            "endPlaceName": "0",
+            "gtdr": "9"
+          }
+        },
+        "setResponse/6[travel2.entity.Trip,travel2.service.TravelResult,java.lang.String,java.lang.String,java.lang.String,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "4",
+            "fanin": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "33",
+            "loc": "37",
+            "returnsQty": "1",
+            "variablesQty": "16",
+            "parametersQty": "6",
+            "methodsInvokedQty": "33",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "2",
+            "stringLiteralsQty": "4",
+            "numbersQty": "6",
+            "assignmentsQty": "16",
+            "mathOperationsQty": "6",
+            "uniqueWordsQty": "32",
+            "modifiers": "2",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "departureTime": "2",
+            "startPlaceName": "4",
+            "headers": "2",
+            "secondClassTotalNum": "1",
+            "distanceStart": "1",
+            "trainType": "2",
+            "calendarEnd": "4",
+            "firstClassTotalNum": "1",
+            "distanceEnd": "1",
+            "minutesStart": "2",
+            "second": "1",
+            "indexStart": "1",
+            "trip": "6",
+            "route": "7",
+            "response": "13",
+            "stationList": "2",
+            "endPlaceName": "4",
+            "minutesEnd": "2",
+            "indexEnd": "1",
+            "tr": "6",
+            "first": "1",
+            "calendarStart": "4"
+          }
+        },
+        "getServiceUrl/1[java.lang.String]": {
+          "metrics": {
+            "cboModified": "5",
+            "fanin": "5",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "stringLiteralsQty": "1",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "serviceName": "1"
+          }
+        },
+        "update/2[edu.fudan.common.entity.TravelInfo,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "4",
+            "fanin": "2",
+            "fanout": "2",
+            "wmc": "2",
+            "rfc": "18",
+            "loc": "19",
+            "returnsQty": "2",
+            "variablesQty": "2",
+            "parametersQty": "2",
+            "methodsInvokedQty": "18",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "4",
+            "numbersQty": "2",
+            "assignmentsQty": "2",
+            "mathOperationsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "10",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "repository": "2"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "t": "10",
+            "ti": "2",
+            "info": "10"
+          }
+        },
+        "getTicketsByBatch/5[java.util.List<travel2.entity.Trip>,java.lang.String,java.lang.String,java.lang.String,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "12",
+            "cboModified": "7",
+            "fanin": "1",
+            "fanout": "6",
+            "wmc": "6",
+            "rfc": "25",
+            "loc": "46",
+            "returnsQty": "4",
+            "variablesQty": "14",
+            "parametersQty": "5",
+            "methodsInvokedQty": "25",
+            "methodsInvokedLocalQty": "3",
+            "methodsInvokedIndirectLocalQty": "3",
+            "loopQty": "2",
+            "comparisonsQty": "1",
+            "tryCatchQty": "1",
+            "stringLiteralsQty": "6",
+            "numbersQty": "1",
+            "assignmentsQty": "14",
+            "mathOperationsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "51",
+            "modifiers": "2",
+            "logStatementsQty": "4"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "departureTime": "4",
+            "tripMap": "2",
+            "startPlaceName": "2",
+            "headers": "1",
+            "e": "1",
+            "query": "5",
+            "trMap": "2",
+            "mapper": "1",
+            "trEntry": "2",
+            "r": "3",
+            "trip": "5",
+            "re": "1",
+            "basic_service_url": "1",
+            "trips": "2",
+            "response": "1",
+            "responses": "5",
+            "endPlaceName": "2",
+            "requestEntity": "1",
+            "tripNumber": "1",
+            "infos": "2",
+            "tr": "1"
+          }
+        },
+        "queryByBatch/2[travel2.service.TripInfo,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "5",
+            "loc": "8",
+            "returnsQty": "1",
+            "variablesQty": "4",
+            "parametersQty": "2",
+            "methodsInvokedQty": "5",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "4",
+            "numbersQty": "1",
+            "assignmentsQty": "5",
+            "uniqueWordsQty": "16",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "success": "1",
+            "repository": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "startPlaceName": "1",
+            "allTripList": "1",
+            "endPlaceName": "1",
+            "list": "2",
+            "info": "3"
+          }
+        },
+        "getTickets/6[travel2.entity.Trip,travel2.service.Route,java.lang.String,java.lang.String,java.lang.String,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "12",
+            "cboModified": "7",
+            "fanin": "2",
+            "fanout": "5",
+            "wmc": "3",
+            "rfc": "12",
+            "loc": "22",
+            "returnsQty": "3",
+            "variablesQty": "6",
+            "parametersQty": "6",
+            "methodsInvokedQty": "12",
+            "methodsInvokedLocalQty": "3",
+            "methodsInvokedIndirectLocalQty": "3",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "3",
+            "numbersQty": "1",
+            "assignmentsQty": "6",
+            "mathOperationsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "37",
+            "modifiers": "2",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "departureTime": "3",
+            "startPlaceName": "2",
+            "headers": "1",
+            "r": "2",
+            "trip": "2",
+            "route1": "0",
+            "re": "2",
+            "basic_service_url": "1",
+            "query": "5",
+            "resultForTravel": "1",
+            "endPlaceName": "2",
+            "requestEntity": "1"
+          }
+        },
+        "create/2[edu.fudan.common.entity.TravelInfo,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "5",
+            "fanin": "2",
+            "fanout": "3",
+            "wmc": "2",
+            "rfc": "13",
+            "loc": "13",
+            "returnsQty": "2",
+            "variablesQty": "2",
+            "parametersQty": "2",
+            "methodsInvokedQty": "13",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "5",
+            "numbersQty": "2",
+            "assignmentsQty": "2",
+            "mathOperationsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "9",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "repository": "2"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "trip": "2",
+            "ti": "3",
+            "info": "10"
+          }
+        },
+        "getTrainTypeByTripId/2[java.lang.String,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "4",
+            "fanin": "1",
+            "fanout": "3",
+            "wmc": "3",
+            "rfc": "4",
+            "loc": "18",
+            "returnsQty": "2",
+            "variablesQty": "3",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "2",
+            "comparisonsQty": "2",
+            "stringLiteralsQty": "3",
+            "numbersQty": "2",
+            "assignmentsQty": "4",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "17",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "noCnontent": "1",
+            "repository": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "trip": "2",
+            "trainType": "3",
+            "tripId1": "1",
+            "tripId": "3"
+          }
+        },
+        "getTrainTypeByName/2[java.lang.String,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "3",
+            "fanin": "2",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "8",
+            "returnsQty": "1",
+            "variablesQty": "3",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "3",
+            "mathOperationsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "21",
+            "modifiers": "2"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "re": "1",
+            "train_service_url": "1",
+            "trainTypeName": "1",
+            "requestEntity": "1"
+          }
+        }
+      }
+    },
+    "travel2.controller.Travel2Controller": {
+      "metrics": {
+        "cbo": "22",
+        "cboModified": "24",
+        "fanin": "2",
+        "fanout": "22",
+        "wmc": "17",
+        "dit": "1",
+        "rfc": "21",
+        "lcom*": "0.083333336",
+        "tcc": "0.8333333",
+        "lcc": "0.8333333",
+        "totalMethodsQty": "12",
+        "publicMethodsQty": "12",
+        "visibleMethodsQty": "12",
+        "totalFieldsQty": "2",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "2",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "56",
+        "returnQty": "13",
+        "comparisonsQty": "5",
+        "stringLiteralsQty": "34",
+        "numbersQty": "2",
+        "assignmentsQty": "2",
+        "variablesQty": "3",
+        "maxNestedBlocksQty": "1",
+        "uniqueWordsQty": "67",
+        "modifiers": "1",
+        "logStatementsQty": "12",
+        "external_microservice_call": 5
+      },
+      "methods": {
+        "queryInfo/2[edu.fudan.common.entity.TripInfo,travel2.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "10",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "6",
+            "rfc": "7",
+            "loc": "9",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "7",
+            "comparisonsQty": "5",
+            "stringLiteralsQty": "4",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "22",
+            "modifiers": "1",
+            "logStatementsQty": "2",
+            "hasJavaDoc": "true",
+            "external_microservice_call": 2
+          },
+          "field_usages": {
+            "service": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "errorList": "1",
+            "info": "8"
+          },
+          "invocations": {
+            "ts-route-plan-service": 1,
+            "ts-travel-plan-service": 1
+          }
+        },
+        "queryAll/1[travel2.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "10",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "service": "1"
+          },
+          "variable_usages": {
+            "headers": "1"
+          }
+        },
+        "retrieve/2[java.lang.String,travel2.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "18",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {
+            "service": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "tripId": "2"
+          }
+        },
+        "deleteTrip/2[java.lang.String,travel2.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "12",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "service": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "tripId": "2"
+          }
+        },
+        "getRouteByTripId/2[java.lang.String,travel2.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "13",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "service": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "tripId": "2"
+          }
+        },
+        "home/1[travel2.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "getTripsByRouteId/2[java.util.ArrayList<java.lang.String>,travel2.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "13",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "external_microservice_call": 1
+          },
+          "field_usages": {
+            "service": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "routeIds": "2"
+          },
+          "invocations": {
+            "ts-route-plan-service": 1
+          }
+        },
+        "getTrainTypeByTripId/2[java.lang.String,travel2.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "16",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "service": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "tripId": "2"
+          }
+        },
+        "getTripAllDetailInfo/2[edu.fudan.common.entity.TripAllDetailInfo,travel2.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "23",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "hasJavaDoc": "true",
+            "external_microservice_call": 1
+          },
+          "field_usages": {
+            "service": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "gtdi": "2"
+          },
+          "invocations": {
+            "ts-preserve-other-service": 1
+          }
+        },
+        "adminQueryAll/1[travel2.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "12",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "external_microservice_call": 1
+          },
+          "field_usages": {
+            "service": "1"
+          },
+          "variable_usages": {
+            "headers": "1"
+          },
+          "invocations": {
+            "ts-admin-travel-service": 1
+          }
+        },
+        "updateTrip/2[edu.fudan.common.entity.TravelInfo,travel2.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "9",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "service": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "info": "3"
+          }
+        },
+        "createTrip/2[edu.fudan.common.entity.TravelInfo,travel2.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "10",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "7",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "service": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "routeIds": "2"
+          }
+        }
+      }
+    },
+    "travel2.service.TravelService": {
+      "metrics": {
+        "cbo": "5",
+        "cboModified": "9",
+        "fanin": "4",
+        "fanout": "5",
+        "wmc": "12",
+        "dit": "1",
+        "lcom": "66",
+        "totalMethodsQty": "12",
+        "defaultMethodsQty": "12",
+        "visibleMethodsQty": "12",
+        "loc": "14",
+        "uniqueWordsQty": "26",
+        "modifiers": "1"
+      },
+      "methods": {
+        "delete/2[java.lang.String,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "3"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "tripId": "0"
+          }
+        },
+        "getTripAllDetailInfo/2[edu.fudan.common.entity.TripAllDetailInfo,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "7"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "gtdi": "0"
+          }
+        },
+        "create/2[edu.fudan.common.entity.TravelInfo,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "3",
+            "fanin": "3",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "3"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "info": "0"
+          }
+        },
+        "query/2[travel2.service.TripInfo,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "5"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "info": "0"
+          }
+        },
+        "getTripByRoute/2[java.util.ArrayList<java.lang.String>,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "6"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "routeIds": "0"
+          }
+        },
+        "adminQueryAll/1[travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "7"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "queryAll/1[travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "6"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "update/2[edu.fudan.common.entity.TravelInfo,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "3"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "info": "0"
+          }
+        },
+        "queryByBatch/2[travel2.service.TripInfo,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "7"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "info": "0"
+          }
+        },
+        "getTrainTypeByTripId/2[java.lang.String,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "8"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "tripId": "0"
+          }
+        },
+        "retrieve/2[java.lang.String,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "3"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "tripId": "0"
+          }
+        },
+        "getRouteByTripId/2[java.lang.String,travel2.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "7"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "tripId": "0"
+          }
+        }
+      }
+    },
+    "travel2.entity.TripAllDetail": {
+      "metrics": {
+        "cbo": "5",
+        "cboModified": "6",
+        "fanin": "1",
+        "fanout": "5",
+        "dit": "1",
+        "lcom*": "NaN",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "totalFieldsQty": "4",
+        "privateFieldsQty": "4",
+        "loc": "6",
+        "variablesQty": "4",
+        "uniqueWordsQty": "8",
+        "modifiers": "1"
+      },
+      "methods": {}
+    },
+    "travel2.Travel2Application": {
+      "metrics": {
+        "cbo": "11",
+        "cboModified": "12",
+        "fanin": "1",
+        "fanout": "11",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "2",
+        "lcom": "1",
+        "totalMethodsQty": "2",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "loc": "8",
+        "returnQty": "1",
+        "uniqueWordsQty": "14",
+        "modifiers": "1"
+      },
+      "methods": {
+        "restTemplate/1[travel2.RestTemplateBuilder]": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "builder": "1"
+          }
+        },
+        "main/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "args": "1"
+          }
+        }
+      }
+    }
+  },
+  "microservice_name": "ts-travel2-service",
+  "external_microservice_call": 5
+}

@@ -1,0 +1,1149 @@
+{
+  "classes": {
+    "user.service.UserService": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "7",
+        "fanin": "4",
+        "fanout": "3",
+        "wmc": "6",
+        "dit": "1",
+        "lcom": "15",
+        "totalMethodsQty": "6",
+        "defaultMethodsQty": "6",
+        "visibleMethodsQty": "6",
+        "loc": "8",
+        "uniqueWordsQty": "18",
+        "modifiers": "1"
+      },
+      "methods": {
+        "saveUser/2[user.dto.UserDto,user.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "5"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "user": "0"
+          }
+        },
+        "deleteUser/2[java.lang.String,user.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "userId": "0"
+          }
+        },
+        "getAllUsers/1[user.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "7"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "updateUser/2[user.dto.UserDto,user.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "5"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "user": "0"
+          }
+        },
+        "findByUserId/2[java.lang.String,user.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "6"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "userId": "0"
+          }
+        },
+        "findByUserName/2[java.lang.String,user.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "6"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "userName": "0"
+          }
+        }
+      }
+    },
+    "user.dto.UserDto": {
+      "metrics": {
+        "cbo": "5",
+        "cboModified": "10",
+        "fanin": "5",
+        "fanout": "5",
+        "dit": "1",
+        "lcom*": "NaN",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "totalFieldsQty": "7",
+        "privateFieldsQty": "7",
+        "loc": "9",
+        "variablesQty": "7",
+        "uniqueWordsQty": "12",
+        "modifiers": "1"
+      },
+      "methods": {}
+    },
+    "user.config.SecurityConfig$Anonymous1": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "1",
+        "fanout": "1",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "6",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "loc": "5",
+        "stringLiteralsQty": "1",
+        "numbersQty": "1",
+        "uniqueWordsQty": "8",
+        "modifiers": "-1"
+      },
+      "methods": {
+        "addCorsMappings/1[user.config.CorsRegistry]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "1",
+            "numbersQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "registry": "1"
+          }
+        }
+      }
+    },
+    "user.repository.UserRepository": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "6",
+        "fanin": "3",
+        "fanout": "3",
+        "wmc": "4",
+        "dit": "1",
+        "lcom": "6",
+        "totalMethodsQty": "4",
+        "defaultMethodsQty": "4",
+        "visibleMethodsQty": "4",
+        "loc": "6",
+        "uniqueWordsQty": "10",
+        "modifiers": "1"
+      },
+      "methods": {
+        "findByUserName/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "9",
+            "fanin": "9",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "5"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "userName": "0"
+          }
+        },
+        "deleteByUserId/1[java.lang.String]": {
+          "metrics": {
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "5"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "userId": "0"
+          }
+        },
+        "findByUserId/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "6",
+            "fanin": "6",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "5"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "userId": "0"
+          }
+        },
+        "findAll/0": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "3",
+            "fanin": "3",
+            "wmc": "1",
+            "loc": "1",
+            "uniqueWordsQty": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "user.service.impl.UserServiceImpl$Anonymous1": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "user.UserApplication": {
+      "metrics": {
+        "cbo": "11",
+        "cboModified": "12",
+        "fanin": "1",
+        "fanout": "11",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "2",
+        "lcom": "1",
+        "totalMethodsQty": "2",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "loc": "8",
+        "returnQty": "1",
+        "uniqueWordsQty": "14",
+        "modifiers": "1"
+      },
+      "methods": {
+        "restTemplate/1[user.RestTemplateBuilder]": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "builder": "1"
+          }
+        },
+        "main/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "args": "1"
+          }
+        }
+      }
+    },
+    "user.dto.AuthDto": {
+      "metrics": {
+        "cbo": "4",
+        "cboModified": "6",
+        "fanin": "2",
+        "fanout": "4",
+        "dit": "1",
+        "lcom*": "NaN",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "totalFieldsQty": "3",
+        "privateFieldsQty": "3",
+        "loc": "5",
+        "variablesQty": "3",
+        "uniqueWordsQty": "13",
+        "modifiers": "1"
+      },
+      "methods": {}
+    },
+    "user.config.SecurityConfig": {
+      "metrics": {
+        "cbo": "13",
+        "cboModified": "13",
+        "fanout": "13",
+        "wmc": "3",
+        "dit": "2",
+        "rfc": "15",
+        "lcom": "3",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "2",
+        "protectedMethodsQty": "1",
+        "visibleMethodsQty": "3",
+        "loc": "17",
+        "returnQty": "2",
+        "stringLiteralsQty": "10",
+        "anonymousClassesQty": "1",
+        "uniqueWordsQty": "66",
+        "modifiers": "1"
+      },
+      "methods": {
+        "configure/1[user.config.HttpSecurity]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "15",
+            "loc": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "15",
+            "stringLiteralsQty": "10",
+            "uniqueWordsQty": "19",
+            "modifiers": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "httpSecurity": "2"
+          }
+        },
+        "passwordEncoder/0": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "7",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "corsConfigurer/0": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "loc": "8",
+            "returnsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "43",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "user.dto.Gender": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "2",
+        "fanin": "1",
+        "fanout": "1",
+        "wmc": "6",
+        "dit": "1",
+        "rfc": "3",
+        "lcom*": "0.375",
+        "tcc": "0.6666667",
+        "lcc": "1.0",
+        "totalMethodsQty": "4",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "3",
+        "defaultMethodsQty": "1",
+        "visibleMethodsQty": "4",
+        "totalFieldsQty": "2",
+        "privateFieldsQty": "2",
+        "nosi": "1",
+        "loc": "26",
+        "returnQty": "4",
+        "loopQty": "1",
+        "comparisonsQty": "1",
+        "stringLiteralsQty": "4",
+        "numbersQty": "5",
+        "assignmentsQty": "3",
+        "variablesQty": "3",
+        "maxNestedBlocksQty": "2",
+        "uniqueWordsQty": "25",
+        "modifiers": "1"
+      },
+      "methods": {
+        "getCode/0": {
+          "metrics": {
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "code": "1"
+          },
+          "variable_usages": {}
+        },
+        "getName/0": {
+          "metrics": {
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "name": "1"
+          },
+          "variable_usages": {}
+        },
+        "Gender/2[int,java.lang.String]": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "loc": "4",
+            "parametersQty": "2",
+            "assignmentsQty": "2",
+            "uniqueWordsQty": "3"
+          },
+          "field_usages": {
+            "code": "3",
+            "name": "3"
+          },
+          "variable_usages": {
+            "code": "2",
+            "name": "2"
+          }
+        },
+        "getNameByCode/1[int]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "3",
+            "fanout": "3",
+            "wmc": "3",
+            "rfc": "3",
+            "loc": "9",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "2",
+            "methodsInvokedIndirectLocalQty": "1",
+            "loopQty": "1",
+            "comparisonsQty": "1",
+            "numbersQty": "1",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "8",
+            "modifiers": "9"
+          },
+          "field_usages": {
+            "code": "2"
+          },
+          "variable_usages": {
+            "code": "1",
+            "genderSet": "2",
+            "gender": "2"
+          }
+        }
+      }
+    },
+    "user.controller.UserController": {
+      "metrics": {
+        "cbo": "18",
+        "cboModified": "20",
+        "fanin": "2",
+        "fanout": "18",
+        "wmc": "7",
+        "dit": "1",
+        "rfc": "14",
+        "lcom*": "0.14285715",
+        "tcc": "0.71428573",
+        "lcc": "0.71428573",
+        "totalMethodsQty": "7",
+        "publicMethodsQty": "7",
+        "visibleMethodsQty": "7",
+        "totalFieldsQty": "2",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "2",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "31",
+        "returnQty": "7",
+        "stringLiteralsQty": "13",
+        "assignmentsQty": "1",
+        "variablesQty": "2",
+        "uniqueWordsQty": "32",
+        "modifiers": "1",
+        "logStatementsQty": "6",
+        "external_microservice_call": 3
+      },
+      "methods": {
+        "updateUser/2[user.dto.UserDto,user.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "1",
+            "uniqueWordsQty": "7",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "userService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "user": "2"
+          }
+        },
+        "deleteUserById/2[java.lang.String,user.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "9",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "userService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "userId": "2"
+          }
+        },
+        "getAllUser/1[user.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "userService": "1"
+          },
+          "variable_usages": {
+            "headers": "1"
+          }
+        },
+        "getUserByUserName/2[java.lang.String,user.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "10",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "external_microservice_call": 3
+          },
+          "field_usages": {
+            "userService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "userName": "2"
+          },
+          "invocations": {
+            "ts-cancel-service": 1,
+            "ts-preserve-other-service": 1,
+            "ts-preserve-service": 1
+          }
+        },
+        "registerUser/2[user.dto.UserDto,user.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "5",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "5",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "6",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "userService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "userDto": "2"
+          }
+        },
+        "testHello/0": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "2",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "getUserByUserId/2[java.lang.String,user.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "userService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "userId": "2"
+          }
+        }
+      }
+    },
+    "user.service.impl.UserServiceImpl": {
+      "metrics": {
+        "cbo": "19",
+        "cboModified": "21",
+        "fanin": "2",
+        "fanout": "19",
+        "wmc": "18",
+        "dit": "1",
+        "rfc": "43",
+        "lcom*": "0.5277778",
+        "tcc": "0.85714287",
+        "lcc": "1.0",
+        "totalMethodsQty": "9",
+        "publicMethodsQty": "7",
+        "privateMethodsQty": "2",
+        "visibleMethodsQty": "7",
+        "totalFieldsQty": "4",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "4",
+        "finalFieldsQty": "1",
+        "nosi": "2",
+        "loc": "109",
+        "returnQty": "14",
+        "comparisonsQty": "7",
+        "stringLiteralsQty": "37",
+        "numbersQty": "14",
+        "assignmentsQty": "23",
+        "mathOperationsQty": "5",
+        "variablesQty": "25",
+        "maxNestedBlocksQty": "1",
+        "anonymousClassesQty": "1",
+        "uniqueWordsQty": "82",
+        "modifiers": "1",
+        "logStatementsQty": "16"
+      },
+      "methods": {
+        "findByUserName/2[java.lang.String,user.service.impl.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "4",
+            "fanin": "2",
+            "fanout": "2",
+            "wmc": "2",
+            "rfc": "2",
+            "loc": "8",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "2",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "3",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "userRepository": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "userName": "2",
+            "user": "2"
+          }
+        },
+        "createDefaultAuthUser/1[user.dto.AuthDto]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "5",
+            "fanin": "1",
+            "fanout": "4",
+            "wmc": "2",
+            "rfc": "12",
+            "loc": "18",
+            "returnsQty": "1",
+            "variablesQty": "6",
+            "parametersQty": "1",
+            "methodsInvokedQty": "12",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "6",
+            "numbersQty": "2",
+            "assignmentsQty": "6",
+            "mathOperationsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "26",
+            "modifiers": "2",
+            "logStatementsQty": "3"
+          },
+          "field_usages": {
+            "discoveryClient": "1",
+            "restTemplate": "1",
+            "LOGGER": "3"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "res": "1",
+            "auth_service_url": "1",
+            "auth_svcs": "2",
+            "auth_svc": "2",
+            "dto": "2",
+            "entity": "1"
+          }
+        },
+        "updateUser/2[user.dto.UserDto,user.service.impl.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "7",
+            "fanin": "2",
+            "fanout": "5",
+            "wmc": "2",
+            "rfc": "22",
+            "loc": "14",
+            "returnsQty": "2",
+            "variablesQty": "2",
+            "parametersQty": "2",
+            "methodsInvokedQty": "22",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "4",
+            "numbersQty": "2",
+            "assignmentsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "17",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "LOGGER": "1",
+            "userRepository": "3"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "newUser": "2",
+            "oldUser": "3",
+            "userDto": "9"
+          }
+        },
+        "findByUserId/2[java.lang.String,user.service.impl.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "4",
+            "fanin": "2",
+            "fanout": "2",
+            "wmc": "2",
+            "rfc": "2",
+            "loc": "8",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "2",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "3",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "userRepository": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "userId": "2",
+            "user": "2"
+          }
+        },
+        "deleteUserAuth/2[java.lang.String,user.service.impl.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "4",
+            "fanin": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "5",
+            "loc": "11",
+            "variablesQty": "5",
+            "parametersQty": "2",
+            "methodsInvokedQty": "5",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "5",
+            "assignmentsQty": "5",
+            "mathOperationsQty": "2",
+            "uniqueWordsQty": "31",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "restTemplate": "1",
+            "LOGGER": "2"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "httpEntity": "1",
+            "auth_service_url": "1",
+            "newHeaders": "2",
+            "userId": "3",
+            "AUTH_SERVICE_URI": "1",
+            "token": "1"
+          }
+        },
+        "getAllUsers/1[user.service.impl.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "4",
+            "fanin": "2",
+            "fanout": "2",
+            "wmc": "3",
+            "rfc": "3",
+            "loc": "8",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "4",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "10",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "userRepository": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "users": "3"
+          }
+        },
+        "getServiceUrl/1[java.lang.String]": {
+          "metrics": {
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "stringLiteralsQty": "1",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "serviceName": "1"
+          }
+        },
+        "saveUser/2[user.dto.UserDto,user.service.impl.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "6",
+            "fanin": "1",
+            "fanout": "5",
+            "wmc": "3",
+            "rfc": "24",
+            "loc": "19",
+            "returnsQty": "2",
+            "variablesQty": "4",
+            "parametersQty": "2",
+            "methodsInvokedQty": "24",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "2",
+            "comparisonsQty": "2",
+            "stringLiteralsQty": "6",
+            "numbersQty": "2",
+            "assignmentsQty": "5",
+            "mathOperationsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "29",
+            "modifiers": "1",
+            "logStatementsQty": "3"
+          },
+          "field_usages": {
+            "LOGGER": "2",
+            "userRepository": "2"
+          },
+          "variable_usages": {
+            "user1": "1",
+            "headers": "0",
+            "userSaveResult": "1",
+            "userId": "5",
+            "user": "3",
+            "userDto": "11"
+          }
+        },
+        "deleteUser/2[java.lang.String,user.service.impl.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "7",
+            "fanin": "2",
+            "fanout": "5",
+            "wmc": "2",
+            "rfc": "5",
+            "loc": "14",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "5",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "2",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "5",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "18",
+            "modifiers": "1",
+            "logStatementsQty": "3"
+          },
+          "field_usages": {
+            "LOGGER": "2",
+            "userRepository": "2"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "userId": "6",
+            "user": "1"
+          }
+        }
+      }
+    },
+    "user.entity.User": {
+      "metrics": {
+        "cbo": "6",
+        "cboModified": "10",
+        "fanin": "4",
+        "fanout": "6",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "2",
+        "lcom*": "0.85714287",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "7",
+        "privateFieldsQty": "7",
+        "nosi": "1",
+        "loc": "12",
+        "stringLiteralsQty": "4",
+        "numbersQty": "1",
+        "assignmentsQty": "1",
+        "variablesQty": "7",
+        "uniqueWordsQty": "13",
+        "modifiers": "1"
+      },
+      "methods": {
+        "User/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "6",
+            "fanin": "6",
+            "wmc": "1",
+            "rfc": "2",
+            "loc": "3",
+            "methodsInvokedQty": "2",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "1",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "userId": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "user.init.InitUser": {
+      "metrics": {
+        "cbo": "7",
+        "cboModified": "7",
+        "fanout": "7",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "12",
+        "lcom*": "0.6666667",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "3",
+        "privateFieldsQty": "2",
+        "protectedFieldsQty": "1",
+        "loc": "13",
+        "comparisonsQty": "1",
+        "stringLiteralsQty": "7",
+        "numbersQty": "2",
+        "assignmentsQty": "2",
+        "variablesQty": "5",
+        "maxNestedBlocksQty": "1",
+        "uniqueWordsQty": "21",
+        "modifiers": "1"
+      },
+      "methods": {
+        "run/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "2",
+            "rfc": "12",
+            "loc": "8",
+            "variablesQty": "2",
+            "parametersQty": "1",
+            "methodsInvokedQty": "12",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "7",
+            "numbersQty": "2",
+            "assignmentsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "11",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "userRepository": "2"
+          },
+          "variable_usages": {
+            "strings": "0",
+            "whetherExistUser": "1",
+            "user": "2"
+          }
+        }
+      }
+    }
+  },
+  "microservice_name": "ts-user-service",
+  "external_microservice_call": 3
+}

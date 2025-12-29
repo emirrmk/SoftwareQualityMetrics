@@ -1,0 +1,3640 @@
+{
+  "classes": {
+    "edu.fudan.common.entity.TripId": {
+      "metrics": {
+        "cbo": "2",
+        "cboModified": "7",
+        "fanin": "5",
+        "fanout": "2",
+        "wmc": "8",
+        "dit": "1",
+        "rfc": "3",
+        "lcom": "1",
+        "lcom*": "0.33333334",
+        "tcc": "0.33333334",
+        "lcc": "0.33333334",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "3",
+        "visibleMethodsQty": "3",
+        "totalFieldsQty": "2",
+        "privateFieldsQty": "2",
+        "loc": "32",
+        "returnQty": "1",
+        "numbersQty": "2",
+        "assignmentsQty": "7",
+        "mathOperationsQty": "1",
+        "variablesQty": "3",
+        "maxNestedBlocksQty": "1",
+        "uniqueWordsQty": "12",
+        "modifiers": "1"
+      },
+      "methods": {
+        "TripId/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "2",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "TripId/1[java.lang.String]": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "6",
+            "rfc": "2",
+            "loc": "23",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "2",
+            "numbersQty": "2",
+            "assignmentsQty": "7",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "number": "1",
+            "type": "5"
+          },
+          "variable_usages": {
+            "trainNumber": "2",
+            "type0": "1"
+          }
+        },
+        "toString/0": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "methodsInvokedQty": "1",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "number": "1",
+            "type": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.RouteInfo": {
+      "metrics": {
+        "cbo": "2",
+        "cboModified": "2",
+        "fanout": "2",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "2",
+        "lcom": "1",
+        "lcom*": "0.8333333",
+        "totalMethodsQty": "2",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "totalFieldsQty": "6",
+        "privateFieldsQty": "6",
+        "nosi": "2",
+        "loc": "16",
+        "returnQty": "2",
+        "stringLiteralsQty": "2",
+        "assignmentsQty": "2",
+        "variablesQty": "8",
+        "uniqueWordsQty": "17",
+        "modifiers": "1"
+      },
+      "methods": {
+        "getDistances/0": {
+          "metrics": {
+            "wmc": "1",
+            "rfc": "2",
+            "loc": "4",
+            "returnsQty": "1",
+            "variablesQty": "1",
+            "methodsInvokedQty": "2",
+            "stringLiteralsQty": "1",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "distanceList": "1"
+          },
+          "variable_usages": {
+            "distances": "1"
+          }
+        },
+        "getStations/0": {
+          "metrics": {
+            "wmc": "1",
+            "rfc": "2",
+            "loc": "4",
+            "returnsQty": "1",
+            "variablesQty": "1",
+            "methodsInvokedQty": "2",
+            "stringLiteralsQty": "1",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "stationList": "1"
+          },
+          "variable_usages": {
+            "stations": "1"
+          }
+        }
+      }
+    },
+    "edu.fudan.common.entity.NotifyInfo": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "7",
+        "fanin": "6",
+        "fanout": "1",
+        "wmc": "1",
+        "dit": "1",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "10",
+        "privateFieldsQty": "10",
+        "loc": "14",
+        "variablesQty": "10",
+        "uniqueWordsQty": "15",
+        "modifiers": "1"
+      },
+      "methods": {
+        "NotifyInfo/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "6",
+            "fanin": "6",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "2",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.LeftTicketInfo": {
+      "metrics": {
+        "cbo": "4",
+        "cboModified": "6",
+        "fanin": "2",
+        "fanout": "4",
+        "wmc": "2",
+        "dit": "1",
+        "lcom": "1",
+        "lcom*": "0.5",
+        "totalMethodsQty": "2",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "totalFieldsQty": "1",
+        "privateFieldsQty": "1",
+        "loc": "8",
+        "returnQty": "1",
+        "stringLiteralsQty": "2",
+        "mathOperationsQty": "2",
+        "variablesQty": "1",
+        "uniqueWordsQty": "8",
+        "modifiers": "1"
+      },
+      "methods": {
+        "LeftTicketInfo/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "toString/0": {
+          "metrics": {
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "stringLiteralsQty": "2",
+            "mathOperationsQty": "2",
+            "uniqueWordsQty": "4",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "soldTickets": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.Route": {
+      "metrics": {
+        "cbo": "2",
+        "cboModified": "9",
+        "fanin": "7",
+        "fanout": "2",
+        "wmc": "3",
+        "dit": "1",
+        "rfc": "2",
+        "lcom*": "0.26666668",
+        "tcc": "1.0",
+        "lcc": "1.0",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "3",
+        "visibleMethodsQty": "3",
+        "totalFieldsQty": "5",
+        "privateFieldsQty": "5",
+        "nosi": "2",
+        "loc": "24",
+        "assignmentsQty": "11",
+        "variablesQty": "5",
+        "uniqueWordsQty": "13",
+        "modifiers": "1"
+      },
+      "methods": {
+        "Route/4[java.util.List<java.lang.String>,java.util.List<java.lang.Integer>,java.lang.String,java.lang.String]": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "rfc": "2",
+            "loc": "7",
+            "parametersQty": "4",
+            "methodsInvokedQty": "2",
+            "assignmentsQty": "5",
+            "uniqueWordsQty": "7",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "distances": "3",
+            "endStation": "1",
+            "startStation": "1",
+            "stations": "3",
+            "id": "1"
+          },
+          "variable_usages": {
+            "distances": "2",
+            "terminalStationName": "1",
+            "stations": "2",
+            "startStationName": "1"
+          }
+        },
+        "Route/0": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "rfc": "2",
+            "loc": "3",
+            "methodsInvokedQty": "2",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "1",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "id": "1"
+          },
+          "variable_usages": {}
+        },
+        "Route/5[java.lang.String,java.util.List<java.lang.String>,java.util.List<java.lang.Integer>,java.lang.String,java.lang.String]": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "loc": "7",
+            "parametersQty": "5",
+            "assignmentsQty": "5",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "distances": "3",
+            "endStation": "1",
+            "startStation": "1",
+            "id": "3",
+            "stations": "3"
+          },
+          "variable_usages": {
+            "distances": "2",
+            "terminalStationName": "1",
+            "id": "2",
+            "stations": "2",
+            "startStationName": "1"
+          }
+        }
+      }
+    },
+    "edu.fudan.common.entity.Travel": {
+      "metrics": {
+        "cbo": "2",
+        "cboModified": "9",
+        "fanin": "7",
+        "fanout": "2",
+        "wmc": "1",
+        "dit": "1",
+        "lcom*": "1.0",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "4",
+        "privateFieldsQty": "4",
+        "loc": "8",
+        "variablesQty": "4",
+        "uniqueWordsQty": "9",
+        "modifiers": "1"
+      },
+      "methods": {
+        "Travel/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "4",
+            "fanin": "4",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "1",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.Account": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "4",
+        "fanin": "1",
+        "fanout": "3",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "2",
+        "lcom*": "0.33333334",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "9",
+        "privateFieldsQty": "9",
+        "loc": "19",
+        "stringLiteralsQty": "4",
+        "assignmentsQty": "6",
+        "variablesQty": "9",
+        "uniqueWordsQty": "16",
+        "modifiers": "1"
+      },
+      "methods": {
+        "Account/0": {
+          "metrics": {
+            "constructor": "true",
+            "cbo": "2",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "2",
+            "loc": "8",
+            "methodsInvokedQty": "2",
+            "stringLiteralsQty": "4",
+            "assignmentsQty": "6",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "password": "1",
+            "gender": "1",
+            "documentType": "1",
+            "name": "1",
+            "documentNum": "1",
+            "email": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.Station": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "6",
+        "fanin": "5",
+        "fanout": "1",
+        "wmc": "4",
+        "dit": "1",
+        "rfc": "2",
+        "lcom*": "0.5833333",
+        "tcc": "1.0",
+        "lcc": "1.0",
+        "totalMethodsQty": "4",
+        "publicMethodsQty": "4",
+        "visibleMethodsQty": "4",
+        "totalFieldsQty": "3",
+        "privateFieldsQty": "3",
+        "loc": "19",
+        "stringLiteralsQty": "7",
+        "assignmentsQty": "5",
+        "variablesQty": "3",
+        "uniqueWordsQty": "7",
+        "modifiers": "1"
+      },
+      "methods": {
+        "Station/1[java.lang.String]": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "rfc": "2",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "2",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "name": "3"
+          },
+          "variable_usages": {
+            "name": "2"
+          }
+        },
+        "Station/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "6",
+            "fanin": "6",
+            "wmc": "1",
+            "loc": "3",
+            "stringLiteralsQty": "1",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "1",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "name": "1"
+          },
+          "variable_usages": {}
+        },
+        "Station/2[java.lang.String,int]": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "rfc": "2",
+            "loc": "5",
+            "parametersQty": "2",
+            "methodsInvokedQty": "2",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "2",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "stayTime": "3",
+            "name": "3"
+          },
+          "variable_usages": {
+            "stayTime": "2",
+            "name": "2"
+          }
+        },
+        "setName/1[java.lang.String]": {
+          "metrics": {
+            "wmc": "1",
+            "rfc": "2",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "2",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "name": "3"
+          },
+          "variable_usages": {
+            "name": "2"
+          }
+        }
+      }
+    },
+    "edu.fudan.common.exception.BaseException": {
+      "metrics": {
+        "cboModified": "1",
+        "fanin": "1",
+        "wmc": "2",
+        "dit": "4",
+        "noc": "1",
+        "lcom": "1",
+        "totalMethodsQty": "2",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "loc": "8",
+        "uniqueWordsQty": "7",
+        "modifiers": "1"
+      },
+      "methods": {
+        "BaseException/1[java.lang.String]": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "message": "1"
+          }
+        },
+        "BaseException/2[java.lang.String,java.lang.Throwable]": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "loc": "3",
+            "parametersQty": "2",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "cause": "1",
+            "message": "1"
+          }
+        }
+      }
+    },
+    "edu.fudan.common.entity.PriceConfig": {
+      "metrics": {
+        "cbo": "2",
+        "cboModified": "4",
+        "fanin": "2",
+        "fanout": "2",
+        "wmc": "1",
+        "dit": "1",
+        "lcom*": "1.0",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "5",
+        "privateFieldsQty": "5",
+        "loc": "9",
+        "variablesQty": "5",
+        "uniqueWordsQty": "15",
+        "modifiers": "1"
+      },
+      "methods": {
+        "PriceConfig/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "2",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.RoutePlanResultUnit": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "4",
+        "fanin": "1",
+        "fanout": "3",
+        "dit": "1",
+        "lcom*": "NaN",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "totalFieldsQty": "9",
+        "privateFieldsQty": "9",
+        "loc": "11",
+        "variablesQty": "9",
+        "uniqueWordsQty": "22",
+        "modifiers": "1"
+      },
+      "methods": {}
+    },
+    "rebook.entity.VerifyResult": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "1",
+        "fanout": "1",
+        "wmc": "1",
+        "dit": "1",
+        "lcom*": "1.0",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "2",
+        "privateFieldsQty": "2",
+        "loc": "6",
+        "variablesQty": "2",
+        "uniqueWordsQty": "5",
+        "modifiers": "1"
+      },
+      "methods": {
+        "VerifyResult/0": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "2",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.OrderStatus": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "13",
+        "fanin": "12",
+        "fanout": "1",
+        "wmc": "6",
+        "dit": "1",
+        "rfc": "3",
+        "lcom*": "0.375",
+        "tcc": "0.6666667",
+        "lcc": "1.0",
+        "totalMethodsQty": "4",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "3",
+        "defaultMethodsQty": "1",
+        "visibleMethodsQty": "4",
+        "totalFieldsQty": "2",
+        "privateFieldsQty": "2",
+        "nosi": "1",
+        "loc": "29",
+        "returnQty": "4",
+        "loopQty": "1",
+        "comparisonsQty": "1",
+        "stringLiteralsQty": "7",
+        "numbersQty": "8",
+        "assignmentsQty": "3",
+        "variablesQty": "3",
+        "maxNestedBlocksQty": "2",
+        "uniqueWordsQty": "37",
+        "modifiers": "1"
+      },
+      "methods": {
+        "getNameByCode/1[int]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "3",
+            "fanout": "3",
+            "wmc": "3",
+            "rfc": "3",
+            "loc": "9",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "2",
+            "methodsInvokedIndirectLocalQty": "1",
+            "loopQty": "1",
+            "comparisonsQty": "1",
+            "numbersQty": "1",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "9",
+            "modifiers": "9"
+          },
+          "field_usages": {
+            "code": "2"
+          },
+          "variable_usages": {
+            "code": "1",
+            "orderStatusSet": "2",
+            "orderStatus": "2"
+          }
+        },
+        "OrderStatus/2[int,java.lang.String]": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "loc": "4",
+            "parametersQty": "2",
+            "assignmentsQty": "2",
+            "uniqueWordsQty": "4"
+          },
+          "field_usages": {
+            "code": "3",
+            "name": "3"
+          },
+          "variable_usages": {
+            "code": "2",
+            "name": "2"
+          }
+        },
+        "getCode/0": {
+          "metrics": {
+            "cboModified": "25",
+            "fanin": "25",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "code": "1"
+          },
+          "variable_usages": {}
+        },
+        "getName/0": {
+          "metrics": {
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "name": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.TravelInfo": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "6",
+        "fanin": "3",
+        "fanout": "3",
+        "dit": "1",
+        "lcom*": "NaN",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "totalFieldsQty": "9",
+        "privateFieldsQty": "9",
+        "loc": "11",
+        "variablesQty": "9",
+        "uniqueWordsQty": "16",
+        "modifiers": "1"
+      },
+      "methods": {}
+    },
+    "edu.fudan.common.entity.Gender": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "3",
+        "fanin": "2",
+        "fanout": "1",
+        "wmc": "6",
+        "dit": "1",
+        "rfc": "3",
+        "lcom*": "0.375",
+        "tcc": "0.6666667",
+        "lcc": "1.0",
+        "totalMethodsQty": "4",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "3",
+        "defaultMethodsQty": "1",
+        "visibleMethodsQty": "4",
+        "totalFieldsQty": "2",
+        "privateFieldsQty": "2",
+        "nosi": "1",
+        "loc": "26",
+        "returnQty": "4",
+        "loopQty": "1",
+        "comparisonsQty": "1",
+        "stringLiteralsQty": "4",
+        "numbersQty": "5",
+        "assignmentsQty": "3",
+        "variablesQty": "3",
+        "maxNestedBlocksQty": "2",
+        "uniqueWordsQty": "25",
+        "modifiers": "1"
+      },
+      "methods": {
+        "getCode/0": {
+          "metrics": {
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "code": "1"
+          },
+          "variable_usages": {}
+        },
+        "getName/0": {
+          "metrics": {
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "name": "1"
+          },
+          "variable_usages": {}
+        },
+        "Gender/2[int,java.lang.String]": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "loc": "4",
+            "parametersQty": "2",
+            "assignmentsQty": "2",
+            "uniqueWordsQty": "3"
+          },
+          "field_usages": {
+            "code": "3",
+            "name": "3"
+          },
+          "variable_usages": {
+            "code": "2",
+            "name": "2"
+          }
+        },
+        "getNameByCode/1[int]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "3",
+            "fanout": "3",
+            "wmc": "3",
+            "rfc": "3",
+            "loc": "9",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "2",
+            "methodsInvokedIndirectLocalQty": "1",
+            "loopQty": "1",
+            "comparisonsQty": "1",
+            "numbersQty": "1",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "8",
+            "modifiers": "9"
+          },
+          "field_usages": {
+            "code": "2"
+          },
+          "variable_usages": {
+            "code": "1",
+            "genderSet": "2",
+            "gender": "2"
+          }
+        }
+      }
+    },
+    "edu.fudan.common.entity.AssuranceType": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "3",
+        "fanin": "2",
+        "fanout": "1",
+        "wmc": "10",
+        "dit": "1",
+        "rfc": "2",
+        "lcom": "4",
+        "lcom*": "0.5833333",
+        "tcc": "0.42857143",
+        "lcc": "1.0",
+        "totalMethodsQty": "8",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "4",
+        "defaultMethodsQty": "4",
+        "visibleMethodsQty": "8",
+        "totalFieldsQty": "3",
+        "privateFieldsQty": "3",
+        "nosi": "1",
+        "loc": "38",
+        "returnQty": "5",
+        "loopQty": "1",
+        "comparisonsQty": "1",
+        "stringLiteralsQty": "1",
+        "numbersQty": "2",
+        "assignmentsQty": "7",
+        "variablesQty": "4",
+        "maxNestedBlocksQty": "2",
+        "uniqueWordsQty": "35",
+        "modifiers": "1"
+      },
+      "methods": {
+        "AssuranceType/3[int,java.lang.String,double]": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "loc": "5",
+            "parametersQty": "3",
+            "assignmentsQty": "3",
+            "uniqueWordsQty": "5"
+          },
+          "field_usages": {
+            "price": "3",
+            "name": "3",
+            "index": "3"
+          },
+          "variable_usages": {
+            "price": "2",
+            "name": "2",
+            "index": "2"
+          }
+        },
+        "getTypeByIndex/1[int]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "3",
+            "rfc": "2",
+            "loc": "9",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "2",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "loopQty": "1",
+            "comparisonsQty": "1",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "9",
+            "modifiers": "9"
+          },
+          "field_usages": {
+            "index": "2"
+          },
+          "variable_usages": {
+            "ats": "1",
+            "at": "2",
+            "index": "1"
+          }
+        },
+        "getName/0": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "name": "1"
+          },
+          "variable_usages": {}
+        },
+        "setName/1[java.lang.String]": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "3"
+          },
+          "field_usages": {
+            "name": "3"
+          },
+          "variable_usages": {
+            "name": "2"
+          }
+        },
+        "setPrice/1[double]": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "3"
+          },
+          "field_usages": {
+            "price": "3"
+          },
+          "variable_usages": {
+            "price": "2"
+          }
+        },
+        "getIndex/0": {
+          "metrics": {
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "index": "1"
+          },
+          "variable_usages": {}
+        },
+        "setIndex/1[int]": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "3"
+          },
+          "field_usages": {
+            "index": "3"
+          },
+          "variable_usages": {
+            "index": "2"
+          }
+        },
+        "getPrice/0": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "price": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.TrainType": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "11",
+        "fanin": "10",
+        "fanout": "1",
+        "wmc": "3",
+        "dit": "1",
+        "lcom": "1",
+        "lcom*": "0.53333336",
+        "tcc": "0.33333334",
+        "lcc": "0.33333334",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "3",
+        "visibleMethodsQty": "3",
+        "totalFieldsQty": "5",
+        "privateFieldsQty": "5",
+        "loc": "20",
+        "assignmentsQty": "7",
+        "variablesQty": "5",
+        "uniqueWordsQty": "10",
+        "modifiers": "1"
+      },
+      "methods": {
+        "TrainType/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "4",
+            "fanin": "4",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "2",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "TrainType/3[java.lang.String,int,int]": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "loc": "5",
+            "parametersQty": "3",
+            "assignmentsQty": "3",
+            "uniqueWordsQty": "6",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "confortClass": "3",
+            "economyClass": "3",
+            "name": "3"
+          },
+          "variable_usages": {
+            "confortClass": "2",
+            "economyClass": "2",
+            "name": "2"
+          }
+        },
+        "TrainType/4[java.lang.String,int,int,int]": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "loc": "6",
+            "parametersQty": "4",
+            "assignmentsQty": "4",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "confortClass": "3",
+            "economyClass": "3",
+            "name": "3",
+            "averageSpeed": "3"
+          },
+          "variable_usages": {
+            "confortClass": "2",
+            "economyClass": "2",
+            "name": "2",
+            "averageSpeed": "2"
+          }
+        }
+      }
+    },
+    "edu.fudan.common.entity.StationFoodStore": {
+      "metrics": {
+        "cbo": "2",
+        "cboModified": "4",
+        "fanin": "2",
+        "fanout": "2",
+        "wmc": "1",
+        "dit": "1",
+        "lcom*": "1.0",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "7",
+        "privateFieldsQty": "7",
+        "loc": "11",
+        "variablesQty": "7",
+        "uniqueWordsQty": "18",
+        "modifiers": "1"
+      },
+      "methods": {
+        "StationFoodStore/0": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.User": {
+      "metrics": {
+        "cbo": "4",
+        "cboModified": "12",
+        "fanin": "8",
+        "fanout": "4",
+        "dit": "1",
+        "lcom*": "NaN",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "totalFieldsQty": "7",
+        "privateFieldsQty": "7",
+        "loc": "9",
+        "variablesQty": "7",
+        "uniqueWordsQty": "14",
+        "modifiers": "1"
+      },
+      "methods": {}
+    },
+    "edu.fudan.common.security.jwt.JWTUtil": {
+      "metrics": {
+        "cbo": "11",
+        "cboModified": "14",
+        "fanin": "3",
+        "fanout": "11",
+        "wmc": "16",
+        "dit": "1",
+        "rfc": "22",
+        "lcom": "17",
+        "lcom*": "0.71428573",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "7",
+        "staticMethodsQty": "6",
+        "publicMethodsQty": "1",
+        "privateMethodsQty": "6",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "2",
+        "staticFieldsQty": "2",
+        "privateFieldsQty": "2",
+        "finalFieldsQty": "1",
+        "nosi": "7",
+        "loc": "81",
+        "returnQty": "8",
+        "comparisonsQty": "2",
+        "tryCatchQty": "1",
+        "parenthesizedExpsQty": "1",
+        "stringLiteralsQty": "16",
+        "numbersQty": "1",
+        "assignmentsQty": "7",
+        "variablesQty": "7",
+        "maxNestedBlocksQty": "1",
+        "anonymousClassesQty": "1",
+        "uniqueWordsQty": "52",
+        "modifiers": "1",
+        "logStatementsQty": "5"
+      },
+      "methods": {
+        "getUserName/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "10"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "token": "1"
+          }
+        },
+        "getJWTAuthentication/1[edu.fudan.common.security.jwt.ServletRequest]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "3",
+            "fanin": "1",
+            "fanout": "2",
+            "wmc": "3",
+            "rfc": "3",
+            "loc": "31",
+            "returnsQty": "2",
+            "variablesQty": "2",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "2",
+            "methodsInvokedIndirectLocalQty": "2",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "1",
+            "assignmentsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "33",
+            "modifiers": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "request": "1",
+            "userDetails": "2",
+            "token": "2"
+          }
+        },
+        "getTokenFromHeader/1[edu.fudan.common.security.jwt.HttpServletRequest]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "3",
+            "rfc": "4",
+            "loc": "7",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "4",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "2",
+            "numbersQty": "1",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "10",
+            "modifiers": "10"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "request": "1",
+            "bearerToken": "4"
+          }
+        },
+        "getRole/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "parenthesizedExpsQty": "1",
+            "stringLiteralsQty": "1",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "6",
+            "modifiers": "10"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "claimsJws": "1",
+            "token": "1"
+          }
+        },
+        "getClaims/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "3",
+            "fanin": "3",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "uniqueWordsQty": "5",
+            "modifiers": "10"
+          },
+          "field_usages": {
+            "secretKey": "1"
+          },
+          "variable_usages": {
+            "token": "1"
+          }
+        },
+        "validateToken/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "4",
+            "cboModified": "5",
+            "fanin": "1",
+            "fanout": "4",
+            "wmc": "6",
+            "rfc": "6",
+            "loc": "26",
+            "returnsQty": "1",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "6",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "tryCatchQty": "1",
+            "stringLiteralsQty": "10",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "22",
+            "modifiers": "10",
+            "logStatementsQty": "5"
+          },
+          "field_usages": {
+            "LOGGER": "5"
+          },
+          "variable_usages": {
+            "e": "9",
+            "claimsJws": "1",
+            "token": "1"
+          }
+        },
+        "JWTUtil/0": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "loc": "3",
+            "stringLiteralsQty": "1",
+            "uniqueWordsQty": "7",
+            "modifiers": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.Assurance": {
+      "metrics": {
+        "cbo": "4",
+        "cboModified": "6",
+        "fanin": "2",
+        "fanout": "4",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "1",
+        "lcom*": "0.33333334",
+        "tcc": "1.0",
+        "lcc": "1.0",
+        "totalMethodsQty": "2",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "totalFieldsQty": "3",
+        "privateFieldsQty": "3",
+        "nosi": "1",
+        "loc": "13",
+        "assignmentsQty": "4",
+        "variablesQty": "3",
+        "uniqueWordsQty": "20",
+        "modifiers": "1"
+      },
+      "methods": {
+        "Assurance/0": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "methodsInvokedQty": "1",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "1",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "orderId": "1"
+          },
+          "variable_usages": {}
+        },
+        "Assurance/3[java.util.UUID,java.util.UUID,edu.fudan.common.entity.AssuranceType]": {
+          "metrics": {
+            "constructor": "true",
+            "cbo": "1",
+            "wmc": "1",
+            "loc": "5",
+            "parametersQty": "3",
+            "assignmentsQty": "3",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "orderId": "3",
+            "id": "3",
+            "type": "3"
+          },
+          "variable_usages": {
+            "orderId": "2",
+            "id": "2",
+            "type": "2"
+          }
+        }
+      }
+    },
+    "edu.fudan.common.entity.Order": {
+      "metrics": {
+        "cbo": "7",
+        "cboModified": "18",
+        "fanin": "11",
+        "fanout": "7",
+        "wmc": "11",
+        "dit": "1",
+        "rfc": "22",
+        "lcom": "1",
+        "lcom*": "0.52941173",
+        "tcc": "0.33333334",
+        "lcc": "0.33333334",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "3",
+        "visibleMethodsQty": "3",
+        "totalFieldsQty": "17",
+        "privateFieldsQty": "17",
+        "nosi": "3",
+        "loc": "50",
+        "returnQty": "5",
+        "comparisonsQty": "8",
+        "parenthesizedExpsQty": "1",
+        "stringLiteralsQty": "6",
+        "numbersQty": "5",
+        "assignmentsQty": "14",
+        "mathOperationsQty": "2",
+        "variablesQty": "19",
+        "maxNestedBlocksQty": "1",
+        "uniqueWordsQty": "44",
+        "modifiers": "1"
+      },
+      "methods": {
+        "hashCode/0": {
+          "metrics": {
+            "wmc": "2",
+            "rfc": "1",
+            "loc": "5",
+            "returnsQty": "1",
+            "variablesQty": "1",
+            "methodsInvokedQty": "1",
+            "comparisonsQty": "1",
+            "parenthesizedExpsQty": "1",
+            "numbersQty": "3",
+            "assignmentsQty": "2",
+            "mathOperationsQty": "2",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "id": "2"
+          },
+          "variable_usages": {
+            "result": "3"
+          }
+        },
+        "Order/0": {
+          "metrics": {
+            "constructor": "true",
+            "cbo": "3",
+            "cboModified": "16",
+            "fanin": "13",
+            "fanout": "3",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "13",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "6",
+            "numbersQty": "2",
+            "assignmentsQty": "11",
+            "uniqueWordsQty": "15",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "coachNumber": "1",
+            "travelDate": "1",
+            "boughtDate": "1",
+            "seatClass": "1",
+            "price": "1",
+            "from": "1",
+            "trainNumber": "1",
+            "to": "1",
+            "seatNumber": "1",
+            "differenceMoney": "1",
+            "status": "1"
+          },
+          "variable_usages": {}
+        },
+        "equals/1[java.lang.Object]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "8",
+            "rfc": "17",
+            "loc": "13",
+            "returnsQty": "4",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "17",
+            "comparisonsQty": "7",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "20",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "accountId": "1",
+            "coachNumber": "1",
+            "documentType": "1",
+            "contactsDocumentNumber": "1",
+            "seatClass": "1",
+            "price": "1",
+            "from": "1",
+            "trainNumber": "1",
+            "to": "1",
+            "contactsName": "1",
+            "seatNumber": "1",
+            "status": "1"
+          },
+          "variable_usages": {
+            "other": "15",
+            "obj": "4"
+          }
+        }
+      }
+    },
+    "edu.fudan.common.util.JsonUtils": {
+      "metrics": {
+        "cbo": "5",
+        "cboModified": "13",
+        "fanin": "8",
+        "fanout": "5",
+        "wmc": "9",
+        "dit": "1",
+        "rfc": "10",
+        "lcom": "13",
+        "lcom*": "0.6666667",
+        "totalMethodsQty": "6",
+        "staticMethodsQty": "5",
+        "publicMethodsQty": "5",
+        "privateMethodsQty": "1",
+        "visibleMethodsQty": "5",
+        "totalFieldsQty": "1",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "1",
+        "finalFieldsQty": "1",
+        "nosi": "6",
+        "loc": "43",
+        "returnQty": "5",
+        "tryCatchQty": "2",
+        "stringLiteralsQty": "4",
+        "assignmentsQty": "10",
+        "variablesQty": "8",
+        "maxNestedBlocksQty": "1",
+        "uniqueWordsQty": "40",
+        "modifiers": "1",
+        "logStatementsQty": "3"
+      },
+      "methods": {
+        "object2Map/1[java.lang.Object]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "2",
+            "loc": "5",
+            "returnsQty": "1",
+            "variablesQty": "2",
+            "parametersQty": "1",
+            "methodsInvokedQty": "2",
+            "methodsInvokedLocalQty": "2",
+            "methodsInvokedIndirectLocalQty": "1",
+            "assignmentsQty": "2",
+            "uniqueWordsQty": "8",
+            "modifiers": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "result": "1",
+            "obj": "1",
+            "object2Json": "2"
+          }
+        },
+        "jsonToMap/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "13",
+            "modifiers": "9",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "json": "1"
+          }
+        },
+        "json2Object/2[java.lang.String,java.lang.Class<T>]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "3",
+            "rfc": "4",
+            "loc": "14",
+            "returnsQty": "1",
+            "variablesQty": "2",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "tryCatchQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "3",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "19",
+            "modifiers": "9",
+            "logStatementsQty": "2",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "result": "2",
+            "objectMapper": "1",
+            "e": "3",
+            "json": "1",
+            "cls": "1"
+          }
+        },
+        "JsonUtils/0": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "loc": "3",
+            "stringLiteralsQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "object2Json/1[java.lang.Object]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "9",
+            "fanin": "8",
+            "fanout": "1",
+            "wmc": "2",
+            "rfc": "3",
+            "loc": "11",
+            "returnsQty": "1",
+            "variablesQty": "2",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "tryCatchQty": "1",
+            "stringLiteralsQty": "1",
+            "assignmentsQty": "3",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "18",
+            "modifiers": "9",
+            "logStatementsQty": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "result": "2",
+            "objectMapper": "1",
+            "e": "1",
+            "obj": "1"
+          }
+        },
+        "conveterObject/2[java.lang.Object,java.lang.Class<T>]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "2",
+            "loc": "4",
+            "returnsQty": "1",
+            "variablesQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "2",
+            "methodsInvokedLocalQty": "2",
+            "methodsInvokedIndirectLocalQty": "1",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "11",
+            "modifiers": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "destObjectType": "1",
+            "srcObject": "1",
+            "jsonContent": "1"
+          }
+        }
+      }
+    },
+    "edu.fudan.common.entity.Consign": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "5",
+        "fanin": "2",
+        "fanout": "3",
+        "dit": "1",
+        "lcom*": "NaN",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "totalFieldsQty": "11",
+        "privateFieldsQty": "11",
+        "loc": "13",
+        "variablesQty": "11",
+        "uniqueWordsQty": "15",
+        "modifiers": "1"
+      },
+      "methods": {}
+    },
+    "edu.fudan.common.entity.TripAllDetail": {
+      "metrics": {
+        "cbo": "5",
+        "cboModified": "12",
+        "fanin": "7",
+        "fanout": "5",
+        "dit": "1",
+        "lcom*": "NaN",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "totalFieldsQty": "4",
+        "privateFieldsQty": "4",
+        "loc": "6",
+        "variablesQty": "4",
+        "uniqueWordsQty": "8",
+        "modifiers": "1"
+      },
+      "methods": {}
+    },
+    "edu.fudan.common.config.SwaggerConfig": {
+      "metrics": {
+        "cbo": "9",
+        "cboModified": "10",
+        "fanin": "1",
+        "fanout": "9",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "14",
+        "lcom": "1",
+        "lcom*": "0.5",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "2",
+        "publicMethodsQty": "1",
+        "privateMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "2",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "2",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "11",
+        "returnQty": "2",
+        "stringLiteralsQty": "6",
+        "assignmentsQty": "1",
+        "variablesQty": "2",
+        "uniqueWordsQty": "33",
+        "modifiers": "1",
+        "logStatementsQty": "1"
+      },
+      "methods": {
+        "apiInfo/0": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "rfc": "5",
+            "loc": "3",
+            "returnsQty": "1",
+            "methodsInvokedQty": "5",
+            "stringLiteralsQty": "4",
+            "uniqueWordsQty": "19",
+            "modifiers": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "createRestApi/0": {
+          "metrics": {
+            "cbo": "4",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "9",
+            "loc": "4",
+            "returnsQty": "1",
+            "methodsInvokedQty": "9",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "1",
+            "uniqueWordsQty": "9",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "controllerPackagePath": "2"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.FoodOrder": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "3",
+        "fanin": "2",
+        "fanout": "1",
+        "wmc": "1",
+        "dit": "1",
+        "lcom*": "1.0",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "7",
+        "privateFieldsQty": "7",
+        "loc": "11",
+        "variablesQty": "7",
+        "uniqueWordsQty": "12",
+        "modifiers": "1"
+      },
+      "methods": {
+        "FoodOrder/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "2",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.Contacts": {
+      "metrics": {
+        "cbo": "5",
+        "cboModified": "16",
+        "fanin": "11",
+        "fanout": "5",
+        "wmc": "7",
+        "dit": "1",
+        "rfc": "9",
+        "lcom": "1",
+        "lcom*": "0.5",
+        "totalMethodsQty": "2",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "totalFieldsQty": "6",
+        "privateFieldsQty": "6",
+        "loc": "26",
+        "returnQty": "5",
+        "comparisonsQty": "5",
+        "parenthesizedExpsQty": "1",
+        "numbersQty": "3",
+        "assignmentsQty": "3",
+        "mathOperationsQty": "2",
+        "variablesQty": "8",
+        "maxNestedBlocksQty": "1",
+        "uniqueWordsQty": "27",
+        "modifiers": "1"
+      },
+      "methods": {
+        "equals/1[java.lang.Object]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "5",
+            "rfc": "8",
+            "loc": "13",
+            "returnsQty": "4",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "8",
+            "comparisonsQty": "4",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "12",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "accountId": "1",
+            "phoneNumber": "1",
+            "documentType": "1",
+            "documentNumber": "1",
+            "name": "1"
+          },
+          "variable_usages": {
+            "other": "5",
+            "obj": "4"
+          }
+        },
+        "hashCode/0": {
+          "metrics": {
+            "wmc": "2",
+            "rfc": "1",
+            "loc": "5",
+            "returnsQty": "1",
+            "variablesQty": "1",
+            "methodsInvokedQty": "1",
+            "comparisonsQty": "1",
+            "parenthesizedExpsQty": "1",
+            "numbersQty": "3",
+            "assignmentsQty": "2",
+            "mathOperationsQty": "2",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "id": "2"
+          },
+          "variable_usages": {
+            "result": "3"
+          }
+        }
+      }
+    },
+    "edu.fudan.common.entity.SoldTicket": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "3",
+        "fanin": "2",
+        "fanout": "1",
+        "wmc": "1",
+        "dit": "1",
+        "lcom*": "0.18181819",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "11",
+        "privateFieldsQty": "11",
+        "loc": "24",
+        "numbersQty": "9",
+        "assignmentsQty": "9",
+        "variablesQty": "11",
+        "uniqueWordsQty": "18",
+        "modifiers": "1"
+      },
+      "methods": {
+        "SoldTicket/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "11",
+            "numbersQty": "9",
+            "assignmentsQty": "9",
+            "uniqueWordsQty": "13",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "businessSeat": "1",
+            "firstClassSeat": "1",
+            "hardBed": "1",
+            "hardSeat": "1",
+            "highSoftBed": "1",
+            "softSeat": "1",
+            "noSeat": "1",
+            "softBed": "1",
+            "secondClassSeat": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.security.jwt.JWTFilter": {
+      "metrics": {
+        "cbo": "6",
+        "cboModified": "36",
+        "fanin": "30",
+        "fanout": "6",
+        "wmc": "2",
+        "dit": "2",
+        "rfc": "5",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "protectedMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "nosi": "1",
+        "loc": "12",
+        "tryCatchQty": "1",
+        "assignmentsQty": "1",
+        "variablesQty": "1",
+        "maxNestedBlocksQty": "1",
+        "uniqueWordsQty": "23",
+        "modifiers": "1"
+      },
+      "methods": {
+        "doFilterInternal/3[edu.fudan.common.security.jwt.HttpServletRequest,edu.fudan.common.security.jwt.HttpServletResponse,edu.fudan.common.security.jwt.FilterChain]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "2",
+            "rfc": "5",
+            "loc": "10",
+            "variablesQty": "1",
+            "parametersQty": "3",
+            "methodsInvokedQty": "5",
+            "tryCatchQty": "1",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "16",
+            "modifiers": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "e": "0",
+            "httpServletRequest": "2",
+            "httpServletResponse": "2",
+            "filterChain": "1",
+            "authentication": "1"
+          }
+        }
+      }
+    },
+    "edu.fudan.common.entity.Ticket": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "10",
+        "fanin": "9",
+        "fanout": "1",
+        "wmc": "2",
+        "dit": "1",
+        "lcom": "1",
+        "lcom*": "0.5",
+        "totalMethodsQty": "2",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "totalFieldsQty": "3",
+        "privateFieldsQty": "3",
+        "loc": "12",
+        "assignmentsQty": "3",
+        "variablesQty": "3",
+        "uniqueWordsQty": "7",
+        "modifiers": "1"
+      },
+      "methods": {
+        "Ticket/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "3",
+            "fanin": "3",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "1",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "Ticket/3[int,java.lang.String,java.lang.String]": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "5",
+            "parametersQty": "3",
+            "assignmentsQty": "3",
+            "uniqueWordsQty": "6",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "destStation": "3",
+            "startStation": "3",
+            "seatNo": "3"
+          },
+          "variable_usages": {
+            "destStation": "2",
+            "startStation": "2",
+            "seatNo": "2"
+          }
+        }
+      }
+    },
+    "edu.fudan.common.entity.OrderTicketsInfo": {
+      "metrics": {
+        "cbo": "5",
+        "cboModified": "15",
+        "fanin": "10",
+        "fanout": "5",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "1",
+        "lcom": "1",
+        "lcom*": "0.94736844",
+        "totalMethodsQty": "2",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "totalFieldsQty": "19",
+        "privateFieldsQty": "19",
+        "nosi": "2",
+        "loc": "27",
+        "returnQty": "2",
+        "numbersQty": "1",
+        "assignmentsQty": "1",
+        "variablesQty": "19",
+        "uniqueWordsQty": "31",
+        "modifiers": "1"
+      },
+      "methods": {
+        "getFrom/0": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "5",
+            "fanin": "4",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "from": "1"
+          },
+          "variable_usages": {}
+        },
+        "getTo/0": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "5",
+            "fanin": "4",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "to": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.RoutePlanInfo": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "8",
+        "fanin": "5",
+        "fanout": "3",
+        "wmc": "3",
+        "dit": "1",
+        "rfc": "1",
+        "lcom": "3",
+        "lcom*": "0.8333334",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "3",
+        "visibleMethodsQty": "3",
+        "totalFieldsQty": "4",
+        "privateFieldsQty": "4",
+        "nosi": "2",
+        "loc": "14",
+        "returnQty": "2",
+        "variablesQty": "4",
+        "uniqueWordsQty": "13",
+        "modifiers": "1"
+      },
+      "methods": {
+        "getStartStation/0": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "7",
+            "fanin": "6",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "startStation": "1"
+          },
+          "variable_usages": {}
+        },
+        "RoutePlanInfo/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "6",
+            "fanin": "6",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "getEndStation/0": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "7",
+            "fanin": "6",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "endStation": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.Food": {
+      "metrics": {
+        "cbo": "2",
+        "cboModified": "13",
+        "fanin": "11",
+        "fanout": "2",
+        "wmc": "1",
+        "dit": "1",
+        "lcom*": "1.0",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "2",
+        "privateFieldsQty": "2",
+        "loc": "6",
+        "variablesQty": "2",
+        "uniqueWordsQty": "5",
+        "modifiers": "1"
+      },
+      "methods": {
+        "Food/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "1",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.OrderSecurity": {
+      "metrics": {
+        "cbo": "2",
+        "cboModified": "8",
+        "fanin": "6",
+        "fanout": "2",
+        "wmc": "1",
+        "dit": "1",
+        "lcom*": "1.0",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "2",
+        "privateFieldsQty": "2",
+        "loc": "6",
+        "variablesQty": "2",
+        "uniqueWordsQty": "11",
+        "modifiers": "1"
+      },
+      "methods": {
+        "OrderSecurity/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "5",
+            "fanin": "5",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "2",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.Trip": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "14",
+        "fanin": "11",
+        "fanout": "3",
+        "wmc": "3",
+        "dit": "1",
+        "rfc": "1",
+        "lcom*": "0.2962963",
+        "tcc": "1.0",
+        "lcc": "1.0",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "3",
+        "visibleMethodsQty": "3",
+        "totalFieldsQty": "9",
+        "privateFieldsQty": "9",
+        "nosi": "3",
+        "loc": "36",
+        "stringLiteralsQty": "9",
+        "assignmentsQty": "19",
+        "variablesQty": "9",
+        "uniqueWordsQty": "15",
+        "modifiers": "1"
+      },
+      "methods": {
+        "Trip/3[edu.fudan.common.entity.TripId,java.lang.String,java.lang.String]": {
+          "metrics": {
+            "constructor": "true",
+            "cbo": "1",
+            "wmc": "1",
+            "loc": "9",
+            "parametersQty": "3",
+            "stringLiteralsQty": "4",
+            "assignmentsQty": "7",
+            "uniqueWordsQty": "7",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "routeId": "3",
+            "terminalStationName": "1",
+            "tripId": "3",
+            "startTime": "1",
+            "endTime": "1",
+            "trainTypeName": "3",
+            "startStationName": "1"
+          },
+          "variable_usages": {
+            "routeId": "2",
+            "tripId": "2",
+            "trainTypeName": "2"
+          }
+        },
+        "Trip/7[edu.fudan.common.entity.TripId,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String]": {
+          "metrics": {
+            "constructor": "true",
+            "cbo": "2",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "9",
+            "parametersQty": "7",
+            "methodsInvokedQty": "1",
+            "assignmentsQty": "7",
+            "uniqueWordsQty": "12",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "terminalStationName": "3",
+            "stationsName": "3",
+            "tripId": "3",
+            "startTime": "3",
+            "endTime": "3",
+            "trainTypeName": "3",
+            "startStationName": "3"
+          },
+          "variable_usages": {
+            "terminalStationName": "2",
+            "stationsName": "2",
+            "tripId": "2",
+            "startTime": "2",
+            "endTime": "2",
+            "trainTypeName": "2",
+            "startStationName": "2"
+          }
+        },
+        "Trip/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "3",
+            "fanin": "3",
+            "wmc": "1",
+            "loc": "7",
+            "stringLiteralsQty": "5",
+            "assignmentsQty": "5",
+            "uniqueWordsQty": "1",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "terminalStationName": "1",
+            "startTime": "1",
+            "endTime": "1",
+            "trainTypeName": "1",
+            "startStationName": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.TripInfo": {
+      "metrics": {
+        "cbo": "5",
+        "cboModified": "7",
+        "fanin": "2",
+        "fanout": "5",
+        "wmc": "3",
+        "dit": "1",
+        "rfc": "1",
+        "lcom*": "0.44444445",
+        "tcc": "0.6666667",
+        "lcc": "1.0",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "3",
+        "visibleMethodsQty": "3",
+        "totalFieldsQty": "3",
+        "privateFieldsQty": "3",
+        "nosi": "2",
+        "loc": "16",
+        "returnQty": "2",
+        "stringLiteralsQty": "3",
+        "assignmentsQty": "3",
+        "variablesQty": "3",
+        "uniqueWordsQty": "11",
+        "modifiers": "1"
+      },
+      "methods": {
+        "getStartPlace/0": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "startPlace": "1"
+          },
+          "variable_usages": {}
+        },
+        "getEndPlace/0": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "endPlace": "1"
+          },
+          "variable_usages": {}
+        },
+        "TripInfo/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "5",
+            "stringLiteralsQty": "3",
+            "assignmentsQty": "3",
+            "uniqueWordsQty": "2",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "departureTime": "1",
+            "startPlace": "1",
+            "endPlace": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.PaymentDifferenceInfo": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "2",
+        "fanin": "1",
+        "fanout": "1",
+        "wmc": "1",
+        "dit": "1",
+        "lcom*": "1.0",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "4",
+        "privateFieldsQty": "4",
+        "loc": "8",
+        "variablesQty": "4",
+        "uniqueWordsQty": "9",
+        "modifiers": "1"
+      },
+      "methods": {
+        "PaymentDifferenceInfo/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.SeatClass": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "12",
+        "fanin": "11",
+        "fanout": "1",
+        "wmc": "6",
+        "dit": "1",
+        "rfc": "3",
+        "lcom*": "0.375",
+        "tcc": "0.6666667",
+        "lcc": "1.0",
+        "totalMethodsQty": "4",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "3",
+        "defaultMethodsQty": "1",
+        "visibleMethodsQty": "4",
+        "totalFieldsQty": "2",
+        "privateFieldsQty": "2",
+        "nosi": "1",
+        "loc": "31",
+        "returnQty": "4",
+        "loopQty": "1",
+        "comparisonsQty": "1",
+        "stringLiteralsQty": "9",
+        "numbersQty": "10",
+        "assignmentsQty": "3",
+        "variablesQty": "3",
+        "maxNestedBlocksQty": "2",
+        "uniqueWordsQty": "36",
+        "modifiers": "1"
+      },
+      "methods": {
+        "SeatClass/2[int,java.lang.String]": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "loc": "4",
+            "parametersQty": "2",
+            "assignmentsQty": "2",
+            "uniqueWordsQty": "4"
+          },
+          "field_usages": {
+            "code": "3",
+            "name": "3"
+          },
+          "variable_usages": {
+            "code": "2",
+            "name": "2"
+          }
+        },
+        "getName/0": {
+          "metrics": {
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "name": "1"
+          },
+          "variable_usages": {}
+        },
+        "getNameByCode/1[int]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "6",
+            "fanin": "3",
+            "fanout": "3",
+            "wmc": "3",
+            "rfc": "3",
+            "loc": "9",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "2",
+            "methodsInvokedIndirectLocalQty": "1",
+            "loopQty": "1",
+            "comparisonsQty": "1",
+            "numbersQty": "1",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "9",
+            "modifiers": "9"
+          },
+          "field_usages": {
+            "code": "2"
+          },
+          "variable_usages": {
+            "seatClassSet": "2",
+            "code": "1",
+            "seatClass": "2"
+          }
+        },
+        "getCode/0": {
+          "metrics": {
+            "cboModified": "12",
+            "fanin": "12",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "code": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.TripResponse": {
+      "metrics": {
+        "cbo": "4",
+        "cboModified": "13",
+        "fanin": "9",
+        "fanout": "4",
+        "wmc": "1",
+        "dit": "1",
+        "lcom*": "0.1",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "10",
+        "privateFieldsQty": "10",
+        "loc": "23",
+        "stringLiteralsQty": "7",
+        "numbersQty": "2",
+        "assignmentsQty": "9",
+        "variablesQty": "10",
+        "uniqueWordsQty": "24",
+        "modifiers": "1"
+      },
+      "methods": {
+        "TripResponse/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "3",
+            "fanin": "3",
+            "wmc": "1",
+            "loc": "11",
+            "stringLiteralsQty": "7",
+            "numbersQty": "2",
+            "assignmentsQty": "9",
+            "uniqueWordsQty": "2",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "priceForConfortClass": "1",
+            "confortClass": "1",
+            "priceForEconomyClass": "1",
+            "economyClass": "1",
+            "startStation": "1",
+            "startTime": "1",
+            "endTime": "1",
+            "trainTypeName": "1",
+            "terminalStation": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.Type": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "3",
+        "fanin": "2",
+        "fanout": "1",
+        "wmc": "8",
+        "dit": "1",
+        "rfc": "2",
+        "lcom*": "0.33333334",
+        "tcc": "0.6",
+        "lcc": "1.0",
+        "totalMethodsQty": "6",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "3",
+        "defaultMethodsQty": "3",
+        "visibleMethodsQty": "6",
+        "totalFieldsQty": "2",
+        "privateFieldsQty": "2",
+        "nosi": "1",
+        "loc": "32",
+        "returnQty": "4",
+        "loopQty": "1",
+        "comparisonsQty": "1",
+        "stringLiteralsQty": "5",
+        "numbersQty": "5",
+        "assignmentsQty": "4",
+        "variablesQty": "2",
+        "maxNestedBlocksQty": "2",
+        "uniqueWordsQty": "17",
+        "modifiers": "1"
+      },
+      "methods": {
+        "getName/1[int]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "3",
+            "rfc": "2",
+            "loc": "8",
+            "returnsQty": "2",
+            "parametersQty": "1",
+            "methodsInvokedQty": "2",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "loopQty": "1",
+            "comparisonsQty": "1",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "6",
+            "modifiers": "9"
+          },
+          "field_usages": {
+            "index": "2"
+          },
+          "variable_usages": {
+            "index": "1",
+            "type": "2"
+          }
+        },
+        "getName/0": {
+          "metrics": {
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "name": "1"
+          },
+          "variable_usages": {}
+        },
+        "Type/2[java.lang.String,int]": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "loc": "4",
+            "parametersQty": "2",
+            "assignmentsQty": "2",
+            "uniqueWordsQty": "3"
+          },
+          "field_usages": {
+            "name": "3",
+            "index": "3"
+          },
+          "variable_usages": {
+            "name": "2",
+            "index": "2"
+          }
+        },
+        "getIndex/0": {
+          "metrics": {
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "index": "1"
+          },
+          "variable_usages": {}
+        },
+        "setIndex/1[int]": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "3"
+          },
+          "field_usages": {
+            "index": "3"
+          },
+          "variable_usages": {
+            "index": "2"
+          }
+        },
+        "setName/1[java.lang.String]": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "3"
+          },
+          "field_usages": {
+            "name": "3"
+          },
+          "variable_usages": {
+            "name": "2"
+          }
+        }
+      }
+    },
+    "edu.fudan.common.entity.AdminTrip": {
+      "metrics": {
+        "cbo": "4",
+        "cboModified": "4",
+        "fanout": "4",
+        "wmc": "1",
+        "dit": "1",
+        "lcom*": "1.0",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "3",
+        "privateFieldsQty": "3",
+        "loc": "7",
+        "variablesQty": "3",
+        "uniqueWordsQty": "9",
+        "modifiers": "1"
+      },
+      "methods": {
+        "AdminTrip/0": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "2",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.TravelResult": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "8",
+        "fanin": "5",
+        "fanout": "3",
+        "wmc": "2",
+        "dit": "1",
+        "lcom": "1",
+        "lcom*": "0.9",
+        "totalMethodsQty": "2",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "totalFieldsQty": "5",
+        "privateFieldsQty": "5",
+        "loc": "12",
+        "returnQty": "1",
+        "variablesQty": "5",
+        "uniqueWordsQty": "13",
+        "modifiers": "1"
+      },
+      "methods": {
+        "TravelResult/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "4",
+            "fanin": "4",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "2",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "isStatus/0": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "status": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.Seat": {
+      "metrics": {
+        "cbo": "4",
+        "cboModified": "20",
+        "fanin": "16",
+        "fanout": "4",
+        "wmc": "1",
+        "dit": "1",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "7",
+        "privateFieldsQty": "7",
+        "loc": "18",
+        "stringLiteralsQty": "4",
+        "numbersQty": "2",
+        "assignmentsQty": "7",
+        "variablesQty": "7",
+        "uniqueWordsQty": "15",
+        "modifiers": "1"
+      },
+      "methods": {
+        "Seat/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "12",
+            "fanin": "12",
+            "wmc": "1",
+            "loc": "9",
+            "stringLiteralsQty": "4",
+            "numbersQty": "2",
+            "assignmentsQty": "7",
+            "uniqueWordsQty": "2",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "seatType": "1",
+            "travelDate": "1",
+            "totalNum": "1",
+            "destStation": "1",
+            "startStation": "1",
+            "trainNumber": "1",
+            "stations": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.TripAllDetailInfo": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "9",
+        "fanin": "6",
+        "fanout": "3",
+        "wmc": "3",
+        "dit": "1",
+        "rfc": "1",
+        "lcom": "3",
+        "lcom*": "0.8333334",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "3",
+        "visibleMethodsQty": "3",
+        "totalFieldsQty": "4",
+        "privateFieldsQty": "4",
+        "nosi": "2",
+        "loc": "14",
+        "returnQty": "2",
+        "variablesQty": "4",
+        "uniqueWordsQty": "14",
+        "modifiers": "1"
+      },
+      "methods": {
+        "getFrom/0": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "from": "1"
+          },
+          "variable_usages": {}
+        },
+        "TripAllDetailInfo/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "5",
+            "fanin": "5",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "4",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "getTo/0": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "to": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.OrderAlterInfo": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "3",
+        "fanout": "3",
+        "wmc": "1",
+        "dit": "1",
+        "lcom*": "0.75",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "4",
+        "privateFieldsQty": "4",
+        "loc": "9",
+        "assignmentsQty": "1",
+        "variablesQty": "4",
+        "uniqueWordsQty": "10",
+        "modifiers": "1"
+      },
+      "methods": {
+        "OrderAlterInfo/0": {
+          "metrics": {
+            "constructor": "true",
+            "cbo": "1",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "loc": "3",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "4",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "newOrderInfo": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.util.Response": {
+      "metrics": {
+        "cbo": "5",
+        "cboModified": "125",
+        "fanin": "120",
+        "fanout": "5",
+        "dit": "1",
+        "lcom*": "NaN",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "totalFieldsQty": "3",
+        "defaultFieldsQty": "3",
+        "loc": "5",
+        "variablesQty": "3",
+        "uniqueWordsQty": "7",
+        "modifiers": "1"
+      },
+      "methods": {}
+    },
+    "edu.fudan.common.entity.DocumentType": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "3",
+        "fanin": "2",
+        "fanout": "1",
+        "wmc": "6",
+        "dit": "1",
+        "rfc": "3",
+        "lcom*": "0.375",
+        "tcc": "0.6666667",
+        "lcc": "1.0",
+        "totalMethodsQty": "4",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "3",
+        "defaultMethodsQty": "1",
+        "visibleMethodsQty": "4",
+        "totalFieldsQty": "2",
+        "privateFieldsQty": "2",
+        "nosi": "1",
+        "loc": "26",
+        "returnQty": "4",
+        "loopQty": "1",
+        "comparisonsQty": "1",
+        "stringLiteralsQty": "4",
+        "numbersQty": "5",
+        "assignmentsQty": "3",
+        "variablesQty": "3",
+        "maxNestedBlocksQty": "2",
+        "uniqueWordsQty": "30",
+        "modifiers": "1"
+      },
+      "methods": {
+        "getCode/0": {
+          "metrics": {
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "code": "1"
+          },
+          "variable_usages": {}
+        },
+        "DocumentType/2[int,java.lang.String]": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "loc": "4",
+            "parametersQty": "2",
+            "assignmentsQty": "2",
+            "uniqueWordsQty": "4"
+          },
+          "field_usages": {
+            "code": "3",
+            "name": "3"
+          },
+          "variable_usages": {
+            "code": "2",
+            "name": "2"
+          }
+        },
+        "getName/0": {
+          "metrics": {
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "name": "1"
+          },
+          "variable_usages": {}
+        },
+        "getNameByCode/1[int]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "3",
+            "fanout": "3",
+            "wmc": "3",
+            "rfc": "3",
+            "loc": "9",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "2",
+            "methodsInvokedIndirectLocalQty": "1",
+            "loopQty": "1",
+            "comparisonsQty": "1",
+            "numbersQty": "1",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "9",
+            "modifiers": "9"
+          },
+          "field_usages": {
+            "code": "2"
+          },
+          "variable_usages": {
+            "code": "1",
+            "documentType": "2",
+            "documentTypeSet": "2"
+          }
+        }
+      }
+    },
+    "edu.fudan.common.entity.TrainFood": {
+      "metrics": {
+        "cbo": "2",
+        "cboModified": "2",
+        "fanout": "2",
+        "wmc": "1",
+        "dit": "1",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "3",
+        "privateFieldsQty": "3",
+        "loc": "7",
+        "variablesQty": "3",
+        "uniqueWordsQty": "11",
+        "modifiers": "1"
+      },
+      "methods": {
+        "TrainFood/0": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "2",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "edu.fudan.common.entity.Config": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "8",
+        "fanin": "5",
+        "fanout": "3",
+        "dit": "1",
+        "lcom*": "NaN",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "totalFieldsQty": "3",
+        "privateFieldsQty": "3",
+        "loc": "5",
+        "variablesQty": "3",
+        "uniqueWordsQty": "5",
+        "modifiers": "1"
+      },
+      "methods": {}
+    },
+    "edu.fudan.common.exception.TokenException": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "2",
+        "fanin": "1",
+        "fanout": "1",
+        "wmc": "1",
+        "dit": "5",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "loc": "5",
+        "uniqueWordsQty": "5",
+        "modifiers": "1"
+      },
+      "methods": {
+        "TokenException/1[java.lang.String]": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "message": "1"
+          }
+        }
+      }
+    },
+    "edu.fudan.common.util.StringUtils": {
+      "metrics": {
+        "cboModified": "24",
+        "fanin": "24",
+        "wmc": "7",
+        "dit": "1",
+        "rfc": "6",
+        "lcom": "3",
+        "totalMethodsQty": "3",
+        "staticMethodsQty": "3",
+        "publicMethodsQty": "3",
+        "visibleMethodsQty": "3",
+        "loc": "28",
+        "returnQty": "5",
+        "comparisonsQty": "1",
+        "tryCatchQty": "1",
+        "stringLiteralsQty": "5",
+        "numbersQty": "2",
+        "assignmentsQty": "4",
+        "variablesQty": "3",
+        "maxNestedBlocksQty": "1",
+        "uniqueWordsQty": "17",
+        "modifiers": "1"
+      },
+      "methods": {
+        "String2Date/1[java.lang.String]": {
+          "metrics": {
+            "cboModified": "15",
+            "fanin": "15",
+            "wmc": "3",
+            "rfc": "2",
+            "loc": "16",
+            "returnsQty": "2",
+            "variablesQty": "2",
+            "parametersQty": "1",
+            "methodsInvokedQty": "2",
+            "tryCatchQty": "1",
+            "stringLiteralsQty": "2",
+            "numbersQty": "2",
+            "assignmentsQty": "3",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "11",
+            "modifiers": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "str": "2",
+            "formatter": "3",
+            "d": "1",
+            "e": "0"
+          }
+        },
+        "String2Lower/1[java.lang.String]": {
+          "metrics": {
+            "cboModified": "9",
+            "fanin": "9",
+            "wmc": "3",
+            "rfc": "3",
+            "loc": "6",
+            "returnsQty": "2",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "4",
+            "modifiers": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "str": "4"
+          }
+        },
+        "Date2String/1[java.util.Date]": {
+          "metrics": {
+            "cboModified": "21",
+            "fanin": "21",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "4",
+            "returnsQty": "1",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "stringLiteralsQty": "1",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "9",
+            "modifiers": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "date": "1",
+            "formatter": "1"
+          }
+        }
+      }
+    },
+    "edu.fudan.common.security.jwt.JWTUtil$Anonymous1": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "1",
+        "fanout": "1",
+        "wmc": "7",
+        "dit": "1",
+        "rfc": "6",
+        "lcom": "21",
+        "totalMethodsQty": "7",
+        "publicMethodsQty": "7",
+        "visibleMethodsQty": "7",
+        "nosi": "3",
+        "loc": "23",
+        "returnQty": "7",
+        "stringLiteralsQty": "1",
+        "uniqueWordsQty": "18",
+        "modifiers": "-1"
+      },
+      "methods": {
+        "isAccountNonExpired/0": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "isAccountNonLocked/0": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "isCredentialsNonExpired/0": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "getAuthorities/0": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "5",
+            "loc": "3",
+            "returnsQty": "1",
+            "methodsInvokedQty": "5",
+            "uniqueWordsQty": "6",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "isEnabled/0": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "getUsername/0": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "getPassword/0": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "stringLiteralsQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    }
+  },
+  "microservice_name": "ts-common"
+}

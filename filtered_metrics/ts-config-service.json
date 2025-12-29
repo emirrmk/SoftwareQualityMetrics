@@ -1,0 +1,845 @@
+{
+  "classes": {
+    "config.SecurityConfig": {
+      "metrics": {
+        "cbo": "13",
+        "cboModified": "13",
+        "fanout": "13",
+        "wmc": "3",
+        "dit": "2",
+        "rfc": "15",
+        "lcom": "3",
+        "lcom*": "0.6666667",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "2",
+        "protectedMethodsQty": "1",
+        "visibleMethodsQty": "3",
+        "totalFieldsQty": "1",
+        "defaultFieldsQty": "1",
+        "loc": "18",
+        "returnQty": "2",
+        "stringLiteralsQty": "11",
+        "assignmentsQty": "1",
+        "variablesQty": "1",
+        "anonymousClassesQty": "1",
+        "uniqueWordsQty": "67",
+        "modifiers": "1"
+      },
+      "methods": {
+        "passwordEncoder/0": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "7",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "configure/1[config.HttpSecurity]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "15",
+            "loc": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "15",
+            "stringLiteralsQty": "10",
+            "uniqueWordsQty": "20",
+            "modifiers": "4"
+          },
+          "field_usages": {
+            "admin": "3"
+          },
+          "variable_usages": {
+            "httpSecurity": "2"
+          }
+        },
+        "corsConfigurer/0": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "loc": "8",
+            "returnsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "43",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "config.service.ConfigService": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "7",
+        "fanin": "4",
+        "fanout": "3",
+        "wmc": "5",
+        "dit": "1",
+        "lcom": "10",
+        "totalMethodsQty": "5",
+        "defaultMethodsQty": "5",
+        "visibleMethodsQty": "5",
+        "loc": "7",
+        "uniqueWordsQty": "20",
+        "modifiers": "1"
+      },
+      "methods": {
+        "queryAll/1[config.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "8",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "create/2[config.entity.Config,config.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "3",
+            "fanin": "3",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "9",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "info": "0"
+          }
+        },
+        "update/2[config.entity.Config,config.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "9",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "info": "0"
+          }
+        },
+        "query/2[java.lang.String,config.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "6",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "name": "0"
+          }
+        },
+        "delete/2[java.lang.String,config.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "6",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "name": "0"
+          }
+        }
+      }
+    },
+    "config.controller.ConfigController": {
+      "metrics": {
+        "cbo": "19",
+        "cboModified": "21",
+        "fanin": "2",
+        "fanout": "19",
+        "wmc": "6",
+        "dit": "1",
+        "rfc": "10",
+        "lcom*": "0.16666667",
+        "tcc": "0.6666667",
+        "lcc": "0.6666667",
+        "totalMethodsQty": "6",
+        "publicMethodsQty": "6",
+        "visibleMethodsQty": "6",
+        "totalFieldsQty": "2",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "2",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "27",
+        "returnQty": "6",
+        "stringLiteralsQty": "18",
+        "assignmentsQty": "1",
+        "variablesQty": "2",
+        "uniqueWordsQty": "28",
+        "modifiers": "1",
+        "logStatementsQty": "5",
+        "external_microservice_call": 2
+      },
+      "methods": {
+        "createConfig/2[config.entity.Config,config.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "10",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "7",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "configService": "1",
+            "logger": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "info": "3"
+          }
+        },
+        "home/1[config.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "queryAll/1[config.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "10",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "external_microservice_call": 1
+          },
+          "field_usages": {
+            "configService": "1",
+            "logger": "1"
+          },
+          "variable_usages": {
+            "headers": "1"
+          },
+          "invocations": {
+            "ts-seat-service": 1
+          }
+        },
+        "retrieve/2[java.lang.String,config.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "configService": "1",
+            "logger": "1"
+          },
+          "variable_usages": {
+            "configName": "2",
+            "headers": "1"
+          }
+        },
+        "deleteConfig/2[java.lang.String,config.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "12",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "external_microservice_call": 1
+          },
+          "field_usages": {
+            "configService": "1",
+            "logger": "1"
+          },
+          "variable_usages": {
+            "configName": "2",
+            "headers": "1"
+          },
+          "invocations": {
+            "ts-admin-basic-info-service": 1
+          }
+        },
+        "updateConfig/2[config.entity.Config,config.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "9",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "configService": "1",
+            "logger": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "info": "3"
+          }
+        }
+      }
+    },
+    "config.ConfigApplication": {
+      "metrics": {
+        "cbo": "11",
+        "cboModified": "12",
+        "fanin": "1",
+        "fanout": "11",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "2",
+        "lcom": "1",
+        "totalMethodsQty": "2",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "loc": "8",
+        "returnQty": "1",
+        "uniqueWordsQty": "14",
+        "modifiers": "1"
+      },
+      "methods": {
+        "restTemplate/1[config.RestTemplateBuilder]": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "builder": "1"
+          }
+        },
+        "main/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "args": "1"
+          }
+        }
+      }
+    },
+    "config.init.InitData": {
+      "metrics": {
+        "cbo": "5",
+        "cboModified": "5",
+        "fanout": "5",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "4",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "1",
+        "defaultFieldsQty": "1",
+        "loc": "10",
+        "stringLiteralsQty": "3",
+        "assignmentsQty": "1",
+        "variablesQty": "2",
+        "uniqueWordsQty": "21",
+        "modifiers": "1"
+      },
+      "methods": {
+        "run/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "7",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "3",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "13",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "service": "1"
+          },
+          "variable_usages": {
+            "args": "0",
+            "config": "4"
+          }
+        }
+      }
+    },
+    "config.service.ConfigServiceImpl": {
+      "metrics": {
+        "cbo": "11",
+        "cboModified": "13",
+        "fanin": "2",
+        "fanout": "11",
+        "wmc": "11",
+        "dit": "1",
+        "rfc": "14",
+        "lcom*": "0.13333334",
+        "tcc": "1.0",
+        "lcc": "1.0",
+        "totalMethodsQty": "5",
+        "publicMethodsQty": "5",
+        "visibleMethodsQty": "5",
+        "totalFieldsQty": "3",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "1",
+        "defaultFieldsQty": "2",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "66",
+        "returnQty": "10",
+        "comparisonsQty": "5",
+        "stringLiteralsQty": "21",
+        "numbersQty": "10",
+        "assignmentsQty": "10",
+        "mathOperationsQty": "3",
+        "variablesQty": "11",
+        "maxNestedBlocksQty": "1",
+        "uniqueWordsQty": "28",
+        "modifiers": "1",
+        "logStatementsQty": "10"
+      },
+      "methods": {
+        "query/2[java.lang.String,config.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "5",
+            "fanin": "2",
+            "fanout": "3",
+            "wmc": "2",
+            "rfc": "3",
+            "loc": "11",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "5",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "9",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "logger": "2",
+            "repository": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "name": "3",
+            "config": "2"
+          }
+        },
+        "create/2[config.entity.Config,config.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "6",
+            "fanin": "2",
+            "fanout": "4",
+            "wmc": "2",
+            "rfc": "7",
+            "loc": "13",
+            "returnsQty": "2",
+            "variablesQty": "2",
+            "parametersQty": "2",
+            "methodsInvokedQty": "7",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "4",
+            "numbersQty": "2",
+            "assignmentsQty": "2",
+            "mathOperationsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "9",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "logger": "2",
+            "repository": "2",
+            "config0": "2"
+          },
+          "variable_usages": {
+            "result": "1",
+            "headers": "0",
+            "config": "2",
+            "info": "8"
+          }
+        },
+        "delete/2[java.lang.String,config.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "6",
+            "fanin": "2",
+            "fanout": "4",
+            "wmc": "2",
+            "rfc": "4",
+            "loc": "13",
+            "returnsQty": "2",
+            "variablesQty": "2",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "4",
+            "numbersQty": "2",
+            "assignmentsQty": "2",
+            "mathOperationsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "9",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "logger": "2",
+            "repository": "2",
+            "config0": "1"
+          },
+          "variable_usages": {
+            "result": "1",
+            "headers": "0",
+            "name": "5",
+            "config": "2"
+          }
+        },
+        "queryAll/1[config.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "5",
+            "fanin": "2",
+            "fanout": "3",
+            "wmc": "3",
+            "rfc": "4",
+            "loc": "11",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "4",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "4",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "logger": "2",
+            "repository": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "configList": "3"
+          }
+        },
+        "update/2[config.entity.Config,config.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "6",
+            "fanin": "2",
+            "fanout": "4",
+            "wmc": "2",
+            "rfc": "7",
+            "loc": "13",
+            "returnsQty": "2",
+            "variablesQty": "2",
+            "parametersQty": "2",
+            "methodsInvokedQty": "7",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "3",
+            "numbersQty": "2",
+            "assignmentsQty": "2",
+            "mathOperationsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "logger": "2",
+            "repository": "2",
+            "config0": "1"
+          },
+          "variable_usages": {
+            "result": "2",
+            "headers": "0",
+            "config": "3",
+            "info": "6"
+          }
+        }
+      }
+    },
+    "config.SecurityConfig$Anonymous1": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "1",
+        "fanout": "1",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "6",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "loc": "5",
+        "stringLiteralsQty": "1",
+        "numbersQty": "1",
+        "uniqueWordsQty": "8",
+        "modifiers": "-1"
+      },
+      "methods": {
+        "addCorsMappings/1[config.CorsRegistry]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "1",
+            "numbersQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "registry": "1"
+          }
+        }
+      }
+    },
+    "config.entity.Config": {
+      "metrics": {
+        "cbo": "5",
+        "cboModified": "12",
+        "fanin": "7",
+        "fanout": "5",
+        "wmc": "2",
+        "dit": "1",
+        "lcom*": "0.16666667",
+        "tcc": "1.0",
+        "lcc": "1.0",
+        "totalMethodsQty": "2",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "totalFieldsQty": "3",
+        "privateFieldsQty": "3",
+        "loc": "14",
+        "stringLiteralsQty": "2",
+        "assignmentsQty": "5",
+        "variablesQty": "3",
+        "uniqueWordsQty": "5",
+        "modifiers": "1"
+      },
+      "methods": {
+        "Config/3[java.lang.String,java.lang.String,java.lang.String]": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "4",
+            "fanin": "4",
+            "wmc": "1",
+            "loc": "5",
+            "parametersQty": "3",
+            "assignmentsQty": "3",
+            "uniqueWordsQty": "4",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "name": "3",
+            "description": "3",
+            "value": "3"
+          },
+          "variable_usages": {
+            "name": "2",
+            "description": "2",
+            "value": "2"
+          }
+        },
+        "Config/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "8",
+            "fanin": "8",
+            "wmc": "1",
+            "loc": "4",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "2",
+            "uniqueWordsQty": "1",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "name": "1",
+            "value": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "config.repository.ConfigRepository": {
+      "metrics": {
+        "cbo": "2",
+        "cboModified": "4",
+        "fanin": "2",
+        "fanout": "2",
+        "wmc": "3",
+        "dit": "1",
+        "lcom": "3",
+        "totalMethodsQty": "3",
+        "defaultMethodsQty": "3",
+        "visibleMethodsQty": "3",
+        "loc": "5",
+        "uniqueWordsQty": "12",
+        "modifiers": "1"
+      },
+      "methods": {
+        "findByName/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "12",
+            "fanin": "12",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "6",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "name": "0"
+          }
+        },
+        "deleteByName/1[java.lang.String]": {
+          "metrics": {
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "6",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "name": "0"
+          }
+        },
+        "findAll/0": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "3",
+            "fanin": "3",
+            "wmc": "1",
+            "loc": "1",
+            "uniqueWordsQty": "3",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    }
+  },
+  "microservice_name": "ts-config-service",
+  "external_microservice_call": 2
+}

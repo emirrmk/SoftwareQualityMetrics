@@ -1,0 +1,1215 @@
+{
+  "total_relations": 82,
+  "relations": [
+    {
+      "source": "ts-admin-basic-info-service",
+      "target": "ts-contacts-service",
+      "count": 4
+    },
+    {
+      "source": "ts-admin-basic-info-service",
+      "target": "ts-train-service",
+      "count": 1
+    },
+    {
+      "source": "ts-admin-basic-info-service",
+      "target": "ts-config-service",
+      "count": 1
+    },
+    {
+      "source": "ts-admin-order-service",
+      "target": "ts-order-service",
+      "count": 4
+    },
+    {
+      "source": "ts-admin-order-service",
+      "target": "ts-order-other-service",
+      "count": 4
+    },
+    {
+      "source": "ts-admin-route-service",
+      "target": "ts-route-service",
+      "count": 3
+    },
+    {
+      "source": "ts-admin-route-service",
+      "target": "ts-station-service",
+      "count": 1
+    },
+    {
+      "source": "ts-admin-travel-service",
+      "target": "ts-travel-service",
+      "count": 1
+    },
+    {
+      "source": "ts-admin-travel-service",
+      "target": "ts-travel2-service",
+      "count": 1
+    },
+    {
+      "source": "ts-admin-travel-service",
+      "target": "ts-station-service",
+      "count": 1
+    },
+    {
+      "source": "ts-admin-travel-service",
+      "target": "ts-train-service",
+      "count": 1
+    },
+    {
+      "source": "ts-admin-travel-service",
+      "target": "ts-route-service",
+      "count": 1
+    },
+    {
+      "source": "ts-auth-service",
+      "target": "ts-verification-code-service",
+      "count": 1
+    },
+    {
+      "source": "ts-basic-service",
+      "target": "ts-station-service",
+      "count": 3
+    },
+    {
+      "source": "ts-basic-service",
+      "target": "ts-train-service",
+      "count": 2
+    },
+    {
+      "source": "ts-basic-service",
+      "target": "ts-route-service",
+      "count": 2
+    },
+    {
+      "source": "ts-basic-service",
+      "target": "ts-price-service",
+      "count": 2
+    },
+    {
+      "source": "ts-cancel-service",
+      "target": "ts-notification-service",
+      "count": 1
+    },
+    {
+      "source": "ts-cancel-service",
+      "target": "ts-order-service",
+      "count": 2
+    },
+    {
+      "source": "ts-cancel-service",
+      "target": "ts-order-other-service",
+      "count": 2
+    },
+    {
+      "source": "ts-cancel-service",
+      "target": "ts-inside-payment-service",
+      "count": 1
+    },
+    {
+      "source": "ts-cancel-service",
+      "target": "ts-user-service",
+      "count": 1
+    },
+    {
+      "source": "ts-consign-service",
+      "target": "ts-consign-price-service",
+      "count": 2
+    },
+    {
+      "source": "ts-execute-service",
+      "target": "ts-order-service",
+      "count": 2
+    },
+    {
+      "source": "ts-execute-service",
+      "target": "ts-order-other-service",
+      "count": 2
+    },
+    {
+      "source": "ts-food-delivery-service",
+      "target": "ts-station-food-service",
+      "count": 1
+    },
+    {
+      "source": "ts-food-service",
+      "target": "ts-train-food-service",
+      "count": 1
+    },
+    {
+      "source": "ts-food-service",
+      "target": "ts-travel-service",
+      "count": 1
+    },
+    {
+      "source": "ts-food-service",
+      "target": "ts-station-food-service",
+      "count": 1
+    },
+    {
+      "source": "ts-inside-payment-service",
+      "target": "ts-payment-service",
+      "count": 2
+    },
+    {
+      "source": "ts-inside-payment-service",
+      "target": "ts-order-service",
+      "count": 1
+    },
+    {
+      "source": "ts-inside-payment-service",
+      "target": "ts-order-other-service",
+      "count": 1
+    },
+    {
+      "source": "ts-order-other-service",
+      "target": "ts-station-service",
+      "count": 1
+    },
+    {
+      "source": "ts-order-service",
+      "target": "ts-station-service",
+      "count": 1
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "target": "ts-basic-service",
+      "count": 1
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "target": "ts-seat-service",
+      "count": 1
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "target": "ts-user-service",
+      "count": 1
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "target": "ts-assurance-service",
+      "count": 1
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "target": "ts-station-service",
+      "count": 1
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "target": "ts-security-service",
+      "count": 1
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "target": "ts-travel2-service",
+      "count": 1
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "target": "ts-contacts-service",
+      "count": 1
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "target": "ts-order-other-service",
+      "count": 1
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "target": "ts-food-service",
+      "count": 1
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "target": "ts-consign-service",
+      "count": 1
+    },
+    {
+      "source": "ts-preserve-service",
+      "target": "ts-basic-service",
+      "count": 1
+    },
+    {
+      "source": "ts-preserve-service",
+      "target": "ts-seat-service",
+      "count": 1
+    },
+    {
+      "source": "ts-preserve-service",
+      "target": "ts-user-service",
+      "count": 1
+    },
+    {
+      "source": "ts-preserve-service",
+      "target": "ts-assurance-service",
+      "count": 1
+    },
+    {
+      "source": "ts-preserve-service",
+      "target": "ts-station-service",
+      "count": 1
+    },
+    {
+      "source": "ts-preserve-service",
+      "target": "ts-security-service",
+      "count": 1
+    },
+    {
+      "source": "ts-preserve-service",
+      "target": "ts-travel-service",
+      "count": 1
+    },
+    {
+      "source": "ts-preserve-service",
+      "target": "ts-contacts-service",
+      "count": 1
+    },
+    {
+      "source": "ts-preserve-service",
+      "target": "ts-order-service",
+      "count": 1
+    },
+    {
+      "source": "ts-preserve-service",
+      "target": "ts-food-service",
+      "count": 1
+    },
+    {
+      "source": "ts-preserve-service",
+      "target": "ts-consign-service",
+      "count": 1
+    },
+    {
+      "source": "ts-rebook-service",
+      "target": "ts-seat-service",
+      "count": 1
+    },
+    {
+      "source": "ts-rebook-service",
+      "target": "ts-train-service",
+      "count": 1
+    },
+    {
+      "source": "ts-rebook-service",
+      "target": "ts-route-service",
+      "count": 1
+    },
+    {
+      "source": "ts-rebook-service",
+      "target": "ts-inside-payment-service",
+      "count": 2
+    },
+    {
+      "source": "ts-route-plan-service",
+      "target": "ts-route-service",
+      "count": 2
+    },
+    {
+      "source": "ts-route-plan-service",
+      "target": "ts-travel-service",
+      "count": 2
+    },
+    {
+      "source": "ts-route-plan-service",
+      "target": "ts-travel2-service",
+      "count": 2
+    },
+    {
+      "source": "ts-seat-service",
+      "target": "ts-order-service",
+      "count": 2
+    },
+    {
+      "source": "ts-seat-service",
+      "target": "ts-order-other-service",
+      "count": 2
+    },
+    {
+      "source": "ts-seat-service",
+      "target": "ts-config-service",
+      "count": 1
+    },
+    {
+      "source": "ts-security-service",
+      "target": "ts-order-service",
+      "count": 1
+    },
+    {
+      "source": "ts-security-service",
+      "target": "ts-order-other-service",
+      "count": 1
+    },
+    {
+      "source": "ts-travel-plan-service",
+      "target": "ts-seat-service",
+      "count": 1
+    },
+    {
+      "source": "ts-travel-plan-service",
+      "target": "ts-route-plan-service",
+      "count": 3
+    },
+    {
+      "source": "ts-travel-plan-service",
+      "target": "ts-travel-service",
+      "count": 1
+    },
+    {
+      "source": "ts-travel-plan-service",
+      "target": "ts-travel2-service",
+      "count": 1
+    },
+    {
+      "source": "ts-travel-plan-service",
+      "target": "ts-train-service",
+      "count": 1
+    },
+    {
+      "source": "ts-travel-service",
+      "target": "ts-basic-service",
+      "count": 2
+    },
+    {
+      "source": "ts-travel-service",
+      "target": "ts-train-service",
+      "count": 1
+    },
+    {
+      "source": "ts-travel-service",
+      "target": "ts-route-service",
+      "count": 1
+    },
+    {
+      "source": "ts-travel-service",
+      "target": "ts-seat-service",
+      "count": 1
+    },
+    {
+      "source": "ts-travel2-service",
+      "target": "ts-basic-service",
+      "count": 2
+    },
+    {
+      "source": "ts-travel2-service",
+      "target": "ts-train-service",
+      "count": 1
+    },
+    {
+      "source": "ts-travel2-service",
+      "target": "ts-route-service",
+      "count": 1
+    },
+    {
+      "source": "ts-travel2-service",
+      "target": "ts-seat-service",
+      "count": 1
+    },
+    {
+      "source": "ts-user-service",
+      "target": "ts-auth-service",
+      "count": 1
+    }
+  ],
+  "api_interactions": [
+    {
+      "source": "ts-admin-basic-info-service",
+      "source_method": "adminbasic.service.AdminBasicInfoServiceImpl.getAllContacts",
+      "target": "ts-contacts-service",
+      "endpoint": "/api/v1/contactservice/contacts",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-admin-basic-info-service",
+      "source_method": "adminbasic.service.AdminBasicInfoServiceImpl.deleteContact",
+      "target": "ts-contacts-service",
+      "endpoint": "/api/v1/contactservice/contacts/",
+      "http_method": "DELETE"
+    },
+    {
+      "source": "ts-admin-basic-info-service",
+      "source_method": "adminbasic.service.AdminBasicInfoServiceImpl.modifyContact",
+      "target": "ts-contacts-service",
+      "endpoint": "/api/v1/contactservice/contacts",
+      "http_method": "PUT"
+    },
+    {
+      "source": "ts-admin-basic-info-service",
+      "source_method": "adminbasic.service.AdminBasicInfoServiceImpl.addContact",
+      "target": "ts-contacts-service",
+      "endpoint": "/api/v1/contactservice/contacts/admin",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-admin-basic-info-service",
+      "source_method": "adminbasic.service.AdminBasicInfoServiceImpl.deleteTrain",
+      "target": "ts-train-service",
+      "endpoint": "/api/v1/trainservice/trains/",
+      "http_method": "DELETE"
+    },
+    {
+      "source": "ts-admin-basic-info-service",
+      "source_method": "adminbasic.service.AdminBasicInfoServiceImpl.deleteConfig",
+      "target": "ts-config-service",
+      "endpoint": "/api/v1/configservice/configs/",
+      "http_method": "DELETE"
+    },
+    {
+      "source": "ts-admin-order-service",
+      "source_method": "adminorder.service.AdminOrderServiceImpl.getAllOrders",
+      "target": "ts-order-service",
+      "endpoint": "/api/v1/orderservice/order",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-admin-order-service",
+      "source_method": "adminorder.service.AdminOrderServiceImpl.getAllOrders",
+      "target": "ts-order-other-service",
+      "endpoint": "/api/v1/orderOtherService/orderOther",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-admin-order-service",
+      "source_method": "adminorder.service.AdminOrderServiceImpl.deleteOrder",
+      "target": "ts-order-service",
+      "endpoint": "/api/v1/orderservice/order/",
+      "http_method": "DELETE"
+    },
+    {
+      "source": "ts-admin-order-service",
+      "source_method": "adminorder.service.AdminOrderServiceImpl.deleteOrder",
+      "target": "ts-order-other-service",
+      "endpoint": "/api/v1/orderOtherService/orderOther/",
+      "http_method": "DELETE"
+    },
+    {
+      "source": "ts-admin-order-service",
+      "source_method": "adminorder.service.AdminOrderServiceImpl.updateOrder",
+      "target": "ts-order-service",
+      "endpoint": "/api/v1/orderservice/order/admin",
+      "http_method": "PUT"
+    },
+    {
+      "source": "ts-admin-order-service",
+      "source_method": "adminorder.service.AdminOrderServiceImpl.updateOrder",
+      "target": "ts-order-other-service",
+      "endpoint": "/api/v1/orderOtherService/orderOther/admin",
+      "http_method": "PUT"
+    },
+    {
+      "source": "ts-admin-order-service",
+      "source_method": "adminorder.service.AdminOrderServiceImpl.addOrder",
+      "target": "ts-order-service",
+      "endpoint": "/api/v1/orderservice/order/admin",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-admin-order-service",
+      "source_method": "adminorder.service.AdminOrderServiceImpl.addOrder",
+      "target": "ts-order-other-service",
+      "endpoint": "/api/v1/orderOtherService/orderOther/admin",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-admin-route-service",
+      "source_method": "adminroute.service.AdminRouteServiceImpl.getAllRoutes",
+      "target": "ts-route-service",
+      "endpoint": "/api/v1/routeservice/routes",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-admin-route-service",
+      "source_method": "adminroute.service.AdminRouteServiceImpl.createAndModifyRoute",
+      "target": "ts-route-service",
+      "endpoint": "/api/v1/routeservice/routes",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-admin-route-service",
+      "source_method": "adminroute.service.AdminRouteServiceImpl.deleteRoute",
+      "target": "ts-route-service",
+      "endpoint": "/api/v1/routeservice/routes/",
+      "http_method": "DELETE"
+    },
+    {
+      "source": "ts-admin-route-service",
+      "source_method": "adminroute.service.AdminRouteServiceImpl.checkStationsExists",
+      "target": "ts-station-service",
+      "endpoint": "/api/v1/stationservice/stations/idlist",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-admin-travel-service",
+      "source_method": "admintravel.service.AdminTravelServiceImpl.getAllTravels",
+      "target": "ts-travel-service",
+      "endpoint": "/api/v1/travelservice/admin_trip",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-admin-travel-service",
+      "source_method": "admintravel.service.AdminTravelServiceImpl.getAllTravels",
+      "target": "ts-travel2-service",
+      "endpoint": "/api/v1/travel2service/admin_trip",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-admin-travel-service",
+      "source_method": "admintravel.service.AdminTravelServiceImpl.checkStationsExists",
+      "target": "ts-station-service",
+      "endpoint": "/api/v1/stationservice/stations/idlist",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-admin-travel-service",
+      "source_method": "admintravel.service.AdminTravelServiceImpl.queryTrainTypeByName",
+      "target": "ts-train-service",
+      "endpoint": "/api/v1/trainservice/trains/byName/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-admin-travel-service",
+      "source_method": "admintravel.service.AdminTravelServiceImpl.getRouteByRouteId",
+      "target": "ts-route-service",
+      "endpoint": "/api/v1/routeservice/routes/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-auth-service",
+      "source_method": "auth.service.impl.TokenServiceImpl.getToken",
+      "target": "ts-verification-code-service",
+      "endpoint": "/api/v1/verifycode/verify/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-basic-service",
+      "source_method": "fdse.microservice.service.BasicServiceImpl.queryForStationId",
+      "target": "ts-station-service",
+      "endpoint": "/api/v1/stationservice/stations/id/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-basic-service",
+      "source_method": "fdse.microservice.service.BasicServiceImpl.queryForStationId",
+      "target": "ts-station-service",
+      "endpoint": "/api/v1/stationservice/stations/idlist",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-basic-service",
+      "source_method": "fdse.microservice.service.BasicServiceImpl.checkStationExists",
+      "target": "ts-station-service",
+      "endpoint": "/api/v1/stationservice/stations/id/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-basic-service",
+      "source_method": "fdse.microservice.service.BasicServiceImpl.queryTrainTypeByNames",
+      "target": "ts-train-service",
+      "endpoint": "/api/v1/trainservice/trains/byNames",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-basic-service",
+      "source_method": "fdse.microservice.service.BasicServiceImpl.queryTrainTypeByName",
+      "target": "ts-train-service",
+      "endpoint": "/api/v1/trainservice/trains/byName/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-basic-service",
+      "source_method": "fdse.microservice.service.BasicServiceImpl.getRoutesByRouteIds",
+      "target": "ts-route-service",
+      "endpoint": "/api/v1/routeservice/routes/byIds/",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-basic-service",
+      "source_method": "fdse.microservice.service.BasicServiceImpl.getRouteByRouteId",
+      "target": "ts-route-service",
+      "endpoint": "/api/v1/routeservice/routes/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-basic-service",
+      "source_method": "fdse.microservice.service.BasicServiceImpl.queryPriceConfigByRouteIdAndTrainType",
+      "target": "ts-price-service",
+      "endpoint": "/api/v1/priceservice/prices/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-basic-service",
+      "source_method": "fdse.microservice.service.BasicServiceImpl.queryPriceConfigByRouteIdAndTrainType",
+      "target": "ts-price-service",
+      "endpoint": "/api/v1/priceservice/prices/byRouteIdsAndTrainTypes",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-cancel-service",
+      "source_method": "cancel.service.CancelServiceImpl.sendEmail",
+      "target": "ts-notification-service",
+      "endpoint": "/api/v1/notifyservice/notification/order_cancel_success",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-cancel-service",
+      "source_method": "cancel.service.CancelServiceImpl.cancelFromOrder",
+      "target": "ts-order-service",
+      "endpoint": "/api/v1/orderservice/order",
+      "http_method": "PUT"
+    },
+    {
+      "source": "ts-cancel-service",
+      "source_method": "cancel.service.CancelServiceImpl.cancelFromOtherOrder",
+      "target": "ts-order-other-service",
+      "endpoint": "/api/v1/orderOtherService/orderOther",
+      "http_method": "PUT"
+    },
+    {
+      "source": "ts-cancel-service",
+      "source_method": "cancel.service.CancelServiceImpl.drawbackMoney",
+      "target": "ts-inside-payment-service",
+      "endpoint": "/api/v1/inside_pay_service/inside_payment/drawback/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-cancel-service",
+      "source_method": "cancel.service.CancelServiceImpl.getAccount",
+      "target": "ts-user-service",
+      "endpoint": "/api/v1/userservice/users/id/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-cancel-service",
+      "source_method": "cancel.service.CancelServiceImpl.getOrderByIdFromOrder",
+      "target": "ts-order-service",
+      "endpoint": "/api/v1/orderservice/order/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-cancel-service",
+      "source_method": "cancel.service.CancelServiceImpl.getOrderByIdFromOrderOther",
+      "target": "ts-order-other-service",
+      "endpoint": "/api/v1/orderOtherService/orderOther/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-consign-service",
+      "source_method": "consign.service.ConsignServiceImpl.insertConsignRecord",
+      "target": "ts-consign-price-service",
+      "endpoint": "/api/v1/consignpriceservice/consignprice/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-consign-service",
+      "source_method": "consign.service.ConsignServiceImpl.updateConsignRecord",
+      "target": "ts-consign-price-service",
+      "endpoint": "/api/v1/consignpriceservice/consignprice/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-execute-service",
+      "source_method": "execute.serivce.ExecuteServiceImpl.executeOrder",
+      "target": "ts-order-service",
+      "endpoint": "/api/v1/orderservice/order/status/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-execute-service",
+      "source_method": "execute.serivce.ExecuteServiceImpl.executeOrderOther",
+      "target": "ts-order-other-service",
+      "endpoint": "/api/v1/orderOtherService/orderOther/status/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-execute-service",
+      "source_method": "execute.serivce.ExecuteServiceImpl.getOrderByIdFromOrder",
+      "target": "ts-order-service",
+      "endpoint": "/api/v1/orderservice/order/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-execute-service",
+      "source_method": "execute.serivce.ExecuteServiceImpl.getOrderByIdFromOrderOther",
+      "target": "ts-order-other-service",
+      "endpoint": "/api/v1/orderOtherService/orderOther/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-food-delivery-service",
+      "source_method": "food_delivery.service.FoodDeliveryServiceImpl.createFoodDeliveryOrder",
+      "target": "ts-station-food-service",
+      "endpoint": "/api/v1/stationfoodservice/stationfoodstores/bystoreid/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-food-service",
+      "source_method": "foodsearch.service.FoodServiceImpl.getAllFood",
+      "target": "ts-train-food-service",
+      "endpoint": "/api/v1/trainfoodservice/trainfoods/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-food-service",
+      "source_method": "foodsearch.service.FoodServiceImpl.getAllFood",
+      "target": "ts-travel-service",
+      "endpoint": "/api/v1/travelservice/routes/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-food-service",
+      "source_method": "foodsearch.service.FoodServiceImpl.getAllFood",
+      "target": "ts-station-food-service",
+      "endpoint": "/api/v1/stationfoodservice/stationfoodstores",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-inside-payment-service",
+      "source_method": "inside_payment.service.InsidePaymentServiceImpl.pay",
+      "target": "ts-payment-service",
+      "endpoint": "/api/v1/paymentservice/payment",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-inside-payment-service",
+      "source_method": "inside_payment.service.InsidePaymentServiceImpl.payDifference",
+      "target": "ts-payment-service",
+      "endpoint": "/api/v1/paymentservice/payment",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-inside-payment-service",
+      "source_method": "inside_payment.service.InsidePaymentServiceImpl.setOrderStatus",
+      "target": "ts-order-service",
+      "endpoint": "/api/v1/orderservice/order/status/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-inside-payment-service",
+      "source_method": "inside_payment.service.InsidePaymentServiceImpl.setOrderStatus",
+      "target": "ts-order-other-service",
+      "endpoint": "/api/v1/orderOtherService/orderOther/status/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-order-other-service",
+      "source_method": "other.service.OrderOtherServiceImpl.queryForStationId",
+      "target": "ts-station-service",
+      "endpoint": "/api/v1/stationservice/stations/namelist",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-order-service",
+      "source_method": "order.service.OrderServiceImpl.queryForStationId",
+      "target": "ts-station-service",
+      "endpoint": "/api/v1/stationservice/stations/namelist",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "source_method": "preserveOther.service.PreserveOtherServiceImpl.preserve",
+      "target": "ts-basic-service",
+      "endpoint": "/api/v1/basicservice/basic/travel",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "source_method": "preserveOther.service.PreserveOtherServiceImpl.dipatchSeat",
+      "target": "ts-seat-service",
+      "endpoint": "/api/v1/seatservice/seats",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "source_method": "preserveOther.service.PreserveOtherServiceImpl.getAccount",
+      "target": "ts-user-service",
+      "endpoint": "/api/v1/userservice/users/id/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "source_method": "preserveOther.service.PreserveOtherServiceImpl.addAssuranceForOrder",
+      "target": "ts-assurance-service",
+      "endpoint": "/api/v1/assuranceservice/assurances/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "source_method": "preserveOther.service.PreserveOtherServiceImpl.queryForStationId",
+      "target": "ts-station-service",
+      "endpoint": "/api/v1/stationservice/stations/id/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "source_method": "preserveOther.service.PreserveOtherServiceImpl.checkSecurity",
+      "target": "ts-security-service",
+      "endpoint": "/api/v1/securityservice/securityConfigs/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "source_method": "preserveOther.service.PreserveOtherServiceImpl.getTripAllDetailInformation",
+      "target": "ts-travel2-service",
+      "endpoint": "/api/v1/travel2service/trip_detail",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "source_method": "preserveOther.service.PreserveOtherServiceImpl.getContactsById",
+      "target": "ts-contacts-service",
+      "endpoint": "/api/v1/contactservice/contacts/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "source_method": "preserveOther.service.PreserveOtherServiceImpl.createOrder",
+      "target": "ts-order-other-service",
+      "endpoint": "/api/v1/orderOtherService/orderOther",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "source_method": "preserveOther.service.PreserveOtherServiceImpl.createFoodOrder",
+      "target": "ts-food-service",
+      "endpoint": "/api/v1/foodservice/orders",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-preserve-other-service",
+      "source_method": "preserveOther.service.PreserveOtherServiceImpl.createConsign",
+      "target": "ts-consign-service",
+      "endpoint": "/api/v1/consignservice/consigns",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-preserve-service",
+      "source_method": "preserve.service.PreserveServiceImpl.preserve",
+      "target": "ts-basic-service",
+      "endpoint": "/api/v1/basicservice/basic/travel",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-preserve-service",
+      "source_method": "preserve.service.PreserveServiceImpl.dipatchSeat",
+      "target": "ts-seat-service",
+      "endpoint": "/api/v1/seatservice/seats",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-preserve-service",
+      "source_method": "preserve.service.PreserveServiceImpl.getAccount",
+      "target": "ts-user-service",
+      "endpoint": "/api/v1/userservice/users/id/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-preserve-service",
+      "source_method": "preserve.service.PreserveServiceImpl.addAssuranceForOrder",
+      "target": "ts-assurance-service",
+      "endpoint": "/api/v1/assuranceservice/assurances/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-preserve-service",
+      "source_method": "preserve.service.PreserveServiceImpl.queryForStationId",
+      "target": "ts-station-service",
+      "endpoint": "/api/v1/stationservice/stations/id/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-preserve-service",
+      "source_method": "preserve.service.PreserveServiceImpl.checkSecurity",
+      "target": "ts-security-service",
+      "endpoint": "/api/v1/securityservice/securityConfigs/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-preserve-service",
+      "source_method": "preserve.service.PreserveServiceImpl.getTripAllDetailInformation",
+      "target": "ts-travel-service",
+      "endpoint": "/api/v1/travelservice/trip_detail",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-preserve-service",
+      "source_method": "preserve.service.PreserveServiceImpl.getContactsById",
+      "target": "ts-contacts-service",
+      "endpoint": "/api/v1/contactservice/contacts/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-preserve-service",
+      "source_method": "preserve.service.PreserveServiceImpl.createOrder",
+      "target": "ts-order-service",
+      "endpoint": "/api/v1/orderservice/order",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-preserve-service",
+      "source_method": "preserve.service.PreserveServiceImpl.createFoodOrder",
+      "target": "ts-food-service",
+      "endpoint": "/api/v1/foodservice/orders",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-preserve-service",
+      "source_method": "preserve.service.PreserveServiceImpl.createConsign",
+      "target": "ts-consign-service",
+      "endpoint": "/api/v1/consignservice/consigns",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-rebook-service",
+      "source_method": "rebook.service.RebookServiceImpl.dipatchSeat",
+      "target": "ts-seat-service",
+      "endpoint": "/api/v1/seatservice/seats",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-rebook-service",
+      "source_method": "rebook.service.RebookServiceImpl.queryTrainTypeByName",
+      "target": "ts-train-service",
+      "endpoint": "/api/v1/trainservice/trains/byName/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-rebook-service",
+      "source_method": "rebook.service.RebookServiceImpl.getRouteByRouteId",
+      "target": "ts-route-service",
+      "endpoint": "/api/v1/routeservice/routes/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-rebook-service",
+      "source_method": "rebook.service.RebookServiceImpl.payDifferentMoney",
+      "target": "ts-inside-payment-service",
+      "endpoint": "/api/v1/inside_pay_service/inside_payment/difference",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-rebook-service",
+      "source_method": "rebook.service.RebookServiceImpl.drawBackMoney",
+      "target": "ts-inside-payment-service",
+      "endpoint": "/api/v1/inside_pay_service/inside_payment/drawback/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-route-plan-service",
+      "source_method": "plan.service.RoutePlanServiceImpl.searchMinStopStations",
+      "target": "ts-route-service",
+      "endpoint": "/api/v1/routeservice/routes/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-route-plan-service",
+      "source_method": "plan.service.RoutePlanServiceImpl.searchMinStopStations",
+      "target": "ts-travel-service",
+      "endpoint": "/api/v1/travelservice/trips/routes",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-route-plan-service",
+      "source_method": "plan.service.RoutePlanServiceImpl.searchMinStopStations",
+      "target": "ts-travel2-service",
+      "endpoint": "/api/v1/travel2service/trips/routes",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-route-plan-service",
+      "source_method": "plan.service.RoutePlanServiceImpl.getRouteByRouteId",
+      "target": "ts-route-service",
+      "endpoint": "/api/v1/routeservice/routes/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-route-plan-service",
+      "source_method": "plan.service.RoutePlanServiceImpl.getTripFromHighSpeedTravelServive",
+      "target": "ts-travel-service",
+      "endpoint": "/api/v1/travelservice/trips/left",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-route-plan-service",
+      "source_method": "plan.service.RoutePlanServiceImpl.getTripFromNormalTrainTravelService",
+      "target": "ts-travel2-service",
+      "endpoint": "/api/v1/travel2service/trips/left",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-seat-service",
+      "source_method": "seat.service.SeatServiceImpl.distributeSeat",
+      "target": "ts-order-service",
+      "endpoint": "/api/v1/orderservice/order/tickets",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-seat-service",
+      "source_method": "seat.service.SeatServiceImpl.distributeSeat",
+      "target": "ts-order-other-service",
+      "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-seat-service",
+      "source_method": "seat.service.SeatServiceImpl.getLeftTicketOfInterval",
+      "target": "ts-order-service",
+      "endpoint": "/api/v1/orderservice/order/tickets",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-seat-service",
+      "source_method": "seat.service.SeatServiceImpl.getLeftTicketOfInterval",
+      "target": "ts-order-other-service",
+      "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-seat-service",
+      "source_method": "seat.service.SeatServiceImpl.getDirectProportion",
+      "target": "ts-config-service",
+      "endpoint": "/api/v1/configservice/configs/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-security-service",
+      "source_method": "security.service.SecurityServiceImpl.getSecurityOrderInfoFromOrder",
+      "target": "ts-order-service",
+      "endpoint": "/api/v1/orderservice/order/security/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-security-service",
+      "source_method": "security.service.SecurityServiceImpl.getSecurityOrderOtherInfoFromOrder",
+      "target": "ts-order-other-service",
+      "endpoint": "/api/v1/orderOtherService/orderOther/security/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-travel-plan-service",
+      "source_method": "travelplan.service.TravelPlanServiceImpl.getRestTicketNumber",
+      "target": "ts-seat-service",
+      "endpoint": "/api/v1/seatservice/seats/left_tickets",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-travel-plan-service",
+      "source_method": "travelplan.service.TravelPlanServiceImpl.getRoutePlanResultCheapest",
+      "target": "ts-route-plan-service",
+      "endpoint": "/api/v1/routeplanservice/routePlan/cheapestRoute",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-travel-plan-service",
+      "source_method": "travelplan.service.TravelPlanServiceImpl.getRoutePlanResultQuickest",
+      "target": "ts-route-plan-service",
+      "endpoint": "/api/v1/routeplanservice/routePlan/quickestRoute",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-travel-plan-service",
+      "source_method": "travelplan.service.TravelPlanServiceImpl.getRoutePlanResultMinStation",
+      "target": "ts-route-plan-service",
+      "endpoint": "/api/v1/routeplanservice/routePlan/minStopStations",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-travel-plan-service",
+      "source_method": "travelplan.service.TravelPlanServiceImpl.tripsFromHighSpeed",
+      "target": "ts-travel-service",
+      "endpoint": "/api/v1/travelservice/trips/left",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-travel-plan-service",
+      "source_method": "travelplan.service.TravelPlanServiceImpl.tripsFromNormal",
+      "target": "ts-travel2-service",
+      "endpoint": "/api/v1/travel2service/trips/left",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-travel-plan-service",
+      "source_method": "travelplan.service.TravelPlanServiceImpl.queryTrainTypeByName",
+      "target": "ts-train-service",
+      "endpoint": "/api/v1/trainservice/trains/byName/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-travel-service",
+      "source_method": "travel.service.TravelServiceImpl.getTicketsByBatch",
+      "target": "ts-basic-service",
+      "endpoint": "/api/v1/basicservice/basic/travels",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-travel-service",
+      "source_method": "travel.service.TravelServiceImpl.getTickets",
+      "target": "ts-basic-service",
+      "endpoint": "/api/v1/basicservice/basic/travel",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-travel-service",
+      "source_method": "travel.service.TravelServiceImpl.getTrainTypeByName",
+      "target": "ts-train-service",
+      "endpoint": "/api/v1/trainservice/trains/byName/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-travel-service",
+      "source_method": "travel.service.TravelServiceImpl.getRouteByRouteId",
+      "target": "ts-route-service",
+      "endpoint": "/api/v1/routeservice/routes/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-travel-service",
+      "source_method": "travel.service.TravelServiceImpl.getRestTicketNumber",
+      "target": "ts-seat-service",
+      "endpoint": "/api/v1/seatservice/seats/left_tickets",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-travel2-service",
+      "source_method": "travel2.service.TravelServiceImpl.getTicketsByBatch",
+      "target": "ts-basic-service",
+      "endpoint": "/api/v1/basicservice/basic/travels",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-travel2-service",
+      "source_method": "travel2.service.TravelServiceImpl.getTickets",
+      "target": "ts-basic-service",
+      "endpoint": "/api/v1/basicservice/basic/travel",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-travel2-service",
+      "source_method": "travel2.service.TravelServiceImpl.getTrainTypeByName",
+      "target": "ts-train-service",
+      "endpoint": "/api/v1/trainservice/trains/byName/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-travel2-service",
+      "source_method": "travel2.service.TravelServiceImpl.getRouteByRouteId",
+      "target": "ts-route-service",
+      "endpoint": "/api/v1/routeservice/routes/",
+      "http_method": "GET"
+    },
+    {
+      "source": "ts-travel2-service",
+      "source_method": "travel2.service.TravelServiceImpl.getRestTicketNumber",
+      "target": "ts-seat-service",
+      "endpoint": "/api/v1/seatservice/seats/left_tickets",
+      "http_method": "POST"
+    },
+    {
+      "source": "ts-user-service",
+      "source_method": "user.service.impl.UserServiceImpl.createDefaultAuthUser",
+      "target": "ts-auth-service",
+      "endpoint": "/api/v1/auth",
+      "http_method": "POST"
+    }
+  ]
+}

@@ -1,0 +1,1344 @@
+{
+  "classes": {
+    "waitorder.entity.WaitListOrderStatus": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "4",
+        "fanin": "3",
+        "fanout": "1",
+        "wmc": "6",
+        "dit": "1",
+        "rfc": "3",
+        "lcom*": "0.375",
+        "tcc": "0.6666667",
+        "lcc": "1.0",
+        "totalMethodsQty": "4",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "3",
+        "defaultMethodsQty": "1",
+        "visibleMethodsQty": "4",
+        "totalFieldsQty": "2",
+        "privateFieldsQty": "2",
+        "nosi": "1",
+        "loc": "28",
+        "returnQty": "4",
+        "loopQty": "1",
+        "comparisonsQty": "1",
+        "stringLiteralsQty": "6",
+        "numbersQty": "7",
+        "assignmentsQty": "3",
+        "variablesQty": "3",
+        "maxNestedBlocksQty": "2",
+        "uniqueWordsQty": "36",
+        "modifiers": "1"
+      },
+      "methods": {
+        "getName/0": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "name": "1"
+          },
+          "variable_usages": {}
+        },
+        "getNameByCode/1[int]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "3",
+            "fanout": "3",
+            "wmc": "3",
+            "rfc": "3",
+            "loc": "9",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "loopQty": "1",
+            "comparisonsQty": "1",
+            "numbersQty": "1",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "9",
+            "modifiers": "9"
+          },
+          "field_usages": {
+            "code": "2"
+          },
+          "variable_usages": {
+            "code": "1",
+            "orderStatusSet": "2",
+            "orderStatus": "2"
+          }
+        },
+        "WaitListOrderStatus/2[int,java.lang.String]": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "loc": "4",
+            "parametersQty": "2",
+            "assignmentsQty": "2",
+            "uniqueWordsQty": "6"
+          },
+          "field_usages": {
+            "code": "3",
+            "name": "3"
+          },
+          "variable_usages": {
+            "code": "2",
+            "name": "2"
+          }
+        },
+        "getCode/0": {
+          "metrics": {
+            "cboModified": "3",
+            "fanin": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "code": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "waitorder.utils.PollThread": {
+      "metrics": {
+        "cbo": "11",
+        "cboModified": "13",
+        "fanin": "2",
+        "fanout": "11",
+        "wmc": "8",
+        "dit": "2",
+        "rfc": "12",
+        "lcom": "2",
+        "lcom*": "0.5416667",
+        "tcc": "1.0",
+        "lcc": "1.0",
+        "totalMethodsQty": "4",
+        "publicMethodsQty": "2",
+        "privateMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "totalFieldsQty": "6",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "5",
+        "defaultFieldsQty": "1",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "48",
+        "returnQty": "2",
+        "loopQty": "1",
+        "comparisonsQty": "1",
+        "tryCatchQty": "1",
+        "stringLiteralsQty": "3",
+        "numbersQty": "2",
+        "assignmentsQty": "11",
+        "mathOperationsQty": "2",
+        "variablesQty": "11",
+        "maxNestedBlocksQty": "3",
+        "anonymousClassesQty": "1",
+        "uniqueWordsQty": "58",
+        "modifiers": "1"
+      },
+      "methods": {
+        "doPreserve/2[java.lang.String,waitorder.utils.HttpEntity]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "rfc": "2",
+            "loc": "6",
+            "returnsQty": "1",
+            "variablesQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "2",
+            "stringLiteralsQty": "1",
+            "assignmentsQty": "1",
+            "mathOperationsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "12",
+            "modifiers": "2"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "rePostPreserveResult": "1",
+            "requestParam": "1",
+            "url": "1"
+          }
+        },
+        "PollThread/5[java.util.Date,waitorder.service.WaitListOrderService,waitorder.entity.WaitListOrderVO,waitorder.utils.RestTemplate,waitorder.utils.HttpHeaders]": {
+          "metrics": {
+            "constructor": "true",
+            "cbo": "4",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "7",
+            "parametersQty": "5",
+            "assignmentsQty": "5",
+            "uniqueWordsQty": "19",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "waitListOrderVO": "1",
+            "restTemplate": "1",
+            "waitListOrderService": "1",
+            "waitUntil": "1",
+            "httpHeaders": "1"
+          },
+          "variable_usages": {
+            "template": "1",
+            "headers": "1",
+            "service": "1",
+            "waitUntilTime": "1",
+            "order": "1"
+          }
+        },
+        "run/0": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "4",
+            "fanout": "4",
+            "wmc": "5",
+            "rfc": "10",
+            "loc": "24",
+            "variablesQty": "4",
+            "methodsInvokedQty": "10",
+            "methodsInvokedLocalQty": "2",
+            "methodsInvokedIndirectLocalQty": "1",
+            "loopQty": "1",
+            "comparisonsQty": "1",
+            "tryCatchQty": "1",
+            "stringLiteralsQty": "1",
+            "numbersQty": "1",
+            "assignmentsQty": "4",
+            "maxNestedBlocksQty": "3",
+            "uniqueWordsQty": "33",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "waitListOrderVO": "3",
+            "waitUntil": "1",
+            "waitListOrderService": "2",
+            "INTERVAL_MINUTES": "1",
+            "httpHeaders": "1"
+          },
+          "variable_usages": {
+            "currentTime": "1",
+            "service_url": "1",
+            "e": "1",
+            "postResult": "1",
+            "requestEntityPreserve": "1"
+          }
+        },
+        "getServiceUrl/1[java.lang.String]": {
+          "metrics": {
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "stringLiteralsQty": "1",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "serviceName": "1"
+          }
+        }
+      }
+    },
+    "waitorder.WaitOrderApplication": {
+      "metrics": {
+        "cbo": "11",
+        "cboModified": "12",
+        "fanin": "1",
+        "fanout": "11",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "2",
+        "lcom": "1",
+        "totalMethodsQty": "2",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "loc": "8",
+        "returnQty": "1",
+        "uniqueWordsQty": "14",
+        "modifiers": "1"
+      },
+      "methods": {
+        "restTemplate/1[waitorder.RestTemplateBuilder]": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "builder": "1"
+          }
+        },
+        "main/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "args": "1"
+          }
+        }
+      }
+    },
+    "waitorder.config.SecurityConfig": {
+      "metrics": {
+        "cbo": "13",
+        "cboModified": "13",
+        "fanout": "13",
+        "wmc": "3",
+        "dit": "2",
+        "rfc": "15",
+        "lcom": "3",
+        "lcom*": "0.6666667",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "2",
+        "protectedMethodsQty": "1",
+        "visibleMethodsQty": "3",
+        "totalFieldsQty": "2",
+        "defaultFieldsQty": "2",
+        "loc": "19",
+        "returnQty": "2",
+        "stringLiteralsQty": "14",
+        "assignmentsQty": "2",
+        "variablesQty": "2",
+        "anonymousClassesQty": "1",
+        "uniqueWordsQty": "67",
+        "modifiers": "1"
+      },
+      "methods": {
+        "passwordEncoder/0": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "7",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "corsConfigurer/0": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "loc": "8",
+            "returnsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "43",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "configure/1[waitorder.config.HttpSecurity]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "15",
+            "loc": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "15",
+            "stringLiteralsQty": "12",
+            "uniqueWordsQty": "20",
+            "modifiers": "4"
+          },
+          "field_usages": {
+            "admin": "5",
+            "order": "3"
+          },
+          "variable_usages": {
+            "httpSecurity": "2"
+          }
+        }
+      }
+    },
+    "waitorder.service.WaitListOrderService": {
+      "metrics": {
+        "cbo": "4",
+        "cboModified": "7",
+        "fanin": "3",
+        "fanout": "4",
+        "wmc": "6",
+        "dit": "1",
+        "lcom": "15",
+        "totalMethodsQty": "6",
+        "defaultMethodsQty": "6",
+        "visibleMethodsQty": "6",
+        "loc": "8",
+        "uniqueWordsQty": "37",
+        "modifiers": "1"
+      },
+      "methods": {
+        "create/2[waitorder.entity.WaitListOrderVO,waitorder.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "8"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "newOrder": "0"
+          }
+        },
+        "modifyWaitListOrderStatus/2[int,java.lang.String]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "12",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "orderId": "0",
+            "status": "0"
+          }
+        },
+        "getAllWaitListOrders/1[waitorder.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "16",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "getAllOrders/1[waitorder.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "14",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "findOrderById/2[java.lang.String,waitorder.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "6"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "id": "0"
+          }
+        },
+        "updateOrder/2[waitorder.entity.WaitListOrder,waitorder.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "6"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "order": "0"
+          }
+        }
+      }
+    },
+    "waitorder.service.Impl.WaitListOrderServiceImpl": {
+      "metrics": {
+        "cbo": "16",
+        "cboModified": "18",
+        "fanin": "2",
+        "fanout": "16",
+        "wmc": "26",
+        "dit": "1",
+        "rfc": "46",
+        "lcom*": "0.6444444",
+        "tcc": "1.0",
+        "lcc": "1.0",
+        "totalMethodsQty": "9",
+        "publicMethodsQty": "6",
+        "privateMethodsQty": "3",
+        "visibleMethodsQty": "6",
+        "totalFieldsQty": "5",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "4",
+        "defaultFieldsQty": "1",
+        "finalFieldsQty": "1",
+        "nosi": "9",
+        "loc": "120",
+        "returnQty": "18",
+        "loopQty": "1",
+        "comparisonsQty": "3",
+        "tryCatchQty": "1",
+        "stringLiteralsQty": "30",
+        "numbersQty": "15",
+        "assignmentsQty": "16",
+        "variablesQty": "19",
+        "maxNestedBlocksQty": "2",
+        "lambdasQty": "1",
+        "uniqueWordsQty": "72",
+        "modifiers": "1",
+        "logStatementsQty": "15"
+      },
+      "methods": {
+        "getAllOrders/1[waitorder.service.Impl.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "3",
+            "fanin": "1",
+            "fanout": "2",
+            "wmc": "3",
+            "rfc": "4",
+            "loc": "11",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "4",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "5",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "13",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "waitListOrderRepository": "1",
+            "LOGGER": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "orderList": "4"
+          }
+        },
+        "updateOrder/2[waitorder.entity.WaitListOrder,waitorder.service.Impl.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "3",
+            "fanout": "3",
+            "wmc": "2",
+            "rfc": "9",
+            "loc": "15",
+            "returnsQty": "2",
+            "variablesQty": "2",
+            "parametersQty": "2",
+            "methodsInvokedQty": "9",
+            "stringLiteralsQty": "5",
+            "numbersQty": "2",
+            "assignmentsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "3"
+          },
+          "field_usages": {
+            "waitListOrderRepository": "2",
+            "LOGGER": "3"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "op": "2",
+            "old": "3",
+            "order": "5"
+          }
+        },
+        "getAllWaitListOrders/1[waitorder.service.Impl.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "3",
+            "fanout": "3",
+            "wmc": "3",
+            "rfc": "12",
+            "loc": "15",
+            "returnsQty": "2",
+            "variablesQty": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "12",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "5",
+            "numbersQty": "2",
+            "assignmentsQty": "3",
+            "maxNestedBlocksQty": "1",
+            "lambdasQty": "1",
+            "uniqueWordsQty": "15",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "waitListOrderRepository": "1",
+            "LOGGER": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "orderList": "6",
+            "filterList": "3",
+            "WaitListOrder": "1"
+          }
+        },
+        "create/2[waitorder.entity.WaitListOrderVO,waitorder.service.Impl.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "3",
+            "fanout": "3",
+            "wmc": "2",
+            "rfc": "5",
+            "loc": "10",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "5",
+            "methodsInvokedLocalQty": "2",
+            "methodsInvokedIndirectLocalQty": "2",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "1",
+            "numbersQty": "1",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "15",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "LOGGER": "1"
+          },
+          "variable_usages": {
+            "headers": "2",
+            "response": "3",
+            "orderVO": "2"
+          }
+        },
+        "WaitListOrderExist/2[java.util.List<waitorder.entity.WaitListOrder>,waitorder.entity.WaitListOrderVO]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "3",
+            "fanin": "1",
+            "fanout": "2",
+            "wmc": "8",
+            "rfc": "9",
+            "loc": "8",
+            "returnsQty": "2",
+            "parametersQty": "2",
+            "methodsInvokedQty": "9",
+            "loopQty": "1",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "9",
+            "modifiers": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "orderList": "1",
+            "newOrder": "6",
+            "order": "6"
+          }
+        },
+        "findOrderById/2[java.lang.String,waitorder.service.Impl.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "4",
+            "fanin": "1",
+            "fanout": "3",
+            "wmc": "2",
+            "rfc": "5",
+            "loc": "12",
+            "returnsQty": "2",
+            "variablesQty": "2",
+            "parametersQty": "2",
+            "methodsInvokedQty": "5",
+            "stringLiteralsQty": "3",
+            "numbersQty": "2",
+            "assignmentsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "13",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "success": "1",
+            "waitListOrderRepository": "1",
+            "LOGGER": "2"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "op": "2",
+            "wo": "1",
+            "id": "3"
+          }
+        },
+        "saveNewOrder/2[waitorder.entity.WaitListOrderVO,waitorder.service.Impl.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "6",
+            "fanin": "1",
+            "fanout": "5",
+            "wmc": "2",
+            "rfc": "12",
+            "loc": "16",
+            "returnsQty": "2",
+            "variablesQty": "2",
+            "parametersQty": "2",
+            "methodsInvokedQty": "12",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "3",
+            "numbersQty": "2",
+            "assignmentsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "13",
+            "modifiers": "2",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "success": "1",
+            "waitListOrderRepository": "2"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "accountOrders": "1",
+            "newWaitListOrder": "5",
+            "orderVO": "8"
+          }
+        },
+        "modifyWaitListOrderStatus/2[int,java.lang.String]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "3",
+            "fanout": "3",
+            "wmc": "2",
+            "rfc": "7",
+            "loc": "15",
+            "returnsQty": "2",
+            "variablesQty": "2",
+            "parametersQty": "2",
+            "methodsInvokedQty": "7",
+            "stringLiteralsQty": "5",
+            "numbersQty": "2",
+            "assignmentsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "13",
+            "modifiers": "1",
+            "logStatementsQty": "3"
+          },
+          "field_usages": {
+            "waitListOrderRepository": "2",
+            "LOGGER": "3"
+          },
+          "variable_usages": {
+            "op": "2",
+            "orderId": "4",
+            "old": "3",
+            "status": "1"
+          }
+        },
+        "triggerThread/3[waitorder.entity.WaitListOrder,waitorder.entity.WaitListOrderVO,waitorder.service.Impl.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "3",
+            "fanin": "1",
+            "fanout": "2",
+            "wmc": "2",
+            "rfc": "2",
+            "loc": "11",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "3",
+            "methodsInvokedQty": "2",
+            "tryCatchQty": "1",
+            "stringLiteralsQty": "2",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "16",
+            "modifiers": "2"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "orderPO": "1",
+            "headers": "1",
+            "e": "0",
+            "pollThread": "2",
+            "orderVO": "1"
+          }
+        }
+      }
+    },
+    "waitorder.utils.PollThread$Anonymous1": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "waitorder.entity.WaitListOrderVO": {
+      "metrics": {
+        "cbo": "5",
+        "cboModified": "9",
+        "fanin": "4",
+        "fanout": "5",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "2",
+        "lcom*": "0.875",
+        "tcc": "1.0",
+        "lcc": "1.0",
+        "totalMethodsQty": "2",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "totalFieldsQty": "8",
+        "privateFieldsQty": "8",
+        "nosi": "2",
+        "loc": "16",
+        "returnQty": "1",
+        "assignmentsQty": "1",
+        "variablesQty": "8",
+        "uniqueWordsQty": "19",
+        "modifiers": "1"
+      },
+      "methods": {
+        "setDate/1[java.util.Date]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "date": "3"
+          },
+          "variable_usages": {
+            "date": "2"
+          }
+        },
+        "getDate/0": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "3",
+            "fanin": "2",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "date": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "waitorder.entity.WaitListOrder": {
+      "metrics": {
+        "cbo": "9",
+        "cboModified": "12",
+        "fanin": "3",
+        "fanout": "9",
+        "wmc": "9",
+        "dit": "1",
+        "rfc": "9",
+        "lcom": "2",
+        "lcom*": "0.9",
+        "tcc": "0.4642857",
+        "lcc": "0.75",
+        "totalMethodsQty": "8",
+        "publicMethodsQty": "8",
+        "visibleMethodsQty": "8",
+        "totalFieldsQty": "15",
+        "privateFieldsQty": "15",
+        "nosi": "12",
+        "loc": "49",
+        "returnQty": "4",
+        "comparisonsQty": "1",
+        "parenthesizedExpsQty": "1",
+        "stringLiteralsQty": "5",
+        "numbersQty": "6",
+        "assignmentsQty": "10",
+        "mathOperationsQty": "2",
+        "variablesQty": "17",
+        "uniqueWordsQty": "37",
+        "modifiers": "1"
+      },
+      "methods": {
+        "getWaitUtilTime/0": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "6",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "waitUtilTime": "1"
+          },
+          "variable_usages": {}
+        },
+        "setWaitUntilTime/1[java.util.Date]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "6",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "waitUtilTime": "1"
+          },
+          "variable_usages": {
+            "waitUntilTime": "1"
+          }
+        },
+        "WaitListOrder/0": {
+          "metrics": {
+            "constructor": "true",
+            "cbo": "2",
+            "cboModified": "3",
+            "fanin": "1",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "7",
+            "loc": "9",
+            "variablesQty": "1",
+            "methodsInvokedQty": "7",
+            "numbersQty": "1",
+            "assignmentsQty": "5",
+            "uniqueWordsQty": "12",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "travelTime": "1",
+            "createdTime": "1",
+            "waitUtilTime": "1",
+            "status": "1"
+          },
+          "variable_usages": {
+            "c": "4"
+          }
+        },
+        "setCreatedTime/1[java.util.Date]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "createdTime": "3"
+          },
+          "variable_usages": {
+            "createdTime": "2"
+          }
+        },
+        "hashCode/0": {
+          "metrics": {
+            "wmc": "2",
+            "rfc": "1",
+            "loc": "5",
+            "returnsQty": "1",
+            "variablesQty": "1",
+            "methodsInvokedQty": "1",
+            "comparisonsQty": "1",
+            "parenthesizedExpsQty": "1",
+            "numbersQty": "3",
+            "assignmentsQty": "2",
+            "mathOperationsQty": "2",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "id": "2"
+          },
+          "variable_usages": {
+            "result": "3"
+          }
+        },
+        "setTravelTime/1[java.util.Date]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "travelTime": "2",
+            "createdTime": "1"
+          },
+          "variable_usages": {
+            "travelTime": "1"
+          }
+        },
+        "getCreatedTime/0": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "createdTime": "1"
+          },
+          "variable_usages": {}
+        },
+        "getTravelTime/0": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "createdTime": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "waitorder.controller.WaitListOrderController": {
+      "metrics": {
+        "cbo": "14",
+        "cboModified": "15",
+        "fanin": "1",
+        "fanout": "14",
+        "wmc": "4",
+        "dit": "1",
+        "rfc": "10",
+        "lcom*": "0.25",
+        "tcc": "0.5",
+        "lcc": "0.5",
+        "totalMethodsQty": "4",
+        "publicMethodsQty": "4",
+        "visibleMethodsQty": "4",
+        "totalFieldsQty": "2",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "2",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "19",
+        "returnQty": "4",
+        "stringLiteralsQty": "9",
+        "assignmentsQty": "1",
+        "variablesQty": "2",
+        "uniqueWordsQty": "30",
+        "modifiers": "1",
+        "logStatementsQty": "3"
+      },
+      "methods": {
+        "createNewOrder/2[waitorder.entity.WaitListOrderVO,waitorder.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "3",
+            "fanout": "3",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "15",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "waitListOrderService": "1"
+          },
+          "variable_usages": {
+            "createOrder": "4",
+            "headers": "1"
+          }
+        },
+        "getAllOrders/1[waitorder.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "9",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "LOGGER": "1",
+            "waitListOrderService": "1"
+          },
+          "variable_usages": {
+            "headers": "1"
+          }
+        },
+        "getWaitListOrders/1[waitorder.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "LOGGER": "1",
+            "waitListOrderService": "1"
+          },
+          "variable_usages": {
+            "headers": "1"
+          }
+        },
+        "home/0": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "6",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "waitorder.repository.WaitListOrderRepository": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "5",
+        "fanin": "2",
+        "fanout": "3",
+        "wmc": "4",
+        "dit": "1",
+        "lcom": "6",
+        "totalMethodsQty": "4",
+        "defaultMethodsQty": "4",
+        "visibleMethodsQty": "4",
+        "loc": "6",
+        "uniqueWordsQty": "12",
+        "modifiers": "1"
+      },
+      "methods": {
+        "findById/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "4",
+            "fanin": "4",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "id": "0"
+          }
+        },
+        "deleteById/1[java.lang.String]": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "id": "0"
+          }
+        },
+        "findByAccountId/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "5"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "accountId": "0"
+          }
+        },
+        "findAll/0": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "3",
+            "fanin": "3",
+            "wmc": "1",
+            "loc": "1",
+            "uniqueWordsQty": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "waitorder.config.SecurityConfig$Anonymous1": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "1",
+        "fanout": "1",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "6",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "loc": "5",
+        "stringLiteralsQty": "1",
+        "numbersQty": "1",
+        "uniqueWordsQty": "8",
+        "modifiers": "-1"
+      },
+      "methods": {
+        "addCorsMappings/1[waitorder.config.CorsRegistry]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "1",
+            "numbersQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "registry": "1"
+          }
+        }
+      }
+    }
+  },
+  "microservice_name": "ts-wait-order-service"
+}

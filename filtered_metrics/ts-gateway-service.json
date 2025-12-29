@@ -1,0 +1,196 @@
+{
+  "classes": {
+    "gateway.GatewayApplication": {
+      "metrics": {
+        "cbo": "6",
+        "cboModified": "7",
+        "fanin": "1",
+        "fanout": "6",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "1",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "loc": "5",
+        "uniqueWordsQty": "8",
+        "modifiers": "1"
+      },
+      "methods": {
+        "main/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "args": "1"
+          }
+        }
+      }
+    },
+    "gateway.GatewayConfiguration": {
+      "metrics": {
+        "cbo": "15",
+        "cboModified": "16",
+        "fanin": "1",
+        "fanout": "15",
+        "wmc": "6",
+        "dit": "1",
+        "rfc": "14",
+        "lcom": "13",
+        "lcom*": "0.6666667",
+        "tcc": "0.16666667",
+        "lcc": "0.16666667",
+        "totalMethodsQty": "6",
+        "publicMethodsQty": "4",
+        "privateMethodsQty": "2",
+        "visibleMethodsQty": "4",
+        "totalFieldsQty": "2",
+        "privateFieldsQty": "2",
+        "finalFieldsQty": "2",
+        "loc": "34",
+        "returnQty": "3",
+        "stringLiteralsQty": "6",
+        "numbersQty": "4",
+        "assignmentsQty": "5",
+        "variablesQty": "7",
+        "maxNestedBlocksQty": "1",
+        "lambdasQty": "1",
+        "uniqueWordsQty": "53",
+        "modifiers": "1"
+      },
+      "methods": {
+        "initBlockHandlers/0": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "10",
+            "returnsQty": "1",
+            "variablesQty": "4",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "3",
+            "numbersQty": "1",
+            "assignmentsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "lambdasQty": "1",
+            "uniqueWordsQty": "9",
+            "modifiers": "2",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "blockRequestHandler": "1",
+            "serverWebExchange": "0",
+            "throwable": "0",
+            "map": "3"
+          }
+        },
+        "doInit/0": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "2",
+            "loc": "5",
+            "methodsInvokedQty": "2",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "12",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "sentinelGatewayFilter/0": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "numbersQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "sentinelGatewayBlockExceptionHandler/0": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "6",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {
+            "viewResolvers": "1",
+            "serverCodecConfigurer": "1"
+          },
+          "variable_usages": {}
+        },
+        "initGatewayRules/0": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "rfc": "5",
+            "loc": "5",
+            "variablesQty": "1",
+            "methodsInvokedQty": "5",
+            "stringLiteralsQty": "1",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "17",
+            "modifiers": "2",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "rules": "2"
+          }
+        },
+        "GatewayConfiguration/2[gateway.ObjectProvider<java.util.List<gateway.ViewResolver>>,gateway.ServerCodecConfigurer]": {
+          "metrics": {
+            "constructor": "true",
+            "cbo": "3",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "4",
+            "parametersQty": "2",
+            "methodsInvokedQty": "1",
+            "assignmentsQty": "2",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "viewResolvers": "1",
+            "serverCodecConfigurer": "3"
+          },
+          "variable_usages": {
+            "viewResolversProvider": "1",
+            "serverCodecConfigurer": "2"
+          }
+        }
+      }
+    }
+  },
+  "microservice_name": "ts-gateway-service"
+}

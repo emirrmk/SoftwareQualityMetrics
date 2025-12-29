@@ -1,0 +1,602 @@
+{
+  "classes": {
+    "execute.serivce.ExecuteServiceImpl$Anonymous1": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "execute.serivce.ExecuteServiceImpl$Anonymous2": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "execute.controller.ExecuteControlller": {
+      "metrics": {
+        "cbo": "13",
+        "cboModified": "15",
+        "fanin": "2",
+        "fanout": "13",
+        "wmc": "3",
+        "dit": "1",
+        "rfc": "5",
+        "lcom": "1",
+        "lcom*": "0.33333334",
+        "tcc": "0.33333334",
+        "lcc": "0.33333334",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "3",
+        "visibleMethodsQty": "3",
+        "totalFieldsQty": "2",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "2",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "15",
+        "returnQty": "3",
+        "stringLiteralsQty": "9",
+        "assignmentsQty": "1",
+        "variablesQty": "2",
+        "uniqueWordsQty": "27",
+        "modifiers": "1",
+        "logStatementsQty": "2"
+      },
+      "methods": {
+        "executeTicket/2[java.lang.String,execute.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "executeService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "orderId": "2"
+          }
+        },
+        "home/1[execute.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "collectTicket/2[java.lang.String,execute.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "13",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "executeService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "orderId": "2"
+          }
+        }
+      }
+    },
+    "execute.serivce.ExecuteService": {
+      "metrics": {
+        "cbo": "2",
+        "cboModified": "5",
+        "fanin": "3",
+        "fanout": "2",
+        "wmc": "2",
+        "dit": "1",
+        "lcom": "1",
+        "totalMethodsQty": "2",
+        "defaultMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "loc": "4",
+        "uniqueWordsQty": "16",
+        "modifiers": "1"
+      },
+      "methods": {
+        "ticketCollect/2[java.lang.String,execute.serivce.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "9",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "orderId": "0"
+          }
+        },
+        "ticketExecute/2[java.lang.String,execute.serivce.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "9",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "orderId": "0"
+          }
+        }
+      }
+    },
+    "execute.config.SecurityConfig$Anonymous1": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "1",
+        "fanout": "1",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "6",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "loc": "5",
+        "stringLiteralsQty": "1",
+        "numbersQty": "1",
+        "uniqueWordsQty": "8",
+        "modifiers": "-1"
+      },
+      "methods": {
+        "addCorsMappings/1[execute.config.CorsRegistry]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "1",
+            "numbersQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "registry": "1"
+          }
+        }
+      }
+    },
+    "execute.ExecuteApplication": {
+      "metrics": {
+        "cbo": "11",
+        "cboModified": "12",
+        "fanin": "1",
+        "fanout": "11",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "2",
+        "lcom": "1",
+        "totalMethodsQty": "2",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "loc": "8",
+        "returnQty": "1",
+        "uniqueWordsQty": "14",
+        "modifiers": "1"
+      },
+      "methods": {
+        "restTemplate/1[execute.RestTemplateBuilder]": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "builder": "1"
+          }
+        },
+        "main/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "args": "1"
+          }
+        }
+      }
+    },
+    "execute.serivce.ExecuteServiceImpl": {
+      "metrics": {
+        "cbo": "14",
+        "cboModified": "16",
+        "fanin": "2",
+        "fanout": "14",
+        "wmc": "21",
+        "dit": "1",
+        "rfc": "14",
+        "lcom*": "0.57142854",
+        "tcc": "1.0",
+        "lcc": "1.0",
+        "totalMethodsQty": "7",
+        "publicMethodsQty": "2",
+        "privateMethodsQty": "5",
+        "visibleMethodsQty": "2",
+        "totalFieldsQty": "4",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "3",
+        "defaultFieldsQty": "1",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "129",
+        "returnQty": "19",
+        "comparisonsQty": "14",
+        "stringLiteralsQty": "34",
+        "numbersQty": "22",
+        "assignmentsQty": "32",
+        "mathOperationsQty": "5",
+        "variablesQty": "24",
+        "maxNestedBlocksQty": "3",
+        "anonymousClassesQty": "2",
+        "uniqueWordsQty": "49",
+        "modifiers": "1",
+        "logStatementsQty": "14"
+      },
+      "methods": {
+        "executeOrderOther/3[java.lang.String,int,execute.serivce.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "4",
+            "fanin": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "8",
+            "returnsQty": "1",
+            "variablesQty": "3",
+            "parametersQty": "3",
+            "methodsInvokedQty": "4",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "4",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "21",
+            "modifiers": "2",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "2",
+            "order_other_service_url": "1",
+            "re": "1",
+            "orderId": "1",
+            "requestEntity": "1",
+            "status": "1"
+          }
+        },
+        "executeOrder/3[java.lang.String,int,execute.serivce.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "4",
+            "fanin": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "8",
+            "returnsQty": "1",
+            "variablesQty": "3",
+            "parametersQty": "3",
+            "methodsInvokedQty": "4",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "4",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "20",
+            "modifiers": "2",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "2",
+            "re": "1",
+            "orderId": "1",
+            "requestEntity": "1",
+            "status": "1",
+            "order_service_url": "1"
+          }
+        },
+        "getOrderByIdFromOrder/2[java.lang.String,execute.serivce.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "4",
+            "fanin": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "10",
+            "returnsQty": "1",
+            "variablesQty": "3",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "3",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "19",
+            "modifiers": "2",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "2",
+            "re": "1",
+            "orderId": "1",
+            "requestEntity": "1",
+            "order_service_url": "1"
+          }
+        },
+        "getOrderByIdFromOrderOther/2[java.lang.String,execute.serivce.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "4",
+            "fanin": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "10",
+            "returnsQty": "1",
+            "variablesQty": "3",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "3",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "21",
+            "modifiers": "2",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "2",
+            "order_other_service_url": "1",
+            "re": "1",
+            "orderId": "1",
+            "requestEntity": "1"
+          }
+        },
+        "getServiceUrl/1[java.lang.String]": {
+          "metrics": {
+            "cboModified": "4",
+            "fanin": "4",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "stringLiteralsQty": "1",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "serviceName": "1"
+          }
+        },
+        "ticketExecute/2[java.lang.String,execute.serivce.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "7",
+            "fanin": "2",
+            "fanout": "5",
+            "wmc": "7",
+            "rfc": "9",
+            "loc": "42",
+            "returnsQty": "7",
+            "variablesQty": "4",
+            "parametersQty": "2",
+            "methodsInvokedQty": "9",
+            "methodsInvokedLocalQty": "4",
+            "methodsInvokedIndirectLocalQty": "5",
+            "comparisonsQty": "6",
+            "stringLiteralsQty": "9",
+            "numbersQty": "11",
+            "assignmentsQty": "7",
+            "maxNestedBlocksQty": "3",
+            "uniqueWordsQty": "15",
+            "modifiers": "1",
+            "logStatementsQty": "5"
+          },
+          "field_usages": {
+            "orderStatusWrong": "4",
+            "LOGGER": "5"
+          },
+          "variable_usages": {
+            "headers": "5",
+            "resultFromOrder": "5",
+            "orderId": "9",
+            "resultExecute": "7",
+            "order": "4"
+          }
+        },
+        "ticketCollect/2[java.lang.String,execute.serivce.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "7",
+            "fanin": "2",
+            "fanout": "5",
+            "wmc": "9",
+            "rfc": "9",
+            "loc": "42",
+            "returnsQty": "7",
+            "variablesQty": "4",
+            "parametersQty": "2",
+            "methodsInvokedQty": "9",
+            "methodsInvokedLocalQty": "4",
+            "methodsInvokedIndirectLocalQty": "5",
+            "comparisonsQty": "8",
+            "stringLiteralsQty": "9",
+            "numbersQty": "11",
+            "assignmentsQty": "7",
+            "maxNestedBlocksQty": "3",
+            "uniqueWordsQty": "17",
+            "modifiers": "1",
+            "logStatementsQty": "5"
+          },
+          "field_usages": {
+            "orderStatusWrong": "4",
+            "LOGGER": "5"
+          },
+          "variable_usages": {
+            "headers": "5",
+            "resultFromOrder": "5",
+            "orderId": "9",
+            "resultExecute": "7",
+            "order": "6"
+          }
+        }
+      }
+    },
+    "execute.config.SecurityConfig": {
+      "metrics": {
+        "cbo": "13",
+        "cboModified": "13",
+        "fanout": "13",
+        "wmc": "3",
+        "dit": "2",
+        "rfc": "15",
+        "lcom": "3",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "2",
+        "protectedMethodsQty": "1",
+        "visibleMethodsQty": "3",
+        "loc": "17",
+        "returnQty": "2",
+        "stringLiteralsQty": "9",
+        "anonymousClassesQty": "1",
+        "uniqueWordsQty": "65",
+        "modifiers": "1"
+      },
+      "methods": {
+        "passwordEncoder/0": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "7",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "configure/1[execute.config.HttpSecurity]": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "rfc": "15",
+            "loc": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "15",
+            "stringLiteralsQty": "9",
+            "uniqueWordsQty": "18",
+            "modifiers": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "httpSecurity": "2"
+          }
+        },
+        "corsConfigurer/0": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "loc": "8",
+            "returnsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "43",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    }
+  },
+  "microservice_name": "ts-execute-service"
+}

@@ -1,0 +1,1099 @@
+{
+  "classes": {
+    "travelplan.entity.TransferTravelInfo": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "6",
+        "fanin": "5",
+        "fanout": "1",
+        "wmc": "3",
+        "dit": "1",
+        "rfc": "1",
+        "lcom": "1",
+        "lcom*": "0.6",
+        "tcc": "0.33333334",
+        "lcc": "0.33333334",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "3",
+        "visibleMethodsQty": "3",
+        "totalFieldsQty": "5",
+        "privateFieldsQty": "5",
+        "loc": "19",
+        "returnQty": "1",
+        "assignmentsQty": "5",
+        "variablesQty": "5",
+        "uniqueWordsQty": "13",
+        "modifiers": "1"
+      },
+      "methods": {
+        "TransferTravelInfo/5[java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String]": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "7",
+            "parametersQty": "5",
+            "assignmentsQty": "5",
+            "uniqueWordsQty": "11",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "endStation": "3",
+            "viaStation": "3",
+            "travelDate": "3",
+            "trainType": "3",
+            "startStation": "3"
+          },
+          "variable_usages": {
+            "endStation": "2",
+            "viaStation": "2",
+            "travelDate": "2",
+            "trainType": "2",
+            "startStation": "2"
+          }
+        },
+        "getTravelDate/0": {
+          "metrics": {
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "4",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "travelDate": "1"
+          },
+          "variable_usages": {}
+        },
+        "TransferTravelInfo/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "travelplan.TravelPlanApplication": {
+      "metrics": {
+        "cbo": "11",
+        "cboModified": "12",
+        "fanin": "1",
+        "fanout": "11",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "2",
+        "lcom": "1",
+        "totalMethodsQty": "2",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "loc": "8",
+        "returnQty": "1",
+        "uniqueWordsQty": "15",
+        "modifiers": "1"
+      },
+      "methods": {
+        "restTemplate/1[travelplan.RestTemplateBuilder]": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "builder": "1"
+          }
+        },
+        "main/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "args": "1"
+          }
+        }
+      }
+    },
+    "travelplan.service.TravelPlanServiceImpl$Anonymous5": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "travelplan.service.TravelPlanServiceImpl$Anonymous6": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "travelplan.service.TravelPlanServiceImpl$Anonymous3": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "travelplan.service.TravelPlanServiceImpl$Anonymous4": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "travelplan.service.TravelPlanServiceImpl$Anonymous1": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "travelplan.service.TravelPlanServiceImpl$Anonymous2": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "travelplan.entity.TravelAdvanceResultUnit": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "2",
+        "fanin": "1",
+        "fanout": "1",
+        "wmc": "1",
+        "dit": "1",
+        "lcom*": "1.0",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "11",
+        "privateFieldsQty": "11",
+        "loc": "15",
+        "variablesQty": "11",
+        "uniqueWordsQty": "25",
+        "modifiers": "1"
+      },
+      "methods": {
+        "TravelAdvanceResultUnit/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "3",
+            "fanin": "3",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "4",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "travelplan.service.TravelPlanService": {
+      "metrics": {
+        "cbo": "4",
+        "cboModified": "7",
+        "fanin": "3",
+        "fanout": "4",
+        "wmc": "4",
+        "dit": "1",
+        "lcom": "6",
+        "totalMethodsQty": "4",
+        "defaultMethodsQty": "4",
+        "visibleMethodsQty": "4",
+        "loc": "6",
+        "uniqueWordsQty": "17",
+        "modifiers": "1"
+      },
+      "methods": {
+        "getCheapest/2[travelplan.service.TripInfo,travelplan.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "6"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "info": "0"
+          }
+        },
+        "getQuickest/2[travelplan.service.TripInfo,travelplan.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "6"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "info": "0"
+          }
+        },
+        "getTransferSearch/2[travelplan.entity.TransferTravelInfo,travelplan.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "7"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "info": "0"
+          }
+        },
+        "getMinStation/2[travelplan.service.TripInfo,travelplan.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "7"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "info": "0"
+          }
+        }
+      }
+    },
+    "travelplan.service.TravelPlanServiceImpl": {
+      "metrics": {
+        "cbo": "22",
+        "cboModified": "24",
+        "fanin": "2",
+        "fanout": "22",
+        "wmc": "18",
+        "dit": "1",
+        "rfc": "62",
+        "lcom": "12",
+        "lcom*": "0.71666664",
+        "tcc": "0.3",
+        "lcc": "0.3",
+        "totalMethodsQty": "12",
+        "publicMethodsQty": "5",
+        "privateMethodsQty": "7",
+        "visibleMethodsQty": "5",
+        "totalFieldsQty": "5",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "3",
+        "defaultFieldsQty": "2",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "216",
+        "returnQty": "15",
+        "loopQty": "3",
+        "stringLiteralsQty": "25",
+        "numbersQty": "13",
+        "assignmentsQty": "71",
+        "mathOperationsQty": "8",
+        "variablesQty": "73",
+        "maxNestedBlocksQty": "2",
+        "anonymousClassesQty": "6",
+        "uniqueWordsQty": "100",
+        "modifiers": "1",
+        "logStatementsQty": "4"
+      },
+      "methods": {
+        "getTransferSearch/2[travelplan.entity.TransferTravelInfo,travelplan.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "5",
+            "fanin": "1",
+            "fanout": "4",
+            "wmc": "1",
+            "rfc": "13",
+            "loc": "28",
+            "returnsQty": "1",
+            "variablesQty": "9",
+            "parametersQty": "2",
+            "methodsInvokedQty": "13",
+            "methodsInvokedLocalQty": "2",
+            "methodsInvokedIndirectLocalQty": "3",
+            "stringLiteralsQty": "1",
+            "numbersQty": "1",
+            "assignmentsQty": "9",
+            "uniqueWordsQty": "22",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "result": "3",
+            "headers": "4",
+            "secondSection": "3",
+            "firstSection": "3",
+            "firstSectionFromNormal": "2",
+            "queryInfoSecondSectoin": "5",
+            "secondSectionFromNormal": "2",
+            "secondSectionFromHighSpeed": "2",
+            "firstSectionFromHighSpeed": "2",
+            "queryInfoFirstSection": "5",
+            "info": "6"
+          }
+        },
+        "getQuickest/2[travelplan.service.TripInfo,travelplan.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "6",
+            "fanin": "1",
+            "fanout": "5",
+            "wmc": "3",
+            "rfc": "36",
+            "loc": "38",
+            "returnsQty": "2",
+            "variablesQty": "12",
+            "parametersQty": "2",
+            "methodsInvokedQty": "36",
+            "methodsInvokedLocalQty": "3",
+            "methodsInvokedIndirectLocalQty": "4",
+            "loopQty": "1",
+            "stringLiteralsQty": "2",
+            "numbersQty": "4",
+            "assignmentsQty": "12",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "35",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "success": "1",
+            "cannotFind": "1"
+          },
+          "variable_usages": {
+            "headers": "4",
+            "routePlanInfo": "5",
+            "secondClassTotalNum": "1",
+            "trainType": "2",
+            "tempUnit": "18",
+            "firstClassTotalNum": "1",
+            "i": "3",
+            "second": "1",
+            "routePlanResultUnits": "3",
+            "lists": "2",
+            "newUnit": "12",
+            "stops": "1",
+            "first": "1",
+            "info": "5"
+          }
+        },
+        "getRoutePlanResultQuickest/2[travelplan.service.RoutePlanInfo,travelplan.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "8",
+            "returnsQty": "1",
+            "variablesQty": "3",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "3",
+            "mathOperationsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "20",
+            "modifiers": "2"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "re": "1",
+            "requestEntity": "1",
+            "route_plan_service_url": "1",
+            "info": "1"
+          }
+        },
+        "tripsFromHighSpeed/2[travelplan.service.TripInfo,travelplan.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "8",
+            "returnsQty": "1",
+            "variablesQty": "3",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "3",
+            "mathOperationsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "20",
+            "modifiers": "2"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "re": "1",
+            "requestEntity": "1",
+            "info": "1",
+            "travel_service_url": "1"
+          }
+        },
+        "queryTrainTypeByName/2[java.lang.String,travelplan.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "4",
+            "fanin": "3",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "5",
+            "loc": "7",
+            "returnsQty": "1",
+            "variablesQty": "4",
+            "parametersQty": "2",
+            "methodsInvokedQty": "5",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "24",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "re": "1",
+            "response": "1",
+            "train_service_url": "1",
+            "trainTypeName": "1",
+            "requestEntity": "1"
+          }
+        },
+        "getMinStation/2[travelplan.service.TripInfo,travelplan.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "6",
+            "fanin": "1",
+            "fanout": "5",
+            "wmc": "3",
+            "rfc": "36",
+            "loc": "38",
+            "returnsQty": "2",
+            "variablesQty": "12",
+            "parametersQty": "2",
+            "methodsInvokedQty": "36",
+            "methodsInvokedLocalQty": "3",
+            "methodsInvokedIndirectLocalQty": "4",
+            "loopQty": "1",
+            "stringLiteralsQty": "2",
+            "numbersQty": "4",
+            "assignmentsQty": "12",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "37",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "success": "1",
+            "cannotFind": "1"
+          },
+          "variable_usages": {
+            "headers": "4",
+            "routePlanInfo": "5",
+            "secondClassTotalNum": "1",
+            "trainType": "2",
+            "tempUnit": "18",
+            "firstClassTotalNum": "1",
+            "i": "3",
+            "second": "1",
+            "routePlanResultUnits": "3",
+            "lists": "2",
+            "newUnit": "12",
+            "stops": "1",
+            "first": "1",
+            "info": "5"
+          }
+        },
+        "getRestTicketNumber/8[java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int,java.util.List<java.lang.String>,travelplan.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "5",
+            "fanin": "3",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "13",
+            "loc": "17",
+            "returnsQty": "1",
+            "variablesQty": "4",
+            "parametersQty": "8",
+            "methodsInvokedQty": "13",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "3",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "31",
+            "modifiers": "2",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "seatType": "1",
+            "re": "1",
+            "endStationName": "1",
+            "travelDate": "1",
+            "totalNum": "1",
+            "seatRequest": "9",
+            "trainNumber": "1",
+            "stations": "1",
+            "seat_service_url": "1",
+            "requestEntity": "1",
+            "startStationName": "1"
+          }
+        },
+        "tripsFromNormal/2[travelplan.service.TripInfo,travelplan.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "8",
+            "returnsQty": "1",
+            "variablesQty": "3",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "3",
+            "mathOperationsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "19",
+            "modifiers": "2"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "travel2_service_url": "1",
+            "headers": "0",
+            "re": "1",
+            "requestEntity": "1",
+            "info": "1"
+          }
+        },
+        "getCheapest/2[travelplan.service.TripInfo,travelplan.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "6",
+            "fanin": "1",
+            "fanout": "5",
+            "wmc": "3",
+            "rfc": "36",
+            "loc": "38",
+            "returnsQty": "2",
+            "variablesQty": "12",
+            "parametersQty": "2",
+            "methodsInvokedQty": "36",
+            "methodsInvokedLocalQty": "3",
+            "methodsInvokedIndirectLocalQty": "4",
+            "loopQty": "1",
+            "stringLiteralsQty": "2",
+            "numbersQty": "4",
+            "assignmentsQty": "12",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "35",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "success": "1",
+            "cannotFind": "1"
+          },
+          "variable_usages": {
+            "headers": "4",
+            "routePlanInfo": "5",
+            "secondClassTotalNum": "1",
+            "trainType": "2",
+            "tempUnit": "18",
+            "firstClassTotalNum": "1",
+            "i": "3",
+            "second": "1",
+            "routePlanResultUnits": "3",
+            "lists": "2",
+            "newUnit": "12",
+            "stops": "1",
+            "first": "1",
+            "info": "5"
+          }
+        },
+        "getRoutePlanResultCheapest/2[travelplan.service.RoutePlanInfo,travelplan.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "8",
+            "returnsQty": "1",
+            "variablesQty": "3",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "3",
+            "mathOperationsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "20",
+            "modifiers": "2"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "re": "1",
+            "requestEntity": "1",
+            "route_plan_service_url": "1",
+            "info": "1"
+          }
+        },
+        "getRoutePlanResultMinStation/2[travelplan.service.RoutePlanInfo,travelplan.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "8",
+            "returnsQty": "1",
+            "variablesQty": "3",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "3",
+            "mathOperationsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "21",
+            "modifiers": "2"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "re": "1",
+            "requestEntity": "1",
+            "route_plan_service_url": "1",
+            "info": "1"
+          }
+        },
+        "getServiceUrl/1[java.lang.String]": {
+          "metrics": {
+            "cboModified": "7",
+            "fanin": "7",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "stringLiteralsQty": "1",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "serviceName": "1"
+          }
+        }
+      }
+    },
+    "travelplan.config.SecurityConfig$Anonymous1": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "1",
+        "fanout": "1",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "6",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "loc": "5",
+        "stringLiteralsQty": "1",
+        "numbersQty": "1",
+        "uniqueWordsQty": "8",
+        "modifiers": "-1"
+      },
+      "methods": {
+        "addCorsMappings/1[travelplan.config.CorsRegistry]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "1",
+            "numbersQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "registry": "1"
+          }
+        }
+      }
+    },
+    "travelplan.controller.TravelPlanController": {
+      "metrics": {
+        "cbo": "15",
+        "cboModified": "17",
+        "fanin": "2",
+        "fanout": "15",
+        "wmc": "5",
+        "dit": "1",
+        "rfc": "13",
+        "lcom*": "0.2",
+        "tcc": "0.6",
+        "lcc": "0.6",
+        "totalMethodsQty": "5",
+        "publicMethodsQty": "5",
+        "visibleMethodsQty": "5",
+        "totalFieldsQty": "2",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "1",
+        "defaultFieldsQty": "1",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "23",
+        "returnQty": "5",
+        "stringLiteralsQty": "11",
+        "assignmentsQty": "1",
+        "variablesQty": "2",
+        "uniqueWordsQty": "32",
+        "modifiers": "1",
+        "logStatementsQty": "4"
+      },
+      "methods": {
+        "getByMinStation/2[travelplan.controller.TripInfo,travelplan.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "14",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "travelPlanService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "queryInfo": "4"
+          }
+        },
+        "getTransferResult/2[travelplan.entity.TransferTravelInfo,travelplan.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "5",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "5",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "13",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "travelPlanService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "info": "4"
+          }
+        },
+        "getByQuickest/2[travelplan.controller.TripInfo,travelplan.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "13",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "travelPlanService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "queryInfo": "4"
+          }
+        },
+        "home/0": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "6",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "getByCheapest/2[travelplan.controller.TripInfo,travelplan.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "13",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "travelPlanService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "queryInfo": "4"
+          }
+        }
+      }
+    },
+    "travelplan.config.SecurityConfig": {
+      "metrics": {
+        "cbo": "13",
+        "cboModified": "13",
+        "fanout": "13",
+        "wmc": "3",
+        "dit": "2",
+        "rfc": "14",
+        "lcom": "3",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "2",
+        "protectedMethodsQty": "1",
+        "visibleMethodsQty": "3",
+        "loc": "17",
+        "returnQty": "2",
+        "stringLiteralsQty": "7",
+        "anonymousClassesQty": "1",
+        "uniqueWordsQty": "65",
+        "modifiers": "1"
+      },
+      "methods": {
+        "passwordEncoder/0": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "7",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "configure/1[travelplan.config.HttpSecurity]": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "rfc": "14",
+            "loc": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "14",
+            "stringLiteralsQty": "7",
+            "uniqueWordsQty": "18",
+            "modifiers": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "httpSecurity": "2"
+          }
+        },
+        "corsConfigurer/0": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "loc": "8",
+            "returnsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "43",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "travelplan.entity.TransferTravelResult": {
+      "metrics": {
+        "cbo": "2",
+        "cboModified": "3",
+        "fanin": "1",
+        "fanout": "2",
+        "wmc": "2",
+        "dit": "1",
+        "lcom": "1",
+        "lcom*": "0.5",
+        "totalMethodsQty": "2",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "totalFieldsQty": "2",
+        "privateFieldsQty": "2",
+        "loc": "10",
+        "assignmentsQty": "2",
+        "variablesQty": "2",
+        "uniqueWordsQty": "7",
+        "modifiers": "1"
+      },
+      "methods": {
+        "TransferTravelResult/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "TransferTravelResult/2[java.util.List<travelplan.entity.TripResponse>,java.util.List<travelplan.entity.TripResponse>]": {
+          "metrics": {
+            "constructor": "true",
+            "cbo": "1",
+            "wmc": "1",
+            "loc": "4",
+            "parametersQty": "2",
+            "assignmentsQty": "2",
+            "uniqueWordsQty": "6",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "firstSectionResult": "3",
+            "secondSectionResult": "3"
+          },
+          "variable_usages": {
+            "firstSectionResult": "2",
+            "secondSectionResult": "2"
+          }
+        }
+      }
+    }
+  },
+  "microservice_name": "ts-travel-plan-service"
+}

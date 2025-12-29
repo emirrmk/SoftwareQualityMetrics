@@ -1,0 +1,682 @@
+{
+  "classes": {
+    "trainFood.service.TrainFoodServiceImpl": {
+      "metrics": {
+        "cbo": "10",
+        "cboModified": "11",
+        "fanin": "1",
+        "fanout": "10",
+        "wmc": "8",
+        "dit": "1",
+        "rfc": "10",
+        "lcom*": "0.25",
+        "tcc": "1.0",
+        "lcc": "1.0",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "3",
+        "visibleMethodsQty": "3",
+        "totalFieldsQty": "4",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "1",
+        "defaultFieldsQty": "3",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "41",
+        "returnQty": "5",
+        "comparisonsQty": "3",
+        "stringLiteralsQty": "4",
+        "numbersQty": "4",
+        "assignmentsQty": "6",
+        "variablesQty": "7",
+        "maxNestedBlocksQty": "2",
+        "uniqueWordsQty": "32",
+        "modifiers": "1",
+        "logStatementsQty": "2"
+      },
+      "methods": {
+        "listTrainFood/1[trainFood.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "3",
+            "rfc": "3",
+            "loc": "10",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "1",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "noContent": "2",
+            "success": "1",
+            "trainFoodRepository": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "trainFoodList": "3"
+          }
+        },
+        "createTrainFood/2[trainFood.entity.TrainFood,trainFood.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "4",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "3",
+            "rfc": "7",
+            "loc": "16",
+            "returnsQty": "1",
+            "variablesQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "7",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "1",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "9",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "trainFoodRepository": "3"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "tfTemp": "4",
+            "tf": "6"
+          }
+        },
+        "listTrainFoodByTripId/2[java.lang.String,trainFood.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "4",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "2",
+            "rfc": "2",
+            "loc": "9",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "2",
+            "comparisonsQty": "1",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "11",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "noContent": "1",
+            "success": "1",
+            "trainFoodRepository": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "tf": "2",
+            "tripId": "1"
+          }
+        }
+      }
+    },
+    "trainFood.config.SecurityConfig$Anonymous1": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "1",
+        "fanout": "1",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "6",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "loc": "5",
+        "stringLiteralsQty": "1",
+        "numbersQty": "1",
+        "uniqueWordsQty": "8",
+        "modifiers": "-1"
+      },
+      "methods": {
+        "addCorsMappings/1[trainFood.config.CorsRegistry]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "1",
+            "numbersQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "registry": "1"
+          }
+        }
+      }
+    },
+    "trainFood.init.InitData": {
+      "metrics": {
+        "cbo": "9",
+        "cboModified": "10",
+        "fanin": "1",
+        "fanout": "9",
+        "wmc": "6",
+        "dit": "1",
+        "rfc": "23",
+        "lcom*": "0.25",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "2",
+        "publicMethodsQty": "1",
+        "privateMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "2",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "1",
+        "defaultFieldsQty": "1",
+        "finalFieldsQty": "1",
+        "nosi": "4",
+        "loc": "40",
+        "returnQty": "1",
+        "loopQty": "2",
+        "comparisonsQty": "1",
+        "tryCatchQty": "1",
+        "stringLiteralsQty": "8",
+        "numbersQty": "6",
+        "assignmentsQty": "12",
+        "variablesQty": "11",
+        "maxNestedBlocksQty": "3",
+        "uniqueWordsQty": "38",
+        "modifiers": "1",
+        "logStatementsQty": "3"
+      },
+      "methods": {
+        "run/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "4",
+            "cboModified": "5",
+            "fanout": "5",
+            "wmc": "4",
+            "rfc": "17",
+            "loc": "23",
+            "variablesQty": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "17",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "loopQty": "1",
+            "comparisonsQty": "1",
+            "tryCatchQty": "1",
+            "stringLiteralsQty": "5",
+            "numbersQty": "3",
+            "assignmentsQty": "6",
+            "maxNestedBlocksQty": "3",
+            "uniqueWordsQty": "21",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "trainFoodService": "1"
+          },
+          "variable_usages": {
+            "args": "0",
+            "lineTemp": "3",
+            "tf": "4",
+            "br2": "3",
+            "e": "1",
+            "line2": "4"
+          }
+        },
+        "toFoodList/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "3",
+            "fanin": "1",
+            "fanout": "2",
+            "wmc": "2",
+            "rfc": "6",
+            "loc": "13",
+            "returnsQty": "1",
+            "variablesQty": "5",
+            "parametersQty": "1",
+            "methodsInvokedQty": "6",
+            "loopQty": "1",
+            "stringLiteralsQty": "3",
+            "numbersQty": "3",
+            "assignmentsQty": "5",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "2",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "s": "2",
+            "foodList": "2",
+            "foodstring": "2",
+            "i": "3",
+            "foodTemp": "2",
+            "food": "3"
+          }
+        }
+      }
+    },
+    "trainFood.service.TrainFoodService": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "6",
+        "fanin": "3",
+        "fanout": "3",
+        "wmc": "3",
+        "dit": "1",
+        "lcom": "3",
+        "totalMethodsQty": "3",
+        "defaultMethodsQty": "3",
+        "visibleMethodsQty": "3",
+        "loc": "5",
+        "uniqueWordsQty": "12",
+        "modifiers": "1"
+      },
+      "methods": {
+        "listTrainFood/1[trainFood.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "7"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "createTrainFood/2[trainFood.entity.TrainFood,trainFood.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "tf": "0"
+          }
+        },
+        "listTrainFoodByTripId/2[java.lang.String,trainFood.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "8"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "tripId": "0"
+          }
+        }
+      }
+    },
+    "trainFood.TrainFoodApplication": {
+      "metrics": {
+        "cbo": "11",
+        "cboModified": "12",
+        "fanin": "1",
+        "fanout": "11",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "2",
+        "lcom": "1",
+        "totalMethodsQty": "2",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "loc": "8",
+        "returnQty": "1",
+        "uniqueWordsQty": "14",
+        "modifiers": "1"
+      },
+      "methods": {
+        "restTemplate/1[trainFood.RestTemplateBuilder]": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "builder": "1"
+          }
+        },
+        "main/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "args": "1"
+          }
+        }
+      }
+    },
+    "trainFood.entity.TrainFood": {
+      "metrics": {
+        "cbo": "12",
+        "cboModified": "16",
+        "fanin": "4",
+        "fanout": "12",
+        "wmc": "1",
+        "dit": "1",
+        "lcom*": "0.6666667",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "3",
+        "privateFieldsQty": "3",
+        "loc": "8",
+        "stringLiteralsQty": "6",
+        "numbersQty": "1",
+        "assignmentsQty": "1",
+        "variablesQty": "3",
+        "uniqueWordsQty": "16",
+        "modifiers": "1"
+      },
+      "methods": {
+        "TrainFood/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "3",
+            "stringLiteralsQty": "1",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "tripId": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "trainFood.repository.TrainFoodRepository": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "4",
+        "fanin": "1",
+        "fanout": "3",
+        "wmc": "4",
+        "dit": "1",
+        "lcom": "6",
+        "totalMethodsQty": "4",
+        "defaultMethodsQty": "4",
+        "visibleMethodsQty": "4",
+        "loc": "6",
+        "uniqueWordsQty": "14",
+        "modifiers": "1"
+      },
+      "methods": {
+        "findByTripId/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "7"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "tripId": "0"
+          }
+        },
+        "findAll/0": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "1",
+            "uniqueWordsQty": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "deleteById/1[java.util.UUID]": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "7"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "id": "0"
+          }
+        },
+        "findById/1[java.util.UUID]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "id": "0"
+          }
+        }
+      }
+    },
+    "trainFood.controller.TrainFoodController": {
+      "metrics": {
+        "cbo": "13",
+        "cboModified": "14",
+        "fanin": "1",
+        "fanout": "13",
+        "wmc": "3",
+        "dit": "1",
+        "rfc": "5",
+        "lcom": "1",
+        "lcom*": "0.33333334",
+        "tcc": "0.33333334",
+        "lcc": "0.33333334",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "3",
+        "visibleMethodsQty": "3",
+        "totalFieldsQty": "2",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "1",
+        "defaultFieldsQty": "1",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "15",
+        "returnQty": "3",
+        "stringLiteralsQty": "9",
+        "assignmentsQty": "1",
+        "variablesQty": "2",
+        "uniqueWordsQty": "32",
+        "modifiers": "1",
+        "logStatementsQty": "2",
+        "external_microservice_call": 1
+      },
+      "methods": {
+        "getTrainFoodOfTrip/2[java.lang.String,trainFood.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "17",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "trainFoodService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "tripId": "1"
+          }
+        },
+        "home/0": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "7",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "getAllTrainFood/1[trainFood.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "external_microservice_call": 1
+          },
+          "field_usages": {
+            "trainFoodService": "1"
+          },
+          "variable_usages": {
+            "headers": "1"
+          },
+          "invocations": {
+            "ts-food-service": 1
+          }
+        }
+      }
+    },
+    "trainFood.config.SecurityConfig": {
+      "metrics": {
+        "cbo": "13",
+        "cboModified": "13",
+        "fanout": "13",
+        "wmc": "3",
+        "dit": "2",
+        "rfc": "14",
+        "lcom": "3",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "2",
+        "protectedMethodsQty": "1",
+        "visibleMethodsQty": "3",
+        "loc": "17",
+        "returnQty": "2",
+        "stringLiteralsQty": "7",
+        "anonymousClassesQty": "1",
+        "uniqueWordsQty": "37",
+        "modifiers": "1"
+      },
+      "methods": {
+        "configure/1[trainFood.config.HttpSecurity]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "14",
+            "loc": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "14",
+            "stringLiteralsQty": "7",
+            "uniqueWordsQty": "18",
+            "modifiers": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "httpSecurity": "2"
+          }
+        },
+        "passwordEncoder/0": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "corsConfigurer/0": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "loc": "8",
+            "returnsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "17",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    }
+  },
+  "microservice_name": "ts-train-food-service",
+  "external_microservice_call": 1
+}

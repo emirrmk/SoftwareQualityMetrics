@@ -1,0 +1,1776 @@
+{
+  "classes": {
+    "adminbasic.AdminBasicInfoApplication": {
+      "metrics": {
+        "cbo": "11",
+        "cboModified": "12",
+        "fanin": "1",
+        "fanout": "11",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "2",
+        "lcom": "1",
+        "totalMethodsQty": "2",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "loc": "8",
+        "returnQty": "1",
+        "uniqueWordsQty": "16",
+        "modifiers": "1"
+      },
+      "methods": {
+        "restTemplate/1[adminbasic.RestTemplateBuilder]": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "builder": "1"
+          }
+        },
+        "main/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "args": "1"
+          }
+        }
+      }
+    },
+    "adminbasic.config.SecurityConfig": {
+      "metrics": {
+        "cbo": "13",
+        "cboModified": "13",
+        "fanout": "13",
+        "wmc": "3",
+        "dit": "2",
+        "rfc": "15",
+        "lcom": "3",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "2",
+        "protectedMethodsQty": "1",
+        "visibleMethodsQty": "3",
+        "loc": "17",
+        "returnQty": "2",
+        "stringLiteralsQty": "13",
+        "anonymousClassesQty": "1",
+        "uniqueWordsQty": "66",
+        "modifiers": "1"
+      },
+      "methods": {
+        "passwordEncoder/0": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "7",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "corsConfigurer/0": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "loc": "8",
+            "returnsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "43",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "configure/1[adminbasic.config.HttpSecurity]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "15",
+            "loc": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "15",
+            "stringLiteralsQty": "13",
+            "uniqueWordsQty": "19",
+            "modifiers": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "httpSecurity": "2"
+          }
+        }
+      }
+    },
+    "adminbasic.service.AdminBasicInfoServiceImpl": {
+      "metrics": {
+        "cbo": "17",
+        "cboModified": "19",
+        "fanin": "2",
+        "fanout": "17",
+        "wmc": "21",
+        "dit": "1",
+        "rfc": "4",
+        "lcom*": "0.6825397",
+        "tcc": "1.0",
+        "lcc": "1.0",
+        "totalMethodsQty": "21",
+        "publicMethodsQty": "20",
+        "privateMethodsQty": "1",
+        "visibleMethodsQty": "20",
+        "totalFieldsQty": "3",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "3",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "162",
+        "returnQty": "21",
+        "stringLiteralsQty": "41",
+        "assignmentsQty": "85",
+        "mathOperationsQty": "21",
+        "variablesQty": "87",
+        "uniqueWordsQty": "65",
+        "modifiers": "1"
+      },
+      "methods": {
+        "getServiceUrl/1[java.lang.String]": {
+          "metrics": {
+            "cboModified": "20",
+            "fanin": "20",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "stringLiteralsQty": "1",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "serviceName": "1"
+          }
+        },
+        "modifyPrice/2[adminbasic.entity.PriceInfo,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "7",
+            "returnsQty": "1",
+            "variablesQty": "4",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "19",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "re": "1",
+            "price_service_url": "1",
+            "pi": "1",
+            "prices": "1",
+            "requestEntity": "1"
+          }
+        },
+        "deleteContact/2[java.lang.String,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "8",
+            "returnsQty": "1",
+            "variablesQty": "4",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "18",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "result": "2",
+            "contacts_service_url": "1",
+            "headers": "1",
+            "re": "1",
+            "contactsId": "1",
+            "requestEntity": "1"
+          }
+        },
+        "addStation/2[edu.fudan.common.entity.Station,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "9",
+            "returnsQty": "1",
+            "variablesQty": "5",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "5",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "19",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "result": "2",
+            "headers": "1",
+            "s": "1",
+            "re": "1",
+            "station_service_url": "1",
+            "stations": "1",
+            "requestEntity": "1"
+          }
+        },
+        "modifyStation/2[edu.fudan.common.entity.Station,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "9",
+            "returnsQty": "1",
+            "variablesQty": "5",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "5",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "19",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "result": "2",
+            "headers": "1",
+            "s": "1",
+            "re": "1",
+            "station_service_url": "1",
+            "stations": "1",
+            "requestEntity": "1"
+          }
+        },
+        "deleteStation/2[java.lang.String,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "9",
+            "returnsQty": "1",
+            "variablesQty": "5",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "5",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "21",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "result": "2",
+            "headers": "1",
+            "path": "1",
+            "re": "1",
+            "station_service_url": "1",
+            "id": "1",
+            "requestEntity": "1"
+          }
+        },
+        "addPrice/2[adminbasic.entity.PriceInfo,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "7",
+            "returnsQty": "1",
+            "variablesQty": "4",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "19",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "re": "1",
+            "price_service_url": "1",
+            "pi": "1",
+            "prices": "1",
+            "requestEntity": "1"
+          }
+        },
+        "getAllConfigs/1[adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "7",
+            "returnsQty": "1",
+            "variablesQty": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "19",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "configs": "1",
+            "config_service_url": "1",
+            "re": "1",
+            "requestEntity": "1"
+          }
+        },
+        "getAllContacts/1[adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "8",
+            "returnsQty": "1",
+            "variablesQty": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "19",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "result": "2",
+            "contacts_service_url": "1",
+            "headers": "1",
+            "re": "1",
+            "requestEntity": "1"
+          }
+        },
+        "modifyContact/2[edu.fudan.common.entity.Contacts,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "8",
+            "returnsQty": "1",
+            "variablesQty": "4",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "19",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "result": "2",
+            "contacts_service_url": "1",
+            "headers": "1",
+            "mci": "1",
+            "re": "1",
+            "requestEntity": "1"
+          }
+        },
+        "modifyTrain/2[edu.fudan.common.entity.TrainType,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "9",
+            "returnsQty": "1",
+            "variablesQty": "5",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "5",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "20",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "result": "2",
+            "headers": "1",
+            "re": "1",
+            "t": "1",
+            "train_service_url": "1",
+            "requestEntity": "1",
+            "trains": "1"
+          }
+        },
+        "addContact/2[edu.fudan.common.entity.Contacts,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "8",
+            "returnsQty": "1",
+            "variablesQty": "4",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "19",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "result": "2",
+            "contacts_service_url": "1",
+            "headers": "1",
+            "c": "1",
+            "re": "1",
+            "requestEntity": "1"
+          }
+        },
+        "getAllTrains/1[adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "7",
+            "returnsQty": "1",
+            "variablesQty": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "19",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "re": "1",
+            "train_service_url": "1",
+            "requestEntity": "1",
+            "trains": "1"
+          }
+        },
+        "modifyConfig/2[edu.fudan.common.entity.Config,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "7",
+            "returnsQty": "1",
+            "variablesQty": "4",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "18",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "configs": "1",
+            "c": "1",
+            "config_service_url": "1",
+            "re": "1",
+            "requestEntity": "1"
+          }
+        },
+        "getAllPrices/1[adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "7",
+            "returnsQty": "1",
+            "variablesQty": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "19",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "re": "1",
+            "price_service_url": "1",
+            "prices": "1",
+            "requestEntity": "1"
+          }
+        },
+        "addConfig/2[edu.fudan.common.entity.Config,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "7",
+            "returnsQty": "1",
+            "variablesQty": "4",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "18",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "configs": "1",
+            "c": "1",
+            "config_service_url": "1",
+            "re": "1",
+            "requestEntity": "1"
+          }
+        },
+        "deleteConfig/2[java.lang.String,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "6",
+            "returnsQty": "1",
+            "variablesQty": "3",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "3",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "18",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "config_service_url": "1",
+            "re": "1",
+            "name": "1",
+            "requestEntity": "1"
+          }
+        },
+        "deleteTrain/2[java.lang.String,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "8",
+            "returnsQty": "1",
+            "variablesQty": "4",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "19",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "result": "2",
+            "headers": "1",
+            "re": "1",
+            "id": "1",
+            "train_service_url": "1",
+            "requestEntity": "1"
+          }
+        },
+        "deletePrice/2[java.lang.String,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "7",
+            "returnsQty": "1",
+            "variablesQty": "4",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "20",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "path": "1",
+            "re": "1",
+            "price_service_url": "1",
+            "pricesId": "1",
+            "requestEntity": "1"
+          }
+        },
+        "addTrain/2[edu.fudan.common.entity.TrainType,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "9",
+            "returnsQty": "1",
+            "variablesQty": "5",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "5",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "20",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "result": "2",
+            "headers": "1",
+            "re": "1",
+            "t": "1",
+            "train_service_url": "1",
+            "requestEntity": "1",
+            "trains": "1"
+          }
+        },
+        "getAllStations/1[adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "7",
+            "returnsQty": "1",
+            "variablesQty": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "19",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "re": "1",
+            "station_service_url": "1",
+            "stations": "1",
+            "requestEntity": "1"
+          }
+        }
+      }
+    },
+    "adminbasic.controller.AdminBasicInfoController": {
+      "metrics": {
+        "cbo": "22",
+        "cboModified": "24",
+        "fanin": "2",
+        "fanout": "22",
+        "wmc": "21",
+        "dit": "1",
+        "rfc": "26",
+        "lcom*": "0.04761905",
+        "tcc": "0.9047619",
+        "lcc": "0.9047619",
+        "totalMethodsQty": "21",
+        "publicMethodsQty": "21",
+        "visibleMethodsQty": "21",
+        "totalFieldsQty": "2",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "1",
+        "defaultFieldsQty": "1",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "87",
+        "returnQty": "21",
+        "stringLiteralsQty": "63",
+        "assignmentsQty": "1",
+        "variablesQty": "2",
+        "uniqueWordsQty": "49",
+        "modifiers": "1",
+        "logStatementsQty": "20"
+      },
+      "methods": {
+        "home/1[adminbasic.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "10",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "deleteStation/2[java.lang.String,adminbasic.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "13",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminBasicInfoService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "id": "2"
+          }
+        },
+        "addStation/2[edu.fudan.common.entity.Station,adminbasic.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminBasicInfoService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "s": "2"
+          }
+        },
+        "modifyPrice/2[adminbasic.entity.PriceInfo,adminbasic.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "12",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminBasicInfoService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "pi": "2"
+          }
+        },
+        "getAllPrices/1[adminbasic.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "13",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminBasicInfoService": "1"
+          },
+          "variable_usages": {
+            "headers": "1"
+          }
+        },
+        "addPrice/2[adminbasic.entity.PriceInfo,adminbasic.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "12",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminBasicInfoService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "pi": "2"
+          }
+        },
+        "modifyConfig/2[edu.fudan.common.entity.Config,adminbasic.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminBasicInfoService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "c": "2"
+          }
+        },
+        "addConfig/2[edu.fudan.common.entity.Config,adminbasic.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminBasicInfoService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "c": "2"
+          }
+        },
+        "getAllConfigs/1[adminbasic.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "13",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminBasicInfoService": "1"
+          },
+          "variable_usages": {
+            "headers": "1"
+          }
+        },
+        "deletePrice/2[java.lang.String,adminbasic.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "13",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminBasicInfoService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "pricesId": "2"
+          }
+        },
+        "addContacts/2[edu.fudan.common.entity.Contacts,adminbasic.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminBasicInfoService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "c": "2"
+          }
+        },
+        "addTrain/2[edu.fudan.common.entity.TrainType,adminbasic.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "12",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminBasicInfoService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "t": "2"
+          }
+        },
+        "deleteContacts/2[java.lang.String,adminbasic.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "13",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminBasicInfoService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "contactsId": "2"
+          }
+        },
+        "modifyContacts/2[edu.fudan.common.entity.Contacts,adminbasic.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminBasicInfoService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "mci": "2"
+          }
+        },
+        "modifyStation/2[edu.fudan.common.entity.Station,adminbasic.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminBasicInfoService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "s": "2"
+          }
+        },
+        "getAllStations/1[adminbasic.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "13",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminBasicInfoService": "1"
+          },
+          "variable_usages": {
+            "headers": "1"
+          }
+        },
+        "deleteConfig/2[java.lang.String,adminbasic.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "13",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminBasicInfoService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "name": "2"
+          }
+        },
+        "modifyTrain/2[edu.fudan.common.entity.TrainType,adminbasic.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "12",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminBasicInfoService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "t": "2"
+          }
+        },
+        "getAllContacts/1[adminbasic.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "12",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminBasicInfoService": "1"
+          },
+          "variable_usages": {
+            "headers": "1"
+          }
+        },
+        "getAllTrains/1[adminbasic.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "13",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminBasicInfoService": "1"
+          },
+          "variable_usages": {
+            "headers": "1"
+          }
+        },
+        "deleteTrain/2[java.lang.String,adminbasic.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "13",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminBasicInfoService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "id": "2"
+          }
+        }
+      }
+    },
+    "adminbasic.entity.PriceInfo": {
+      "metrics": {
+        "cbo": "2",
+        "cboModified": "7",
+        "fanin": "5",
+        "fanout": "2",
+        "dit": "1",
+        "lcom*": "NaN",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "totalFieldsQty": "5",
+        "privateFieldsQty": "5",
+        "loc": "7",
+        "variablesQty": "5",
+        "uniqueWordsQty": "12",
+        "modifiers": "1"
+      },
+      "methods": {}
+    },
+    "adminbasic.service.AdminBasicInfoService": {
+      "metrics": {
+        "cbo": "7",
+        "cboModified": "10",
+        "fanin": "3",
+        "fanout": "7",
+        "wmc": "20",
+        "dit": "1",
+        "lcom": "190",
+        "totalMethodsQty": "20",
+        "defaultMethodsQty": "20",
+        "visibleMethodsQty": "20",
+        "loc": "22",
+        "uniqueWordsQty": "48",
+        "modifiers": "1"
+      },
+      "methods": {
+        "deleteStation/2[java.lang.String,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "8",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "id": "0"
+          }
+        },
+        "deleteConfig/2[java.lang.String,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "7",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "name": "0"
+          }
+        },
+        "modifyConfig/2[edu.fudan.common.entity.Config,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "8",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "c": "0"
+          }
+        },
+        "deleteTrain/2[java.lang.String,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "7",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "id": "0"
+          }
+        },
+        "getAllPrices/1[adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "9",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "modifyPrice/2[adminbasic.entity.PriceInfo,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "9",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "pi": "0"
+          }
+        },
+        "getAllContacts/1[adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "9",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "modifyContact/2[edu.fudan.common.entity.Contacts,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "9",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "mci": "0"
+          }
+        },
+        "addTrain/2[edu.fudan.common.entity.TrainType,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "9",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "t": "0"
+          }
+        },
+        "getAllStations/1[adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "9",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "modifyStation/2[edu.fudan.common.entity.Station,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "8",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "s": "0"
+          }
+        },
+        "getAllTrains/1[adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "9",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "addConfig/2[edu.fudan.common.entity.Config,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "8",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "c": "0"
+          }
+        },
+        "getAllConfigs/1[adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "9",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "deleteContact/2[java.lang.String,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "9",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "contactsId": "0"
+          }
+        },
+        "deletePrice/2[java.lang.String,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "11",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "pricesId": "0"
+          }
+        },
+        "addStation/2[edu.fudan.common.entity.Station,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "8",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "s": "0"
+          }
+        },
+        "modifyTrain/2[edu.fudan.common.entity.TrainType,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "9",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "t": "0"
+          }
+        },
+        "addContact/2[edu.fudan.common.entity.Contacts,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "9",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "c": "0"
+          }
+        },
+        "addPrice/2[adminbasic.entity.PriceInfo,adminbasic.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "9",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "pi": "0"
+          }
+        }
+      }
+    },
+    "adminbasic.config.SecurityConfig$Anonymous1": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "1",
+        "fanout": "1",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "6",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "loc": "5",
+        "stringLiteralsQty": "1",
+        "numbersQty": "1",
+        "uniqueWordsQty": "8",
+        "modifiers": "-1"
+      },
+      "methods": {
+        "addCorsMappings/1[adminbasic.config.CorsRegistry]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "1",
+            "numbersQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "registry": "1"
+          }
+        }
+      }
+    }
+  },
+  "microservice_name": "ts-admin-basic-info-service"
+}

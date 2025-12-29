@@ -1,0 +1,906 @@
+{
+  "classes": {
+    "fdse.microservice.config.SecurityConfig": {
+      "metrics": {
+        "cbo": "13",
+        "cboModified": "13",
+        "fanout": "13",
+        "wmc": "3",
+        "dit": "2",
+        "rfc": "14",
+        "lcom": "3",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "2",
+        "protectedMethodsQty": "1",
+        "visibleMethodsQty": "3",
+        "loc": "17",
+        "returnQty": "2",
+        "stringLiteralsQty": "7",
+        "anonymousClassesQty": "1",
+        "uniqueWordsQty": "65",
+        "modifiers": "1"
+      },
+      "methods": {
+        "configure/1[fdse.microservice.config.HttpSecurity]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "14",
+            "loc": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "14",
+            "stringLiteralsQty": "7",
+            "uniqueWordsQty": "18",
+            "modifiers": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "httpSecurity": "2"
+          }
+        },
+        "passwordEncoder/0": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "7",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "corsConfigurer/0": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "loc": "8",
+            "returnsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "43",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "fdse.microservice.service.BasicService": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "6",
+        "fanin": "3",
+        "fanout": "3",
+        "wmc": "3",
+        "dit": "1",
+        "lcom": "3",
+        "totalMethodsQty": "3",
+        "defaultMethodsQty": "3",
+        "visibleMethodsQty": "3",
+        "loc": "5",
+        "uniqueWordsQty": "21",
+        "modifiers": "1"
+      },
+      "methods": {
+        "queryForTravel/2[edu.fudan.common.entity.Travel,fdse.microservice.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "9",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "info": "0"
+          }
+        },
+        "queryForStationId/2[java.lang.String,fdse.microservice.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "11",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "stationName": "0"
+          }
+        },
+        "queryForTravels/2[java.util.List<edu.fudan.common.entity.Travel>,fdse.microservice.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "5"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "infos": "0"
+          }
+        }
+      }
+    },
+    "fdse.microservice.BasicApplication": {
+      "metrics": {
+        "cbo": "11",
+        "cboModified": "12",
+        "fanin": "1",
+        "fanout": "11",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "2",
+        "lcom": "1",
+        "totalMethodsQty": "2",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "loc": "8",
+        "returnQty": "1",
+        "uniqueWordsQty": "14",
+        "modifiers": "1"
+      },
+      "methods": {
+        "restTemplate/1[fdse.microservice.RestTemplateBuilder]": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "builder": "1"
+          }
+        },
+        "main/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "args": "1"
+          }
+        }
+      }
+    },
+    "fdse.microservice.controller.BasicController": {
+      "metrics": {
+        "cbo": "15",
+        "cboModified": "17",
+        "fanin": "2",
+        "fanout": "15",
+        "wmc": "4",
+        "dit": "1",
+        "rfc": "7",
+        "lcom*": "0.25",
+        "tcc": "0.5",
+        "lcc": "0.5",
+        "totalMethodsQty": "4",
+        "publicMethodsQty": "4",
+        "visibleMethodsQty": "4",
+        "totalFieldsQty": "2",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "1",
+        "defaultFieldsQty": "1",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "19",
+        "returnQty": "4",
+        "stringLiteralsQty": "9",
+        "assignmentsQty": "1",
+        "variablesQty": "2",
+        "uniqueWordsQty": "28",
+        "modifiers": "1",
+        "logStatementsQty": "3",
+        "external_microservice_call": 6
+      },
+      "methods": {
+        "queryForTravels/2[java.util.List<edu.fudan.common.entity.Travel>,fdse.microservice.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "10",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "external_microservice_call": 2
+          },
+          "field_usages": {
+            "service": "1",
+            "logger": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "infos": "2"
+          },
+          "invocations": {
+            "ts-travel-service": 1,
+            "ts-travel2-service": 1
+          }
+        },
+        "queryForStationId/2[java.lang.String,fdse.microservice.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "14",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "service": "1",
+            "logger": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "stationName": "2"
+          }
+        },
+        "home/1[fdse.microservice.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "queryForTravel/2[edu.fudan.common.entity.Travel,fdse.microservice.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "10",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "external_microservice_call": 4
+          },
+          "field_usages": {
+            "service": "1",
+            "logger": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "info": "3"
+          },
+          "invocations": {
+            "ts-preserve-other-service": 1,
+            "ts-preserve-service": 1,
+            "ts-travel-service": 1,
+            "ts-travel2-service": 1
+          }
+        }
+      }
+    },
+    "fdse.microservice.service.BasicServiceImpl$Anonymous1": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "fdse.microservice.config.SecurityConfig$Anonymous1": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "1",
+        "fanout": "1",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "6",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "loc": "5",
+        "stringLiteralsQty": "1",
+        "numbersQty": "1",
+        "uniqueWordsQty": "8",
+        "modifiers": "-1"
+      },
+      "methods": {
+        "addCorsMappings/1[fdse.microservice.config.CorsRegistry]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "1",
+            "numbersQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "registry": "1"
+          }
+        }
+      }
+    },
+    "fdse.microservice.service.BasicServiceImpl": {
+      "metrics": {
+        "cbo": "20",
+        "cboModified": "22",
+        "fanin": "2",
+        "fanout": "20",
+        "wmc": "59",
+        "dit": "1",
+        "rfc": "71",
+        "lcom*": "0.44444445",
+        "tcc": "0.47619048",
+        "lcc": "0.47619048",
+        "totalMethodsQty": "12",
+        "publicMethodsQty": "7",
+        "privateMethodsQty": "5",
+        "visibleMethodsQty": "7",
+        "totalFieldsQty": "3",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "3",
+        "finalFieldsQty": "1",
+        "nosi": "9",
+        "loc": "369",
+        "returnQty": "28",
+        "loopQty": "9",
+        "comparisonsQty": "25",
+        "tryCatchQty": "3",
+        "stringLiteralsQty": "75",
+        "numbersQty": "31",
+        "assignmentsQty": "117",
+        "mathOperationsQty": "22",
+        "variablesQty": "106",
+        "maxNestedBlocksQty": "4",
+        "anonymousClassesQty": "1",
+        "uniqueWordsQty": "119",
+        "modifiers": "1",
+        "logStatementsQty": "25"
+      },
+      "methods": {
+        "queryTrainTypeByNames/2[java.util.List<java.lang.String>,fdse.microservice.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "4",
+            "fanin": "1",
+            "fanout": "3",
+            "wmc": "2",
+            "rfc": "8",
+            "loc": "12",
+            "returnsQty": "2",
+            "variablesQty": "5",
+            "parametersQty": "2",
+            "methodsInvokedQty": "8",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "3",
+            "numbersQty": "1",
+            "assignmentsQty": "5",
+            "mathOperationsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "23",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "tts": "1",
+            "re": "1",
+            "trainTypeNames": "2",
+            "response": "2",
+            "train_service_url": "1",
+            "requestEntity": "1"
+          }
+        },
+        "queryPriceConfigByRouteIdsAndTrainTypes/2[java.util.List<java.lang.String>,fdse.microservice.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "10",
+            "cboModified": "5",
+            "fanin": "1",
+            "fanout": "4",
+            "wmc": "3",
+            "rfc": "11",
+            "loc": "26",
+            "returnsQty": "3",
+            "variablesQty": "6",
+            "parametersQty": "2",
+            "methodsInvokedQty": "11",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "comparisonsQty": "1",
+            "tryCatchQty": "1",
+            "stringLiteralsQty": "6",
+            "numbersQty": "1",
+            "assignmentsQty": "6",
+            "mathOperationsQty": "1",
+            "maxNestedBlocksQty": "2",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "40",
+            "modifiers": "2",
+            "logStatementsQty": "4"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "result": "4",
+            "headers": "0",
+            "pcMap": "2",
+            "re": "1",
+            "price_service_url": "1",
+            "e": "1",
+            "mapper": "1",
+            "routeIdsTypes": "2",
+            "requestEntity": "1"
+          }
+        },
+        "checkStationsExists/2[java.util.List<java.lang.String>,fdse.microservice.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "3",
+            "fanin": "1",
+            "fanout": "2",
+            "wmc": "2",
+            "rfc": "6",
+            "loc": "12",
+            "returnsQty": "2",
+            "variablesQty": "5",
+            "parametersQty": "2",
+            "methodsInvokedQty": "6",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "3",
+            "numbersQty": "1",
+            "assignmentsQty": "5",
+            "mathOperationsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "21",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "r": "2",
+            "re": "1",
+            "stationNames": "2",
+            "stationMap": "1",
+            "station_service_url": "1",
+            "requestEntity": "1"
+          }
+        },
+        "getServiceUrl/1[java.lang.String]": {
+          "metrics": {
+            "cboModified": "9",
+            "fanin": "9",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "stringLiteralsQty": "1",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "serviceName": "1"
+          }
+        },
+        "getRoutesByRouteIds/2[java.util.List<java.lang.String>,fdse.microservice.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "6",
+            "fanin": "1",
+            "fanout": "5",
+            "wmc": "2",
+            "rfc": "11",
+            "loc": "17",
+            "returnsQty": "2",
+            "variablesQty": "5",
+            "parametersQty": "2",
+            "methodsInvokedQty": "11",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "5",
+            "numbersQty": "1",
+            "assignmentsQty": "5",
+            "mathOperationsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "22",
+            "modifiers": "2",
+            "logStatementsQty": "3"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "result": "3",
+            "headers": "0",
+            "routes": "1",
+            "route_service_url": "1",
+            "re": "1",
+            "routeIds": "2",
+            "requestEntity": "1"
+          }
+        },
+        "queryForTravel/2[edu.fudan.common.entity.Travel,fdse.microservice.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "10",
+            "fanin": "1",
+            "fanout": "9",
+            "wmc": "11",
+            "rfc": "28",
+            "loc": "71",
+            "returnsQty": "4",
+            "variablesQty": "16",
+            "parametersQty": "2",
+            "methodsInvokedQty": "28",
+            "methodsInvokedLocalQty": "4",
+            "methodsInvokedIndirectLocalQty": "5",
+            "comparisonsQty": "2",
+            "tryCatchQty": "1",
+            "stringLiteralsQty": "19",
+            "numbersQty": "9",
+            "assignmentsQty": "19",
+            "mathOperationsQty": "5",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "51",
+            "modifiers": "1",
+            "logStatementsQty": "6"
+          },
+          "field_usages": {
+            "LOGGER": "2"
+          },
+          "variable_usages": {
+            "headers": "5",
+            "distance": "3",
+            "trainType": "3",
+            "e": "0",
+            "priceForEconomyClass": "1",
+            "start": "4",
+            "priceConfig": "2",
+            "startingPlaceExist": "2",
+            "endPlaceExist": "2",
+            "indexStart": "3",
+            "result": "11",
+            "priceForConfortClass": "1",
+            "routeId": "2",
+            "route": "12",
+            "response": "15",
+            "end": "4",
+            "prices": "5",
+            "indexEnd": "3",
+            "info": "10"
+          }
+        },
+        "queryForTravels/2[java.util.List<edu.fudan.common.entity.Travel>,fdse.microservice.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "7",
+            "fanout": "7",
+            "wmc": "30",
+            "rfc": "50",
+            "loc": "171",
+            "returnsQty": "7",
+            "variablesQty": "46",
+            "parametersQty": "2",
+            "methodsInvokedQty": "50",
+            "methodsInvokedLocalQty": "4",
+            "methodsInvokedIndirectLocalQty": "5",
+            "loopQty": "9",
+            "comparisonsQty": "16",
+            "tryCatchQty": "1",
+            "stringLiteralsQty": "18",
+            "numbersQty": "14",
+            "assignmentsQty": "56",
+            "mathOperationsQty": "7",
+            "maxNestedBlocksQty": "4",
+            "uniqueWordsQty": "68",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "routeMap": "4",
+            "distance": "3",
+            "trainType": "4",
+            "trainTypeMap": "3",
+            "priceConfig": "3",
+            "typeTrips": "3",
+            "avaTrips": "11",
+            "firstPriceRate": "2",
+            "typeTrip": "2",
+            "result": "6",
+            "routes": "2",
+            "routeId": "10",
+            "stationNames": "3",
+            "end": "5",
+            "prices": "5",
+            "tripNumber": "12",
+            "indexEnd": "1",
+            "info": "16",
+            "headers": "4",
+            "e": "0",
+            "priceForEconomyClass": "1",
+            "start": "5",
+            "stationMap": "2",
+            "trMap": "3",
+            "tripInfos": "6",
+            "endTrips": "4",
+            "routeTrips": "3",
+            "indexStart": "1",
+            "routeTrip": "3",
+            "priceForConfortClass": "1",
+            "pcMap": "1",
+            "basicPriceRate": "2",
+            "tts": "2",
+            "r": "2",
+            "startTrips": "4",
+            "s": "5",
+            "route": "10",
+            "trainTypeNames": "2",
+            "t": "6",
+            "response": "22",
+            "trips": "21",
+            "ttype": "1",
+            "routeIdAndTypes": "2",
+            "trainTypeName": "2",
+            "routeIds": "2",
+            "infos": "1"
+          }
+        },
+        "queryForStationId/2[java.lang.String,fdse.microservice.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "4",
+            "fanin": "1",
+            "fanout": "3",
+            "wmc": "2",
+            "rfc": "7",
+            "loc": "12",
+            "returnsQty": "2",
+            "variablesQty": "4",
+            "parametersQty": "2",
+            "methodsInvokedQty": "7",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "4",
+            "numbersQty": "2",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "23",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "msg": "2",
+            "headers": "0",
+            "re": "3",
+            "stationName": "3",
+            "station_service_url": "1",
+            "requestEntity": "1"
+          }
+        },
+        "checkStationExists/2[java.lang.String,fdse.microservice.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "4",
+            "fanin": "2",
+            "fanout": "2",
+            "wmc": "2",
+            "rfc": "5",
+            "loc": "8",
+            "returnsQty": "1",
+            "variablesQty": "4",
+            "parametersQty": "2",
+            "methodsInvokedQty": "5",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "3",
+            "numbersQty": "1",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "22",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "exist": "1",
+            "headers": "0",
+            "re": "1",
+            "stationName": "2",
+            "station_service_url": "1",
+            "requestEntity": "1"
+          }
+        },
+        "getRouteByRouteId/2[java.lang.String,fdse.microservice.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "6",
+            "fanin": "1",
+            "fanout": "5",
+            "wmc": "2",
+            "rfc": "10",
+            "loc": "15",
+            "returnsQty": "2",
+            "variablesQty": "4",
+            "parametersQty": "2",
+            "methodsInvokedQty": "10",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "5",
+            "numbersQty": "1",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "21",
+            "modifiers": "2",
+            "logStatementsQty": "3"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "result": "3",
+            "headers": "0",
+            "route_service_url": "1",
+            "routeId": "2",
+            "re": "1",
+            "requestEntity": "1"
+          }
+        },
+        "queryTrainTypeByName/2[java.lang.String,fdse.microservice.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "5",
+            "fanin": "2",
+            "fanout": "3",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "8",
+            "returnsQty": "1",
+            "variablesQty": "4",
+            "parametersQty": "2",
+            "methodsInvokedQty": "6",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "3",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "24",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "re": "1",
+            "response": "1",
+            "train_service_url": "1",
+            "trainTypeName": "2",
+            "requestEntity": "1"
+          }
+        },
+        "queryPriceConfigByRouteIdAndTrainType/3[java.lang.String,java.lang.String,fdse.microservice.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "5",
+            "fanin": "1",
+            "fanout": "4",
+            "wmc": "1",
+            "rfc": "8",
+            "loc": "9",
+            "returnsQty": "1",
+            "variablesQty": "4",
+            "parametersQty": "3",
+            "methodsInvokedQty": "8",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "5",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "30",
+            "modifiers": "2",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "result": "2",
+            "headers": "0",
+            "routeId": "2",
+            "re": "1",
+            "price_service_url": "1",
+            "trainType": "2",
+            "requestEntity": "1"
+          }
+        }
+      }
+    }
+  },
+  "microservice_name": "ts-basic-service",
+  "external_microservice_call": 6
+}

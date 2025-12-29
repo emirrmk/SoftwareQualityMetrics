@@ -1,0 +1,284 @@
+{
+  "classes": {
+    "delivery.entity.Delivery": {
+      "metrics": {
+        "cbo": "8",
+        "cboModified": "10",
+        "fanin": "2",
+        "fanout": "8",
+        "wmc": "1",
+        "dit": "1",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "5",
+        "privateFieldsQty": "5",
+        "loc": "9",
+        "stringLiteralsQty": "3",
+        "numbersQty": "1",
+        "variablesQty": "5",
+        "uniqueWordsQty": "17",
+        "modifiers": "1"
+      },
+      "methods": {
+        "Delivery/0": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "1",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "delivery.repository.DeliveryRepository": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "4",
+        "fanin": "1",
+        "fanout": "3",
+        "wmc": "5",
+        "dit": "1",
+        "lcom": "10",
+        "totalMethodsQty": "5",
+        "defaultMethodsQty": "5",
+        "visibleMethodsQty": "5",
+        "loc": "7",
+        "uniqueWordsQty": "14",
+        "modifiers": "1"
+      },
+      "methods": {
+        "deleteById/1[java.lang.String]": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "id": "0"
+          }
+        },
+        "deleteFoodOrderByOrderId/1[java.lang.String]": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "6"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "id": "0"
+          }
+        },
+        "findByOrderId/1[java.util.UUID]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "orderId": "0"
+          }
+        },
+        "findById/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "id": "0"
+          }
+        },
+        "findAll/0": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "loc": "1",
+            "uniqueWordsQty": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "delivery.config.Queues": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "3",
+        "fanout": "3",
+        "wmc": "1",
+        "dit": "1",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "1",
+        "staticFieldsQty": "1",
+        "publicFieldsQty": "1",
+        "finalFieldsQty": "1",
+        "loc": "6",
+        "returnQty": "1",
+        "stringLiteralsQty": "1",
+        "assignmentsQty": "1",
+        "variablesQty": "1",
+        "uniqueWordsQty": "5",
+        "modifiers": "1"
+      },
+      "methods": {
+        "emailQueue/0": {
+          "metrics": {
+            "cbo": "2",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "4",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "queueName": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "delivery.DeliveryApplication": {
+      "metrics": {
+        "cbo": "8",
+        "cboModified": "9",
+        "fanin": "1",
+        "fanout": "8",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "2",
+        "lcom": "1",
+        "totalMethodsQty": "2",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "loc": "8",
+        "returnQty": "1",
+        "uniqueWordsQty": "10",
+        "modifiers": "1"
+      },
+      "methods": {
+        "main/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "args": "1"
+          }
+        },
+        "restTemplate/1[delivery.RestTemplateBuilder]": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "builder": "1"
+          }
+        }
+      }
+    },
+    "delivery.mq.RabbitReceive": {
+      "metrics": {
+        "cbo": "9",
+        "cboModified": "10",
+        "fanin": "1",
+        "fanout": "9",
+        "wmc": "4",
+        "dit": "1",
+        "rfc": "11",
+        "lcom*": "0.33333334",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "3",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "3",
+        "finalFieldsQty": "1",
+        "nosi": "2",
+        "loc": "23",
+        "returnQty": "1",
+        "comparisonsQty": "2",
+        "tryCatchQty": "1",
+        "stringLiteralsQty": "4",
+        "assignmentsQty": "2",
+        "mathOperationsQty": "1",
+        "variablesQty": "4",
+        "maxNestedBlocksQty": "1",
+        "uniqueWordsQty": "20",
+        "modifiers": "1",
+        "logStatementsQty": "4"
+      },
+      "methods": {
+        "process/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "3",
+            "fanout": "3",
+            "wmc": "4",
+            "rfc": "10",
+            "loc": "18",
+            "returnsQty": "1",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "10",
+            "comparisonsQty": "2",
+            "tryCatchQty": "1",
+            "stringLiteralsQty": "4",
+            "assignmentsQty": "1",
+            "mathOperationsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "12",
+            "modifiers": "1",
+            "logStatementsQty": "4"
+          },
+          "field_usages": {
+            "logger": "4",
+            "deliveryRepository": "1"
+          },
+          "variable_usages": {
+            "delivery": "5",
+            "payload": "1",
+            "e": "1"
+          }
+        }
+      }
+    }
+  },
+  "microservice_name": "ts-delivery-service"
+}

@@ -1,0 +1,937 @@
+{
+  "classes": {
+    "preserve.config.SecurityConfig$Anonymous1": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "1",
+        "fanout": "1",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "6",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "loc": "5",
+        "stringLiteralsQty": "1",
+        "numbersQty": "1",
+        "uniqueWordsQty": "8",
+        "modifiers": "-1"
+      },
+      "methods": {
+        "addCorsMappings/1[preserve.config.CorsRegistry]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "1",
+            "numbersQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "registry": "1"
+          }
+        }
+      }
+    },
+    "preserve.PreserveApplication": {
+      "metrics": {
+        "cbo": "11",
+        "cboModified": "12",
+        "fanin": "1",
+        "fanout": "11",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "2",
+        "lcom": "1",
+        "totalMethodsQty": "2",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "loc": "8",
+        "returnQty": "1",
+        "uniqueWordsQty": "14",
+        "modifiers": "1"
+      },
+      "methods": {
+        "main/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "args": "1"
+          }
+        },
+        "restTemplate/1[preserve.RestTemplateBuilder]": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "builder": "1"
+          }
+        }
+      }
+    },
+    "preserve.config.SecurityConfig": {
+      "metrics": {
+        "cbo": "13",
+        "cboModified": "13",
+        "fanout": "13",
+        "wmc": "3",
+        "dit": "2",
+        "rfc": "15",
+        "lcom": "3",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "2",
+        "protectedMethodsQty": "1",
+        "visibleMethodsQty": "3",
+        "loc": "17",
+        "returnQty": "2",
+        "stringLiteralsQty": "9",
+        "anonymousClassesQty": "1",
+        "uniqueWordsQty": "65",
+        "modifiers": "1"
+      },
+      "methods": {
+        "passwordEncoder/0": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "7",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "configure/1[preserve.config.HttpSecurity]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "15",
+            "loc": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "15",
+            "stringLiteralsQty": "9",
+            "uniqueWordsQty": "18",
+            "modifiers": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "httpSecurity": "2"
+          }
+        },
+        "corsConfigurer/0": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "loc": "8",
+            "returnsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "43",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "preserve.mq.RabbitSend": {
+      "metrics": {
+        "cbo": "6",
+        "cboModified": "8",
+        "fanin": "2",
+        "fanout": "6",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "3",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "2",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "2",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "8",
+        "stringLiteralsQty": "1",
+        "assignmentsQty": "1",
+        "mathOperationsQty": "1",
+        "variablesQty": "2",
+        "uniqueWordsQty": "11",
+        "modifiers": "1",
+        "logStatementsQty": "1"
+      },
+      "methods": {
+        "send/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "2",
+            "loc": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "2",
+            "stringLiteralsQty": "1",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "4",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "logger": "1",
+            "rabbitTemplate": "1"
+          },
+          "variable_usages": {
+            "val": "2"
+          }
+        }
+      }
+    },
+    "preserve.service.PreserveService": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "6",
+        "fanin": "3",
+        "fanout": "3",
+        "wmc": "1",
+        "dit": "1",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "defaultMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "loc": "3",
+        "uniqueWordsQty": "11",
+        "modifiers": "1"
+      },
+      "methods": {
+        "preserve/2[edu.fudan.common.entity.OrderTicketsInfo,preserve.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "6"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "oti": "0"
+          }
+        }
+      }
+    },
+    "preserve.config.Queues": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "3",
+        "fanout": "3",
+        "wmc": "1",
+        "dit": "1",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "1",
+        "staticFieldsQty": "1",
+        "publicFieldsQty": "1",
+        "finalFieldsQty": "1",
+        "loc": "6",
+        "returnQty": "1",
+        "stringLiteralsQty": "1",
+        "assignmentsQty": "1",
+        "variablesQty": "1",
+        "uniqueWordsQty": "5",
+        "modifiers": "1"
+      },
+      "methods": {
+        "emailQueue/0": {
+          "metrics": {
+            "cbo": "2",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "4",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "queueName": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "preserve.controller.PreserveController": {
+      "metrics": {
+        "cbo": "15",
+        "cboModified": "17",
+        "fanin": "2",
+        "fanout": "15",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "7",
+        "lcom": "1",
+        "lcom*": "0.5",
+        "totalMethodsQty": "2",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "totalFieldsQty": "2",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "2",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "11",
+        "returnQty": "2",
+        "stringLiteralsQty": "6",
+        "assignmentsQty": "1",
+        "variablesQty": "2",
+        "uniqueWordsQty": "28",
+        "modifiers": "1",
+        "logStatementsQty": "1"
+      },
+      "methods": {
+        "home/0": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "preserve/2[edu.fudan.common.entity.OrderTicketsInfo,preserve.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "4",
+            "fanout": "4",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "14",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "preserveService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "oti": "4"
+          }
+        }
+      }
+    },
+    "preserve.service.PreserveServiceImpl": {
+      "metrics": {
+        "cbo": "33",
+        "cboModified": "35",
+        "fanin": "2",
+        "fanout": "33",
+        "wmc": "32",
+        "dit": "1",
+        "rfc": "120",
+        "lcom*": "0.55769235",
+        "tcc": "0.5",
+        "lcc": "0.5",
+        "totalMethodsQty": "13",
+        "publicMethodsQty": "4",
+        "privateMethodsQty": "9",
+        "visibleMethodsQty": "4",
+        "totalFieldsQty": "4",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "4",
+        "finalFieldsQty": "1",
+        "nosi": "6",
+        "loc": "284",
+        "returnQty": "21",
+        "comparisonsQty": "17",
+        "tryCatchQty": "1",
+        "stringLiteralsQty": "70",
+        "numbersQty": "21",
+        "assignmentsQty": "65",
+        "mathOperationsQty": "16",
+        "variablesQty": "68",
+        "maxNestedBlocksQty": "3",
+        "anonymousClassesQty": "7",
+        "uniqueWordsQty": "148",
+        "modifiers": "1",
+        "logStatementsQty": "35"
+      },
+      "methods": {
+        "queryForStationId/2[java.lang.String,preserve.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "5",
+            "loc": "9",
+            "returnsQty": "1",
+            "variablesQty": "3",
+            "parametersQty": "2",
+            "methodsInvokedQty": "5",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "3",
+            "assignmentsQty": "3",
+            "mathOperationsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "24",
+            "modifiers": "2",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "reQueryForStationId": "1",
+            "stationName": "1",
+            "station_service_url": "1",
+            "httpHeaders": "1",
+            "requestQueryForStationId": "1"
+          }
+        },
+        "addAssuranceForOrder/3[int,java.lang.String,preserve.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "3",
+            "fanin": "1",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "7",
+            "returnsQty": "1",
+            "variablesQty": "3",
+            "parametersQty": "3",
+            "methodsInvokedQty": "4",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "4",
+            "assignmentsQty": "3",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "24",
+            "modifiers": "2",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "reAddAssuranceResult": "1",
+            "assurance_service_url": "1",
+            "orderId": "1",
+            "assuranceType": "1",
+            "httpHeaders": "1",
+            "requestAddAssuranceResult": "1"
+          }
+        },
+        "createOrder/2[edu.fudan.common.entity.Order,preserve.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "3",
+            "fanin": "1",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "9",
+            "returnsQty": "1",
+            "variablesQty": "3",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "3",
+            "assignmentsQty": "3",
+            "mathOperationsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "23",
+            "modifiers": "2",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "requestEntityCreateOrderResult": "1",
+            "reCreateOrderResult": "1",
+            "httpHeaders": "1",
+            "coi": "1",
+            "order_service_url": "1"
+          }
+        },
+        "checkSecurity/2[java.lang.String,preserve.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "3",
+            "fanin": "1",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "7",
+            "returnsQty": "1",
+            "variablesQty": "3",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "3",
+            "assignmentsQty": "3",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "23",
+            "modifiers": "2",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "accountId": "1",
+            "reCheckResult": "1",
+            "requestCheckResult": "1",
+            "httpHeaders": "1",
+            "security_service_url": "1"
+          }
+        },
+        "getContactsById/2[java.lang.String,preserve.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "3",
+            "fanin": "1",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "9",
+            "returnsQty": "1",
+            "variablesQty": "3",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "3",
+            "assignmentsQty": "3",
+            "mathOperationsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "21",
+            "modifiers": "2",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "contacts_service_url": "1",
+            "reGetContactsResult": "1",
+            "contactsId": "1",
+            "httpHeaders": "1",
+            "requestGetContactsResult": "1"
+          }
+        },
+        "dipatchSeat/8[java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int,java.util.List<java.lang.String>,preserve.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "4",
+            "fanin": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "11",
+            "loc": "16",
+            "returnsQty": "1",
+            "variablesQty": "4",
+            "parametersQty": "8",
+            "methodsInvokedQty": "11",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "31",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "date": "1",
+            "seatType": "1",
+            "totalNum": "1",
+            "requestEntityTicket": "1",
+            "stationList": "1",
+            "reTicket": "1",
+            "endStataion": "1",
+            "seatRequest": "8",
+            "tripId": "1",
+            "startStation": "1",
+            "httpHeaders": "1",
+            "seat_service_url": "1"
+          }
+        },
+        "createConsign/2[edu.fudan.common.entity.Consign,preserve.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "3",
+            "fanin": "1",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "7",
+            "returnsQty": "1",
+            "variablesQty": "3",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "3",
+            "assignmentsQty": "3",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "21",
+            "modifiers": "2",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "reResultForTravel": "1",
+            "consign_service_url": "1",
+            "httpHeaders": "1",
+            "requestEntityResultForTravel": "1",
+            "cr": "1"
+          }
+        },
+        "getServiceUrl/1[java.lang.String]": {
+          "metrics": {
+            "cboModified": "11",
+            "fanin": "11",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "stringLiteralsQty": "1",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "serviceName": "1"
+          }
+        },
+        "getTripAllDetailInformation/2[edu.fudan.common.entity.TripAllDetailInfo,preserve.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "3",
+            "fanin": "1",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "9",
+            "returnsQty": "1",
+            "variablesQty": "3",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "3",
+            "assignmentsQty": "3",
+            "mathOperationsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "23",
+            "modifiers": "2",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "gtdi": "1",
+            "reGetTripAllDetailResult": "1",
+            "httpHeaders": "1",
+            "requestGetTripAllDetailResult": "1",
+            "travel_service_url": "1"
+          }
+        },
+        "getAccount/2[java.lang.String,preserve.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "4",
+            "fanin": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "5",
+            "loc": "10",
+            "returnsQty": "1",
+            "variablesQty": "4",
+            "parametersQty": "2",
+            "methodsInvokedQty": "5",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "3",
+            "assignmentsQty": "4",
+            "mathOperationsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "23",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "result": "1",
+            "accountId": "1",
+            "user_service_url": "1",
+            "requestEntitySendEmail": "1",
+            "getAccount": "1",
+            "httpHeaders": "1"
+          }
+        },
+        "createFoodOrder/2[edu.fudan.common.entity.FoodOrder,preserve.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "3",
+            "fanin": "1",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "7",
+            "returnsQty": "1",
+            "variablesQty": "3",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "3",
+            "assignmentsQty": "3",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "22",
+            "modifiers": "2",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "afi": "1",
+            "reAddFoodOrderResult": "1",
+            "httpHeaders": "1",
+            "requestEntityAddFoodOrderResult": "1",
+            "food_service_url": "1"
+          }
+        },
+        "sendEmail/2[edu.fudan.common.entity.NotifyInfo,preserve.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "5",
+            "fanin": "1",
+            "fanout": "4",
+            "wmc": "2",
+            "rfc": "4",
+            "loc": "12",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "tryCatchQty": "1",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "1",
+            "mathOperationsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "17",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "sendService": "1"
+          },
+          "variable_usages": {
+            "infoJson": "1",
+            "e": "1",
+            "httpHeaders": "0",
+            "notifyInfo": "1"
+          }
+        },
+        "preserve/2[edu.fudan.common.entity.OrderTicketsInfo,preserve.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "24",
+            "cboModified": "29",
+            "fanin": "1",
+            "fanout": "28",
+            "wmc": "19",
+            "rfc": "111",
+            "loc": "173",
+            "returnsQty": "8",
+            "variablesQty": "31",
+            "parametersQty": "2",
+            "methodsInvokedQty": "111",
+            "methodsInvokedLocalQty": "10",
+            "methodsInvokedIndirectLocalQty": "10",
+            "comparisonsQty": "17",
+            "stringLiteralsQty": "37",
+            "numbersQty": "21",
+            "assignmentsQty": "31",
+            "mathOperationsQty": "4",
+            "maxNestedBlocksQty": "3",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "89",
+            "modifiers": "1",
+            "logStatementsQty": "24"
+          },
+          "field_usages": {
+            "restTemplate": "1",
+            "LOGGER": "1"
+          },
+          "variable_usages": {
+            "gtdi": "6",
+            "orderId": "1",
+            "icresult": "1",
+            "fromStationName": "3",
+            "cor": "14",
+            "consignRequest": "12",
+            "getUser": "2",
+            "firstClassTotalNum": "1",
+            "resultForTravel": "5",
+            "gtdr": "3",
+            "result": "2",
+            "trip": "1",
+            "basic_service_url": "1",
+            "gcr": "4",
+            "notifyInfo": "10",
+            "order": "32",
+            "headers": "11",
+            "secondClassTotalNum": "1",
+            "ticket": "3",
+            "oti": "43",
+            "afor": "1",
+            "addAssuranceResult": "1",
+            "query": "5",
+            "toStationName": "3",
+            "tripResponse": "3",
+            "re": "4",
+            "response": "4",
+            "stationList": "2",
+            "returnResponse": "4",
+            "requestEntity": "1",
+            "foodOrder": "7",
+            "contacts": "3"
+          }
+        }
+      }
+    },
+    "preserve.service.PreserveServiceImpl$Anonymous5": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "preserve.service.PreserveServiceImpl$Anonymous6": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "preserve.service.PreserveServiceImpl$Anonymous3": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "preserve.service.PreserveServiceImpl$Anonymous4": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "preserve.service.PreserveServiceImpl$Anonymous1": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "preserve.service.PreserveServiceImpl$Anonymous2": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "preserve.service.PreserveServiceImpl$Anonymous7": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    }
+  },
+  "microservice_name": "ts-preserve-service"
+}

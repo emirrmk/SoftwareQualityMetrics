@@ -1,0 +1,739 @@
+{
+  "classes": {
+    "com.trainticket.entity.Money": {
+      "metrics": {
+        "cbo": "8",
+        "cboModified": "10",
+        "fanin": "2",
+        "fanout": "8",
+        "dit": "1",
+        "lcom*": "NaN",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "totalFieldsQty": "3",
+        "privateFieldsQty": "3",
+        "loc": "5",
+        "stringLiteralsQty": "3",
+        "numbersQty": "2",
+        "variablesQty": "3",
+        "uniqueWordsQty": "9",
+        "modifiers": "1"
+      },
+      "methods": {}
+    },
+    "com.trainticket.entity.Payment": {
+      "metrics": {
+        "cbo": "8",
+        "cboModified": "15",
+        "fanin": "7",
+        "fanout": "8",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "2",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "4",
+        "privateFieldsQty": "4",
+        "nosi": "1",
+        "loc": "12",
+        "stringLiteralsQty": "7",
+        "numbersQty": "3",
+        "assignmentsQty": "4",
+        "variablesQty": "4",
+        "uniqueWordsQty": "10",
+        "modifiers": "1"
+      },
+      "methods": {
+        "Payment/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "10",
+            "fanin": "10",
+            "wmc": "1",
+            "rfc": "2",
+            "loc": "6",
+            "methodsInvokedQty": "2",
+            "stringLiteralsQty": "3",
+            "assignmentsQty": "4",
+            "uniqueWordsQty": "1",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "orderId": "1",
+            "price": "1",
+            "id": "1",
+            "userId": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "com.trainticket.service.PaymentService": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "7",
+        "fanin": "4",
+        "fanout": "3",
+        "wmc": "4",
+        "dit": "1",
+        "lcom": "6",
+        "totalMethodsQty": "4",
+        "defaultMethodsQty": "4",
+        "visibleMethodsQty": "4",
+        "loc": "6",
+        "uniqueWordsQty": "12",
+        "modifiers": "1"
+      },
+      "methods": {
+        "query/1[com.trainticket.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "5"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "pay/2[com.trainticket.entity.Payment,com.trainticket.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "info": "0"
+          }
+        },
+        "addMoney/2[com.trainticket.entity.Payment,com.trainticket.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "5"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "info": "0"
+          }
+        },
+        "initPayment/2[com.trainticket.entity.Payment,com.trainticket.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "3"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "payment": "0"
+          }
+        }
+      }
+    },
+    "com.trainticket.config.SecurityConfig": {
+      "metrics": {
+        "cbo": "13",
+        "cboModified": "13",
+        "fanout": "13",
+        "wmc": "3",
+        "dit": "2",
+        "rfc": "15",
+        "lcom": "3",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "2",
+        "protectedMethodsQty": "1",
+        "visibleMethodsQty": "3",
+        "loc": "17",
+        "returnQty": "2",
+        "stringLiteralsQty": "9",
+        "anonymousClassesQty": "1",
+        "uniqueWordsQty": "65",
+        "modifiers": "1"
+      },
+      "methods": {
+        "passwordEncoder/0": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "7",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "corsConfigurer/0": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "loc": "8",
+            "returnsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "43",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "configure/1[com.trainticket.config.HttpSecurity]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "15",
+            "loc": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "15",
+            "stringLiteralsQty": "9",
+            "uniqueWordsQty": "18",
+            "modifiers": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "httpSecurity": "2"
+          }
+        }
+      }
+    },
+    "com.trainticket.init.InitData": {
+      "metrics": {
+        "cbo": "6",
+        "cboModified": "6",
+        "fanout": "6",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "5",
+        "lcom*": "0.5",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "2",
+        "defaultFieldsQty": "2",
+        "loc": "12",
+        "stringLiteralsQty": "4",
+        "assignmentsQty": "1",
+        "variablesQty": "3",
+        "uniqueWordsQty": "20",
+        "modifiers": "1"
+      },
+      "methods": {
+        "run/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "5",
+            "loc": "8",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "5",
+            "stringLiteralsQty": "4",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "11",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "service": "1"
+          },
+          "variable_usages": {
+            "args": "0",
+            "payment": "5"
+          }
+        }
+      }
+    },
+    "com.trainticket.controller.PaymentController": {
+      "metrics": {
+        "cbo": "14",
+        "cboModified": "16",
+        "fanin": "2",
+        "fanout": "14",
+        "wmc": "4",
+        "dit": "1",
+        "rfc": "8",
+        "lcom*": "0.25",
+        "tcc": "0.5",
+        "lcc": "0.5",
+        "totalMethodsQty": "4",
+        "publicMethodsQty": "4",
+        "visibleMethodsQty": "4",
+        "totalFieldsQty": "2",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "1",
+        "defaultFieldsQty": "1",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "19",
+        "returnQty": "4",
+        "stringLiteralsQty": "9",
+        "assignmentsQty": "1",
+        "variablesQty": "2",
+        "uniqueWordsQty": "26",
+        "modifiers": "1",
+        "logStatementsQty": "3",
+        "external_microservice_call": 2
+      },
+      "methods": {
+        "pay/2[com.trainticket.entity.Payment,com.trainticket.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "8",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "external_microservice_call": 2
+          },
+          "field_usages": {
+            "service": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "info": "3"
+          },
+          "invocations": {
+            "ts-inside-payment-service": 2
+          }
+        },
+        "query/1[com.trainticket.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "7",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "service": "1"
+          },
+          "variable_usages": {
+            "headers": "1"
+          }
+        },
+        "addMoney/2[com.trainticket.entity.Payment,com.trainticket.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "10",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "service": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "info": "3"
+          }
+        },
+        "home/0": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "com.trainticket.repository.PaymentRepository": {
+      "metrics": {
+        "cbo": "2",
+        "cboModified": "5",
+        "fanin": "3",
+        "fanout": "2",
+        "wmc": "4",
+        "dit": "1",
+        "lcom": "6",
+        "totalMethodsQty": "4",
+        "defaultMethodsQty": "4",
+        "visibleMethodsQty": "4",
+        "loc": "6",
+        "uniqueWordsQty": "12",
+        "modifiers": "1"
+      },
+      "methods": {
+        "findById/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "3",
+            "fanin": "3",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "id": "0"
+          }
+        },
+        "findByUserId/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "5"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "userId": "0"
+          }
+        },
+        "findByOrderId/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "3",
+            "fanin": "3",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "6"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "orderId": "0"
+          }
+        },
+        "findAll/0": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "3",
+            "fanin": "3",
+            "wmc": "1",
+            "loc": "1",
+            "uniqueWordsQty": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "com.trainticket.PaymentApplication": {
+      "metrics": {
+        "cbo": "11",
+        "cboModified": "12",
+        "fanin": "1",
+        "fanout": "11",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "2",
+        "lcom": "1",
+        "totalMethodsQty": "2",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "loc": "8",
+        "returnQty": "1",
+        "uniqueWordsQty": "14",
+        "modifiers": "1"
+      },
+      "methods": {
+        "restTemplate/1[com.trainticket.RestTemplateBuilder]": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "builder": "1"
+          }
+        },
+        "main/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "args": "1"
+          }
+        }
+      }
+    },
+    "com.trainticket.config.SecurityConfig$Anonymous1": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "1",
+        "fanout": "1",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "6",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "loc": "5",
+        "stringLiteralsQty": "1",
+        "numbersQty": "1",
+        "uniqueWordsQty": "8",
+        "modifiers": "-1"
+      },
+      "methods": {
+        "addCorsMappings/1[com.trainticket.config.CorsRegistry]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "1",
+            "numbersQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "registry": "1"
+          }
+        }
+      }
+    },
+    "com.trainticket.repository.AddMoneyRepository": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "3",
+        "fanin": "2",
+        "fanout": "1",
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "uniqueWordsQty": "4",
+        "modifiers": "1"
+      },
+      "methods": {}
+    },
+    "com.trainticket.service.PaymentServiceImpl": {
+      "metrics": {
+        "cbo": "12",
+        "cboModified": "14",
+        "fanin": "2",
+        "fanout": "12",
+        "wmc": "8",
+        "dit": "1",
+        "rfc": "20",
+        "lcom*": "0.41666666",
+        "tcc": "0.5",
+        "lcc": "0.5",
+        "totalMethodsQty": "4",
+        "publicMethodsQty": "4",
+        "visibleMethodsQty": "4",
+        "totalFieldsQty": "3",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "1",
+        "defaultFieldsQty": "2",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "47",
+        "returnQty": "5",
+        "comparisonsQty": "2",
+        "stringLiteralsQty": "11",
+        "numbersQty": "5",
+        "assignmentsQty": "5",
+        "mathOperationsQty": "1",
+        "variablesQty": "7",
+        "maxNestedBlocksQty": "1",
+        "uniqueWordsQty": "31",
+        "modifiers": "1",
+        "logStatementsQty": "5"
+      },
+      "methods": {
+        "initPayment/2[com.trainticket.entity.Payment,com.trainticket.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "4",
+            "cboModified": "5",
+            "fanin": "2",
+            "fanout": "3",
+            "wmc": "2",
+            "rfc": "6",
+            "loc": "10",
+            "variablesQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "7",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "paymentRepository": "2"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "paymentTemp": "1",
+            "payment": "4"
+          }
+        },
+        "addMoney/2[com.trainticket.entity.Payment,com.trainticket.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "4",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "5",
+            "loc": "7",
+            "returnsQty": "1",
+            "variablesQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "5",
+            "stringLiteralsQty": "1",
+            "numbersQty": "1",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "addMoneyRepository": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "addMoney": "4",
+            "info": "2"
+          }
+        },
+        "pay/2[com.trainticket.entity.Payment,com.trainticket.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "5",
+            "fanin": "2",
+            "fanout": "3",
+            "wmc": "2",
+            "rfc": "10",
+            "loc": "14",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "10",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "3",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "mathOperationsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "10",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "paymentRepository": "2"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "payment": "4",
+            "info": "7"
+          }
+        },
+        "query/1[com.trainticket.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "5",
+            "fanin": "2",
+            "fanout": "3",
+            "wmc": "3",
+            "rfc": "5",
+            "loc": "11",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "5",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "5",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "9",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "paymentRepository": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "payments": "4"
+          }
+        }
+      }
+    }
+  },
+  "microservice_name": "ts-payment-service",
+  "external_microservice_call": 2
+}

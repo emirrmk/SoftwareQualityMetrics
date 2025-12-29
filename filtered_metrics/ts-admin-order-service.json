@@ -1,0 +1,632 @@
+{
+  "classes": {
+    "adminorder.AdminOrderApplication": {
+      "metrics": {
+        "cbo": "11",
+        "cboModified": "12",
+        "fanin": "1",
+        "fanout": "11",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "2",
+        "lcom": "1",
+        "totalMethodsQty": "2",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "loc": "8",
+        "returnQty": "1",
+        "uniqueWordsQty": "15",
+        "modifiers": "1"
+      },
+      "methods": {
+        "restTemplate/1[adminorder.RestTemplateBuilder]": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "builder": "1"
+          }
+        },
+        "main/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "args": "1"
+          }
+        }
+      }
+    },
+    "adminorder.service.AdminOrderServiceImpl$Anonymous2": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "adminorder.service.AdminOrderServiceImpl$Anonymous1": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "adminorder.service.AdminOrderServiceImpl": {
+      "metrics": {
+        "cbo": "14",
+        "cboModified": "16",
+        "fanin": "2",
+        "fanout": "14",
+        "wmc": "13",
+        "dit": "1",
+        "rfc": "15",
+        "lcom*": "0.4666667",
+        "tcc": "1.0",
+        "lcc": "1.0",
+        "totalMethodsQty": "5",
+        "publicMethodsQty": "4",
+        "privateMethodsQty": "1",
+        "visibleMethodsQty": "4",
+        "totalFieldsQty": "3",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "3",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "97",
+        "returnQty": "5",
+        "comparisonsQty": "2",
+        "stringLiteralsQty": "37",
+        "numbersQty": "3",
+        "assignmentsQty": "36",
+        "mathOperationsQty": "9",
+        "variablesQty": "34",
+        "maxNestedBlocksQty": "1",
+        "anonymousClassesQty": "2",
+        "uniqueWordsQty": "59",
+        "modifiers": "1",
+        "logStatementsQty": "13"
+      },
+      "methods": {
+        "deleteOrder/3[java.lang.String,java.lang.String,adminorder.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "5",
+            "fanin": "2",
+            "fanout": "3",
+            "wmc": "3",
+            "rfc": "6",
+            "loc": "18",
+            "returnsQty": "1",
+            "variablesQty": "7",
+            "parametersQty": "3",
+            "methodsInvokedQty": "6",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "8",
+            "assignmentsQty": "8",
+            "mathOperationsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "25",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "restTemplate": "2"
+          },
+          "variable_usages": {
+            "deleteOrderResult": "3",
+            "headers": "0",
+            "order_other_service_url": "1",
+            "re": "3",
+            "orderId": "3",
+            "trainNumber": "3",
+            "requestEntity": "3",
+            "order_service_url": "1"
+          }
+        },
+        "getServiceUrl/1[java.lang.String]": {
+          "metrics": {
+            "cboModified": "4",
+            "fanin": "4",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "stringLiteralsQty": "1",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "serviceName": "1"
+          }
+        },
+        "updateOrder/2[adminorder.service.Order,adminorder.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "5",
+            "fanin": "2",
+            "fanout": "3",
+            "wmc": "3",
+            "rfc": "8",
+            "loc": "19",
+            "returnsQty": "1",
+            "variablesQty": "7",
+            "parametersQty": "2",
+            "methodsInvokedQty": "8",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "9",
+            "assignmentsQty": "8",
+            "mathOperationsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "29",
+            "modifiers": "1",
+            "logStatementsQty": "3"
+          },
+          "field_usages": {
+            "restTemplate": "2",
+            "LOGGER": "1"
+          },
+          "variable_usages": {
+            "request": "5",
+            "headers": "0",
+            "order_other_service_url": "1",
+            "re": "3",
+            "updateOrderResult": "3",
+            "requestEntity": "3",
+            "order_service_url": "1"
+          }
+        },
+        "getAllOrders/1[adminorder.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "5",
+            "fanin": "2",
+            "fanout": "3",
+            "wmc": "3",
+            "rfc": "8",
+            "loc": "33",
+            "returnsQty": "1",
+            "variablesQty": "10",
+            "parametersQty": "1",
+            "methodsInvokedQty": "8",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "comparisonsQty": "2",
+            "stringLiteralsQty": "10",
+            "numbersQty": "3",
+            "assignmentsQty": "11",
+            "mathOperationsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "anonymousClassesQty": "2",
+            "uniqueWordsQty": "33",
+            "modifiers": "1",
+            "logStatementsQty": "5"
+          },
+          "field_usages": {
+            "restTemplate": "2"
+          },
+          "variable_usages": {
+            "result": "5",
+            "orders1": "3",
+            "headers": "0",
+            "order_other_service_url": "1",
+            "re": "1",
+            "orders": "3",
+            "requestEntity2": "1",
+            "requestEntity": "1",
+            "re2": "1",
+            "order_service_url": "1"
+          }
+        },
+        "addOrder/2[adminorder.service.Order,adminorder.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "5",
+            "fanin": "2",
+            "fanout": "3",
+            "wmc": "3",
+            "rfc": "8",
+            "loc": "19",
+            "returnsQty": "1",
+            "variablesQty": "7",
+            "parametersQty": "2",
+            "methodsInvokedQty": "8",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "9",
+            "assignmentsQty": "8",
+            "mathOperationsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "25",
+            "modifiers": "1",
+            "logStatementsQty": "3"
+          },
+          "field_usages": {
+            "restTemplate": "2",
+            "LOGGER": "1"
+          },
+          "variable_usages": {
+            "request": "5",
+            "headers": "0",
+            "order_other_service_url": "1",
+            "re": "3",
+            "addOrderResult": "3",
+            "requestEntity": "3",
+            "order_service_url": "1"
+          }
+        }
+      }
+    },
+    "adminorder.controller.AdminOrderController": {
+      "metrics": {
+        "cbo": "18",
+        "cboModified": "20",
+        "fanin": "2",
+        "fanout": "18",
+        "wmc": "5",
+        "dit": "1",
+        "rfc": "11",
+        "lcom*": "0.2",
+        "tcc": "0.6",
+        "lcc": "0.6",
+        "totalMethodsQty": "5",
+        "publicMethodsQty": "5",
+        "visibleMethodsQty": "5",
+        "totalFieldsQty": "2",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "1",
+        "defaultFieldsQty": "1",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "23",
+        "returnQty": "5",
+        "stringLiteralsQty": "12",
+        "assignmentsQty": "1",
+        "variablesQty": "2",
+        "uniqueWordsQty": "32",
+        "modifiers": "1",
+        "logStatementsQty": "4"
+      },
+      "methods": {
+        "getAllOrders/1[adminorder.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminOrderService": "1",
+            "logger": "1"
+          },
+          "variable_usages": {
+            "headers": "1"
+          }
+        },
+        "updateOrder/2[adminorder.controller.Order,adminorder.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "5",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "5",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "8",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminOrderService": "1",
+            "logger": "1"
+          },
+          "variable_usages": {
+            "request": "3",
+            "headers": "1"
+          }
+        },
+        "deleteOrder/3[java.lang.String,java.lang.String,adminorder.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "3",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "13",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminOrderService": "1",
+            "logger": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "orderId": "2",
+            "trainNumber": "2"
+          }
+        },
+        "home/1[adminorder.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "7",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "addOrder/2[adminorder.controller.Order,adminorder.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "8",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminOrderService": "1",
+            "logger": "1"
+          },
+          "variable_usages": {
+            "request": "2",
+            "headers": "1"
+          }
+        }
+      }
+    },
+    "adminorder.service.AdminOrderService": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "6",
+        "fanin": "3",
+        "fanout": "3",
+        "wmc": "4",
+        "dit": "1",
+        "lcom": "6",
+        "totalMethodsQty": "4",
+        "defaultMethodsQty": "4",
+        "visibleMethodsQty": "4",
+        "loc": "6",
+        "uniqueWordsQty": "24",
+        "modifiers": "1"
+      },
+      "methods": {
+        "deleteOrder/3[java.lang.String,java.lang.String,adminorder.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "3",
+            "uniqueWordsQty": "11",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "orderId": "0",
+            "trainNumber": "0"
+          }
+        },
+        "getAllOrders/1[adminorder.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "9",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "updateOrder/2[adminorder.service.Order,adminorder.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "7",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "request": "0",
+            "headers": "0"
+          }
+        },
+        "addOrder/2[adminorder.service.Order,adminorder.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "7",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "request": "0",
+            "headers": "0"
+          }
+        }
+      }
+    },
+    "adminorder.config.SecurityConfig$Anonymous1": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "1",
+        "fanout": "1",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "6",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "loc": "5",
+        "stringLiteralsQty": "1",
+        "numbersQty": "1",
+        "uniqueWordsQty": "8",
+        "modifiers": "-1"
+      },
+      "methods": {
+        "addCorsMappings/1[adminorder.config.CorsRegistry]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "1",
+            "numbersQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "registry": "1"
+          }
+        }
+      }
+    },
+    "adminorder.config.SecurityConfig": {
+      "metrics": {
+        "cbo": "13",
+        "cboModified": "13",
+        "fanout": "13",
+        "wmc": "3",
+        "dit": "2",
+        "rfc": "15",
+        "lcom": "3",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "2",
+        "protectedMethodsQty": "1",
+        "visibleMethodsQty": "3",
+        "loc": "17",
+        "returnQty": "2",
+        "stringLiteralsQty": "8",
+        "anonymousClassesQty": "1",
+        "uniqueWordsQty": "65",
+        "modifiers": "1"
+      },
+      "methods": {
+        "passwordEncoder/0": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "7",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "configure/1[adminorder.config.HttpSecurity]": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "rfc": "15",
+            "loc": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "15",
+            "stringLiteralsQty": "8",
+            "uniqueWordsQty": "18",
+            "modifiers": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "httpSecurity": "2"
+          }
+        },
+        "corsConfigurer/0": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "loc": "8",
+            "returnsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "43",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    }
+  },
+  "microservice_name": "ts-admin-order-service"
+}

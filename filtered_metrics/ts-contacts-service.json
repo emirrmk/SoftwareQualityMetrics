@@ -1,0 +1,1158 @@
+{
+  "classes": {
+    "contacts.service.ContactsServiceImpl": {
+      "metrics": {
+        "cbo": "10",
+        "cboModified": "12",
+        "fanin": "2",
+        "fanout": "10",
+        "wmc": "14",
+        "dit": "1",
+        "rfc": "27",
+        "lcom*": "0.1904762",
+        "tcc": "1.0",
+        "lcc": "1.0",
+        "totalMethodsQty": "7",
+        "publicMethodsQty": "7",
+        "visibleMethodsQty": "7",
+        "totalFieldsQty": "3",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "2",
+        "defaultFieldsQty": "1",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "85",
+        "returnQty": "13",
+        "comparisonsQty": "6",
+        "stringLiteralsQty": "23",
+        "numbersQty": "13",
+        "assignmentsQty": "12",
+        "mathOperationsQty": "1",
+        "variablesQty": "12",
+        "maxNestedBlocksQty": "1",
+        "uniqueWordsQty": "51",
+        "modifiers": "1",
+        "logStatementsQty": "12"
+      },
+      "methods": {
+        "create/2[contacts.entity.Contacts,contacts.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "5",
+            "fanin": "2",
+            "fanout": "3",
+            "wmc": "2",
+            "rfc": "8",
+            "loc": "12",
+            "returnsQty": "2",
+            "variablesQty": "2",
+            "parametersQty": "2",
+            "methodsInvokedQty": "8",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "4",
+            "numbersQty": "2",
+            "assignmentsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "contactsRepository": "2"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "c": "1",
+            "contacts": "1",
+            "addContacts": "5"
+          }
+        },
+        "findContactsByAccountId/2[java.lang.String,contacts.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "3",
+            "fanin": "1",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "5",
+            "returnsQty": "1",
+            "variablesQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "1",
+            "numbersQty": "1",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "9",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "success": "1",
+            "contactsRepository": "1"
+          },
+          "variable_usages": {
+            "arr": "2",
+            "accountId": "1",
+            "headers": "0"
+          }
+        },
+        "delete/2[java.lang.String,contacts.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "6",
+            "fanin": "2",
+            "fanout": "4",
+            "wmc": "2",
+            "rfc": "5",
+            "loc": "12",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "5",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "4",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "10",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "contactsRepository": "2"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "contactsId": "5",
+            "contacts": "1"
+          }
+        },
+        "modify/2[contacts.entity.Contacts,contacts.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "5",
+            "fanin": "2",
+            "fanout": "3",
+            "wmc": "2",
+            "rfc": "15",
+            "loc": "19",
+            "returnsQty": "2",
+            "variablesQty": "2",
+            "parametersQty": "2",
+            "methodsInvokedQty": "15",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "4",
+            "numbersQty": "2",
+            "assignmentsQty": "3",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "12",
+            "modifiers": "1",
+            "logStatementsQty": "3"
+          },
+          "field_usages": {
+            "contactsRepository": "1",
+            "LOGGER": "1"
+          },
+          "variable_usages": {
+            "oldContactResponse": "2",
+            "headers": "2",
+            "oldContacts": "7",
+            "contacts": "6"
+          }
+        },
+        "findContactsById/2[java.lang.String,contacts.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "6",
+            "fanin": "3",
+            "fanout": "3",
+            "wmc": "2",
+            "rfc": "4",
+            "loc": "11",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "3",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "mathOperationsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "19",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "success": "1",
+            "contactsRepository": "1",
+            "LOGGER": "2"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "id": "3",
+            "contacts": "2"
+          }
+        },
+        "getAllContacts/1[contacts.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "4",
+            "fanin": "2",
+            "fanout": "2",
+            "wmc": "3",
+            "rfc": "3",
+            "loc": "10",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "3",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "10",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "success": "1",
+            "contactsRepository": "1",
+            "LOGGER": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "contacts": "3"
+          }
+        },
+        "createContacts/2[contacts.entity.Contacts,contacts.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "4",
+            "fanin": "2",
+            "fanout": "2",
+            "wmc": "2",
+            "rfc": "7",
+            "loc": "11",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "7",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "3",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "contactsRepository": "2"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "contactsTemp": "2",
+            "contacts": "5"
+          }
+        }
+      }
+    },
+    "contacts.entity.DocumentType": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "3",
+        "fanin": "2",
+        "fanout": "1",
+        "wmc": "6",
+        "dit": "1",
+        "rfc": "3",
+        "lcom*": "0.375",
+        "tcc": "0.6666667",
+        "lcc": "1.0",
+        "totalMethodsQty": "4",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "3",
+        "defaultMethodsQty": "1",
+        "visibleMethodsQty": "4",
+        "totalFieldsQty": "2",
+        "privateFieldsQty": "2",
+        "nosi": "1",
+        "loc": "26",
+        "returnQty": "4",
+        "loopQty": "1",
+        "comparisonsQty": "1",
+        "stringLiteralsQty": "4",
+        "numbersQty": "5",
+        "assignmentsQty": "3",
+        "variablesQty": "3",
+        "maxNestedBlocksQty": "2",
+        "uniqueWordsQty": "30",
+        "modifiers": "1"
+      },
+      "methods": {
+        "getCode/0": {
+          "metrics": {
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "code": "1"
+          },
+          "variable_usages": {}
+        },
+        "DocumentType/2[int,java.lang.String]": {
+          "metrics": {
+            "constructor": "true",
+            "wmc": "1",
+            "loc": "4",
+            "parametersQty": "2",
+            "assignmentsQty": "2",
+            "uniqueWordsQty": "4"
+          },
+          "field_usages": {
+            "code": "3",
+            "name": "3"
+          },
+          "variable_usages": {
+            "code": "2",
+            "name": "2"
+          }
+        },
+        "getName/0": {
+          "metrics": {
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "name": "1"
+          },
+          "variable_usages": {}
+        },
+        "getNameByCode/1[int]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "3",
+            "fanout": "3",
+            "wmc": "3",
+            "rfc": "3",
+            "loc": "9",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "methodsInvokedLocalQty": "2",
+            "methodsInvokedIndirectLocalQty": "1",
+            "loopQty": "1",
+            "comparisonsQty": "1",
+            "numbersQty": "1",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "9",
+            "modifiers": "9"
+          },
+          "field_usages": {
+            "code": "2"
+          },
+          "variable_usages": {
+            "code": "1",
+            "documentType": "2",
+            "documentTypeSet": "2"
+          }
+        }
+      }
+    },
+    "contacts.init.InitData": {
+      "metrics": {
+        "cbo": "6",
+        "cboModified": "6",
+        "fanout": "6",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "10",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "1",
+        "defaultFieldsQty": "1",
+        "nosi": "4",
+        "loc": "21",
+        "stringLiteralsQty": "10",
+        "assignmentsQty": "2",
+        "variablesQty": "3",
+        "uniqueWordsQty": "19",
+        "modifiers": "1"
+      },
+      "methods": {
+        "run/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "3",
+            "fanout": "3",
+            "wmc": "1",
+            "rfc": "10",
+            "loc": "18",
+            "variablesQty": "2",
+            "parametersQty": "1",
+            "methodsInvokedQty": "10",
+            "stringLiteralsQty": "10",
+            "assignmentsQty": "2",
+            "uniqueWordsQty": "11",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "service": "2"
+          },
+          "variable_usages": {
+            "args": "0",
+            "contactsTwo": "7",
+            "contactsOne": "7"
+          }
+        }
+      }
+    },
+    "contacts.ContactsApplication": {
+      "metrics": {
+        "cbo": "11",
+        "cboModified": "12",
+        "fanin": "1",
+        "fanout": "11",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "2",
+        "lcom": "1",
+        "totalMethodsQty": "2",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "loc": "8",
+        "returnQty": "1",
+        "uniqueWordsQty": "14",
+        "modifiers": "1"
+      },
+      "methods": {
+        "restTemplate/1[contacts.RestTemplateBuilder]": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "builder": "1"
+          }
+        },
+        "main/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "args": "1"
+          }
+        }
+      }
+    },
+    "contacts.repository.ContactsRepository": {
+      "metrics": {
+        "cbo": "4",
+        "cboModified": "6",
+        "fanin": "2",
+        "fanout": "4",
+        "wmc": "5",
+        "dit": "1",
+        "lcom": "10",
+        "totalMethodsQty": "5",
+        "defaultMethodsQty": "5",
+        "visibleMethodsQty": "5",
+        "loc": "7",
+        "stringLiteralsQty": "1",
+        "uniqueWordsQty": "33",
+        "modifiers": "1"
+      },
+      "methods": {
+        "findById/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "10",
+            "fanin": "10",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "6",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "id": "0"
+          }
+        },
+        "findAll/0": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "3",
+            "fanin": "3",
+            "wmc": "1",
+            "loc": "1",
+            "uniqueWordsQty": "3",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "findByAccountIdAndDocumentTypeAndDocumentType/3[java.lang.String,java.lang.String,int]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "3",
+            "stringLiteralsQty": "1",
+            "uniqueWordsQty": "26"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "account_id": "0",
+            "document_number": "0",
+            "document_type": "0"
+          }
+        },
+        "findByAccountId/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "4",
+            "fanin": "4",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "7",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "accountId": "0"
+          }
+        },
+        "deleteById/1[java.lang.String]": {
+          "metrics": {
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "6",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "id": "0"
+          }
+        }
+      }
+    },
+    "contacts.service.ContactsService": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "7",
+        "fanin": "4",
+        "fanout": "3",
+        "wmc": "7",
+        "dit": "1",
+        "lcom": "21",
+        "totalMethodsQty": "7",
+        "defaultMethodsQty": "7",
+        "visibleMethodsQty": "7",
+        "loc": "9",
+        "uniqueWordsQty": "23",
+        "modifiers": "1"
+      },
+      "methods": {
+        "getAllContacts/1[contacts.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "10",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "findContactsById/2[java.lang.String,contacts.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "10",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "id": "0"
+          }
+        },
+        "modify/2[contacts.entity.Contacts,contacts.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "6",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "contacts": "0"
+          }
+        },
+        "create/2[contacts.entity.Contacts,contacts.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "3",
+            "fanin": "3",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "7",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "addContacts": "0"
+          }
+        },
+        "delete/2[java.lang.String,contacts.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "7",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "contactsId": "0"
+          }
+        },
+        "createContacts/2[contacts.entity.Contacts,contacts.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "6",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "contacts": "0"
+          }
+        },
+        "findContactsByAccountId/2[java.lang.String,contacts.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "12",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "accountId": "0",
+            "headers": "0"
+          }
+        }
+      }
+    },
+    "contacts.controller.ContactsController": {
+      "metrics": {
+        "cbo": "20",
+        "cboModified": "22",
+        "fanin": "2",
+        "fanout": "20",
+        "wmc": "8",
+        "dit": "1",
+        "rfc": "15",
+        "lcom*": "0.1875",
+        "tcc": "0.75",
+        "lcc": "0.75",
+        "totalMethodsQty": "8",
+        "publicMethodsQty": "8",
+        "visibleMethodsQty": "8",
+        "totalFieldsQty": "2",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "2",
+        "finalFieldsQty": "1",
+        "nosi": "2",
+        "loc": "37",
+        "returnQty": "8",
+        "stringLiteralsQty": "25",
+        "assignmentsQty": "1",
+        "variablesQty": "2",
+        "uniqueWordsQty": "35",
+        "modifiers": "1",
+        "logStatementsQty": "8",
+        "external_microservice_call": 6
+      },
+      "methods": {
+        "modifyContacts/2[contacts.entity.Contacts,contacts.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "9",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "external_microservice_call": 1
+          },
+          "field_usages": {
+            "contactsService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "info": "3"
+          },
+          "invocations": {
+            "ts-admin-basic-info-service": 1
+          }
+        },
+        "findContactsByAccountId/2[java.lang.String,contacts.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "3",
+            "fanout": "3",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "5",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "4",
+            "uniqueWordsQty": "14",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "contactsService": "1"
+          },
+          "variable_usages": {
+            "accountId": "2",
+            "headers": "1"
+          }
+        },
+        "getAllContacts/1[contacts.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "10",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "external_microservice_call": 3
+          },
+          "field_usages": {
+            "contactsService": "1"
+          },
+          "variable_usages": {
+            "headers": "1"
+          },
+          "invocations": {
+            "ts-admin-basic-info-service": 1,
+            "ts-preserve-other-service": 1,
+            "ts-preserve-service": 1
+          }
+        },
+        "createNewContactsAdmin/2[contacts.entity.Contacts,contacts.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "10",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "5",
+            "loc": "5",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "5",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "external_microservice_call": 1
+          },
+          "field_usages": {
+            "contactsService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "aci": "2"
+          },
+          "invocations": {
+            "ts-admin-basic-info-service": 1
+          }
+        },
+        "createNewContacts/2[contacts.entity.Contacts,contacts.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "10",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "2",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "2",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "8",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "contactsService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "aci": "1"
+          }
+        },
+        "deleteContacts/2[java.lang.String,contacts.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "2",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "2",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "external_microservice_call": 1
+          },
+          "field_usages": {
+            "contactsService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "contactsId": "1"
+          },
+          "invocations": {
+            "ts-admin-basic-info-service": 1
+          }
+        },
+        "getContactsByContactsId/2[java.lang.String,contacts.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "3",
+            "fanout": "3",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "5",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "4",
+            "uniqueWordsQty": "13",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "contactsService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "id": "2"
+          }
+        },
+        "home/0": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "6",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "contacts.entity.Contacts": {
+      "metrics": {
+        "cbo": "11",
+        "cboModified": "19",
+        "fanin": "8",
+        "fanout": "11",
+        "wmc": "8",
+        "dit": "1",
+        "rfc": "8",
+        "lcom": "3",
+        "lcom*": "0.6666667",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "3",
+        "visibleMethodsQty": "3",
+        "totalFieldsQty": "6",
+        "privateFieldsQty": "6",
+        "loc": "28",
+        "returnQty": "5",
+        "comparisonsQty": "5",
+        "parenthesizedExpsQty": "1",
+        "stringLiteralsQty": "9",
+        "numbersQty": "4",
+        "assignmentsQty": "3",
+        "mathOperationsQty": "2",
+        "variablesQty": "8",
+        "maxNestedBlocksQty": "1",
+        "uniqueWordsQty": "27",
+        "modifiers": "1"
+      },
+      "methods": {
+        "Contacts/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "13",
+            "fanin": "13",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "1",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "equals/1[java.lang.Object]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "5",
+            "rfc": "7",
+            "loc": "13",
+            "returnsQty": "4",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "7",
+            "comparisonsQty": "4",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "12",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "accountId": "1",
+            "phoneNumber": "1",
+            "documentType": "1",
+            "documentNumber": "1",
+            "name": "1"
+          },
+          "variable_usages": {
+            "other": "5",
+            "obj": "4"
+          }
+        },
+        "hashCode/0": {
+          "metrics": {
+            "wmc": "2",
+            "rfc": "1",
+            "loc": "5",
+            "returnsQty": "1",
+            "variablesQty": "1",
+            "methodsInvokedQty": "1",
+            "comparisonsQty": "1",
+            "parenthesizedExpsQty": "1",
+            "numbersQty": "3",
+            "assignmentsQty": "2",
+            "mathOperationsQty": "2",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "id": "2"
+          },
+          "variable_usages": {
+            "result": "3"
+          }
+        }
+      }
+    },
+    "contacts.config.SecurityConfig": {
+      "metrics": {
+        "cbo": "13",
+        "cboModified": "13",
+        "fanout": "13",
+        "wmc": "3",
+        "dit": "2",
+        "rfc": "15",
+        "lcom": "3",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "2",
+        "protectedMethodsQty": "1",
+        "visibleMethodsQty": "3",
+        "loc": "17",
+        "returnQty": "2",
+        "stringLiteralsQty": "9",
+        "anonymousClassesQty": "1",
+        "uniqueWordsQty": "65",
+        "modifiers": "1"
+      },
+      "methods": {
+        "configure/1[contacts.config.HttpSecurity]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "15",
+            "loc": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "15",
+            "stringLiteralsQty": "9",
+            "uniqueWordsQty": "18",
+            "modifiers": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "httpSecurity": "2"
+          }
+        },
+        "passwordEncoder/0": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "7",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "corsConfigurer/0": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "loc": "8",
+            "returnsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "43",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "contacts.config.SecurityConfig$Anonymous1": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "1",
+        "fanout": "1",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "6",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "loc": "5",
+        "stringLiteralsQty": "1",
+        "numbersQty": "1",
+        "uniqueWordsQty": "8",
+        "modifiers": "-1"
+      },
+      "methods": {
+        "addCorsMappings/1[contacts.config.CorsRegistry]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "1",
+            "numbersQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "registry": "1"
+          }
+        }
+      }
+    }
+  },
+  "microservice_name": "ts-contacts-service",
+  "external_microservice_call": 6
+}

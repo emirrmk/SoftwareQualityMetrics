@@ -1,0 +1,849 @@
+{
+  "classes": {
+    "food.entity.StationFoodStore": {
+      "metrics": {
+        "cbo": "14",
+        "cboModified": "19",
+        "fanin": "5",
+        "fanout": "14",
+        "wmc": "1",
+        "dit": "1",
+        "lcom*": "0.85714287",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "7",
+        "privateFieldsQty": "7",
+        "loc": "12",
+        "stringLiteralsQty": "10",
+        "assignmentsQty": "1",
+        "variablesQty": "7",
+        "uniqueWordsQty": "21",
+        "modifiers": "1"
+      },
+      "methods": {
+        "StationFoodStore/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "6",
+            "fanin": "6",
+            "wmc": "1",
+            "loc": "3",
+            "stringLiteralsQty": "1",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "stationName": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "food.init.InitData": {
+      "metrics": {
+        "cbo": "9",
+        "cboModified": "10",
+        "fanin": "1",
+        "fanout": "9",
+        "wmc": "6",
+        "dit": "1",
+        "rfc": "27",
+        "lcom*": "0.25",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "2",
+        "publicMethodsQty": "1",
+        "privateMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "2",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "1",
+        "defaultFieldsQty": "1",
+        "finalFieldsQty": "1",
+        "nosi": "5",
+        "loc": "48",
+        "returnQty": "1",
+        "loopQty": "2",
+        "comparisonsQty": "1",
+        "tryCatchQty": "1",
+        "stringLiteralsQty": "12",
+        "numbersQty": "10",
+        "assignmentsQty": "16",
+        "variablesQty": "11",
+        "maxNestedBlocksQty": "3",
+        "uniqueWordsQty": "38",
+        "modifiers": "1",
+        "logStatementsQty": "3"
+      },
+      "methods": {
+        "run/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "4",
+            "cboModified": "5",
+            "fanout": "5",
+            "wmc": "4",
+            "rfc": "22",
+            "loc": "31",
+            "variablesQty": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "22",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "loopQty": "1",
+            "comparisonsQty": "1",
+            "tryCatchQty": "1",
+            "stringLiteralsQty": "9",
+            "numbersQty": "7",
+            "assignmentsQty": "10",
+            "maxNestedBlocksQty": "3",
+            "uniqueWordsQty": "21",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "service": "1"
+          },
+          "variable_usages": {
+            "args": "0",
+            "br1": "7",
+            "lineTemp": "11",
+            "e": "1",
+            "line": "4",
+            "fs": "8"
+          }
+        },
+        "toFoodList/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "3",
+            "fanin": "1",
+            "fanout": "2",
+            "wmc": "2",
+            "rfc": "6",
+            "loc": "13",
+            "returnsQty": "1",
+            "variablesQty": "5",
+            "parametersQty": "1",
+            "methodsInvokedQty": "6",
+            "loopQty": "1",
+            "stringLiteralsQty": "3",
+            "numbersQty": "3",
+            "assignmentsQty": "5",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "2",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "s": "2",
+            "foodList": "2",
+            "foodstring": "2",
+            "i": "3",
+            "foodTemp": "2",
+            "food": "3"
+          }
+        }
+      }
+    },
+    "food.config.SecurityConfig": {
+      "metrics": {
+        "cbo": "13",
+        "cboModified": "13",
+        "fanout": "13",
+        "wmc": "3",
+        "dit": "2",
+        "rfc": "14",
+        "lcom": "3",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "2",
+        "protectedMethodsQty": "1",
+        "visibleMethodsQty": "3",
+        "loc": "17",
+        "returnQty": "2",
+        "stringLiteralsQty": "7",
+        "anonymousClassesQty": "1",
+        "uniqueWordsQty": "37",
+        "modifiers": "1"
+      },
+      "methods": {
+        "configure/1[food.config.HttpSecurity]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "14",
+            "loc": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "14",
+            "stringLiteralsQty": "7",
+            "uniqueWordsQty": "18",
+            "modifiers": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "httpSecurity": "2"
+          }
+        },
+        "passwordEncoder/0": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "corsConfigurer/0": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "loc": "8",
+            "returnsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "17",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "food.repository.StationFoodRepository": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "5",
+        "fanin": "2",
+        "fanout": "3",
+        "wmc": "5",
+        "dit": "1",
+        "lcom": "10",
+        "totalMethodsQty": "5",
+        "defaultMethodsQty": "5",
+        "visibleMethodsQty": "5",
+        "loc": "7",
+        "uniqueWordsQty": "13",
+        "modifiers": "1"
+      },
+      "methods": {
+        "deleteById/1[java.lang.String]": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "id": "0"
+          }
+        },
+        "findById/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "4",
+            "fanin": "4",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "id": "0"
+          }
+        },
+        "findByStationNameIn/1[java.util.List<java.lang.String>]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "3",
+            "fanin": "3",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "7"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "stationNames": "0"
+          }
+        },
+        "findAll/0": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "3",
+            "fanin": "3",
+            "wmc": "1",
+            "loc": "1",
+            "uniqueWordsQty": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "findByStationName/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "3",
+            "fanin": "3",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "5"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "stationName": "0"
+          }
+        }
+      }
+    },
+    "food.StationFoodApplication": {
+      "metrics": {
+        "cbo": "11",
+        "cboModified": "12",
+        "fanin": "1",
+        "fanout": "11",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "2",
+        "lcom": "1",
+        "totalMethodsQty": "2",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "loc": "8",
+        "returnQty": "1",
+        "uniqueWordsQty": "14",
+        "modifiers": "1"
+      },
+      "methods": {
+        "restTemplate/1[food.RestTemplateBuilder]": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "builder": "1"
+          }
+        },
+        "main/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "args": "1"
+          }
+        }
+      }
+    },
+    "food.controller.StationFoodController": {
+      "metrics": {
+        "cbo": "15",
+        "cboModified": "17",
+        "fanin": "2",
+        "fanout": "15",
+        "wmc": "5",
+        "dit": "1",
+        "rfc": "7",
+        "lcom*": "0.2",
+        "tcc": "0.6",
+        "lcc": "0.6",
+        "totalMethodsQty": "5",
+        "publicMethodsQty": "5",
+        "visibleMethodsQty": "5",
+        "totalFieldsQty": "2",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "1",
+        "defaultFieldsQty": "1",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "23",
+        "returnQty": "5",
+        "stringLiteralsQty": "14",
+        "assignmentsQty": "1",
+        "variablesQty": "2",
+        "uniqueWordsQty": "37",
+        "modifiers": "1",
+        "logStatementsQty": "4",
+        "external_microservice_call": 2
+      },
+      "methods": {
+        "getAllFoodStores/1[food.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "stationFoodService": "1"
+          },
+          "variable_usages": {
+            "headers": "1"
+          }
+        },
+        "getFoodStoresOfStation/2[java.lang.String,food.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "16",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "external_microservice_call": 1
+          },
+          "field_usages": {
+            "stationFoodService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "stationName": "1"
+          },
+          "invocations": {
+            "ts-food-delivery-service": 1
+          }
+        },
+        "getFoodListByStationFoodStoreId/2[java.lang.String,food.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "17",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "stationFoodService": "1"
+          },
+          "variable_usages": {
+            "stationFoodStoreId": "1",
+            "headers": "0"
+          }
+        },
+        "getFoodStoresByStationNames/1[java.util.List<java.lang.String>]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "14",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "external_microservice_call": 1
+          },
+          "field_usages": {
+            "stationFoodService": "1"
+          },
+          "variable_usages": {
+            "stationNameList": "1"
+          },
+          "invocations": {
+            "ts-food-service": 1
+          }
+        },
+        "home/0": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "7",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "food.service.StationFoodService": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "7",
+        "fanin": "4",
+        "fanout": "3",
+        "wmc": "5",
+        "dit": "1",
+        "lcom": "10",
+        "totalMethodsQty": "5",
+        "defaultMethodsQty": "5",
+        "visibleMethodsQty": "5",
+        "loc": "7",
+        "uniqueWordsQty": "19",
+        "modifiers": "1"
+      },
+      "methods": {
+        "listFoodStoresByStationName/2[java.lang.String,food.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "8"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "stationName": "0"
+          }
+        },
+        "getStaionFoodStoreById/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "8"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "id": "0"
+          }
+        },
+        "createFoodStore/2[food.entity.StationFoodStore,food.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "6"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "fs": "0"
+          }
+        },
+        "listFoodStores/1[food.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "7"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "getFoodStoresByStationNames/1[java.util.List<java.lang.String>]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "8"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "stationNames": "0"
+          }
+        }
+      }
+    },
+    "food.service.StationFoodServiceImpl": {
+      "metrics": {
+        "cbo": "10",
+        "cboModified": "12",
+        "fanin": "2",
+        "fanout": "10",
+        "wmc": "13",
+        "dit": "1",
+        "rfc": "13",
+        "lcom*": "0.2",
+        "tcc": "1.0",
+        "lcc": "1.0",
+        "totalMethodsQty": "5",
+        "publicMethodsQty": "5",
+        "visibleMethodsQty": "5",
+        "totalFieldsQty": "4",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "1",
+        "defaultFieldsQty": "3",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "62",
+        "returnQty": "11",
+        "comparisonsQty": "5",
+        "tryCatchQty": "1",
+        "stringLiteralsQty": "15",
+        "numbersQty": "11",
+        "assignmentsQty": "8",
+        "variablesQty": "9",
+        "maxNestedBlocksQty": "2",
+        "uniqueWordsQty": "45",
+        "modifiers": "1",
+        "logStatementsQty": "5"
+      },
+      "methods": {
+        "getFoodStoresByStationNames/1[java.util.List<java.lang.String>]": {
+          "metrics": {
+            "cbo": "4",
+            "cboModified": "4",
+            "fanin": "2",
+            "fanout": "2",
+            "wmc": "2",
+            "rfc": "2",
+            "loc": "10",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "2",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "2",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "18",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "noContent": "1",
+            "success": "1",
+            "stationFoodRepository": "1"
+          },
+          "variable_usages": {
+            "stationNames": "2",
+            "stationFoodStoreList": "2"
+          }
+        },
+        "createFoodStore/2[food.entity.StationFoodStore,food.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "4",
+            "fanin": "2",
+            "fanout": "2",
+            "wmc": "3",
+            "rfc": "6",
+            "loc": "16",
+            "returnsQty": "3",
+            "variablesQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "6",
+            "comparisonsQty": "1",
+            "tryCatchQty": "1",
+            "stringLiteralsQty": "4",
+            "numbersQty": "3",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "13",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "stationFoodRepository": "2"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "e": "1",
+            "fsTemp": "1",
+            "fs": "4"
+          }
+        },
+        "listFoodStores/1[food.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "4",
+            "fanin": "2",
+            "fanout": "2",
+            "wmc": "3",
+            "rfc": "3",
+            "loc": "10",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "3",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "13",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "success": "1",
+            "stationFoodRepository": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "stationFoodStores": "3"
+          }
+        },
+        "listFoodStoresByStationName/2[java.lang.String,food.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "4",
+            "fanin": "2",
+            "fanout": "2",
+            "wmc": "3",
+            "rfc": "3",
+            "loc": "10",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "3",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "18",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "success": "1",
+            "stationFoodRepository": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "stationName": "2",
+            "stationFoodStoreList": "3"
+          }
+        },
+        "getStaionFoodStoreById/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "4",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "2",
+            "rfc": "3",
+            "loc": "10",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "1",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "12",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "noContent": "1",
+            "success": "1",
+            "LOGGER": "1",
+            "stationFoodRepository": "1"
+          },
+          "variable_usages": {
+            "stationFoodStore": "2",
+            "id": "2"
+          }
+        }
+      }
+    },
+    "food.config.SecurityConfig$Anonymous1": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "1",
+        "fanout": "1",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "6",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "loc": "5",
+        "stringLiteralsQty": "1",
+        "numbersQty": "1",
+        "uniqueWordsQty": "8",
+        "modifiers": "-1"
+      },
+      "methods": {
+        "addCorsMappings/1[food.config.CorsRegistry]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "1",
+            "numbersQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "registry": "1"
+          }
+        }
+      }
+    }
+  },
+  "microservice_name": "ts-station-food-service",
+  "external_microservice_call": 2
+}

@@ -1,0 +1,582 @@
+{
+  "classes": {
+    "adminroute.config.SecurityConfig": {
+      "metrics": {
+        "cbo": "13",
+        "cboModified": "13",
+        "fanout": "13",
+        "wmc": "3",
+        "dit": "2",
+        "rfc": "15",
+        "lcom": "3",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "2",
+        "protectedMethodsQty": "1",
+        "visibleMethodsQty": "3",
+        "loc": "17",
+        "returnQty": "2",
+        "stringLiteralsQty": "8",
+        "anonymousClassesQty": "1",
+        "uniqueWordsQty": "65",
+        "modifiers": "1"
+      },
+      "methods": {
+        "passwordEncoder/0": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "7",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "corsConfigurer/0": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "loc": "8",
+            "returnsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "43",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "configure/1[adminroute.config.HttpSecurity]": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "rfc": "15",
+            "loc": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "15",
+            "stringLiteralsQty": "8",
+            "uniqueWordsQty": "18",
+            "modifiers": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "httpSecurity": "2"
+          }
+        }
+      }
+    },
+    "adminroute.controller.AdminRouteController": {
+      "metrics": {
+        "cbo": "17",
+        "cboModified": "19",
+        "fanin": "2",
+        "fanout": "17",
+        "wmc": "4",
+        "dit": "1",
+        "rfc": "11",
+        "lcom*": "0.25",
+        "tcc": "0.5",
+        "lcc": "0.5",
+        "totalMethodsQty": "4",
+        "publicMethodsQty": "4",
+        "visibleMethodsQty": "4",
+        "totalFieldsQty": "2",
+        "staticFieldsQty": "1",
+        "publicFieldsQty": "1",
+        "defaultFieldsQty": "1",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "19",
+        "returnQty": "4",
+        "stringLiteralsQty": "10",
+        "assignmentsQty": "1",
+        "variablesQty": "2",
+        "uniqueWordsQty": "35",
+        "modifiers": "1",
+        "logStatementsQty": "3"
+      },
+      "methods": {
+        "addRoute/2[adminroute.controller.RouteInfo,adminroute.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "14",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminRouteService": "1",
+            "logger": "1"
+          },
+          "variable_usages": {
+            "request": "4",
+            "headers": "1"
+          }
+        },
+        "deleteRoute/2[java.lang.String,adminroute.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminRouteService": "1",
+            "logger": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "routeId": "2"
+          }
+        },
+        "home/1[adminroute.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "9",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "getAllRoutes/1[adminroute.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "12",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "adminRouteService": "1",
+            "logger": "1"
+          },
+          "variable_usages": {
+            "headers": "1"
+          }
+        }
+      }
+    },
+    "adminroute.service.AdminRouteServiceImpl": {
+      "metrics": {
+        "cbo": "14",
+        "cboModified": "16",
+        "fanin": "2",
+        "fanout": "14",
+        "wmc": "15",
+        "dit": "1",
+        "rfc": "21",
+        "lcom*": "0.4666667",
+        "tcc": "1.0",
+        "lcc": "1.0",
+        "totalMethodsQty": "5",
+        "publicMethodsQty": "4",
+        "privateMethodsQty": "1",
+        "visibleMethodsQty": "4",
+        "totalFieldsQty": "3",
+        "staticFieldsQty": "1",
+        "publicFieldsQty": "1",
+        "privateFieldsQty": "2",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "69",
+        "returnQty": "9",
+        "loopQty": "1",
+        "comparisonsQty": "6",
+        "stringLiteralsQty": "17",
+        "numbersQty": "6",
+        "assignmentsQty": "20",
+        "mathOperationsQty": "5",
+        "variablesQty": "22",
+        "maxNestedBlocksQty": "2",
+        "anonymousClassesQty": "1",
+        "uniqueWordsQty": "57",
+        "modifiers": "1",
+        "logStatementsQty": "5"
+      },
+      "methods": {
+        "getAllRoutes/1[adminroute.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "3",
+            "fanin": "1",
+            "fanout": "2",
+            "wmc": "2",
+            "rfc": "6",
+            "loc": "9",
+            "returnsQty": "1",
+            "variablesQty": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "6",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "3",
+            "assignmentsQty": "3",
+            "mathOperationsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "20",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1",
+            "logger": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "route_service_url": "1",
+            "re": "3",
+            "requestEntity": "1"
+          }
+        },
+        "getServiceUrl/1[java.lang.String]": {
+          "metrics": {
+            "cboModified": "4",
+            "fanin": "4",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "stringLiteralsQty": "1",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "serviceName": "1"
+          }
+        },
+        "deleteRoute/2[java.lang.String,adminroute.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "3",
+            "fanin": "1",
+            "fanout": "2",
+            "wmc": "2",
+            "rfc": "6",
+            "loc": "9",
+            "returnsQty": "1",
+            "variablesQty": "3",
+            "parametersQty": "2",
+            "methodsInvokedQty": "6",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "3",
+            "assignmentsQty": "3",
+            "mathOperationsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "19",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1",
+            "logger": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "route_service_url": "1",
+            "routeId": "1",
+            "re": "3",
+            "requestEntity": "1"
+          }
+        },
+        "checkStationsExists/2[java.util.List<java.lang.String>,adminroute.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "3",
+            "fanin": "1",
+            "fanout": "2",
+            "wmc": "5",
+            "rfc": "11",
+            "loc": "21",
+            "returnsQty": "3",
+            "variablesQty": "6",
+            "parametersQty": "2",
+            "methodsInvokedQty": "11",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "loopQty": "1",
+            "comparisonsQty": "2",
+            "stringLiteralsQty": "5",
+            "numbersQty": "4",
+            "assignmentsQty": "6",
+            "mathOperationsQty": "1",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "25",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1",
+            "logger": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "r": "3",
+            "re": "1",
+            "s": "2",
+            "stationNames": "2",
+            "notExists": "3",
+            "stationMap": "1",
+            "station_service_url": "1",
+            "requestEntity": "1"
+          }
+        },
+        "createAndModifyRoute/2[adminroute.service.RouteInfo,adminroute.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "5",
+            "fanin": "1",
+            "fanout": "4",
+            "wmc": "5",
+            "rfc": "13",
+            "loc": "22",
+            "returnsQty": "3",
+            "variablesQty": "7",
+            "parametersQty": "2",
+            "methodsInvokedQty": "13",
+            "methodsInvokedLocalQty": "2",
+            "methodsInvokedIndirectLocalQty": "2",
+            "comparisonsQty": "2",
+            "stringLiteralsQty": "5",
+            "numbersQty": "2",
+            "assignmentsQty": "7",
+            "mathOperationsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "34",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "restTemplate": "1",
+            "logger": "2"
+          },
+          "variable_usages": {
+            "request": "4",
+            "headers": "1",
+            "route_service_url": "1",
+            "re": "3",
+            "response": "2",
+            "start": "2",
+            "end": "2",
+            "stations": "3",
+            "requestEntity": "1"
+          }
+        }
+      }
+    },
+    "adminroute.AdminRouteApplication": {
+      "metrics": {
+        "cbo": "11",
+        "cboModified": "12",
+        "fanin": "1",
+        "fanout": "11",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "2",
+        "lcom": "1",
+        "totalMethodsQty": "2",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "loc": "8",
+        "returnQty": "1",
+        "uniqueWordsQty": "15",
+        "modifiers": "1"
+      },
+      "methods": {
+        "restTemplate/1[adminroute.RestTemplateBuilder]": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "builder": "1"
+          }
+        },
+        "main/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "args": "1"
+          }
+        }
+      }
+    },
+    "adminroute.service.AdminRouteService": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "6",
+        "fanin": "3",
+        "fanout": "3",
+        "wmc": "3",
+        "dit": "1",
+        "lcom": "3",
+        "totalMethodsQty": "3",
+        "defaultMethodsQty": "3",
+        "visibleMethodsQty": "3",
+        "loc": "5",
+        "uniqueWordsQty": "24",
+        "modifiers": "1"
+      },
+      "methods": {
+        "createAndModifyRoute/2[adminroute.service.RouteInfo,adminroute.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "14",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "request": "0",
+            "headers": "0"
+          }
+        },
+        "getAllRoutes/1[adminroute.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "10",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "deleteRoute/2[java.lang.String,adminroute.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "11",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "routeId": "0"
+          }
+        }
+      }
+    },
+    "adminroute.service.AdminRouteServiceImpl$Anonymous1": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "adminroute.config.SecurityConfig$Anonymous1": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "1",
+        "fanout": "1",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "6",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "loc": "5",
+        "stringLiteralsQty": "1",
+        "numbersQty": "1",
+        "uniqueWordsQty": "8",
+        "modifiers": "-1"
+      },
+      "methods": {
+        "addCorsMappings/1[adminroute.config.CorsRegistry]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "1",
+            "numbersQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "registry": "1"
+          }
+        }
+      }
+    }
+  },
+  "microservice_name": "ts-admin-route-service"
+}

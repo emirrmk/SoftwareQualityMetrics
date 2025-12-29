@@ -1,0 +1,2240 @@
+{
+  "classes": {
+    "order.repository.OrderRepository": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "5",
+        "fanin": "2",
+        "fanout": "3",
+        "wmc": "5",
+        "dit": "1",
+        "lcom": "10",
+        "totalMethodsQty": "5",
+        "defaultMethodsQty": "5",
+        "visibleMethodsQty": "5",
+        "loc": "7",
+        "uniqueWordsQty": "17",
+        "modifiers": "1"
+      },
+      "methods": {
+        "findByTravelDateAndTrainNumber/2[java.lang.String,java.lang.String]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "5",
+            "fanin": "5",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "8"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "travelDate": "0",
+            "trainNumber": "0"
+          }
+        },
+        "findByAccountId/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "12",
+            "fanin": "12",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "5"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "accountId": "0"
+          }
+        },
+        "findAll/0": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "3",
+            "fanin": "3",
+            "wmc": "1",
+            "loc": "1",
+            "uniqueWordsQty": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "deleteById/1[java.lang.String]": {
+          "metrics": {
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "id": "0"
+          }
+        },
+        "findById/1[java.lang.String]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "33",
+            "fanin": "33",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "id": "0"
+          }
+        }
+      }
+    },
+    "order.init.InitData": {
+      "metrics": {
+        "cbo": "5",
+        "cboModified": "5",
+        "fanout": "5",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "16",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "6",
+        "defaultFieldsQty": "6",
+        "loc": "61",
+        "stringLiteralsQty": "23",
+        "numbersQty": "12",
+        "assignmentsQty": "8",
+        "variablesQty": "9",
+        "uniqueWordsQty": "35",
+        "modifiers": "1"
+      },
+      "methods": {
+        "run/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "16",
+            "loc": "53",
+            "variablesQty": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "16",
+            "stringLiteralsQty": "18",
+            "numbersQty": "12",
+            "assignmentsQty": "3",
+            "uniqueWordsQty": "24",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "accountId": "3",
+            "firstClass": "3",
+            "contactName": "3",
+            "price": "3",
+            "service": "3",
+            "contactDocumentNumber": "3"
+          },
+          "variable_usages": {
+            "args": "0",
+            "orderThree": "16",
+            "order": "16",
+            "orderTwo": "16"
+          }
+        }
+      }
+    },
+    "order.config.SecurityConfig$Anonymous1": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "1",
+        "fanout": "1",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "6",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "loc": "5",
+        "stringLiteralsQty": "1",
+        "numbersQty": "1",
+        "uniqueWordsQty": "8",
+        "modifiers": "-1"
+      },
+      "methods": {
+        "addCorsMappings/1[order.config.CorsRegistry]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "1",
+            "numbersQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "registry": "1"
+          }
+        }
+      }
+    },
+    "order.service.OrderServiceImpl": {
+      "metrics": {
+        "cbo": "25",
+        "cboModified": "27",
+        "fanin": "2",
+        "fanout": "25",
+        "wmc": "73",
+        "dit": "1",
+        "rfc": "111",
+        "lcom*": "0.5793651",
+        "tcc": "0.80526316",
+        "lcc": "0.80526316",
+        "totalMethodsQty": "21",
+        "publicMethodsQty": "20",
+        "privateMethodsQty": "1",
+        "visibleMethodsQty": "20",
+        "totalFieldsQty": "6",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "4",
+        "defaultFieldsQty": "2",
+        "finalFieldsQty": "1",
+        "nosi": "14",
+        "loc": "399",
+        "returnQty": "36",
+        "loopQty": "6",
+        "comparisonsQty": "16",
+        "stringLiteralsQty": "70",
+        "numbersQty": "53",
+        "assignmentsQty": "71",
+        "mathOperationsQty": "14",
+        "variablesQty": "62",
+        "maxNestedBlocksQty": "4",
+        "anonymousClassesQty": "1",
+        "uniqueWordsQty": "141",
+        "modifiers": "1",
+        "logStatementsQty": "44"
+      },
+      "methods": {
+        "getSoldTickets/2[edu.fudan.common.entity.Seat,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "8",
+            "fanin": "2",
+            "fanout": "6",
+            "wmc": "4",
+            "rfc": "13",
+            "loc": "17",
+            "returnsQty": "2",
+            "variablesQty": "3",
+            "parametersQty": "2",
+            "methodsInvokedQty": "13",
+            "loopQty": "1",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "3",
+            "numbersQty": "2",
+            "assignmentsQty": "3",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "21",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "orderRepository": "1",
+            "success": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "ticketSet": "2",
+            "leftTicketInfo": "3",
+            "tempOrder": "3",
+            "seatRequest": "4",
+            "list": "3"
+          }
+        },
+        "queryOrdersForRefresh/3[order.entity.OrderInfo,java.lang.String,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "3",
+            "rfc": "10",
+            "loc": "13",
+            "returnsQty": "1",
+            "variablesQty": "3",
+            "parametersQty": "3",
+            "methodsInvokedQty": "10",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "loopQty": "2",
+            "stringLiteralsQty": "1",
+            "numbersQty": "5",
+            "assignmentsQty": "3",
+            "mathOperationsQty": "3",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "13",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "accountId": "1",
+            "headers": "1",
+            "stationIds": "4",
+            "qi": "1",
+            "i": "6",
+            "orders": "5",
+            "order": "2"
+          }
+        },
+        "findOrderById/2[java.lang.String,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "4",
+            "fanin": "2",
+            "fanout": "2",
+            "wmc": "2",
+            "rfc": "4",
+            "loc": "12",
+            "returnsQty": "2",
+            "variablesQty": "2",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "3",
+            "numbersQty": "2",
+            "assignmentsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "orderRepository": "1",
+            "success": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "op": "2",
+            "id": "3",
+            "order": "1"
+          }
+        },
+        "alterOrder/2[order.entity.OrderAlterInfo,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "8",
+            "fanin": "2",
+            "fanout": "6",
+            "wmc": "3",
+            "rfc": "17",
+            "loc": "22",
+            "returnsQty": "3",
+            "variablesQty": "5",
+            "parametersQty": "2",
+            "methodsInvokedQty": "17",
+            "methodsInvokedLocalQty": "2",
+            "methodsInvokedIndirectLocalQty": "1",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "4",
+            "numbersQty": "4",
+            "assignmentsQty": "5",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "18",
+            "modifiers": "1",
+            "logStatementsQty": "3"
+          },
+          "field_usages": {
+            "orderRepository": "1",
+            "success": "1"
+          },
+          "variable_usages": {
+            "headers": "2",
+            "op": "2",
+            "oldOrder": "2",
+            "oldOrderId": "2",
+            "oai": "3",
+            "cor": "2",
+            "newOrder": "4"
+          }
+        },
+        "queryOrders/3[order.entity.OrderInfo,java.lang.String,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "12",
+            "fanin": "2",
+            "fanout": "10",
+            "wmc": "16",
+            "rfc": "20",
+            "loc": "63",
+            "returnsQty": "2",
+            "variablesQty": "10",
+            "parametersQty": "3",
+            "methodsInvokedQty": "20",
+            "loopQty": "1",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "9",
+            "numbersQty": "2",
+            "assignmentsQty": "19",
+            "maxNestedBlocksQty": "4",
+            "uniqueWordsQty": "32",
+            "modifiers": "1",
+            "logStatementsQty": "7"
+          },
+          "field_usages": {
+            "orderRepository": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "boughtDatePassFlag": "4",
+            "boughtDateStart": "2",
+            "travelDateEnd": "1",
+            "list": "3",
+            "accountId": "1",
+            "boughtDateEnd": "1",
+            "travelDate": "2",
+            "boughtDate": "2",
+            "tempOrder": "4",
+            "qi": "11",
+            "statePassFlag": "4",
+            "finalList": "3",
+            "travelDatePassFlag": "4"
+          }
+        },
+        "getOrderPrice/2[java.lang.String,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "5",
+            "fanin": "2",
+            "fanout": "3",
+            "wmc": "2",
+            "rfc": "6",
+            "loc": "12",
+            "returnsQty": "2",
+            "variablesQty": "2",
+            "parametersQty": "2",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "3",
+            "numbersQty": "2",
+            "assignmentsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "10",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "orderRepository": "1",
+            "success": "1",
+            "orderNotFound": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "op": "2",
+            "orderId": "3",
+            "order": "2"
+          }
+        },
+        "create/2[order.entity.Order,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "7",
+            "fanin": "3",
+            "fanout": "4",
+            "wmc": "2",
+            "rfc": "12",
+            "loc": "14",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "12",
+            "stringLiteralsQty": "4",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "10",
+            "modifiers": "1",
+            "logStatementsQty": "3"
+          },
+          "field_usages": {
+            "orderRepository": "2",
+            "success": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "accountOrders": "1",
+            "order": "8"
+          }
+        },
+        "cancelOrder/3[java.lang.String,java.lang.String,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "6",
+            "fanin": "2",
+            "fanout": "4",
+            "wmc": "2",
+            "rfc": "8",
+            "loc": "14",
+            "returnsQty": "2",
+            "variablesQty": "2",
+            "parametersQty": "3",
+            "methodsInvokedQty": "8",
+            "stringLiteralsQty": "2",
+            "numbersQty": "2",
+            "assignmentsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "9",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "orderRepository": "2",
+            "success": "1",
+            "orderNotFound": "1"
+          },
+          "variable_usages": {
+            "accountId": "0",
+            "headers": "0",
+            "op": "2",
+            "oldOrder": "3",
+            "orderId": "3"
+          }
+        },
+        "initOrder/2[order.entity.Order,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "4",
+            "cboModified": "5",
+            "fanin": "2",
+            "fanout": "3",
+            "wmc": "2",
+            "rfc": "7",
+            "loc": "11",
+            "variablesQty": "2",
+            "parametersQty": "2",
+            "methodsInvokedQty": "7",
+            "stringLiteralsQty": "2",
+            "assignmentsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "7",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "orderRepository": "2"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "op": "2",
+            "orderTemp": "0",
+            "order": "4"
+          }
+        },
+        "modifyOrder/3[java.lang.String,int,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "5",
+            "fanin": "2",
+            "fanout": "3",
+            "wmc": "2",
+            "rfc": "7",
+            "loc": "14",
+            "returnsQty": "2",
+            "variablesQty": "2",
+            "parametersQty": "3",
+            "methodsInvokedQty": "7",
+            "stringLiteralsQty": "3",
+            "numbersQty": "2",
+            "assignmentsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "9",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "orderRepository": "2",
+            "orderNotFound": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "op": "2",
+            "orderId": "3",
+            "status": "1",
+            "order": "3"
+          }
+        },
+        "checkSecurityAboutOrder/3[java.util.Date,java.lang.String,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "5",
+            "fanin": "1",
+            "fanout": "4",
+            "wmc": "6",
+            "rfc": "12",
+            "loc": "22",
+            "returnsQty": "1",
+            "variablesQty": "6",
+            "parametersQty": "3",
+            "methodsInvokedQty": "12",
+            "loopQty": "1",
+            "comparisonsQty": "3",
+            "stringLiteralsQty": "1",
+            "numbersQty": "6",
+            "assignmentsQty": "9",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "24",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "orderRepository": "1"
+          },
+          "variable_usages": {
+            "result": "3",
+            "countOrderInOneHour": "2",
+            "accountId": "1",
+            "headers": "0",
+            "countTotalValidOrder": "2",
+            "boughtDate": "1",
+            "orders": "1",
+            "dateFrom": "3",
+            "ca": "3",
+            "order": "4"
+          }
+        },
+        "getServiceUrl/1[java.lang.String]": {
+          "metrics": {
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "stringLiteralsQty": "1",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "serviceName": "1"
+          }
+        },
+        "getOrderById/2[java.lang.String,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "5",
+            "fanin": "2",
+            "fanout": "3",
+            "wmc": "2",
+            "rfc": "5",
+            "loc": "12",
+            "returnsQty": "2",
+            "variablesQty": "2",
+            "parametersQty": "2",
+            "methodsInvokedQty": "5",
+            "stringLiteralsQty": "3",
+            "numbersQty": "2",
+            "assignmentsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "orderRepository": "1",
+            "orderNotFound": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "op": "2",
+            "orderId": "3",
+            "order": "1"
+          }
+        },
+        "queryForStationId/2[java.util.List<java.lang.String>,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "3",
+            "fanin": "1",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "9",
+            "returnsQty": "1",
+            "variablesQty": "3",
+            "parametersQty": "2",
+            "methodsInvokedQty": "6",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "3",
+            "assignmentsQty": "3",
+            "mathOperationsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "21",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "re": "2",
+            "ids": "1",
+            "station_service_url": "1",
+            "requestEntity": "1"
+          }
+        },
+        "deleteOrder/2[java.lang.String,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "6",
+            "fanin": "2",
+            "fanout": "4",
+            "wmc": "2",
+            "rfc": "8",
+            "loc": "14",
+            "returnsQty": "2",
+            "variablesQty": "3",
+            "parametersQty": "2",
+            "methodsInvokedQty": "8",
+            "stringLiteralsQty": "4",
+            "numbersQty": "2",
+            "assignmentsQty": "3",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "10",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "orderRepository": "2"
+          },
+          "variable_usages": {
+            "orderUuid": "2",
+            "headers": "0",
+            "op": "2",
+            "orderId": "3",
+            "order": "1"
+          }
+        },
+        "addNewOrder/2[order.entity.Order,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "6",
+            "fanin": "2",
+            "fanout": "4",
+            "wmc": "2",
+            "rfc": "12",
+            "loc": "14",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "12",
+            "stringLiteralsQty": "5",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "3"
+          },
+          "field_usages": {
+            "orderRepository": "2"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "accountOrders": "1",
+            "order": "8"
+          }
+        },
+        "payOrder/2[java.lang.String,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "6",
+            "fanin": "2",
+            "fanout": "4",
+            "wmc": "2",
+            "rfc": "8",
+            "loc": "14",
+            "returnsQty": "2",
+            "variablesQty": "2",
+            "parametersQty": "2",
+            "methodsInvokedQty": "8",
+            "stringLiteralsQty": "3",
+            "numbersQty": "2",
+            "assignmentsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "orderRepository": "2",
+            "orderNotFound": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "op": "2",
+            "orderId": "3",
+            "order": "3"
+          }
+        },
+        "queryAlreadySoldOrders/3[java.util.Date,java.lang.String,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "7",
+            "fanin": "1",
+            "fanout": "6",
+            "wmc": "12",
+            "rfc": "29",
+            "loc": "43",
+            "returnsQty": "1",
+            "variablesQty": "2",
+            "parametersQty": "3",
+            "methodsInvokedQty": "29",
+            "loopQty": "1",
+            "comparisonsQty": "9",
+            "stringLiteralsQty": "2",
+            "numbersQty": "10",
+            "assignmentsQty": "2",
+            "mathOperationsQty": "9",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "16",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "orderRepository": "1",
+            "success": "1"
+          },
+          "variable_usages": {
+            "cstr": "21",
+            "headers": "0",
+            "travelDate": "2",
+            "orders": "2",
+            "trainNumber": "2",
+            "order": "11"
+          }
+        },
+        "saveChanges/2[order.entity.Order,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "6",
+            "fanin": "3",
+            "fanout": "3",
+            "wmc": "2",
+            "rfc": "37",
+            "loc": "28",
+            "returnsQty": "2",
+            "variablesQty": "2",
+            "parametersQty": "2",
+            "methodsInvokedQty": "37",
+            "stringLiteralsQty": "2",
+            "numbersQty": "2",
+            "assignmentsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "orderRepository": "2",
+            "success": "1",
+            "orderNotFound": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "op": "2",
+            "oldOrder": "17",
+            "order": "18"
+          }
+        },
+        "updateOrder/2[order.entity.Order,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "5",
+            "fanin": "2",
+            "fanout": "3",
+            "wmc": "2",
+            "rfc": "38",
+            "loc": "29",
+            "returnsQty": "2",
+            "variablesQty": "2",
+            "parametersQty": "2",
+            "methodsInvokedQty": "38",
+            "stringLiteralsQty": "5",
+            "numbersQty": "2",
+            "assignmentsQty": "2",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "9",
+            "modifiers": "1",
+            "logStatementsQty": "3"
+          },
+          "field_usages": {
+            "orderRepository": "2",
+            "LOGGER": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "op": "2",
+            "oldOrder": "17",
+            "order": "19"
+          }
+        },
+        "getAllOrders/1[order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "4",
+            "fanin": "2",
+            "fanout": "2",
+            "wmc": "3",
+            "rfc": "4",
+            "loc": "11",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "4",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "5",
+            "numbersQty": "2",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "10",
+            "modifiers": "1",
+            "logStatementsQty": "2"
+          },
+          "field_usages": {
+            "orderRepository": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "orders": "4"
+          }
+        }
+      }
+    },
+    "order.service.OrderService": {
+      "metrics": {
+        "cbo": "6",
+        "cboModified": "10",
+        "fanin": "4",
+        "fanout": "6",
+        "wmc": "19",
+        "dit": "1",
+        "lcom": "171",
+        "totalMethodsQty": "19",
+        "defaultMethodsQty": "19",
+        "visibleMethodsQty": "19",
+        "loc": "21",
+        "uniqueWordsQty": "39",
+        "modifiers": "1"
+      },
+      "methods": {
+        "getOrderById/2[java.lang.String,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "6"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "orderId": "0"
+          }
+        },
+        "payOrder/2[java.lang.String,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "orderId": "0"
+          }
+        },
+        "checkSecurityAboutOrder/3[java.util.Date,java.lang.String,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "3",
+            "uniqueWordsQty": "7"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "accountId": "0",
+            "headers": "0",
+            "checkDate": "0"
+          }
+        },
+        "getSoldTickets/2[edu.fudan.common.entity.Seat,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "6"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "seatRequest": "0"
+          }
+        },
+        "deleteOrder/2[java.lang.String,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "orderId": "0"
+          }
+        },
+        "saveChanges/2[order.entity.Order,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "5"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "order": "0"
+          }
+        },
+        "initOrder/2[order.entity.Order,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "3"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "order": "0"
+          }
+        },
+        "modifyOrder/3[java.lang.String,int,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "3",
+            "uniqueWordsQty": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "orderId": "0",
+            "status": "0"
+          }
+        },
+        "getAllOrders/1[order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "7"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "updateOrder/2[order.entity.Order,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "order": "0"
+          }
+        },
+        "create/2[order.entity.Order,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "newOrder": "0"
+          }
+        },
+        "cancelOrder/3[java.lang.String,java.lang.String,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "3",
+            "uniqueWordsQty": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "accountId": "0",
+            "headers": "0",
+            "orderId": "0"
+          }
+        },
+        "queryOrdersForRefresh/3[order.entity.OrderInfo,java.lang.String,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "3",
+            "uniqueWordsQty": "8"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "accountId": "0",
+            "headers": "0",
+            "qi": "0"
+          }
+        },
+        "alterOrder/2[order.entity.OrderAlterInfo,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "6"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "oai": "0"
+          }
+        },
+        "queryAlreadySoldOrders/3[java.util.Date,java.lang.String,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "3",
+            "uniqueWordsQty": "7"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "travelDate": "0",
+            "trainNumber": "0"
+          }
+        },
+        "getOrderPrice/2[java.lang.String,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "5"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "orderId": "0"
+          }
+        },
+        "addNewOrder/2[order.entity.Order,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "5"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "order": "0"
+          }
+        },
+        "findOrderById/2[java.lang.String,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "6"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "id": "0"
+          }
+        },
+        "queryOrders/3[order.entity.OrderInfo,java.lang.String,order.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "3",
+            "uniqueWordsQty": "6"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "accountId": "0",
+            "headers": "0",
+            "qi": "0"
+          }
+        }
+      }
+    },
+    "order.config.SecurityConfig": {
+      "metrics": {
+        "cbo": "13",
+        "cboModified": "13",
+        "fanout": "13",
+        "wmc": "3",
+        "dit": "2",
+        "rfc": "15",
+        "lcom": "3",
+        "lcom*": "0.6666667",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "2",
+        "protectedMethodsQty": "1",
+        "visibleMethodsQty": "3",
+        "totalFieldsQty": "2",
+        "defaultFieldsQty": "2",
+        "loc": "19",
+        "returnQty": "2",
+        "stringLiteralsQty": "14",
+        "assignmentsQty": "2",
+        "variablesQty": "2",
+        "anonymousClassesQty": "1",
+        "uniqueWordsQty": "67",
+        "modifiers": "1"
+      },
+      "methods": {
+        "passwordEncoder/0": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "7",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "configure/1[order.config.HttpSecurity]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "15",
+            "loc": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "15",
+            "stringLiteralsQty": "12",
+            "uniqueWordsQty": "20",
+            "modifiers": "4"
+          },
+          "field_usages": {
+            "admin": "5",
+            "order": "3"
+          },
+          "variable_usages": {
+            "httpSecurity": "2"
+          }
+        },
+        "corsConfigurer/0": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "loc": "8",
+            "returnsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "43",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "order.service.OrderServiceImpl$Anonymous1": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "order.entity.OrderAlterInfo": {
+      "metrics": {
+        "cbo": "6",
+        "cboModified": "9",
+        "fanin": "3",
+        "fanout": "6",
+        "wmc": "1",
+        "dit": "1",
+        "lcom*": "0.75",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "4",
+        "privateFieldsQty": "4",
+        "loc": "9",
+        "stringLiteralsQty": "4",
+        "numbersQty": "2",
+        "assignmentsQty": "1",
+        "variablesQty": "4",
+        "uniqueWordsQty": "13",
+        "modifiers": "1"
+      },
+      "methods": {
+        "OrderAlterInfo/0": {
+          "metrics": {
+            "constructor": "true",
+            "cbo": "1",
+            "cboModified": "3",
+            "fanin": "2",
+            "fanout": "1",
+            "wmc": "1",
+            "loc": "3",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "4",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "newOrderInfo": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "order.entity.OrderInfo": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "6",
+        "fanin": "5",
+        "fanout": "1",
+        "wmc": "13",
+        "dit": "1",
+        "lcom": "50",
+        "lcom*": "0.81196576",
+        "tcc": "0.17948718",
+        "lcc": "0.32051283",
+        "totalMethodsQty": "13",
+        "publicMethodsQty": "13",
+        "visibleMethodsQty": "13",
+        "totalFieldsQty": "9",
+        "privateFieldsQty": "9",
+        "loc": "59",
+        "returnQty": "5",
+        "numbersQty": "1",
+        "assignmentsQty": "17",
+        "variablesQty": "9",
+        "uniqueWordsQty": "32",
+        "modifiers": "1"
+      },
+      "methods": {
+        "enableBoughtDateQuery/2[java.lang.String,java.lang.String]": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "5",
+            "parametersQty": "2",
+            "assignmentsQty": "3",
+            "uniqueWordsQty": "11",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "boughtDateStart": "1",
+            "enableBoughtDateQuery": "2",
+            "boughtDateEnd": "1"
+          },
+          "variable_usages": {
+            "startTime": "1",
+            "endTime": "1"
+          }
+        },
+        "disableBoughtDateQuery/0": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "5",
+            "assignmentsQty": "3",
+            "uniqueWordsQty": "10",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "boughtDateStart": "1",
+            "enableBoughtDateQuery": "1",
+            "boughtDateEnd": "1"
+          },
+          "variable_usages": {}
+        },
+        "disableTravelDateQuery/0": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "5",
+            "assignmentsQty": "3",
+            "uniqueWordsQty": "10",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "enableTravelDateQuery": "1",
+            "travelDateEnd": "1",
+            "travelDateStart": "1"
+          },
+          "variable_usages": {}
+        },
+        "enableTravelDateQuery/2[java.lang.String,java.lang.String]": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "5",
+            "parametersQty": "2",
+            "assignmentsQty": "3",
+            "uniqueWordsQty": "11",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "enableTravelDateQuery": "2",
+            "travelDateEnd": "1",
+            "travelDateStart": "1"
+          },
+          "variable_usages": {
+            "startTime": "1",
+            "endTime": "1"
+          }
+        },
+        "isEnableTravelDateQuery/0": {
+          "metrics": {
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "6",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "enableTravelDateQuery": "1"
+          },
+          "variable_usages": {}
+        },
+        "enableStateQuery/1[int]": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "4",
+            "parametersQty": "1",
+            "assignmentsQty": "2",
+            "uniqueWordsQty": "7",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "enableStateQuery": "2",
+            "state": "1"
+          },
+          "variable_usages": {
+            "targetStatus": "1"
+          }
+        },
+        "OrderInfo/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "4",
+            "fanin": "4",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "2",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "getLoginId/0": {
+          "metrics": {
+            "cboModified": "3",
+            "fanin": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "4",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "loginId": "1"
+          },
+          "variable_usages": {}
+        },
+        "isEnableStateQuery/0": {
+          "metrics": {
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "enableStateQuery": "1"
+          },
+          "variable_usages": {}
+        },
+        "disableStateQuery/0": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "4",
+            "numbersQty": "1",
+            "assignmentsQty": "2",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "enableTravelDateQuery": "1",
+            "state": "1"
+          },
+          "variable_usages": {}
+        },
+        "isEnableBoughtDateQuery/0": {
+          "metrics": {
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "6",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "enableBoughtDateQuery": "1"
+          },
+          "variable_usages": {}
+        },
+        "setLoginId/1[java.lang.String]": {
+          "metrics": {
+            "wmc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "4",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "loginId": "3"
+          },
+          "variable_usages": {
+            "loginId": "2"
+          }
+        },
+        "getState/0": {
+          "metrics": {
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "state": "1"
+          },
+          "variable_usages": {}
+        }
+      }
+    },
+    "order.entity.Order": {
+      "metrics": {
+        "cbo": "13",
+        "cboModified": "22",
+        "fanin": "9",
+        "fanout": "13",
+        "wmc": "11",
+        "dit": "1",
+        "rfc": "22",
+        "lcom": "1",
+        "lcom*": "0.5208333",
+        "tcc": "0.33333334",
+        "lcc": "0.33333334",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "3",
+        "visibleMethodsQty": "3",
+        "totalFieldsQty": "16",
+        "privateFieldsQty": "16",
+        "nosi": "3",
+        "loc": "48",
+        "returnQty": "5",
+        "comparisonsQty": "8",
+        "parenthesizedExpsQty": "1",
+        "stringLiteralsQty": "11",
+        "numbersQty": "7",
+        "assignmentsQty": "13",
+        "mathOperationsQty": "2",
+        "variablesQty": "18",
+        "maxNestedBlocksQty": "1",
+        "uniqueWordsQty": "45",
+        "modifiers": "1"
+      },
+      "methods": {
+        "hashCode/0": {
+          "metrics": {
+            "wmc": "2",
+            "rfc": "1",
+            "loc": "5",
+            "returnsQty": "1",
+            "variablesQty": "1",
+            "methodsInvokedQty": "1",
+            "comparisonsQty": "1",
+            "parenthesizedExpsQty": "1",
+            "numbersQty": "3",
+            "assignmentsQty": "2",
+            "mathOperationsQty": "2",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "id": "2"
+          },
+          "variable_usages": {
+            "result": "3"
+          }
+        },
+        "Order/0": {
+          "metrics": {
+            "constructor": "true",
+            "cbo": "3",
+            "cboModified": "30",
+            "fanin": "27",
+            "fanout": "3",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "12",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "5",
+            "numbersQty": "2",
+            "assignmentsQty": "10",
+            "uniqueWordsQty": "13",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "coachNumber": "1",
+            "travelDate": "1",
+            "boughtDate": "1",
+            "seatClass": "1",
+            "price": "1",
+            "from": "1",
+            "trainNumber": "1",
+            "to": "1",
+            "seatNumber": "1",
+            "status": "1"
+          },
+          "variable_usages": {}
+        },
+        "equals/1[java.lang.Object]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "8",
+            "rfc": "17",
+            "loc": "13",
+            "returnsQty": "4",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "17",
+            "comparisonsQty": "7",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "20",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "accountId": "1",
+            "coachNumber": "1",
+            "documentType": "1",
+            "contactsDocumentNumber": "1",
+            "seatClass": "1",
+            "price": "1",
+            "from": "1",
+            "trainNumber": "1",
+            "to": "1",
+            "contactsName": "1",
+            "seatNumber": "1",
+            "status": "1"
+          },
+          "variable_usages": {
+            "other": "15",
+            "obj": "4"
+          }
+        }
+      }
+    },
+    "order.controller.OrderController": {
+      "metrics": {
+        "cbo": "21",
+        "cboModified": "23",
+        "fanin": "2",
+        "fanout": "21",
+        "wmc": "16",
+        "dit": "1",
+        "rfc": "28",
+        "lcom*": "0.09375",
+        "tcc": "0.875",
+        "lcc": "0.875",
+        "totalMethodsQty": "16",
+        "publicMethodsQty": "16",
+        "visibleMethodsQty": "16",
+        "totalFieldsQty": "2",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "2",
+        "finalFieldsQty": "1",
+        "nosi": "3",
+        "loc": "66",
+        "returnQty": "16",
+        "stringLiteralsQty": "46",
+        "assignmentsQty": "1",
+        "variablesQty": "2",
+        "uniqueWordsQty": "67",
+        "modifiers": "1",
+        "logStatementsQty": "14",
+        "external_microservice_call": 13
+      },
+      "methods": {
+        "home/0": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "modifyOrder/3[java.lang.String,int,order.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "3",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "12",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "orderService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "orderId": "2",
+            "status": "1"
+          }
+        },
+        "createNewOrder/2[order.entity.Order,order.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "12",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "external_microservice_call": 1
+          },
+          "field_usages": {
+            "orderService": "1"
+          },
+          "variable_usages": {
+            "createOrder": "4",
+            "headers": "1"
+          },
+          "invocations": {
+            "ts-preserve-service": 1
+          }
+        },
+        "saveOrderInfo/2[order.entity.Order,order.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "10",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "external_microservice_call": 1
+          },
+          "field_usages": {
+            "orderService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "orderInfo": "2"
+          },
+          "invocations": {
+            "ts-cancel-service": 1
+          }
+        },
+        "calculateSoldTicket/3[java.lang.String,java.lang.String,order.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "3",
+            "fanout": "3",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "3",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "15",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "external_microservice_call": 2
+          },
+          "field_usages": {
+            "orderService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "travelDate": "2",
+            "trainNumber": "2"
+          },
+          "invocations": {
+            "ts-cancel-service": 1,
+            "ts-execute-service": 1
+          }
+        },
+        "securityInfoCheck/3[java.lang.String,java.lang.String,order.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "3",
+            "fanout": "3",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "3",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "15",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "orderService": "1"
+          },
+          "variable_usages": {
+            "accountId": "2",
+            "headers": "1",
+            "checkDate": "1"
+          }
+        },
+        "getOrderById/2[java.lang.String,order.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "12",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "external_microservice_call": 3
+          },
+          "field_usages": {
+            "orderService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "orderId": "2"
+          },
+          "invocations": {
+            "ts-execute-service": 1,
+            "ts-inside-payment-service": 1,
+            "ts-security-service": 1
+          }
+        },
+        "addcreateNewOrder/2[order.entity.Order,order.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "2",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "2",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "external_microservice_call": 1
+          },
+          "field_usages": {
+            "orderService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "order": "1"
+          },
+          "invocations": {
+            "ts-admin-order-service": 1
+          }
+        },
+        "getOrderPrice/2[java.lang.String,order.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "13",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "orderService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "orderId": "2"
+          }
+        },
+        "findAllOrder/1[order.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "15",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "hasJavaDoc": "true",
+            "external_microservice_call": 1
+          },
+          "field_usages": {
+            "orderService": "1"
+          },
+          "variable_usages": {
+            "headers": "1"
+          },
+          "invocations": {
+            "ts-admin-order-service": 1
+          }
+        },
+        "payOrder/2[java.lang.String,order.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "12",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "orderService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "orderId": "2"
+          }
+        },
+        "deleteOrder/2[java.lang.String,order.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "external_microservice_call": 1
+          },
+          "field_usages": {
+            "orderService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "orderId": "2"
+          },
+          "invocations": {
+            "ts-admin-order-service": 1
+          }
+        },
+        "updateOrder/2[order.entity.Order,order.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "10",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "external_microservice_call": 1
+          },
+          "field_usages": {
+            "orderService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "order": "2"
+          },
+          "invocations": {
+            "ts-admin-order-service": 1
+          }
+        },
+        "queryOrdersForRefresh/2[order.entity.OrderInfo,order.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "3",
+            "fanout": "3",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "14",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "orderService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "qi": "3"
+          }
+        },
+        "getTicketListByDateAndTripId/2[edu.fudan.common.entity.Seat,order.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "5",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "5",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "20",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "hasJavaDoc": "true",
+            "external_microservice_call": 2
+          },
+          "field_usages": {
+            "orderService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "seatRequest": "2"
+          },
+          "invocations": {
+            "ts-seat-service": 2
+          }
+        },
+        "queryOrders/2[order.entity.OrderInfo,order.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "3",
+            "fanout": "3",
+            "wmc": "1",
+            "rfc": "4",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "4",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "14",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "orderService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "qi": "3"
+          }
+        }
+      }
+    },
+    "order.OrderApplication": {
+      "metrics": {
+        "cbo": "11",
+        "cboModified": "12",
+        "fanin": "1",
+        "fanout": "11",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "2",
+        "lcom": "1",
+        "totalMethodsQty": "2",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "loc": "8",
+        "returnQty": "1",
+        "uniqueWordsQty": "14",
+        "modifiers": "1"
+      },
+      "methods": {
+        "restTemplate/1[order.RestTemplateBuilder]": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "builder": "1"
+          }
+        },
+        "main/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "args": "1"
+          }
+        }
+      }
+    }
+  },
+  "microservice_name": "ts-order-service",
+  "external_microservice_call": 13
+}

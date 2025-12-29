@@ -1,0 +1,607 @@
+{
+  "classes": {
+    "seat.service.SeatService": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "6",
+        "fanin": "3",
+        "fanout": "3",
+        "wmc": "2",
+        "dit": "1",
+        "lcom": "1",
+        "totalMethodsQty": "2",
+        "defaultMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "loc": "4",
+        "uniqueWordsQty": "13",
+        "modifiers": "1"
+      },
+      "methods": {
+        "distributeSeat/2[seat.service.Seat,seat.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "seatRequest": "0"
+          }
+        },
+        "getLeftTicketOfInterval/2[seat.service.Seat,seat.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "8"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "seatRequest": "0"
+          }
+        }
+      }
+    },
+    "seat.config.SecurityConfig$Anonymous1": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "1",
+        "fanout": "1",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "6",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "loc": "5",
+        "stringLiteralsQty": "1",
+        "numbersQty": "1",
+        "uniqueWordsQty": "8",
+        "modifiers": "-1"
+      },
+      "methods": {
+        "addCorsMappings/1[seat.config.CorsRegistry]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "1",
+            "numbersQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "registry": "1"
+          }
+        }
+      }
+    },
+    "seat.SeatApplication": {
+      "metrics": {
+        "cbo": "11",
+        "cboModified": "12",
+        "fanin": "1",
+        "fanout": "11",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "2",
+        "lcom": "1",
+        "totalMethodsQty": "2",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "loc": "8",
+        "returnQty": "1",
+        "uniqueWordsQty": "14",
+        "modifiers": "1"
+      },
+      "methods": {
+        "restTemplate/1[seat.RestTemplateBuilder]": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "builder": "1"
+          }
+        },
+        "main/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "2",
+            "modifiers": "9"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "args": "1"
+          }
+        }
+      }
+    },
+    "seat.config.SecurityConfig": {
+      "metrics": {
+        "cbo": "13",
+        "cboModified": "13",
+        "fanout": "13",
+        "wmc": "3",
+        "dit": "2",
+        "rfc": "15",
+        "lcom": "3",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "2",
+        "protectedMethodsQty": "1",
+        "visibleMethodsQty": "3",
+        "loc": "17",
+        "returnQty": "2",
+        "stringLiteralsQty": "9",
+        "anonymousClassesQty": "1",
+        "uniqueWordsQty": "65",
+        "modifiers": "1"
+      },
+      "methods": {
+        "passwordEncoder/0": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "7",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "corsConfigurer/0": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "loc": "8",
+            "returnsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "43",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "configure/1[seat.config.HttpSecurity]": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "rfc": "15",
+            "loc": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "15",
+            "stringLiteralsQty": "9",
+            "uniqueWordsQty": "18",
+            "modifiers": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "httpSecurity": "2"
+          }
+        }
+      }
+    },
+    "seat.controller.SeatController": {
+      "metrics": {
+        "cbo": "15",
+        "cboModified": "17",
+        "fanin": "2",
+        "fanout": "15",
+        "wmc": "3",
+        "dit": "1",
+        "rfc": "8",
+        "lcom": "1",
+        "lcom*": "0.33333334",
+        "tcc": "0.33333334",
+        "lcc": "0.33333334",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "3",
+        "visibleMethodsQty": "3",
+        "totalFieldsQty": "2",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "2",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "15",
+        "returnQty": "3",
+        "stringLiteralsQty": "9",
+        "assignmentsQty": "1",
+        "variablesQty": "2",
+        "uniqueWordsQty": "41",
+        "modifiers": "1",
+        "logStatementsQty": "2",
+        "external_microservice_call": 6
+      },
+      "methods": {
+        "create/2[seat.controller.Seat,seat.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "15",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "hasJavaDoc": "true",
+            "external_microservice_call": 3
+          },
+          "field_usages": {
+            "seatService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "seatRequest": "4"
+          },
+          "invocations": {
+            "ts-preserve-other-service": 1,
+            "ts-preserve-service": 1,
+            "ts-rebook-service": 1
+          }
+        },
+        "getLeftTicketOfInterval/2[seat.controller.Seat,seat.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "9",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "3",
+            "uniqueWordsQty": "24",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "hasJavaDoc": "true",
+            "external_microservice_call": 3
+          },
+          "field_usages": {
+            "seatService": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "seatRequest": "4"
+          },
+          "invocations": {
+            "ts-travel-plan-service": 1,
+            "ts-travel-service": 1,
+            "ts-travel2-service": 1
+          }
+        },
+        "home/0": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "seat.service.SeatServiceImpl": {
+      "metrics": {
+        "cbo": "17",
+        "cboModified": "19",
+        "fanin": "2",
+        "fanout": "17",
+        "wmc": "20",
+        "dit": "1",
+        "rfc": "29",
+        "lcom": "4",
+        "lcom*": "0.59999996",
+        "tcc": "1.0",
+        "lcc": "1.0",
+        "totalMethodsQty": "5",
+        "publicMethodsQty": "2",
+        "privateMethodsQty": "3",
+        "visibleMethodsQty": "2",
+        "totalFieldsQty": "3",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "2",
+        "defaultFieldsQty": "1",
+        "finalFieldsQty": "1",
+        "nosi": "2",
+        "loc": "136",
+        "returnQty": "7",
+        "loopQty": "4",
+        "comparisonsQty": "3",
+        "parenthesizedExpsQty": "1",
+        "stringLiteralsQty": "32",
+        "numbersQty": "10",
+        "assignmentsQty": "50",
+        "mathOperationsQty": "12",
+        "variablesQty": "45",
+        "maxNestedBlocksQty": "3",
+        "anonymousClassesQty": "5",
+        "uniqueWordsQty": "97",
+        "modifiers": "1",
+        "logStatementsQty": "13"
+      },
+      "methods": {
+        "distributeSeat/2[seat.service.Seat,seat.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "11",
+            "cboModified": "6",
+            "fanin": "2",
+            "fanout": "4",
+            "wmc": "7",
+            "rfc": "21",
+            "loc": "56",
+            "returnsQty": "2",
+            "variablesQty": "20",
+            "parametersQty": "2",
+            "methodsInvokedQty": "21",
+            "methodsInvokedLocalQty": "2",
+            "methodsInvokedIndirectLocalQty": "1",
+            "loopQty": "2",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "14",
+            "numbersQty": "4",
+            "assignmentsQty": "21",
+            "mathOperationsQty": "4",
+            "maxNestedBlocksQty": "3",
+            "anonymousClassesQty": "2",
+            "uniqueWordsQty": "58",
+            "modifiers": "1",
+            "logStatementsQty": "6"
+          },
+          "field_usages": {
+            "restTemplate": "2"
+          },
+          "variable_usages": {
+            "routeResult": "0",
+            "soldTicketDestStation": "1",
+            "headers": "0",
+            "re3": "6",
+            "order_other_service_url": "1",
+            "ticket": "6",
+            "leftTicketInfo": "4",
+            "soldTicket": "3",
+            "seatTotalNum": "1",
+            "range": "2",
+            "trainTypeResult": "0",
+            "rand": "2",
+            "seat": "4",
+            "re": "0",
+            "soldTickets": "2",
+            "stationList": "2",
+            "seatRequest": "7",
+            "startStation": "2",
+            "trainNumber": "2",
+            "requestEntity": "4",
+            "re2": "0",
+            "order_service_url": "1"
+          }
+        },
+        "getLeftTicketOfInterval/2[seat.service.Seat,seat.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "10",
+            "cboModified": "5",
+            "fanin": "2",
+            "fanout": "3",
+            "wmc": "8",
+            "rfc": "20",
+            "loc": "52",
+            "returnsQty": "1",
+            "variablesQty": "16",
+            "parametersQty": "2",
+            "methodsInvokedQty": "20",
+            "methodsInvokedLocalQty": "2",
+            "methodsInvokedIndirectLocalQty": "2",
+            "loopQty": "1",
+            "comparisonsQty": "1",
+            "parenthesizedExpsQty": "1",
+            "stringLiteralsQty": "13",
+            "numbersQty": "6",
+            "assignmentsQty": "22",
+            "mathOperationsQty": "6",
+            "maxNestedBlocksQty": "3",
+            "anonymousClassesQty": "2",
+            "uniqueWordsQty": "57",
+            "modifiers": "1",
+            "logStatementsQty": "6"
+          },
+          "field_usages": {
+            "restTemplate": "2"
+          },
+          "variable_usages": {
+            "soldTicketDestStation": "1",
+            "headers": "1",
+            "re3": "6",
+            "order_other_service_url": "1",
+            "leftTicketInfo": "4",
+            "soldTicket": "2",
+            "seatTotalNum": "1",
+            "solidTicketSize": "2",
+            "unusedNum": "1",
+            "direstPart": "3",
+            "numOfLeftTicket": "3",
+            "soldTickets": "2",
+            "stationList": "5",
+            "seatRequest": "9",
+            "startStation": "1",
+            "trainNumber": "4",
+            "requestEntity": "4",
+            "order_service_url": "1"
+          }
+        },
+        "getDirectProportion/1[seat.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "3",
+            "fanin": "1",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "8",
+            "loc": "11",
+            "returnsQty": "1",
+            "variablesQty": "5",
+            "parametersQty": "1",
+            "methodsInvokedQty": "8",
+            "methodsInvokedLocalQty": "1",
+            "methodsInvokedIndirectLocalQty": "1",
+            "stringLiteralsQty": "4",
+            "assignmentsQty": "5",
+            "mathOperationsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "22",
+            "modifiers": "2",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "restTemplate": "1"
+          },
+          "variable_usages": {
+            "configName": "1",
+            "headers": "0",
+            "config_service_url": "1",
+            "re": "1",
+            "configValue": "2",
+            "requestEntity": "1"
+          }
+        },
+        "isContained/2[java.util.Set<seat.service.Ticket>,int]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "1",
+            "fanin": "1",
+            "wmc": "3",
+            "rfc": "1",
+            "loc": "9",
+            "returnsQty": "2",
+            "variablesQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "1",
+            "loopQty": "1",
+            "comparisonsQty": "1",
+            "assignmentsQty": "1",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "9",
+            "modifiers": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "seat": "1",
+            "result": "1",
+            "soldTickets": "1",
+            "soldTicket": "1"
+          }
+        },
+        "getServiceUrl/1[java.lang.String]": {
+          "metrics": {
+            "cboModified": "3",
+            "fanin": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "stringLiteralsQty": "1",
+            "mathOperationsQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "2"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "serviceName": "1"
+          }
+        }
+      }
+    },
+    "seat.service.SeatServiceImpl$Anonymous1": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "seat.service.SeatServiceImpl$Anonymous2": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "seat.service.SeatServiceImpl$Anonymous5": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "seat.service.SeatServiceImpl$Anonymous3": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    },
+    "seat.service.SeatServiceImpl$Anonymous4": {
+      "metrics": {
+        "dit": "1",
+        "tcc": "-1.0",
+        "lcc": "-1.0",
+        "loc": "2",
+        "modifiers": "-1"
+      },
+      "methods": {}
+    }
+  },
+  "microservice_name": "ts-seat-service",
+  "external_microservice_call": 6
+}

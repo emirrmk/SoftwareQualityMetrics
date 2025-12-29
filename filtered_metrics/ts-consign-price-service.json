@@ -1,0 +1,713 @@
+{
+  "classes": {
+    "consignprice.service.ConsignPriceService": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "7",
+        "fanin": "4",
+        "fanout": "3",
+        "wmc": "4",
+        "dit": "1",
+        "lcom": "6",
+        "totalMethodsQty": "4",
+        "defaultMethodsQty": "4",
+        "visibleMethodsQty": "4",
+        "loc": "6",
+        "uniqueWordsQty": "30",
+        "modifiers": "1"
+      },
+      "methods": {
+        "getPriceByWeightAndRegion/3[double,boolean,consignprice.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "3",
+            "uniqueWordsQty": "17",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "isWithinRegion": "0",
+            "weight": "0"
+          }
+        },
+        "queryPriceInformation/1[consignprice.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "9",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "createAndModifyPrice/2[consignprice.entity.ConsignPrice,consignprice.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "3",
+            "fanin": "3",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "2",
+            "uniqueWordsQty": "11",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0",
+            "config": "0"
+          }
+        },
+        "getPriceConfig/1[consignprice.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "2",
+            "fanin": "2",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "9",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        }
+      }
+    },
+    "consignprice.init.InitData": {
+      "metrics": {
+        "cbo": "8",
+        "cboModified": "9",
+        "fanin": "1",
+        "fanout": "8",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "8",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "2",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "1",
+        "defaultFieldsQty": "1",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "14",
+        "stringLiteralsQty": "1",
+        "numbersQty": "5",
+        "assignmentsQty": "2",
+        "variablesQty": "3",
+        "uniqueWordsQty": "22",
+        "modifiers": "1",
+        "logStatementsQty": "1"
+      },
+      "methods": {
+        "run/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "3",
+            "fanout": "3",
+            "wmc": "1",
+            "rfc": "7",
+            "loc": "10",
+            "variablesQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "7",
+            "stringLiteralsQty": "1",
+            "numbersQty": "5",
+            "assignmentsQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "service": "1"
+          },
+          "variable_usages": {
+            "strings": "0",
+            "config": "6"
+          }
+        }
+      }
+    },
+    "consignprice.controller.ConsignPriceController": {
+      "metrics": {
+        "cbo": "15",
+        "cboModified": "17",
+        "fanin": "2",
+        "fanout": "15",
+        "wmc": "5",
+        "dit": "1",
+        "rfc": "11",
+        "lcom*": "0.2",
+        "tcc": "0.6",
+        "lcc": "0.6",
+        "totalMethodsQty": "5",
+        "publicMethodsQty": "5",
+        "visibleMethodsQty": "5",
+        "totalFieldsQty": "2",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "1",
+        "defaultFieldsQty": "1",
+        "finalFieldsQty": "1",
+        "nosi": "3",
+        "loc": "23",
+        "returnQty": "5",
+        "stringLiteralsQty": "11",
+        "assignmentsQty": "1",
+        "variablesQty": "2",
+        "uniqueWordsQty": "34",
+        "modifiers": "1",
+        "logStatementsQty": "4",
+        "external_microservice_call": 2
+      },
+      "methods": {
+        "getPriceByWeightAndRegion/3[java.lang.String,java.lang.String,consignprice.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "7",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "5",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "3",
+            "methodsInvokedQty": "5",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "19",
+            "modifiers": "1",
+            "logStatementsQty": "1",
+            "external_microservice_call": 2
+          },
+          "field_usages": {
+            "service": "1",
+            "logger": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "isWithinRegion": "2",
+            "weight": "2"
+          },
+          "invocations": {
+            "ts-consign-service": 2
+          }
+        },
+        "home/1[consignprice.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "9",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "modifyPriceConfig/2[consignprice.entity.ConsignPrice,consignprice.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "8",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "2",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "service": "1",
+            "logger": "1"
+          },
+          "variable_usages": {
+            "headers": "1",
+            "priceConfig": "2"
+          }
+        },
+        "getPriceInfo/1[consignprice.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "service": "1",
+            "logger": "1"
+          },
+          "variable_usages": {
+            "headers": "1"
+          }
+        },
+        "getPriceConfig/1[consignprice.controller.HttpHeaders]": {
+          "metrics": {
+            "cbo": "6",
+            "cboModified": "2",
+            "fanout": "2",
+            "wmc": "1",
+            "rfc": "3",
+            "loc": "4",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "3",
+            "stringLiteralsQty": "2",
+            "uniqueWordsQty": "11",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "service": "1",
+            "logger": "1"
+          },
+          "variable_usages": {
+            "headers": "1"
+          }
+        }
+      }
+    },
+    "consignprice.config.SecurityConfig$Anonymous1": {
+      "metrics": {
+        "cbo": "1",
+        "cboModified": "1",
+        "fanout": "1",
+        "wmc": "1",
+        "dit": "1",
+        "rfc": "6",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "loc": "5",
+        "stringLiteralsQty": "1",
+        "numbersQty": "1",
+        "uniqueWordsQty": "8",
+        "modifiers": "-1"
+      },
+      "methods": {
+        "addCorsMappings/1[consignprice.config.CorsRegistry]": {
+          "metrics": {
+            "cbo": "1",
+            "wmc": "1",
+            "rfc": "6",
+            "loc": "3",
+            "parametersQty": "1",
+            "methodsInvokedQty": "6",
+            "stringLiteralsQty": "1",
+            "numbersQty": "1",
+            "uniqueWordsQty": "8",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "registry": "1"
+          }
+        }
+      }
+    },
+    "consignprice.entity.ConsignPrice": {
+      "metrics": {
+        "cbo": "8",
+        "cboModified": "15",
+        "fanin": "7",
+        "fanout": "8",
+        "wmc": "1",
+        "dit": "1",
+        "lcom*": "1.0",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "publicMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "totalFieldsQty": "6",
+        "privateFieldsQty": "6",
+        "loc": "10",
+        "stringLiteralsQty": "9",
+        "numbersQty": "1",
+        "variablesQty": "6",
+        "uniqueWordsQty": "12",
+        "modifiers": "1"
+      },
+      "methods": {
+        "ConsignPrice/0": {
+          "metrics": {
+            "constructor": "true",
+            "cboModified": "10",
+            "fanin": "10",
+            "wmc": "1",
+            "loc": "2",
+            "uniqueWordsQty": "2",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    },
+    "consignprice.repository.ConsignPriceConfigRepository": {
+      "metrics": {
+        "cbo": "3",
+        "cboModified": "5",
+        "fanin": "2",
+        "fanout": "3",
+        "wmc": "1",
+        "dit": "1",
+        "tcc": "NaN",
+        "lcc": "NaN",
+        "totalMethodsQty": "1",
+        "defaultMethodsQty": "1",
+        "visibleMethodsQty": "1",
+        "loc": "3",
+        "uniqueWordsQty": "10",
+        "modifiers": "1"
+      },
+      "methods": {
+        "findByIndex/1[int]": {
+          "metrics": {
+            "cbo": "1",
+            "cboModified": "11",
+            "fanin": "11",
+            "wmc": "1",
+            "loc": "1",
+            "parametersQty": "1",
+            "uniqueWordsQty": "7",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "index": "0"
+          }
+        }
+      }
+    },
+    "consignprice.ConsignPriceApplication": {
+      "metrics": {
+        "cbo": "13",
+        "cboModified": "14",
+        "fanin": "1",
+        "fanout": "13",
+        "wmc": "2",
+        "dit": "1",
+        "rfc": "4",
+        "lcom": "1",
+        "lcom*": "0.5",
+        "totalMethodsQty": "2",
+        "staticMethodsQty": "1",
+        "publicMethodsQty": "2",
+        "visibleMethodsQty": "2",
+        "totalFieldsQty": "1",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "1",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "10",
+        "returnQty": "1",
+        "stringLiteralsQty": "1",
+        "assignmentsQty": "1",
+        "variablesQty": "1",
+        "uniqueWordsQty": "22",
+        "modifiers": "1",
+        "logStatementsQty": "1"
+      },
+      "methods": {
+        "main/1[java.lang.String[]]": {
+          "metrics": {
+            "cbo": "2",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "2",
+            "loc": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "2",
+            "stringLiteralsQty": "1",
+            "uniqueWordsQty": "3",
+            "modifiers": "9",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "args": "1"
+          }
+        },
+        "restTemplate/1[consignprice.RestTemplateBuilder]": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "uniqueWordsQty": "5",
+            "modifiers": "1"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "builder": "1"
+          }
+        }
+      }
+    },
+    "consignprice.service.ConsignPriceServiceImpl": {
+      "metrics": {
+        "cbo": "10",
+        "cboModified": "12",
+        "fanin": "2",
+        "fanout": "10",
+        "wmc": "7",
+        "dit": "1",
+        "rfc": "17",
+        "lcom*": "0.25",
+        "tcc": "1.0",
+        "lcc": "1.0",
+        "totalMethodsQty": "4",
+        "publicMethodsQty": "4",
+        "visibleMethodsQty": "4",
+        "totalFieldsQty": "3",
+        "staticFieldsQty": "1",
+        "privateFieldsQty": "2",
+        "defaultFieldsQty": "1",
+        "finalFieldsQty": "1",
+        "nosi": "1",
+        "loc": "58",
+        "returnQty": "4",
+        "comparisonsQty": "1",
+        "stringLiteralsQty": "7",
+        "numbersQty": "8",
+        "assignmentsQty": "14",
+        "mathOperationsQty": "5",
+        "variablesQty": "11",
+        "maxNestedBlocksQty": "2",
+        "uniqueWordsQty": "48",
+        "modifiers": "1",
+        "logStatementsQty": "1"
+      },
+      "methods": {
+        "queryPriceInformation/1[consignprice.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "4",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "8",
+            "loc": "14",
+            "returnsQty": "1",
+            "variablesQty": "2",
+            "parametersQty": "1",
+            "methodsInvokedQty": "8",
+            "stringLiteralsQty": "5",
+            "numbersQty": "2",
+            "assignmentsQty": "2",
+            "uniqueWordsQty": "22",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "success": "1",
+            "repository": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "price": "4",
+            "sb": "10"
+          }
+        },
+        "getPriceByWeightAndRegion/3[double,boolean,consignprice.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "4",
+            "cboModified": "4",
+            "fanin": "3",
+            "fanout": "1",
+            "wmc": "3",
+            "rfc": "5",
+            "loc": "18",
+            "returnsQty": "1",
+            "variablesQty": "4",
+            "parametersQty": "3",
+            "methodsInvokedQty": "5",
+            "numbersQty": "3",
+            "assignmentsQty": "7",
+            "mathOperationsQty": "5",
+            "maxNestedBlocksQty": "2",
+            "uniqueWordsQty": "16",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "success": "1",
+            "repository": "1"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "isWithinRegion": "1",
+            "price": "4",
+            "initialPrice": "3",
+            "weight": "2",
+            "priceConfig": "5",
+            "extraWeight": "2"
+          }
+        },
+        "getPriceConfig/1[consignprice.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "2",
+            "fanin": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "parametersQty": "1",
+            "methodsInvokedQty": "1",
+            "numbersQty": "2",
+            "uniqueWordsQty": "7",
+            "modifiers": "1"
+          },
+          "field_usages": {
+            "success": "1",
+            "repository": "1"
+          },
+          "variable_usages": {
+            "headers": "0"
+          }
+        },
+        "createAndModifyPrice/2[consignprice.entity.ConsignPrice,consignprice.service.HttpHeaders]": {
+          "metrics": {
+            "cbo": "5",
+            "cboModified": "5",
+            "fanin": "2",
+            "fanout": "3",
+            "wmc": "2",
+            "rfc": "13",
+            "loc": "18",
+            "returnsQty": "1",
+            "variablesQty": "2",
+            "parametersQty": "2",
+            "methodsInvokedQty": "13",
+            "comparisonsQty": "1",
+            "stringLiteralsQty": "1",
+            "numbersQty": "1",
+            "assignmentsQty": "3",
+            "maxNestedBlocksQty": "1",
+            "uniqueWordsQty": "12",
+            "modifiers": "1",
+            "logStatementsQty": "1"
+          },
+          "field_usages": {
+            "success": "1",
+            "repository": "3"
+          },
+          "variable_usages": {
+            "headers": "0",
+            "originalConfig": "9",
+            "index": "3",
+            "config": "5"
+          }
+        }
+      }
+    },
+    "consignprice.config.SecurityConfig": {
+      "metrics": {
+        "cbo": "13",
+        "cboModified": "13",
+        "fanout": "13",
+        "wmc": "3",
+        "dit": "2",
+        "rfc": "15",
+        "lcom": "3",
+        "totalMethodsQty": "3",
+        "publicMethodsQty": "2",
+        "protectedMethodsQty": "1",
+        "visibleMethodsQty": "3",
+        "loc": "17",
+        "returnQty": "2",
+        "stringLiteralsQty": "9",
+        "anonymousClassesQty": "1",
+        "uniqueWordsQty": "65",
+        "modifiers": "1"
+      },
+      "methods": {
+        "passwordEncoder/0": {
+          "metrics": {
+            "cbo": "3",
+            "wmc": "1",
+            "loc": "3",
+            "returnsQty": "1",
+            "uniqueWordsQty": "7",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        },
+        "configure/1[consignprice.config.HttpSecurity]": {
+          "metrics": {
+            "cbo": "3",
+            "cboModified": "1",
+            "fanout": "1",
+            "wmc": "1",
+            "rfc": "15",
+            "loc": "4",
+            "parametersQty": "1",
+            "methodsInvokedQty": "15",
+            "stringLiteralsQty": "9",
+            "uniqueWordsQty": "18",
+            "modifiers": "4"
+          },
+          "field_usages": {},
+          "variable_usages": {
+            "httpSecurity": "2"
+          }
+        },
+        "corsConfigurer/0": {
+          "metrics": {
+            "cbo": "4",
+            "wmc": "1",
+            "loc": "8",
+            "returnsQty": "1",
+            "anonymousClassesQty": "1",
+            "uniqueWordsQty": "43",
+            "modifiers": "1",
+            "hasJavaDoc": "true"
+          },
+          "field_usages": {},
+          "variable_usages": {}
+        }
+      }
+    }
+  },
+  "microservice_name": "ts-consign-price-service",
+  "external_microservice_call": 2
+}

@@ -1,0 +1,3073 @@
+[
+  {
+    "service": "ts-admin-basic-info-service",
+    "method": "getAllContacts",
+    "calls": [
+      {
+        "service": "ts-contacts-service",
+        "method": "getAllContacts",
+        "calls": [],
+        "endpoint": "/api/v1/contactservice/contacts",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-admin-basic-info-service",
+    "method": "deleteContact",
+    "calls": [
+      {
+        "service": "ts-contacts-service",
+        "method": "deleteContacts",
+        "calls": [],
+        "endpoint": "/api/v1/contactservice/contacts/",
+        "http_method": "DELETE",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-admin-basic-info-service",
+    "method": "modifyContact",
+    "calls": [
+      {
+        "service": "ts-contacts-service",
+        "method": "modifyContacts",
+        "calls": [],
+        "endpoint": "/api/v1/contactservice/contacts",
+        "http_method": "PUT",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-admin-basic-info-service",
+    "method": "addContact",
+    "calls": [
+      {
+        "service": "ts-contacts-service",
+        "method": "deleteContacts",
+        "calls": [],
+        "endpoint": "/api/v1/contactservice/contacts/admin",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-admin-basic-info-service",
+    "method": "deleteTrain",
+    "calls": [
+      {
+        "service": "ts-train-service",
+        "method": "delete",
+        "calls": [],
+        "endpoint": "/api/v1/trainservice/trains/",
+        "http_method": "DELETE",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-admin-basic-info-service",
+    "method": "deleteConfig",
+    "calls": [
+      {
+        "service": "ts-config-service",
+        "method": "deleteConfig",
+        "calls": [],
+        "endpoint": "/api/v1/configservice/configs/",
+        "http_method": "DELETE",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-admin-order-service",
+    "method": "getAllOrders",
+    "calls": [
+      {
+        "service": "ts-order-service",
+        "method": "findAllOrder",
+        "calls": [],
+        "endpoint": "/api/v1/orderservice/order",
+        "http_method": "GET",
+        "count": 1
+      },
+      {
+        "service": "ts-order-other-service",
+        "method": "findAllOrder",
+        "calls": [],
+        "endpoint": "/api/v1/orderOtherService/orderOther",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-admin-order-service",
+    "method": "deleteOrder",
+    "calls": [
+      {
+        "service": "ts-order-service",
+        "method": "deleteOrder",
+        "calls": [],
+        "endpoint": "/api/v1/orderservice/order/",
+        "http_method": "DELETE",
+        "count": 1
+      },
+      {
+        "service": "ts-order-other-service",
+        "method": "deleteOrder",
+        "calls": [],
+        "endpoint": "/api/v1/orderOtherService/orderOther/",
+        "http_method": "DELETE",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-admin-order-service",
+    "method": "updateOrder",
+    "calls": [
+      {
+        "service": "ts-order-service",
+        "method": "updateOrder",
+        "calls": [],
+        "endpoint": "/api/v1/orderservice/order/admin",
+        "http_method": "PUT",
+        "count": 1
+      },
+      {
+        "service": "ts-order-other-service",
+        "method": "updateOrder",
+        "calls": [],
+        "endpoint": "/api/v1/orderOtherService/orderOther/admin",
+        "http_method": "PUT",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-admin-order-service",
+    "method": "addOrder",
+    "calls": [
+      {
+        "service": "ts-order-service",
+        "method": "addcreateNewOrder",
+        "calls": [],
+        "endpoint": "/api/v1/orderservice/order/admin",
+        "http_method": "POST",
+        "count": 1
+      },
+      {
+        "service": "ts-order-other-service",
+        "method": "addcreateNewOrder",
+        "calls": [],
+        "endpoint": "/api/v1/orderOtherService/orderOther/admin",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-admin-route-service",
+    "method": "getAllRoutes",
+    "calls": [
+      {
+        "service": "ts-route-service",
+        "method": "queryAll",
+        "calls": [],
+        "endpoint": "/api/v1/routeservice/routes",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-admin-route-service",
+    "method": "createAndModifyRoute",
+    "calls": [
+      {
+        "service": "ts-station-service",
+        "method": "queryForIdBatch",
+        "calls": [],
+        "endpoint": "/api/v1/stationservice/stations/idlist",
+        "http_method": "POST",
+        "count": 1
+      },
+      {
+        "service": "ts-route-service",
+        "method": "createAndModifyRoute",
+        "calls": [],
+        "endpoint": "/api/v1/routeservice/routes",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-admin-route-service",
+    "method": "deleteRoute",
+    "calls": [
+      {
+        "service": "ts-route-service",
+        "method": "deleteRoute",
+        "calls": [],
+        "endpoint": "/api/v1/routeservice/routes/",
+        "http_method": "DELETE",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-admin-route-service",
+    "method": "checkStationsExists",
+    "calls": [
+      {
+        "service": "ts-station-service",
+        "method": "queryForIdBatch",
+        "calls": [],
+        "endpoint": "/api/v1/stationservice/stations/idlist",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-admin-travel-service",
+    "method": "getAllTravels",
+    "calls": [
+      {
+        "service": "ts-travel-service",
+        "method": "adminQueryAll",
+        "calls": [
+          {
+            "service": "ts-train-service",
+            "method": "retrieve",
+            "calls": [],
+            "endpoint": "/api/v1/trainservice/trains/byName/",
+            "http_method": "GET",
+            "count": 1
+          },
+          {
+            "service": "ts-route-service",
+            "method": "queryById",
+            "calls": [],
+            "endpoint": "/api/v1/routeservice/routes/",
+            "http_method": "GET",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/travelservice/admin_trip",
+        "http_method": "GET",
+        "count": 1
+      },
+      {
+        "service": "ts-travel2-service",
+        "method": "adminQueryAll",
+        "calls": [
+          {
+            "service": "ts-train-service",
+            "method": "retrieve",
+            "calls": [],
+            "endpoint": "/api/v1/trainservice/trains/byName/",
+            "http_method": "GET",
+            "count": 1
+          },
+          {
+            "service": "ts-route-service",
+            "method": "queryById",
+            "calls": [],
+            "endpoint": "/api/v1/routeservice/routes/",
+            "http_method": "GET",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/travel2service/admin_trip",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-admin-travel-service",
+    "method": "checkStationsExists",
+    "calls": [
+      {
+        "service": "ts-station-service",
+        "method": "queryForIdBatch",
+        "calls": [],
+        "endpoint": "/api/v1/stationservice/stations/idlist",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-admin-travel-service",
+    "method": "queryTrainTypeByName",
+    "calls": [
+      {
+        "service": "ts-train-service",
+        "method": "retrieve",
+        "calls": [],
+        "endpoint": "/api/v1/trainservice/trains/byName/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-admin-travel-service",
+    "method": "getRouteByRouteId",
+    "calls": [
+      {
+        "service": "ts-route-service",
+        "method": "queryById",
+        "calls": [],
+        "endpoint": "/api/v1/routeservice/routes/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-auth-service",
+    "method": "getToken",
+    "calls": [
+      {
+        "service": "ts-verification-code-service",
+        "method": "verifyCode",
+        "calls": [],
+        "endpoint": "/api/v1/verifycode/verify/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-basic-service",
+    "method": "queryForStationId",
+    "calls": [
+      {
+        "service": "ts-station-service",
+        "method": "queryForIdBatch",
+        "calls": [],
+        "endpoint": "/api/v1/stationservice/stations/id/",
+        "http_method": "GET",
+        "count": 1
+      },
+      {
+        "service": "ts-station-service",
+        "method": "queryForIdBatch",
+        "calls": [],
+        "endpoint": "/api/v1/stationservice/stations/idlist",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-basic-service",
+    "method": "checkStationExists",
+    "calls": [
+      {
+        "service": "ts-station-service",
+        "method": "queryForIdBatch",
+        "calls": [],
+        "endpoint": "/api/v1/stationservice/stations/id/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-basic-service",
+    "method": "queryTrainTypeByNames",
+    "calls": [
+      {
+        "service": "ts-train-service",
+        "method": "retrieveByName",
+        "calls": [],
+        "endpoint": "/api/v1/trainservice/trains/byNames",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-basic-service",
+    "method": "queryTrainTypeByName",
+    "calls": [
+      {
+        "service": "ts-train-service",
+        "method": "retrieve",
+        "calls": [],
+        "endpoint": "/api/v1/trainservice/trains/byName/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-basic-service",
+    "method": "getRoutesByRouteIds",
+    "calls": [
+      {
+        "service": "ts-route-service",
+        "method": "queryByIds",
+        "calls": [],
+        "endpoint": "/api/v1/routeservice/routes/byIds/",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-basic-service",
+    "method": "getRouteByRouteId",
+    "calls": [
+      {
+        "service": "ts-route-service",
+        "method": "queryById",
+        "calls": [],
+        "endpoint": "/api/v1/routeservice/routes/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-basic-service",
+    "method": "queryPriceConfigByRouteIdAndTrainType",
+    "calls": [
+      {
+        "service": "ts-price-service",
+        "method": "query",
+        "calls": [],
+        "endpoint": "/api/v1/priceservice/prices/",
+        "http_method": "GET",
+        "count": 1
+      },
+      {
+        "service": "ts-price-service",
+        "method": "query",
+        "calls": [],
+        "endpoint": "/api/v1/priceservice/prices/byRouteIdsAndTrainTypes",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-cancel-service",
+    "method": "sendEmail",
+    "calls": [
+      {
+        "service": "ts-notification-service",
+        "method": "order_cancel_success",
+        "calls": [],
+        "endpoint": "/api/v1/notifyservice/notification/order_cancel_success",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-cancel-service",
+    "method": "cancelFromOrder",
+    "calls": [
+      {
+        "service": "ts-order-service",
+        "method": "saveOrderInfo",
+        "calls": [],
+        "endpoint": "/api/v1/orderservice/order",
+        "http_method": "PUT",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-cancel-service",
+    "method": "cancelFromOtherOrder",
+    "calls": [
+      {
+        "service": "ts-order-other-service",
+        "method": "saveOrderInfo",
+        "calls": [],
+        "endpoint": "/api/v1/orderOtherService/orderOther",
+        "http_method": "PUT",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-cancel-service",
+    "method": "drawbackMoney",
+    "calls": [
+      {
+        "service": "ts-inside-payment-service",
+        "method": "drawBack",
+        "calls": [],
+        "endpoint": "/api/v1/inside_pay_service/inside_payment/drawback/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-cancel-service",
+    "method": "getAccount",
+    "calls": [
+      {
+        "service": "ts-user-service",
+        "method": "getUserByUserName",
+        "calls": [],
+        "endpoint": "/api/v1/userservice/users/id/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-cancel-service",
+    "method": "getOrderByIdFromOrder",
+    "calls": [
+      {
+        "service": "ts-order-service",
+        "method": "calculateSoldTicket",
+        "calls": [],
+        "endpoint": "/api/v1/orderservice/order/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-cancel-service",
+    "method": "getOrderByIdFromOrderOther",
+    "calls": [
+      {
+        "service": "ts-order-other-service",
+        "method": "calculateSoldTicket",
+        "calls": [],
+        "endpoint": "/api/v1/orderOtherService/orderOther/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-consign-service",
+    "method": "insertConsignRecord",
+    "calls": [
+      {
+        "service": "ts-consign-price-service",
+        "method": "getPriceByWeightAndRegion",
+        "calls": [],
+        "endpoint": "/api/v1/consignpriceservice/consignprice/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-consign-service",
+    "method": "updateConsignRecord",
+    "calls": [
+      {
+        "service": "ts-consign-price-service",
+        "method": "getPriceByWeightAndRegion",
+        "calls": [],
+        "endpoint": "/api/v1/consignpriceservice/consignprice/",
+        "http_method": "GET",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "service": "ts-execute-service",
+    "method": "executeOrder",
+    "calls": [
+      {
+        "service": "ts-order-service",
+        "method": "getOrderById",
+        "calls": [],
+        "endpoint": "/api/v1/orderservice/order/status/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-execute-service",
+    "method": "executeOrderOther",
+    "calls": [
+      {
+        "service": "ts-order-other-service",
+        "method": "getOrderById",
+        "calls": [],
+        "endpoint": "/api/v1/orderOtherService/orderOther/status/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-execute-service",
+    "method": "getOrderByIdFromOrder",
+    "calls": [
+      {
+        "service": "ts-order-service",
+        "method": "calculateSoldTicket",
+        "calls": [],
+        "endpoint": "/api/v1/orderservice/order/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-execute-service",
+    "method": "getOrderByIdFromOrderOther",
+    "calls": [
+      {
+        "service": "ts-order-other-service",
+        "method": "calculateSoldTicket",
+        "calls": [],
+        "endpoint": "/api/v1/orderOtherService/orderOther/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-food-delivery-service",
+    "method": "createFoodDeliveryOrder",
+    "calls": [
+      {
+        "service": "ts-station-food-service",
+        "method": "getFoodStoresOfStation",
+        "calls": [],
+        "endpoint": "/api/v1/stationfoodservice/stationfoodstores/bystoreid/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-food-service",
+    "method": "getAllFood",
+    "calls": [
+      {
+        "service": "ts-train-food-service",
+        "method": "getAllTrainFood",
+        "calls": [],
+        "endpoint": "/api/v1/trainfoodservice/trainfoods/",
+        "http_method": "GET",
+        "count": 1
+      },
+      {
+        "service": "ts-travel-service",
+        "method": "getRouteByTripId",
+        "calls": [
+          {
+            "service": "ts-route-service",
+            "method": "queryById",
+            "calls": [],
+            "endpoint": "/api/v1/routeservice/routes/",
+            "http_method": "GET",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/travelservice/routes/",
+        "http_method": "GET",
+        "count": 1
+      },
+      {
+        "service": "ts-station-food-service",
+        "method": "getFoodStoresByStationNames",
+        "calls": [],
+        "endpoint": "/api/v1/stationfoodservice/stationfoodstores",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-inside-payment-service",
+    "method": "pay",
+    "calls": [
+      {
+        "service": "ts-payment-service",
+        "method": "pay",
+        "calls": [],
+        "endpoint": "/api/v1/paymentservice/payment",
+        "http_method": "POST",
+        "count": 1
+      },
+      {
+        "service": "ts-order-service",
+        "method": "getOrderById",
+        "calls": [],
+        "endpoint": "/api/v1/orderservice/order/status/",
+        "http_method": "GET",
+        "count": 1
+      },
+      {
+        "service": "ts-order-other-service",
+        "method": "getOrderById",
+        "calls": [],
+        "endpoint": "/api/v1/orderOtherService/orderOther/status/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-inside-payment-service",
+    "method": "setOrderStatus",
+    "calls": [
+      {
+        "service": "ts-order-service",
+        "method": "getOrderById",
+        "calls": [],
+        "endpoint": "/api/v1/orderservice/order/status/",
+        "http_method": "GET",
+        "count": 1
+      },
+      {
+        "service": "ts-order-other-service",
+        "method": "getOrderById",
+        "calls": [],
+        "endpoint": "/api/v1/orderOtherService/orderOther/status/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-order-other-service",
+    "method": "queryForStationId",
+    "calls": [
+      {
+        "service": "ts-station-service",
+        "method": "queryForNameBatch",
+        "calls": [],
+        "endpoint": "/api/v1/stationservice/stations/namelist",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-order-service",
+    "method": "queryForStationId",
+    "calls": [
+      {
+        "service": "ts-station-service",
+        "method": "queryForNameBatch",
+        "calls": [],
+        "endpoint": "/api/v1/stationservice/stations/namelist",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-preserve-other-service",
+    "method": "preserve",
+    "calls": [
+      {
+        "service": "ts-contacts-service",
+        "method": "getAllContacts",
+        "calls": [],
+        "endpoint": "/api/v1/contactservice/contacts/",
+        "http_method": "GET",
+        "count": 1
+      },
+      {
+        "service": "ts-security-service",
+        "method": "findAllSecurityConfig",
+        "calls": [],
+        "endpoint": "/api/v1/securityservice/securityConfigs/",
+        "http_method": "GET",
+        "count": 1
+      },
+      {
+        "service": "ts-travel2-service",
+        "method": "getTripAllDetailInfo",
+        "calls": [
+          {
+            "service": "ts-seat-service",
+            "method": "getLeftTicketOfInterval",
+            "calls": [
+              {
+                "service": "ts-config-service",
+                "method": "queryAll",
+                "calls": [],
+                "endpoint": "/api/v1/configservice/configs/",
+                "http_method": "GET",
+                "count": 1
+              },
+              {
+                "service": "ts-order-service",
+                "method": "getTicketListByDateAndTripId",
+                "calls": [],
+                "endpoint": "/api/v1/orderservice/order/tickets",
+                "http_method": "POST",
+                "count": 1
+              },
+              {
+                "service": "ts-order-other-service",
+                "method": "getTicketListByDateAndTripId",
+                "calls": [],
+                "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+                "http_method": "POST",
+                "count": 1
+              }
+            ],
+            "endpoint": "/api/v1/seatservice/seats/left_tickets",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-basic-service",
+            "method": "queryForTravel",
+            "calls": [
+              {
+                "service": "ts-route-service",
+                "method": "queryById",
+                "calls": [],
+                "endpoint": "/api/v1/routeservice/routes/",
+                "http_method": "GET",
+                "count": 1
+              },
+              {
+                "service": "ts-price-service",
+                "method": "query",
+                "calls": [],
+                "endpoint": "/api/v1/priceservice/prices/",
+                "http_method": "GET",
+                "count": 1
+              },
+              {
+                "service": "ts-price-service",
+                "method": "query",
+                "calls": [],
+                "endpoint": "/api/v1/priceservice/prices/byRouteIdsAndTrainTypes",
+                "http_method": "POST",
+                "count": 1
+              },
+              {
+                "service": "ts-train-service",
+                "method": "retrieve",
+                "calls": [],
+                "endpoint": "/api/v1/trainservice/trains/byName/",
+                "http_method": "GET",
+                "count": 1
+              },
+              {
+                "service": "ts-station-service",
+                "method": "queryForIdBatch",
+                "calls": [],
+                "endpoint": "/api/v1/stationservice/stations/id/",
+                "http_method": "GET",
+                "count": 1
+              }
+            ],
+            "endpoint": "/api/v1/basicservice/basic/travel",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/travel2service/trip_detail",
+        "http_method": "POST",
+        "count": 1
+      },
+      {
+        "service": "ts-basic-service",
+        "method": "queryForTravel",
+        "calls": [
+          {
+            "service": "ts-route-service",
+            "method": "queryById",
+            "calls": [],
+            "endpoint": "/api/v1/routeservice/routes/",
+            "http_method": "GET",
+            "count": 1
+          },
+          {
+            "service": "ts-price-service",
+            "method": "query",
+            "calls": [],
+            "endpoint": "/api/v1/priceservice/prices/",
+            "http_method": "GET",
+            "count": 1
+          },
+          {
+            "service": "ts-price-service",
+            "method": "query",
+            "calls": [],
+            "endpoint": "/api/v1/priceservice/prices/byRouteIdsAndTrainTypes",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-train-service",
+            "method": "retrieve",
+            "calls": [],
+            "endpoint": "/api/v1/trainservice/trains/byName/",
+            "http_method": "GET",
+            "count": 1
+          },
+          {
+            "service": "ts-station-service",
+            "method": "queryForIdBatch",
+            "calls": [],
+            "endpoint": "/api/v1/stationservice/stations/id/",
+            "http_method": "GET",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/basicservice/basic/travel",
+        "http_method": "POST",
+        "count": 1
+      },
+      {
+        "service": "ts-assurance-service",
+        "method": "getAllAssurances",
+        "calls": [],
+        "endpoint": "/api/v1/assuranceservice/assurances/",
+        "http_method": "GET",
+        "count": 1
+      },
+      {
+        "service": "ts-order-other-service",
+        "method": "createNewOrder",
+        "calls": [],
+        "endpoint": "/api/v1/orderOtherService/orderOther",
+        "http_method": "POST",
+        "count": 1
+      },
+      {
+        "service": "ts-seat-service",
+        "method": "create",
+        "calls": [
+          {
+            "service": "ts-order-service",
+            "method": "getTicketListByDateAndTripId",
+            "calls": [],
+            "endpoint": "/api/v1/orderservice/order/tickets",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-order-other-service",
+            "method": "getTicketListByDateAndTripId",
+            "calls": [],
+            "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/seatservice/seats",
+        "http_method": "POST",
+        "count": 1
+      },
+      {
+        "service": "ts-food-service",
+        "method": "createFoodOrder",
+        "calls": [],
+        "endpoint": "/api/v1/foodservice/orders",
+        "http_method": "POST",
+        "count": 1
+      },
+      {
+        "service": "ts-consign-service",
+        "method": "insertConsign",
+        "calls": [
+          {
+            "service": "ts-consign-price-service",
+            "method": "getPriceByWeightAndRegion",
+            "calls": [],
+            "endpoint": "/api/v1/consignpriceservice/consignprice/",
+            "http_method": "GET",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/consignservice/consigns",
+        "http_method": "POST",
+        "count": 1
+      },
+      {
+        "service": "ts-user-service",
+        "method": "getUserByUserName",
+        "calls": [],
+        "endpoint": "/api/v1/userservice/users/id/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-preserve-other-service",
+    "method": "dipatchSeat",
+    "calls": [
+      {
+        "service": "ts-seat-service",
+        "method": "create",
+        "calls": [
+          {
+            "service": "ts-order-service",
+            "method": "getTicketListByDateAndTripId",
+            "calls": [],
+            "endpoint": "/api/v1/orderservice/order/tickets",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-order-other-service",
+            "method": "getTicketListByDateAndTripId",
+            "calls": [],
+            "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/seatservice/seats",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-preserve-other-service",
+    "method": "getAccount",
+    "calls": [
+      {
+        "service": "ts-user-service",
+        "method": "getUserByUserName",
+        "calls": [],
+        "endpoint": "/api/v1/userservice/users/id/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-preserve-other-service",
+    "method": "addAssuranceForOrder",
+    "calls": [
+      {
+        "service": "ts-assurance-service",
+        "method": "getAllAssurances",
+        "calls": [],
+        "endpoint": "/api/v1/assuranceservice/assurances/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-preserve-other-service",
+    "method": "queryForStationId",
+    "calls": [
+      {
+        "service": "ts-station-service",
+        "method": "queryForIdBatch",
+        "calls": [],
+        "endpoint": "/api/v1/stationservice/stations/id/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-preserve-other-service",
+    "method": "checkSecurity",
+    "calls": [
+      {
+        "service": "ts-security-service",
+        "method": "findAllSecurityConfig",
+        "calls": [],
+        "endpoint": "/api/v1/securityservice/securityConfigs/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-preserve-other-service",
+    "method": "getTripAllDetailInformation",
+    "calls": [
+      {
+        "service": "ts-travel2-service",
+        "method": "getTripAllDetailInfo",
+        "calls": [
+          {
+            "service": "ts-seat-service",
+            "method": "getLeftTicketOfInterval",
+            "calls": [
+              {
+                "service": "ts-config-service",
+                "method": "queryAll",
+                "calls": [],
+                "endpoint": "/api/v1/configservice/configs/",
+                "http_method": "GET",
+                "count": 1
+              },
+              {
+                "service": "ts-order-service",
+                "method": "getTicketListByDateAndTripId",
+                "calls": [],
+                "endpoint": "/api/v1/orderservice/order/tickets",
+                "http_method": "POST",
+                "count": 1
+              },
+              {
+                "service": "ts-order-other-service",
+                "method": "getTicketListByDateAndTripId",
+                "calls": [],
+                "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+                "http_method": "POST",
+                "count": 1
+              }
+            ],
+            "endpoint": "/api/v1/seatservice/seats/left_tickets",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-basic-service",
+            "method": "queryForTravel",
+            "calls": [
+              {
+                "service": "ts-route-service",
+                "method": "queryById",
+                "calls": [],
+                "endpoint": "/api/v1/routeservice/routes/",
+                "http_method": "GET",
+                "count": 1
+              },
+              {
+                "service": "ts-price-service",
+                "method": "query",
+                "calls": [],
+                "endpoint": "/api/v1/priceservice/prices/",
+                "http_method": "GET",
+                "count": 1
+              },
+              {
+                "service": "ts-price-service",
+                "method": "query",
+                "calls": [],
+                "endpoint": "/api/v1/priceservice/prices/byRouteIdsAndTrainTypes",
+                "http_method": "POST",
+                "count": 1
+              },
+              {
+                "service": "ts-train-service",
+                "method": "retrieve",
+                "calls": [],
+                "endpoint": "/api/v1/trainservice/trains/byName/",
+                "http_method": "GET",
+                "count": 1
+              },
+              {
+                "service": "ts-station-service",
+                "method": "queryForIdBatch",
+                "calls": [],
+                "endpoint": "/api/v1/stationservice/stations/id/",
+                "http_method": "GET",
+                "count": 1
+              }
+            ],
+            "endpoint": "/api/v1/basicservice/basic/travel",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/travel2service/trip_detail",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-preserve-other-service",
+    "method": "getContactsById",
+    "calls": [
+      {
+        "service": "ts-contacts-service",
+        "method": "getAllContacts",
+        "calls": [],
+        "endpoint": "/api/v1/contactservice/contacts/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-preserve-other-service",
+    "method": "createOrder",
+    "calls": [
+      {
+        "service": "ts-order-other-service",
+        "method": "createNewOrder",
+        "calls": [],
+        "endpoint": "/api/v1/orderOtherService/orderOther",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-preserve-other-service",
+    "method": "createFoodOrder",
+    "calls": [
+      {
+        "service": "ts-food-service",
+        "method": "createFoodOrder",
+        "calls": [],
+        "endpoint": "/api/v1/foodservice/orders",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-preserve-other-service",
+    "method": "createConsign",
+    "calls": [
+      {
+        "service": "ts-consign-service",
+        "method": "insertConsign",
+        "calls": [
+          {
+            "service": "ts-consign-price-service",
+            "method": "getPriceByWeightAndRegion",
+            "calls": [],
+            "endpoint": "/api/v1/consignpriceservice/consignprice/",
+            "http_method": "GET",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/consignservice/consigns",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-preserve-service",
+    "method": "preserve",
+    "calls": [
+      {
+        "service": "ts-contacts-service",
+        "method": "getAllContacts",
+        "calls": [],
+        "endpoint": "/api/v1/contactservice/contacts/",
+        "http_method": "GET",
+        "count": 1
+      },
+      {
+        "service": "ts-security-service",
+        "method": "findAllSecurityConfig",
+        "calls": [],
+        "endpoint": "/api/v1/securityservice/securityConfigs/",
+        "http_method": "GET",
+        "count": 1
+      },
+      {
+        "service": "ts-travel-service",
+        "method": "getTripAllDetailInfo",
+        "calls": [
+          {
+            "service": "ts-seat-service",
+            "method": "getLeftTicketOfInterval",
+            "calls": [
+              {
+                "service": "ts-config-service",
+                "method": "queryAll",
+                "calls": [],
+                "endpoint": "/api/v1/configservice/configs/",
+                "http_method": "GET",
+                "count": 1
+              },
+              {
+                "service": "ts-order-service",
+                "method": "getTicketListByDateAndTripId",
+                "calls": [],
+                "endpoint": "/api/v1/orderservice/order/tickets",
+                "http_method": "POST",
+                "count": 1
+              },
+              {
+                "service": "ts-order-other-service",
+                "method": "getTicketListByDateAndTripId",
+                "calls": [],
+                "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+                "http_method": "POST",
+                "count": 1
+              }
+            ],
+            "endpoint": "/api/v1/seatservice/seats/left_tickets",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-basic-service",
+            "method": "queryForTravel",
+            "calls": [
+              {
+                "service": "ts-route-service",
+                "method": "queryById",
+                "calls": [],
+                "endpoint": "/api/v1/routeservice/routes/",
+                "http_method": "GET",
+                "count": 1
+              },
+              {
+                "service": "ts-price-service",
+                "method": "query",
+                "calls": [],
+                "endpoint": "/api/v1/priceservice/prices/",
+                "http_method": "GET",
+                "count": 1
+              },
+              {
+                "service": "ts-price-service",
+                "method": "query",
+                "calls": [],
+                "endpoint": "/api/v1/priceservice/prices/byRouteIdsAndTrainTypes",
+                "http_method": "POST",
+                "count": 1
+              },
+              {
+                "service": "ts-train-service",
+                "method": "retrieve",
+                "calls": [],
+                "endpoint": "/api/v1/trainservice/trains/byName/",
+                "http_method": "GET",
+                "count": 1
+              },
+              {
+                "service": "ts-station-service",
+                "method": "queryForIdBatch",
+                "calls": [],
+                "endpoint": "/api/v1/stationservice/stations/id/",
+                "http_method": "GET",
+                "count": 1
+              }
+            ],
+            "endpoint": "/api/v1/basicservice/basic/travel",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/travelservice/trip_detail",
+        "http_method": "POST",
+        "count": 1
+      },
+      {
+        "service": "ts-basic-service",
+        "method": "queryForTravel",
+        "calls": [
+          {
+            "service": "ts-route-service",
+            "method": "queryById",
+            "calls": [],
+            "endpoint": "/api/v1/routeservice/routes/",
+            "http_method": "GET",
+            "count": 1
+          },
+          {
+            "service": "ts-price-service",
+            "method": "query",
+            "calls": [],
+            "endpoint": "/api/v1/priceservice/prices/",
+            "http_method": "GET",
+            "count": 1
+          },
+          {
+            "service": "ts-price-service",
+            "method": "query",
+            "calls": [],
+            "endpoint": "/api/v1/priceservice/prices/byRouteIdsAndTrainTypes",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-train-service",
+            "method": "retrieve",
+            "calls": [],
+            "endpoint": "/api/v1/trainservice/trains/byName/",
+            "http_method": "GET",
+            "count": 1
+          },
+          {
+            "service": "ts-station-service",
+            "method": "queryForIdBatch",
+            "calls": [],
+            "endpoint": "/api/v1/stationservice/stations/id/",
+            "http_method": "GET",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/basicservice/basic/travel",
+        "http_method": "POST",
+        "count": 1
+      },
+      {
+        "service": "ts-assurance-service",
+        "method": "getAllAssurances",
+        "calls": [],
+        "endpoint": "/api/v1/assuranceservice/assurances/",
+        "http_method": "GET",
+        "count": 1
+      },
+      {
+        "service": "ts-order-service",
+        "method": "createNewOrder",
+        "calls": [],
+        "endpoint": "/api/v1/orderservice/order",
+        "http_method": "POST",
+        "count": 1
+      },
+      {
+        "service": "ts-seat-service",
+        "method": "create",
+        "calls": [
+          {
+            "service": "ts-order-service",
+            "method": "getTicketListByDateAndTripId",
+            "calls": [],
+            "endpoint": "/api/v1/orderservice/order/tickets",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-order-other-service",
+            "method": "getTicketListByDateAndTripId",
+            "calls": [],
+            "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/seatservice/seats",
+        "http_method": "POST",
+        "count": 1
+      },
+      {
+        "service": "ts-food-service",
+        "method": "createFoodOrder",
+        "calls": [],
+        "endpoint": "/api/v1/foodservice/orders",
+        "http_method": "POST",
+        "count": 1
+      },
+      {
+        "service": "ts-consign-service",
+        "method": "insertConsign",
+        "calls": [
+          {
+            "service": "ts-consign-price-service",
+            "method": "getPriceByWeightAndRegion",
+            "calls": [],
+            "endpoint": "/api/v1/consignpriceservice/consignprice/",
+            "http_method": "GET",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/consignservice/consigns",
+        "http_method": "POST",
+        "count": 1
+      },
+      {
+        "service": "ts-user-service",
+        "method": "getUserByUserName",
+        "calls": [],
+        "endpoint": "/api/v1/userservice/users/id/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-preserve-service",
+    "method": "dipatchSeat",
+    "calls": [
+      {
+        "service": "ts-seat-service",
+        "method": "create",
+        "calls": [
+          {
+            "service": "ts-order-service",
+            "method": "getTicketListByDateAndTripId",
+            "calls": [],
+            "endpoint": "/api/v1/orderservice/order/tickets",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-order-other-service",
+            "method": "getTicketListByDateAndTripId",
+            "calls": [],
+            "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/seatservice/seats",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-preserve-service",
+    "method": "getAccount",
+    "calls": [
+      {
+        "service": "ts-user-service",
+        "method": "getUserByUserName",
+        "calls": [],
+        "endpoint": "/api/v1/userservice/users/id/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-preserve-service",
+    "method": "addAssuranceForOrder",
+    "calls": [
+      {
+        "service": "ts-assurance-service",
+        "method": "getAllAssurances",
+        "calls": [],
+        "endpoint": "/api/v1/assuranceservice/assurances/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-preserve-service",
+    "method": "queryForStationId",
+    "calls": [
+      {
+        "service": "ts-station-service",
+        "method": "queryForIdBatch",
+        "calls": [],
+        "endpoint": "/api/v1/stationservice/stations/id/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-preserve-service",
+    "method": "checkSecurity",
+    "calls": [
+      {
+        "service": "ts-security-service",
+        "method": "findAllSecurityConfig",
+        "calls": [],
+        "endpoint": "/api/v1/securityservice/securityConfigs/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-preserve-service",
+    "method": "getTripAllDetailInformation",
+    "calls": [
+      {
+        "service": "ts-travel-service",
+        "method": "getTripAllDetailInfo",
+        "calls": [
+          {
+            "service": "ts-seat-service",
+            "method": "getLeftTicketOfInterval",
+            "calls": [
+              {
+                "service": "ts-config-service",
+                "method": "queryAll",
+                "calls": [],
+                "endpoint": "/api/v1/configservice/configs/",
+                "http_method": "GET",
+                "count": 1
+              },
+              {
+                "service": "ts-order-service",
+                "method": "getTicketListByDateAndTripId",
+                "calls": [],
+                "endpoint": "/api/v1/orderservice/order/tickets",
+                "http_method": "POST",
+                "count": 1
+              },
+              {
+                "service": "ts-order-other-service",
+                "method": "getTicketListByDateAndTripId",
+                "calls": [],
+                "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+                "http_method": "POST",
+                "count": 1
+              }
+            ],
+            "endpoint": "/api/v1/seatservice/seats/left_tickets",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-basic-service",
+            "method": "queryForTravel",
+            "calls": [
+              {
+                "service": "ts-route-service",
+                "method": "queryById",
+                "calls": [],
+                "endpoint": "/api/v1/routeservice/routes/",
+                "http_method": "GET",
+                "count": 1
+              },
+              {
+                "service": "ts-price-service",
+                "method": "query",
+                "calls": [],
+                "endpoint": "/api/v1/priceservice/prices/",
+                "http_method": "GET",
+                "count": 1
+              },
+              {
+                "service": "ts-price-service",
+                "method": "query",
+                "calls": [],
+                "endpoint": "/api/v1/priceservice/prices/byRouteIdsAndTrainTypes",
+                "http_method": "POST",
+                "count": 1
+              },
+              {
+                "service": "ts-train-service",
+                "method": "retrieve",
+                "calls": [],
+                "endpoint": "/api/v1/trainservice/trains/byName/",
+                "http_method": "GET",
+                "count": 1
+              },
+              {
+                "service": "ts-station-service",
+                "method": "queryForIdBatch",
+                "calls": [],
+                "endpoint": "/api/v1/stationservice/stations/id/",
+                "http_method": "GET",
+                "count": 1
+              }
+            ],
+            "endpoint": "/api/v1/basicservice/basic/travel",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/travelservice/trip_detail",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-preserve-service",
+    "method": "getContactsById",
+    "calls": [
+      {
+        "service": "ts-contacts-service",
+        "method": "getAllContacts",
+        "calls": [],
+        "endpoint": "/api/v1/contactservice/contacts/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-preserve-service",
+    "method": "createOrder",
+    "calls": [
+      {
+        "service": "ts-order-service",
+        "method": "createNewOrder",
+        "calls": [],
+        "endpoint": "/api/v1/orderservice/order",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-preserve-service",
+    "method": "createFoodOrder",
+    "calls": [
+      {
+        "service": "ts-food-service",
+        "method": "createFoodOrder",
+        "calls": [],
+        "endpoint": "/api/v1/foodservice/orders",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-preserve-service",
+    "method": "createConsign",
+    "calls": [
+      {
+        "service": "ts-consign-service",
+        "method": "insertConsign",
+        "calls": [
+          {
+            "service": "ts-consign-price-service",
+            "method": "getPriceByWeightAndRegion",
+            "calls": [],
+            "endpoint": "/api/v1/consignpriceservice/consignprice/",
+            "http_method": "GET",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/consignservice/consigns",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-rebook-service",
+    "method": "dipatchSeat",
+    "calls": [
+      {
+        "service": "ts-seat-service",
+        "method": "create",
+        "calls": [
+          {
+            "service": "ts-order-service",
+            "method": "getTicketListByDateAndTripId",
+            "calls": [],
+            "endpoint": "/api/v1/orderservice/order/tickets",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-order-other-service",
+            "method": "getTicketListByDateAndTripId",
+            "calls": [],
+            "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/seatservice/seats",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-rebook-service",
+    "method": "queryTrainTypeByName",
+    "calls": [
+      {
+        "service": "ts-train-service",
+        "method": "retrieve",
+        "calls": [],
+        "endpoint": "/api/v1/trainservice/trains/byName/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-rebook-service",
+    "method": "getRouteByRouteId",
+    "calls": [
+      {
+        "service": "ts-route-service",
+        "method": "queryById",
+        "calls": [],
+        "endpoint": "/api/v1/routeservice/routes/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-rebook-service",
+    "method": "payDifferentMoney",
+    "calls": [
+      {
+        "service": "ts-inside-payment-service",
+        "method": "payDifference",
+        "calls": [
+          {
+            "service": "ts-payment-service",
+            "method": "pay",
+            "calls": [],
+            "endpoint": "/api/v1/paymentservice/payment",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/inside_pay_service/inside_payment/difference",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-rebook-service",
+    "method": "drawBackMoney",
+    "calls": [
+      {
+        "service": "ts-inside-payment-service",
+        "method": "drawBack",
+        "calls": [],
+        "endpoint": "/api/v1/inside_pay_service/inside_payment/drawback/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-route-plan-service",
+    "method": "searchMinStopStations",
+    "calls": [
+      {
+        "service": "ts-route-service",
+        "method": "queryById",
+        "calls": [],
+        "endpoint": "/api/v1/routeservice/routes/",
+        "http_method": "GET",
+        "count": 2
+      },
+      {
+        "service": "ts-travel-service",
+        "method": "getTripsByRouteId",
+        "calls": [],
+        "endpoint": "/api/v1/travelservice/trips/routes",
+        "http_method": "POST",
+        "count": 1
+      },
+      {
+        "service": "ts-travel2-service",
+        "method": "getTripsByRouteId",
+        "calls": [],
+        "endpoint": "/api/v1/travel2service/trips/routes",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-route-plan-service",
+    "method": "getRouteByRouteId",
+    "calls": [
+      {
+        "service": "ts-route-service",
+        "method": "queryById",
+        "calls": [],
+        "endpoint": "/api/v1/routeservice/routes/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-route-plan-service",
+    "method": "getTripFromHighSpeedTravelServive",
+    "calls": [
+      {
+        "service": "ts-travel-service",
+        "method": "queryInfo",
+        "calls": [
+          {
+            "service": "ts-basic-service",
+            "method": "queryForTravels",
+            "calls": [
+              {
+                "service": "ts-train-service",
+                "method": "retrieveByName",
+                "calls": [],
+                "endpoint": "/api/v1/trainservice/trains/byNames",
+                "http_method": "POST",
+                "count": 1
+              },
+              {
+                "service": "ts-route-service",
+                "method": "queryByIds",
+                "calls": [],
+                "endpoint": "/api/v1/routeservice/routes/byIds/",
+                "http_method": "POST",
+                "count": 1
+              }
+            ],
+            "endpoint": "/api/v1/basicservice/basic/travels",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-seat-service",
+            "method": "getLeftTicketOfInterval",
+            "calls": [
+              {
+                "service": "ts-config-service",
+                "method": "queryAll",
+                "calls": [],
+                "endpoint": "/api/v1/configservice/configs/",
+                "http_method": "GET",
+                "count": 1
+              },
+              {
+                "service": "ts-order-service",
+                "method": "getTicketListByDateAndTripId",
+                "calls": [],
+                "endpoint": "/api/v1/orderservice/order/tickets",
+                "http_method": "POST",
+                "count": 1
+              },
+              {
+                "service": "ts-order-other-service",
+                "method": "getTicketListByDateAndTripId",
+                "calls": [],
+                "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+                "http_method": "POST",
+                "count": 1
+              }
+            ],
+            "endpoint": "/api/v1/seatservice/seats/left_tickets",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/travelservice/trips/left",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-route-plan-service",
+    "method": "getTripFromNormalTrainTravelService",
+    "calls": [
+      {
+        "service": "ts-travel2-service",
+        "method": "queryInfo",
+        "calls": [
+          {
+            "service": "ts-basic-service",
+            "method": "queryForTravels",
+            "calls": [
+              {
+                "service": "ts-train-service",
+                "method": "retrieveByName",
+                "calls": [],
+                "endpoint": "/api/v1/trainservice/trains/byNames",
+                "http_method": "POST",
+                "count": 1
+              },
+              {
+                "service": "ts-route-service",
+                "method": "queryByIds",
+                "calls": [],
+                "endpoint": "/api/v1/routeservice/routes/byIds/",
+                "http_method": "POST",
+                "count": 1
+              }
+            ],
+            "endpoint": "/api/v1/basicservice/basic/travels",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-seat-service",
+            "method": "getLeftTicketOfInterval",
+            "calls": [
+              {
+                "service": "ts-config-service",
+                "method": "queryAll",
+                "calls": [],
+                "endpoint": "/api/v1/configservice/configs/",
+                "http_method": "GET",
+                "count": 1
+              },
+              {
+                "service": "ts-order-service",
+                "method": "getTicketListByDateAndTripId",
+                "calls": [],
+                "endpoint": "/api/v1/orderservice/order/tickets",
+                "http_method": "POST",
+                "count": 1
+              },
+              {
+                "service": "ts-order-other-service",
+                "method": "getTicketListByDateAndTripId",
+                "calls": [],
+                "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+                "http_method": "POST",
+                "count": 1
+              }
+            ],
+            "endpoint": "/api/v1/seatservice/seats/left_tickets",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/travel2service/trips/left",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-seat-service",
+    "method": "distributeSeat",
+    "calls": [
+      {
+        "service": "ts-order-service",
+        "method": "getTicketListByDateAndTripId",
+        "calls": [],
+        "endpoint": "/api/v1/orderservice/order/tickets",
+        "http_method": "POST",
+        "count": 1
+      },
+      {
+        "service": "ts-order-other-service",
+        "method": "getTicketListByDateAndTripId",
+        "calls": [],
+        "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-seat-service",
+    "method": "getDirectProportion",
+    "calls": [
+      {
+        "service": "ts-config-service",
+        "method": "queryAll",
+        "calls": [],
+        "endpoint": "/api/v1/configservice/configs/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-security-service",
+    "method": "getSecurityOrderInfoFromOrder",
+    "calls": [
+      {
+        "service": "ts-order-service",
+        "method": "getOrderById",
+        "calls": [],
+        "endpoint": "/api/v1/orderservice/order/security/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-security-service",
+    "method": "getSecurityOrderOtherInfoFromOrder",
+    "calls": [
+      {
+        "service": "ts-order-other-service",
+        "method": "getOrderById",
+        "calls": [],
+        "endpoint": "/api/v1/orderOtherService/orderOther/security/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-travel-plan-service",
+    "method": "getRestTicketNumber",
+    "calls": [
+      {
+        "service": "ts-seat-service",
+        "method": "getLeftTicketOfInterval",
+        "calls": [
+          {
+            "service": "ts-config-service",
+            "method": "queryAll",
+            "calls": [],
+            "endpoint": "/api/v1/configservice/configs/",
+            "http_method": "GET",
+            "count": 1
+          },
+          {
+            "service": "ts-order-service",
+            "method": "getTicketListByDateAndTripId",
+            "calls": [],
+            "endpoint": "/api/v1/orderservice/order/tickets",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-order-other-service",
+            "method": "getTicketListByDateAndTripId",
+            "calls": [],
+            "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/seatservice/seats/left_tickets",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-travel-plan-service",
+    "method": "getRoutePlanResultCheapest",
+    "calls": [
+      {
+        "service": "ts-route-plan-service",
+        "method": "getCheapestRoutes",
+        "calls": [
+          {
+            "service": "ts-travel2-service",
+            "method": "queryInfo",
+            "calls": [
+              {
+                "service": "ts-basic-service",
+                "method": "queryForTravels",
+                "calls": [
+                  {
+                    "service": "ts-train-service",
+                    "method": "retrieveByName",
+                    "calls": [],
+                    "endpoint": "/api/v1/trainservice/trains/byNames",
+                    "http_method": "POST",
+                    "count": 1
+                  },
+                  {
+                    "service": "ts-route-service",
+                    "method": "queryByIds",
+                    "calls": [],
+                    "endpoint": "/api/v1/routeservice/routes/byIds/",
+                    "http_method": "POST",
+                    "count": 1
+                  }
+                ],
+                "endpoint": "/api/v1/basicservice/basic/travels",
+                "http_method": "POST",
+                "count": 1
+              },
+              {
+                "service": "ts-seat-service",
+                "method": "getLeftTicketOfInterval",
+                "calls": [
+                  {
+                    "service": "ts-config-service",
+                    "method": "queryAll",
+                    "calls": [],
+                    "endpoint": "/api/v1/configservice/configs/",
+                    "http_method": "GET",
+                    "count": 1
+                  },
+                  {
+                    "service": "ts-order-service",
+                    "method": "getTicketListByDateAndTripId",
+                    "calls": [],
+                    "endpoint": "/api/v1/orderservice/order/tickets",
+                    "http_method": "POST",
+                    "count": 1
+                  },
+                  {
+                    "service": "ts-order-other-service",
+                    "method": "getTicketListByDateAndTripId",
+                    "calls": [],
+                    "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+                    "http_method": "POST",
+                    "count": 1
+                  }
+                ],
+                "endpoint": "/api/v1/seatservice/seats/left_tickets",
+                "http_method": "POST",
+                "count": 1
+              }
+            ],
+            "endpoint": "/api/v1/travel2service/trips/left",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-travel-service",
+            "method": "queryInfo",
+            "calls": [
+              {
+                "service": "ts-basic-service",
+                "method": "queryForTravels",
+                "calls": [
+                  {
+                    "service": "ts-train-service",
+                    "method": "retrieveByName",
+                    "calls": [],
+                    "endpoint": "/api/v1/trainservice/trains/byNames",
+                    "http_method": "POST",
+                    "count": 1
+                  },
+                  {
+                    "service": "ts-route-service",
+                    "method": "queryByIds",
+                    "calls": [],
+                    "endpoint": "/api/v1/routeservice/routes/byIds/",
+                    "http_method": "POST",
+                    "count": 1
+                  }
+                ],
+                "endpoint": "/api/v1/basicservice/basic/travels",
+                "http_method": "POST",
+                "count": 1
+              },
+              {
+                "service": "ts-seat-service",
+                "method": "getLeftTicketOfInterval",
+                "calls": [
+                  {
+                    "service": "ts-config-service",
+                    "method": "queryAll",
+                    "calls": [],
+                    "endpoint": "/api/v1/configservice/configs/",
+                    "http_method": "GET",
+                    "count": 1
+                  },
+                  {
+                    "service": "ts-order-service",
+                    "method": "getTicketListByDateAndTripId",
+                    "calls": [],
+                    "endpoint": "/api/v1/orderservice/order/tickets",
+                    "http_method": "POST",
+                    "count": 1
+                  },
+                  {
+                    "service": "ts-order-other-service",
+                    "method": "getTicketListByDateAndTripId",
+                    "calls": [],
+                    "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+                    "http_method": "POST",
+                    "count": 1
+                  }
+                ],
+                "endpoint": "/api/v1/seatservice/seats/left_tickets",
+                "http_method": "POST",
+                "count": 1
+              }
+            ],
+            "endpoint": "/api/v1/travelservice/trips/left",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/routeplanservice/routePlan/cheapestRoute",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-travel-plan-service",
+    "method": "getRoutePlanResultQuickest",
+    "calls": [
+      {
+        "service": "ts-route-plan-service",
+        "method": "getQuickestRoutes",
+        "calls": [
+          {
+            "service": "ts-travel2-service",
+            "method": "queryInfo",
+            "calls": [
+              {
+                "service": "ts-basic-service",
+                "method": "queryForTravels",
+                "calls": [
+                  {
+                    "service": "ts-train-service",
+                    "method": "retrieveByName",
+                    "calls": [],
+                    "endpoint": "/api/v1/trainservice/trains/byNames",
+                    "http_method": "POST",
+                    "count": 1
+                  },
+                  {
+                    "service": "ts-route-service",
+                    "method": "queryByIds",
+                    "calls": [],
+                    "endpoint": "/api/v1/routeservice/routes/byIds/",
+                    "http_method": "POST",
+                    "count": 1
+                  }
+                ],
+                "endpoint": "/api/v1/basicservice/basic/travels",
+                "http_method": "POST",
+                "count": 1
+              },
+              {
+                "service": "ts-seat-service",
+                "method": "getLeftTicketOfInterval",
+                "calls": [
+                  {
+                    "service": "ts-config-service",
+                    "method": "queryAll",
+                    "calls": [],
+                    "endpoint": "/api/v1/configservice/configs/",
+                    "http_method": "GET",
+                    "count": 1
+                  },
+                  {
+                    "service": "ts-order-service",
+                    "method": "getTicketListByDateAndTripId",
+                    "calls": [],
+                    "endpoint": "/api/v1/orderservice/order/tickets",
+                    "http_method": "POST",
+                    "count": 1
+                  },
+                  {
+                    "service": "ts-order-other-service",
+                    "method": "getTicketListByDateAndTripId",
+                    "calls": [],
+                    "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+                    "http_method": "POST",
+                    "count": 1
+                  }
+                ],
+                "endpoint": "/api/v1/seatservice/seats/left_tickets",
+                "http_method": "POST",
+                "count": 1
+              }
+            ],
+            "endpoint": "/api/v1/travel2service/trips/left",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-travel-service",
+            "method": "queryInfo",
+            "calls": [
+              {
+                "service": "ts-basic-service",
+                "method": "queryForTravels",
+                "calls": [
+                  {
+                    "service": "ts-train-service",
+                    "method": "retrieveByName",
+                    "calls": [],
+                    "endpoint": "/api/v1/trainservice/trains/byNames",
+                    "http_method": "POST",
+                    "count": 1
+                  },
+                  {
+                    "service": "ts-route-service",
+                    "method": "queryByIds",
+                    "calls": [],
+                    "endpoint": "/api/v1/routeservice/routes/byIds/",
+                    "http_method": "POST",
+                    "count": 1
+                  }
+                ],
+                "endpoint": "/api/v1/basicservice/basic/travels",
+                "http_method": "POST",
+                "count": 1
+              },
+              {
+                "service": "ts-seat-service",
+                "method": "getLeftTicketOfInterval",
+                "calls": [
+                  {
+                    "service": "ts-config-service",
+                    "method": "queryAll",
+                    "calls": [],
+                    "endpoint": "/api/v1/configservice/configs/",
+                    "http_method": "GET",
+                    "count": 1
+                  },
+                  {
+                    "service": "ts-order-service",
+                    "method": "getTicketListByDateAndTripId",
+                    "calls": [],
+                    "endpoint": "/api/v1/orderservice/order/tickets",
+                    "http_method": "POST",
+                    "count": 1
+                  },
+                  {
+                    "service": "ts-order-other-service",
+                    "method": "getTicketListByDateAndTripId",
+                    "calls": [],
+                    "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+                    "http_method": "POST",
+                    "count": 1
+                  }
+                ],
+                "endpoint": "/api/v1/seatservice/seats/left_tickets",
+                "http_method": "POST",
+                "count": 1
+              }
+            ],
+            "endpoint": "/api/v1/travelservice/trips/left",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/routeplanservice/routePlan/quickestRoute",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-travel-plan-service",
+    "method": "getRoutePlanResultMinStation",
+    "calls": [
+      {
+        "service": "ts-route-plan-service",
+        "method": "getMinStopStations",
+        "calls": [
+          {
+            "service": "ts-route-service",
+            "method": "queryById",
+            "calls": [],
+            "endpoint": "/api/v1/routeservice/routes/",
+            "http_method": "GET",
+            "count": 2
+          },
+          {
+            "service": "ts-travel-service",
+            "method": "getTripsByRouteId",
+            "calls": [],
+            "endpoint": "/api/v1/travelservice/trips/routes",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-travel2-service",
+            "method": "getTripsByRouteId",
+            "calls": [],
+            "endpoint": "/api/v1/travel2service/trips/routes",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/routeplanservice/routePlan/minStopStations",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-travel-plan-service",
+    "method": "tripsFromHighSpeed",
+    "calls": [
+      {
+        "service": "ts-travel-service",
+        "method": "queryInfo",
+        "calls": [
+          {
+            "service": "ts-basic-service",
+            "method": "queryForTravels",
+            "calls": [
+              {
+                "service": "ts-train-service",
+                "method": "retrieveByName",
+                "calls": [],
+                "endpoint": "/api/v1/trainservice/trains/byNames",
+                "http_method": "POST",
+                "count": 1
+              },
+              {
+                "service": "ts-route-service",
+                "method": "queryByIds",
+                "calls": [],
+                "endpoint": "/api/v1/routeservice/routes/byIds/",
+                "http_method": "POST",
+                "count": 1
+              }
+            ],
+            "endpoint": "/api/v1/basicservice/basic/travels",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-seat-service",
+            "method": "getLeftTicketOfInterval",
+            "calls": [
+              {
+                "service": "ts-config-service",
+                "method": "queryAll",
+                "calls": [],
+                "endpoint": "/api/v1/configservice/configs/",
+                "http_method": "GET",
+                "count": 1
+              },
+              {
+                "service": "ts-order-service",
+                "method": "getTicketListByDateAndTripId",
+                "calls": [],
+                "endpoint": "/api/v1/orderservice/order/tickets",
+                "http_method": "POST",
+                "count": 1
+              },
+              {
+                "service": "ts-order-other-service",
+                "method": "getTicketListByDateAndTripId",
+                "calls": [],
+                "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+                "http_method": "POST",
+                "count": 1
+              }
+            ],
+            "endpoint": "/api/v1/seatservice/seats/left_tickets",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/travelservice/trips/left",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-travel-plan-service",
+    "method": "tripsFromNormal",
+    "calls": [
+      {
+        "service": "ts-travel2-service",
+        "method": "queryInfo",
+        "calls": [
+          {
+            "service": "ts-basic-service",
+            "method": "queryForTravels",
+            "calls": [
+              {
+                "service": "ts-train-service",
+                "method": "retrieveByName",
+                "calls": [],
+                "endpoint": "/api/v1/trainservice/trains/byNames",
+                "http_method": "POST",
+                "count": 1
+              },
+              {
+                "service": "ts-route-service",
+                "method": "queryByIds",
+                "calls": [],
+                "endpoint": "/api/v1/routeservice/routes/byIds/",
+                "http_method": "POST",
+                "count": 1
+              }
+            ],
+            "endpoint": "/api/v1/basicservice/basic/travels",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-seat-service",
+            "method": "getLeftTicketOfInterval",
+            "calls": [
+              {
+                "service": "ts-config-service",
+                "method": "queryAll",
+                "calls": [],
+                "endpoint": "/api/v1/configservice/configs/",
+                "http_method": "GET",
+                "count": 1
+              },
+              {
+                "service": "ts-order-service",
+                "method": "getTicketListByDateAndTripId",
+                "calls": [],
+                "endpoint": "/api/v1/orderservice/order/tickets",
+                "http_method": "POST",
+                "count": 1
+              },
+              {
+                "service": "ts-order-other-service",
+                "method": "getTicketListByDateAndTripId",
+                "calls": [],
+                "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+                "http_method": "POST",
+                "count": 1
+              }
+            ],
+            "endpoint": "/api/v1/seatservice/seats/left_tickets",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/travel2service/trips/left",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-travel-plan-service",
+    "method": "queryTrainTypeByName",
+    "calls": [
+      {
+        "service": "ts-train-service",
+        "method": "retrieve",
+        "calls": [],
+        "endpoint": "/api/v1/trainservice/trains/byName/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-travel-service",
+    "method": "getTicketsByBatch",
+    "calls": [
+      {
+        "service": "ts-basic-service",
+        "method": "queryForTravels",
+        "calls": [
+          {
+            "service": "ts-train-service",
+            "method": "retrieveByName",
+            "calls": [],
+            "endpoint": "/api/v1/trainservice/trains/byNames",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-route-service",
+            "method": "queryByIds",
+            "calls": [],
+            "endpoint": "/api/v1/routeservice/routes/byIds/",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/basicservice/basic/travels",
+        "http_method": "POST",
+        "count": 1
+      },
+      {
+        "service": "ts-seat-service",
+        "method": "getLeftTicketOfInterval",
+        "calls": [
+          {
+            "service": "ts-config-service",
+            "method": "queryAll",
+            "calls": [],
+            "endpoint": "/api/v1/configservice/configs/",
+            "http_method": "GET",
+            "count": 1
+          },
+          {
+            "service": "ts-order-service",
+            "method": "getTicketListByDateAndTripId",
+            "calls": [],
+            "endpoint": "/api/v1/orderservice/order/tickets",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-order-other-service",
+            "method": "getTicketListByDateAndTripId",
+            "calls": [],
+            "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/seatservice/seats/left_tickets",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-travel-service",
+    "method": "getTickets",
+    "calls": [
+      {
+        "service": "ts-seat-service",
+        "method": "getLeftTicketOfInterval",
+        "calls": [
+          {
+            "service": "ts-config-service",
+            "method": "queryAll",
+            "calls": [],
+            "endpoint": "/api/v1/configservice/configs/",
+            "http_method": "GET",
+            "count": 1
+          },
+          {
+            "service": "ts-order-service",
+            "method": "getTicketListByDateAndTripId",
+            "calls": [],
+            "endpoint": "/api/v1/orderservice/order/tickets",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-order-other-service",
+            "method": "getTicketListByDateAndTripId",
+            "calls": [],
+            "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/seatservice/seats/left_tickets",
+        "http_method": "POST",
+        "count": 1
+      },
+      {
+        "service": "ts-basic-service",
+        "method": "queryForTravel",
+        "calls": [
+          {
+            "service": "ts-route-service",
+            "method": "queryById",
+            "calls": [],
+            "endpoint": "/api/v1/routeservice/routes/",
+            "http_method": "GET",
+            "count": 1
+          },
+          {
+            "service": "ts-price-service",
+            "method": "query",
+            "calls": [],
+            "endpoint": "/api/v1/priceservice/prices/",
+            "http_method": "GET",
+            "count": 1
+          },
+          {
+            "service": "ts-price-service",
+            "method": "query",
+            "calls": [],
+            "endpoint": "/api/v1/priceservice/prices/byRouteIdsAndTrainTypes",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-train-service",
+            "method": "retrieve",
+            "calls": [],
+            "endpoint": "/api/v1/trainservice/trains/byName/",
+            "http_method": "GET",
+            "count": 1
+          },
+          {
+            "service": "ts-station-service",
+            "method": "queryForIdBatch",
+            "calls": [],
+            "endpoint": "/api/v1/stationservice/stations/id/",
+            "http_method": "GET",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/basicservice/basic/travel",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-travel-service",
+    "method": "getTrainTypeByName",
+    "calls": [
+      {
+        "service": "ts-train-service",
+        "method": "retrieve",
+        "calls": [],
+        "endpoint": "/api/v1/trainservice/trains/byName/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-travel-service",
+    "method": "getRouteByRouteId",
+    "calls": [
+      {
+        "service": "ts-route-service",
+        "method": "queryById",
+        "calls": [],
+        "endpoint": "/api/v1/routeservice/routes/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-travel-service",
+    "method": "getRestTicketNumber",
+    "calls": [
+      {
+        "service": "ts-seat-service",
+        "method": "getLeftTicketOfInterval",
+        "calls": [
+          {
+            "service": "ts-config-service",
+            "method": "queryAll",
+            "calls": [],
+            "endpoint": "/api/v1/configservice/configs/",
+            "http_method": "GET",
+            "count": 1
+          },
+          {
+            "service": "ts-order-service",
+            "method": "getTicketListByDateAndTripId",
+            "calls": [],
+            "endpoint": "/api/v1/orderservice/order/tickets",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-order-other-service",
+            "method": "getTicketListByDateAndTripId",
+            "calls": [],
+            "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/seatservice/seats/left_tickets",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-travel2-service",
+    "method": "getTicketsByBatch",
+    "calls": [
+      {
+        "service": "ts-basic-service",
+        "method": "queryForTravels",
+        "calls": [
+          {
+            "service": "ts-train-service",
+            "method": "retrieveByName",
+            "calls": [],
+            "endpoint": "/api/v1/trainservice/trains/byNames",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-route-service",
+            "method": "queryByIds",
+            "calls": [],
+            "endpoint": "/api/v1/routeservice/routes/byIds/",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/basicservice/basic/travels",
+        "http_method": "POST",
+        "count": 1
+      },
+      {
+        "service": "ts-seat-service",
+        "method": "getLeftTicketOfInterval",
+        "calls": [
+          {
+            "service": "ts-config-service",
+            "method": "queryAll",
+            "calls": [],
+            "endpoint": "/api/v1/configservice/configs/",
+            "http_method": "GET",
+            "count": 1
+          },
+          {
+            "service": "ts-order-service",
+            "method": "getTicketListByDateAndTripId",
+            "calls": [],
+            "endpoint": "/api/v1/orderservice/order/tickets",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-order-other-service",
+            "method": "getTicketListByDateAndTripId",
+            "calls": [],
+            "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/seatservice/seats/left_tickets",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-travel2-service",
+    "method": "getTickets",
+    "calls": [
+      {
+        "service": "ts-seat-service",
+        "method": "getLeftTicketOfInterval",
+        "calls": [
+          {
+            "service": "ts-config-service",
+            "method": "queryAll",
+            "calls": [],
+            "endpoint": "/api/v1/configservice/configs/",
+            "http_method": "GET",
+            "count": 1
+          },
+          {
+            "service": "ts-order-service",
+            "method": "getTicketListByDateAndTripId",
+            "calls": [],
+            "endpoint": "/api/v1/orderservice/order/tickets",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-order-other-service",
+            "method": "getTicketListByDateAndTripId",
+            "calls": [],
+            "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/seatservice/seats/left_tickets",
+        "http_method": "POST",
+        "count": 1
+      },
+      {
+        "service": "ts-basic-service",
+        "method": "queryForTravel",
+        "calls": [
+          {
+            "service": "ts-route-service",
+            "method": "queryById",
+            "calls": [],
+            "endpoint": "/api/v1/routeservice/routes/",
+            "http_method": "GET",
+            "count": 1
+          },
+          {
+            "service": "ts-price-service",
+            "method": "query",
+            "calls": [],
+            "endpoint": "/api/v1/priceservice/prices/",
+            "http_method": "GET",
+            "count": 1
+          },
+          {
+            "service": "ts-price-service",
+            "method": "query",
+            "calls": [],
+            "endpoint": "/api/v1/priceservice/prices/byRouteIdsAndTrainTypes",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-train-service",
+            "method": "retrieve",
+            "calls": [],
+            "endpoint": "/api/v1/trainservice/trains/byName/",
+            "http_method": "GET",
+            "count": 1
+          },
+          {
+            "service": "ts-station-service",
+            "method": "queryForIdBatch",
+            "calls": [],
+            "endpoint": "/api/v1/stationservice/stations/id/",
+            "http_method": "GET",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/basicservice/basic/travel",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-travel2-service",
+    "method": "getTrainTypeByName",
+    "calls": [
+      {
+        "service": "ts-train-service",
+        "method": "retrieve",
+        "calls": [],
+        "endpoint": "/api/v1/trainservice/trains/byName/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-travel2-service",
+    "method": "getRouteByRouteId",
+    "calls": [
+      {
+        "service": "ts-route-service",
+        "method": "queryById",
+        "calls": [],
+        "endpoint": "/api/v1/routeservice/routes/",
+        "http_method": "GET",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "service": "ts-travel2-service",
+    "method": "getRestTicketNumber",
+    "calls": [
+      {
+        "service": "ts-seat-service",
+        "method": "getLeftTicketOfInterval",
+        "calls": [
+          {
+            "service": "ts-config-service",
+            "method": "queryAll",
+            "calls": [],
+            "endpoint": "/api/v1/configservice/configs/",
+            "http_method": "GET",
+            "count": 1
+          },
+          {
+            "service": "ts-order-service",
+            "method": "getTicketListByDateAndTripId",
+            "calls": [],
+            "endpoint": "/api/v1/orderservice/order/tickets",
+            "http_method": "POST",
+            "count": 1
+          },
+          {
+            "service": "ts-order-other-service",
+            "method": "getTicketListByDateAndTripId",
+            "calls": [],
+            "endpoint": "/api/v1/orderOtherService/orderOther/tickets",
+            "http_method": "POST",
+            "count": 1
+          }
+        ],
+        "endpoint": "/api/v1/seatservice/seats/left_tickets",
+        "http_method": "POST",
+        "count": 1
+      }
+    ]
+  }
+]
